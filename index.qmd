@@ -1,13 +1,21 @@
 ---
-title: "2024MSC"
+title: "2024 Multidisciplinary Specialty Conference"
 ---
 
-This is a Quarto website.
+Brought you by Taiwan Medical Mission
 
-2024MSC 2024/05/11, MULTI-SPECIALTY CONFERENCE in Hargeisa, Somaliland; brought you by Taiwan Medical Mission
+2024 Multidisciplinary Specialty Conference (2024MSC)
+Date: Saturday, 11 May, 2024
+Time: 09:00 AM - 12:30 PM 
+Venue: Conference Hall, Hargeisa Group Hospital, Hargeisa, Somaliland
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+This year, We have 3 topics:
+
+1. Taiwan Cares: Somaliland Dengue Control Project
+
+2. Esophageal cancer, Hepatoma, and Digital pathology in Somaliland
+
+3. Orthopedic training in HGH and Taipei Municipal Wanfang Hospital
+
+
