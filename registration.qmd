@@ -15,15 +15,37 @@ Please fill out the form below to register for the 2024 Multi-Specialty Conferen
   <select id="category" name="category" required>
     <option value="">Select your category</option>
     <option value="Doctor">Doctor</option>
+    <option value="Pharmacist">Pharmacist</option>
     <option value="Nurse">Nurse</option>
     <option value="Other">Other</option>
   </select><br>
 
   <label for="specialty">Specialty (if applicable):</label>
-  <input type="text" id="specialty" name="specialty"><br>
+    <select id="specialty" name="specialty" required>
+    <option value="">Select your specialty</option>
+    <option value="Pharmacy">Pharmacy</option>
+    <option value="Internal Medicine">Internal Medicine</option>
+    <option value="General Surgery">General Surgery</option>
+    <option value="OBGYN">OBGYN</option>
+    <option value="Pediatrics">Pediatrics</option>
+    <option value="Orthopedics">Orthopedics</option>
+    <option value="Neurology">Neurology</option>
+    <option value="Neurosurgery">Neurosurgery</option>
+    <option value="Cardiology">Cardiology</option>
+    <option value="ENT">ENT</option>
+    <option value="OMS">OMS</option>
+    <option value="Eye">Eye</option>
+    <option value="Rehabilitation">Rehabilitation</option>
+    <option value="Pathology">Pathology</option>
+    <option value="Nephrology">Nephrology</option>
+    <option value="Radiology">Radiology</option>
+    <option value="Urology">Urology</option>
+    <option value="Other">Other</option>
+  </select><br>
 
   <button type="submit">Register</button>
 </form>
+
 
 
 <script>
@@ -31,16 +53,24 @@ document.getElementById("registrationForm").addEventListener("submit", function(
   event.preventDefault();
   const formData = new FormData(event.target);
   const data = Object.fromEntries(formData.entries());
-  
-  saveRegistration(data)
-    .then(result => {
-      console.log(result);
-      alert("Registration successful!");
-      window.location.href = "index.qmd";
-    })
-    .catch(error => {
-      console.error("Error:", error);
-      alert("An error occurred. Please try again later.");
-    });
+
+  fetch("http://localhost:8080", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => response.json())
+  .then(result => {
+    console.log(result);
+    alert("Registration successful!");
+    window.location.href = "index.qmd";
+  })
+  .catch(error => {
+    console.error("Error:", error);
+    alert("An error occurred. Please try again later.");
+  });
 });
 </script>
+

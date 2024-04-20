@@ -7,7 +7,7 @@ handle_post <- function(req) {
   data <- jsonlite::fromJSON(rawToChar(req$rook.input$read()))
   
   # Append data to online_registration.txt
-  write(jsonlite::toJSON(data), "online_registration.txt", append = TRUE)
+  write(jsonlite::toJSON(data), "_data/online_registration.txt", append = TRUE)
   
   # Send response
   list(
@@ -30,4 +30,5 @@ httpuv::runServer("0.0.0.0", 8080, list(
     }
   }
 ))
+
 
