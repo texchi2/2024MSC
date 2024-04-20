@@ -1,5 +1,7 @@
 ---
 title: "2024 Multidisciplinary Specialty Conference"
+script:
+  - js/chart.js
 ---
 ## Collaborating for Public Health: Sharing Knowledge, Saving Lives
 
@@ -47,34 +49,69 @@ Statistics of Participants:
 
 <div id="registrationChart"></div>
 
-<script>
-function updateChart() {
-  fetch("online_registration.txt")
-    .then(response => response.json())
-    .then(data => {
-      const categories = data.map(entry => entry.category);
-      const counts = {};
-      categories.forEach(category => {
-        counts[category] = (counts[category] || 0) + 1;
-      });
 
-      const chartData = {
-        labels: Object.keys(counts),
-        datasets: [{
-          data: Object.values(counts),
-          backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
-        }]
-      };
 
-      const ctx = document.getElementById("registrationChart").getContext("2d");
-      new Chart(ctx, {
-        type: 'pie',
-        data: chartData
-      });
-    });
+```{ojs}
+//| echo: false
+
+data = FileAttachment("_data/online_registration.txt").text()
+if (data === null) {
+  data = ""
 }
 
-setInterval(updateChart, 5000); // Update every 5 seconds
-</script>
+function saveRegistration(newData) {
+  data += JSON.stringify(newData) + "\n"
+  FileAttachment("_data/online_registration.txt").text = data
+  return "Registration saved successfully"
+}
 
+function getRegistrationData() {
+  const lines = data.trim().split("\n")
+  return lines.map(line => JSON.parse(line))
+}
 
+viewof registrationData = Generators.observe(async function*() {
+  while (true) {
+    yield getRegistrationData()
+    await Promises.delay(5000)
+  }
+})
+
+chartData = {
+  const categories = registrationData.map(entry => entry.category)
+  const counts = {}
+  categories.forEach(category => {
+    counts[category] = (counts[category] || 0) + 1
+  })
+
+  return {
+    labels: Object.keys(counts),
+    datasets: [{
+      data: Object.values(counts),
+      backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
+    }]
+  }
+}
+
+viewof chart = {
+  const ctx = DOM.canvas(600, 400)
+  const chart = new Chart(ctx, {
+    type: 'pie',
+    data: chartData,
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Registered Participants by Category'
+        }
+      }
+    }
+  })
+  yield ctx
+}
+
+```

@@ -25,27 +25,22 @@ Please fill out the form below to register for the 2024 Multi-Specialty Conferen
   <button type="submit">Register</button>
 </form>
 
+
 <script>
 document.getElementById("registrationForm").addEventListener("submit", function(event) {
   event.preventDefault();
   const formData = new FormData(event.target);
   const data = Object.fromEntries(formData.entries());
   
-  fetch("online_registration.txt", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
-  })
-  .then(response => {
-    alert("Registration successful!");
-    event.target.reset();
-  })
-  .catch(error => {
-    console.error("Error:", error);
-    alert("An error occurred. Please try again later.");
-  });
+  saveRegistration(data)
+    .then(result => {
+      console.log(result);
+      alert("Registration successful!");
+      window.location.href = "index.qmd";
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("An error occurred. Please try again later.");
+    });
 });
 </script>
-
