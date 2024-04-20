@@ -2,6 +2,8 @@
 title: "2024 Multidisciplinary Specialty Conference"
 script:
   - js/chart.js
+execute:
+  echo: false
 ---
 ## Collaborating for Public Health: Sharing Knowledge, Saving Lives
 
@@ -55,7 +57,7 @@ Statistics of Participants:
 //| echo: false
 
 data = FileAttachment("_data/online_registration.txt").text()
-if (data === null) {
+if (data == null) {
   data = ""
 }
 
