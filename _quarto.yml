@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - agenda.qmd
+      - href: registration.qmd
+        text: Registration
       - href: h2023MSC.qmd
         text: "2023MSC"
       - about.qmd

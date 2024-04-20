@@ -41,3 +41,40 @@ Register now and secure your spot at the 2024MSC, where together, we will collab
 ### We look forward to seeing you there!
 
 Online registration is coming soon.
+
+
+Statistics of Participants:
+
+<div id="registrationChart"></div>
+
+<script>
+function updateChart() {
+  fetch("online_registration.txt")
+    .then(response => response.json())
+    .then(data => {
+      const categories = data.map(entry => entry.category);
+      const counts = {};
+      categories.forEach(category => {
+        counts[category] = (counts[category] || 0) + 1;
+      });
+
+      const chartData = {
+        labels: Object.keys(counts),
+        datasets: [{
+          data: Object.values(counts),
+          backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
+        }]
+      };
+
+      const ctx = document.getElementById("registrationChart").getContext("2d");
+      new Chart(ctx, {
+        type: 'pie',
+        data: chartData
+      });
+    });
+}
+
+setInterval(updateChart, 5000); // Update every 5 seconds
+</script>
+
+
