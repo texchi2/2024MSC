@@ -1,7 +1,12 @@
 ---
-title: "About"
+title: "About Us"
 ---
 
-About this site
+Taiwan Medical Mission (TMM) has been working in the Republic of Somaliland since 2022 July, providing essential healthcare services and capacity building support to improve the health and well-being of the Somaliland people. 
 
-Powered by Rstudio Server and Github Pages
+In collaboration with local partners, such as the Ministry of Health Development and Hargeisa Group Hospital, TMM has implemented various projects focusing on medical education, training, and healthcare delivery. These initiatives include the military trauma kit, co-training of orthopedic residents, spine surgery, the introduction cervical cancer screening, laparoscopic simulation training, consultant of infection prevention program, and the organization of multi-specialty conferences to facilitate knowledge exchange between Taiwanese and Somaliland medical professionals. 
+
+TMM's dedicated team of doctors, nurses, and volunteers work tirelessly to strengthen the healthcare system in Somaliland, addressing critical health challenges and promoting sustainable development. Through their efforts, TMM aims to foster long-term cooperation and friendship between Taiwan and Somaliland, while making a meaningful impact on the lives of those they serve.
+
+
+(Website Powered by Rstudio Server and Github Pages 2022-2024)
