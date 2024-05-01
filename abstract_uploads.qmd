@@ -74,13 +74,13 @@ title: "Abstract and Keynote"
   <label for="name">Name:</label>
   <input type="text" name="name" required>
 <label for="abstract">Abstract:</label>
-  <textarea name="abstract" rows="10" required></textarea>
+  <textarea name="abstract" rows="7" required></textarea>
 <button type="submit">Submit</button>
 </form>
 
 
 
-2) Please also upload your **CV** and **keynote** files to the following URL: 
+2) Please also upload your **CV** and **keynote** files at: choose "Upload File ..." 
 <p><a href="https://share.multcloud.link/share/90e256e5-95e4-4db5-aa8d-7c66510c3ac7" target="_blank">https://rb.gy/47a3kw</a></p>
-<p>Password: 1aIh</p>
+<p>(Access Password: 1aIh)</p>
 

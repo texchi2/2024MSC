@@ -42,76 +42,10 @@ Register now and secure your spot at the 2024MSC, where together, we will collab
 
 ### We look forward to seeing you there!
 
-Online registration is coming soon.
+Online registration at 
+<p><a href="https://texchi2.github.io/2024MSC/registration_form.html" target="_blank">CLICK</a></p>
 
-
-Statistics of Participants:
+Statistics of Participants
 
 <div id="registrationChart"></div>
 
-
-
-```{ojs}
-//| echo: false
-
-data = FileAttachment("_data/online_registration.txt").text()
-if (data == null) {
-  data = ""
-}
-
-function saveRegistration(newData) {
-  data += JSON.stringify(newData) + "\n"
-  FileAttachment("_data/online_registration.txt").text = data
-  return "Registration saved successfully"
-}
-
-function getRegistrationData() {
-  const lines = data.trim().split("\n")
-  return lines.map(line => JSON.parse(line))
-}
-
-viewof registrationData = Generators.observe(async function*() {
-  while (true) {
-    yield getRegistrationData()
-    await Promises.delay(5000)
-  }
-})
-
-chartData = {
-  const categories = registrationData.map(entry => entry.category)
-  const counts = {}
-  categories.forEach(category => {
-    counts[category] = (counts[category] || 0) + 1
-  })
-
-  return {
-    labels: Object.keys(counts),
-    datasets: [{
-      data: Object.values(counts),
-      backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
-    }]
-  }
-}
-
-viewof chart = {
-  const ctx = DOM.canvas(600, 400)
-  const chart = new Chart(ctx, {
-    type: 'pie',
-    data: chartData,
-    options: {
-      responsive: true,
-      plugins: {
-        legend: {
-          position: 'top',
-        },
-        title: {
-          display: true,
-          text: 'Registered Participants by Category'
-        }
-      }
-    }
-  })
-  yield ctx
-}
-
-```

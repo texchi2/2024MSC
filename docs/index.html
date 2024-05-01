@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -93,8 +59,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -213,91 +177,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Register now and secure your spot at the 2024MSC, where together, we will collaborate for public health, share knowledge, and save lives.</p>
 <section id="we-look-forward-to-seeing-you-there" class="level3">
 <h3 class="anchored" data-anchor-id="we-look-forward-to-seeing-you-there">We look forward to seeing you there!</h3>
-<p>Online registration is coming soon.</p>
-<p>Statistics of Participants:</p>
+Online registration at
+<p>
+<a href="https://texchi2.github.io/2024MSC/registration_form.html" target="_blank">CLICK</a>
+</p>
+<p>Statistics of Participants</p>
 <div id="registrationChart">
 
-</div>
-<div class="quarto-ojs-syntax-error">
-<div class="sourceCode" id="cb1" data-startfrom="54" data-syntax-error-position="63" data-source-offset="9"><pre class="sourceCode numberSource numberLines java code-with-copy"><code class="sourceCode java" style="counter-reset: source-line 53;"><span id="cb1-54"><a href="#cb1-54"></a>```<span class="op">{</span>ojs<span class="op">}</span></span>
-<span id="cb1-55"><a href="#cb1-55"></a><span class="co">//| echo: false</span></span>
-<span id="cb1-56"><a href="#cb1-56"></a></span>
-<span id="cb1-57"><a href="#cb1-57"></a>data <span class="op">=</span> <span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"_data/online_registration.txt"</span><span class="op">).</span><span class="fu">text</span><span class="op">()</span></span>
-<span id="cb1-58"><a href="#cb1-58"></a><span class="cf">if</span> <span class="op">(</span>data <span class="op">==</span> <span class="kw">null</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb1-59"><a href="#cb1-59"></a>  data <span class="op">=</span> <span class="st">""</span></span>
-<span id="cb1-60"><a href="#cb1-60"></a><span class="op">}</span></span>
-<span id="cb1-61"><a href="#cb1-61"></a></span>
-<span id="cb1-62"><a href="#cb1-62"></a>function <span class="fu">saveRegistration</span><span class="op">(</span>newData<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb1-63"><a href="#cb1-63"></a>  data <span class="op">+=</span> JSON<span class="op">.</span><span class="fu">stringify</span><span class="op">(</span>newData<span class="op">)</span> <span class="op">+</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span></span>
-<span id="cb1-64"><a href="#cb1-64"></a>  <span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"_data/online_registration.txt"</span><span class="op">).</span><span class="fu">text</span> <span class="op">=</span> data</span>
-<span id="cb1-65"><a href="#cb1-65"></a>  <span class="cf">return</span> <span class="st">"Registration saved successfully"</span></span>
-<span id="cb1-66"><a href="#cb1-66"></a><span class="op">}</span></span>
-<span id="cb1-67"><a href="#cb1-67"></a></span>
-<span id="cb1-68"><a href="#cb1-68"></a>function <span class="fu">getRegistrationData</span><span class="op">()</span> <span class="op">{</span></span>
-<span id="cb1-69"><a href="#cb1-69"></a>  <span class="dt">const</span> lines <span class="op">=</span> data<span class="op">.</span><span class="fu">trim</span><span class="op">().</span><span class="fu">split</span><span class="op">(</span><span class="st">"</span><span class="sc">\n</span><span class="st">"</span><span class="op">)</span></span>
-<span id="cb1-70"><a href="#cb1-70"></a>  <span class="cf">return</span> lines<span class="op">.</span><span class="fu">map</span><span class="op">(</span>line <span class="op">=&gt;</span> JSON<span class="op">.</span><span class="fu">parse</span><span class="op">(</span>line<span class="op">))</span></span>
-<span id="cb1-71"><a href="#cb1-71"></a><span class="op">}</span></span>
-<span id="cb1-72"><a href="#cb1-72"></a></span>
-<span id="cb1-73"><a href="#cb1-73"></a>viewof registrationData <span class="op">=</span> Generators<span class="op">.</span><span class="fu">observe</span><span class="op">(</span>async function<span class="op">*()</span> <span class="op">{</span></span>
-<span id="cb1-74"><a href="#cb1-74"></a>  <span class="cf">while</span> <span class="op">(</span><span class="kw">true</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb1-75"><a href="#cb1-75"></a>    yield <span class="fu">getRegistrationData</span><span class="op">()</span></span>
-<span id="cb1-76"><a href="#cb1-76"></a>    await Promises<span class="op">.</span><span class="fu">delay</span><span class="op">(</span><span class="dv">5000</span><span class="op">)</span></span>
-<span id="cb1-77"><a href="#cb1-77"></a>  <span class="op">}</span></span>
-<span id="cb1-78"><a href="#cb1-78"></a><span class="op">})</span></span>
-<span id="cb1-79"><a href="#cb1-79"></a></span>
-<span id="cb1-80"><a href="#cb1-80"></a>chartData <span class="op">=</span> <span class="op">{</span></span>
-<span id="cb1-81"><a href="#cb1-81"></a>  <span class="dt">const</span> categories <span class="op">=</span> registrationData<span class="op">.</span><span class="fu">map</span><span class="op">(</span>entry <span class="op">=&gt;</span> entry<span class="op">.</span><span class="fu">category</span><span class="op">)</span></span>
-<span id="cb1-82"><a href="#cb1-82"></a>  <span class="dt">const</span> counts <span class="op">=</span> <span class="op">{}</span></span>
-<span id="cb1-83"><a href="#cb1-83"></a>  categories<span class="op">.</span><span class="fu">forEach</span><span class="op">(</span>category <span class="op">=&gt;</span> <span class="op">{</span></span>
-<span id="cb1-84"><a href="#cb1-84"></a>    counts<span class="op">[</span>category<span class="op">]</span> <span class="op">=</span> <span class="op">(</span>counts<span class="op">[</span>category<span class="op">]</span> <span class="op">||</span> <span class="dv">0</span><span class="op">)</span> <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb1-85"><a href="#cb1-85"></a>  <span class="op">})</span></span>
-<span id="cb1-86"><a href="#cb1-86"></a></span>
-<span id="cb1-87"><a href="#cb1-87"></a>  <span class="cf">return</span> <span class="op">{</span></span>
-<span id="cb1-88"><a href="#cb1-88"></a>    labels<span class="op">:</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span><span class="op">(</span>counts<span class="op">),</span></span>
-<span id="cb1-89"><a href="#cb1-89"></a>    datasets<span class="op">:</span> <span class="op">[{</span></span>
-<span id="cb1-90"><a href="#cb1-90"></a>      data<span class="op">:</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">values</span><span class="op">(</span>counts<span class="op">),</span></span>
-<span id="cb1-91"><a href="#cb1-91"></a>      backgroundColor<span class="op">:</span> <span class="op">[</span><span class="er">'</span>#ff6384<span class="er">'</span><span class="op">,</span> <span class="er">'</span>#<span class="er">36</span>a2eb<span class="er">'</span><span class="op">,</span> <span class="er">'</span>#ffce56<span class="er">'</span><span class="op">]</span></span>
-<span id="cb1-92"><a href="#cb1-92"></a>    <span class="op">}]</span></span>
-<span id="cb1-93"><a href="#cb1-93"></a>  <span class="op">}</span></span>
-<span id="cb1-94"><a href="#cb1-94"></a><span class="op">}</span></span>
-<span id="cb1-95"><a href="#cb1-95"></a></span>
-<span id="cb1-96"><a href="#cb1-96"></a>viewof chart <span class="op">=</span> <span class="op">{</span></span>
-<span id="cb1-97"><a href="#cb1-97"></a>  <span class="dt">const</span> ctx <span class="op">=</span> DOM<span class="op">.</span><span class="fu">canvas</span><span class="op">(</span><span class="dv">600</span><span class="op">,</span> <span class="dv">400</span><span class="op">)</span></span>
-<span id="cb1-98"><a href="#cb1-98"></a>  <span class="dt">const</span> chart <span class="op">=</span> <span class="kw">new</span> <span class="fu">Chart</span><span class="op">(</span>ctx<span class="op">,</span> <span class="op">{</span></span>
-<span id="cb1-99"><a href="#cb1-99"></a>    type<span class="op">:</span> <span class="er">'</span>pie<span class="er">'</span><span class="op">,</span></span>
-<span id="cb1-100"><a href="#cb1-100"></a>    data<span class="op">:</span> chartData<span class="op">,</span></span>
-<span id="cb1-101"><a href="#cb1-101"></a>    options<span class="op">:</span> <span class="op">{</span></span>
-<span id="cb1-102"><a href="#cb1-102"></a>      responsive<span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
-<span id="cb1-103"><a href="#cb1-103"></a>      plugins<span class="op">:</span> <span class="op">{</span></span>
-<span id="cb1-104"><a href="#cb1-104"></a>        legend<span class="op">:</span> <span class="op">{</span></span>
-<span id="cb1-105"><a href="#cb1-105"></a>          position<span class="op">:</span> <span class="er">'</span>top<span class="er">'</span><span class="op">,</span></span>
-<span id="cb1-106"><a href="#cb1-106"></a>        <span class="op">},</span></span>
-<span id="cb1-107"><a href="#cb1-107"></a>        title<span class="op">:</span> <span class="op">{</span></span>
-<span id="cb1-108"><a href="#cb1-108"></a>          display<span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
-<span id="cb1-109"><a href="#cb1-109"></a>          text<span class="op">:</span> <span class="er">'</span>Registered Participants by Category<span class="er">'</span></span>
-<span id="cb1-110"><a href="#cb1-110"></a>        <span class="op">}</span></span>
-<span id="cb1-111"><a href="#cb1-111"></a>      <span class="op">}</span></span>
-<span id="cb1-112"><a href="#cb1-112"></a>    <span class="op">}</span></span>
-<span id="cb1-113"><a href="#cb1-113"></a>  <span class="op">})</span></span>
-<span id="cb1-114"><a href="#cb1-114"></a>  yield ctx</span>
-<span id="cb1-115"><a href="#cb1-115"></a><span class="op">}</span></span>
-<span id="cb1-116"><a href="#cb1-116"></a></span>
-<span id="cb1-117"><a href="#cb1-117"></a>```</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-OJS Syntax Error (line 58, column 1)Unexpected token
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-</div>
 </div>
 
 
@@ -305,17 +191,6 @@ OJS Syntax Error (line 58, column 1)Unexpected token
 </section>
 
 </main> <!-- /main -->
-<script type="ojs-module-contents">
-{"contents":[]}
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../..";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
