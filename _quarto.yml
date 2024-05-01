@@ -11,7 +11,7 @@ website:
       - agenda.qmd
       - href: project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
-      - href: registration.qmd
+      - href: registration_form.qmd
         text: Registration
       - href: h2023MSC.qmd
         text: "2023MSC"

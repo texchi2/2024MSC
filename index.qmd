@@ -1,7 +1,5 @@
 ---
 title: "2024 Multidisciplinary Specialty Conference"
-script:
-  - js/chart.js
 execute:
   echo: false
 ---
