@@ -1,0 +1,86 @@
+---
+title: "Abstract and Keynote"
+---
+
+## Invited Speakers
+
+<div id="speakers">
+  <!-- Speaker information will be dynamically added here -->
+</div>
+
+<script>
+  const speakers = [
+    {
+      name: "Dr. Deq Said Jama",
+      topic: "Somaliland EPHS 2020—WHO Dengue Fever Recommendations and Strategies"
+    },
+    {
+      name: "Dr. Ahmed Abdi Hersi",
+      topic: "Clinical Guideline for Dengue Fever Management"
+    },
+    {
+      name: "Dr. Chin-I Chen",
+      topic: "Taiwan Cares: The Dengue Management experience from Taiwan"
+    },
+    {
+      name: "Dr. Omar Marshal",
+      topic: "Epidemiology of Breast, Esophageal, and Liver Cancer in Somaliland"
+    },
+    {
+      name: "Dr. Fadumo Ahmed Liban",
+      topic: "Breast Cancer Therapy in Somaliland"
+    },
+    {
+      name: "Dr. Abdillahi Abdi Ali",
+      topic: "Esophageal Carcinoma Therapy in Somaliland"
+    },
+    {
+      name: "Dr. Ming-Shun Wu",
+      topic: "Liver Cancer Prevention and Therapy—Taiwan Experience (pre-recorded video)"
+    },
+    {
+      name: "Dr. Yen-Hsiang Wang",
+      topic: "Introducing Laparoscopic Surgery for Hargeisa Group Hospital"
+    },
+    {
+      name: "Dr. Ahmed Saed Ali",
+      topic: "Orthopedic Training Program at HGH"
+    },
+    {
+      name: "Dr. Yu-Pin Chen",
+      topic: "Orthopedic Training Collaboration between HGH and TMWH"
+    }
+  ];
+
+  const speakersDiv = document.getElementById('speakers');
+
+  speakers.forEach(speaker => {
+    const speakerDiv = document.createElement('div');
+    speakerDiv.innerHTML = `
+      <h3>${speaker.name}</h3>
+      <p><strong>Topic:</strong> ${speaker.topic}</p>
+    `;
+
+    speakersDiv.appendChild(speakerDiv);
+  });
+</script>
+
+
+
+## Speaker Submission
+
+1) Please fill out the form below to submit your **abstract**:
+<form action="https://formspree.io/f/mqkrnprr" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" name="name" required>
+<label for="abstract">Abstract:</label>
+  <textarea name="abstract" rows="10" required></textarea>
+<button type="submit">Submit</button>
+</form>
+
+
+
+2) Please also upload your **CV** and **keynote** files to the following URL: 
+<p><a href="https://share.multcloud.link/share/90e256e5-95e4-4db5-aa8d-7c66510c3ac7" target="_blank">https://rb.gy/47a3kw</a></p>
+<p>Password: 1aIh</p>
+

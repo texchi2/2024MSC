@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - agenda.qmd
+      - href: abstract_uploads.qmd
+        text: Abstract and keynote
       - href: project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
       - href: registration_form.qmd
