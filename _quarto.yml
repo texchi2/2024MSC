@@ -8,13 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - agenda.qmd
+      - href: agenda.qmd
+        text: Agenda
       - href: abstract_uploads.qmd
         text: Abstract and keynote
-      - href: project_HGH_laparoscopicCentre.qmd
-        text: Laparoscopic Centre
       - href: registration_form.qmd
         text: Registration
+      - href: project_HGH_laparoscopicCentre.qmd
+        text: Laparoscopic Centre
       - href: h2023MSC.qmd
         text: "2023MSC"
       - about.qmd
