@@ -77,7 +77,7 @@ In 2025, Dr. Mrr Kuan, a general surgeon from Tong General Hospital (Taiwan), is
 The TMM will work towards securing funds for the procurement of laparoscopic equipment, ensuring the sustainability and long-term impact of the project.
 
 
-## Budget Planning for Laparoscopic Equipment (Made in India)
+## Budget Planning for Laparoscopic Equipment (**estimated**, if Made in India)
 
 | Item                            | Quantity | Unit Price (USD) | Total (USD) |
 |---------------------------------|----------|------------------|-------------|
