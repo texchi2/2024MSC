@@ -40,12 +40,13 @@ Don't miss this chance to be a part of a truly transformative event that will in
 
 Register now and secure your spot at the 2024MSC, where together, we will collaborate for public health, share knowledge, and save lives.
 
-### We look forward to seeing you there!
+**We look forward to seeing you there!**
 
-Online registration at 
-<p><a href="https://texchi2.github.io/2024MSC/registration_form.html" target="_blank">CLICK</a></p>
+## Online registration 
+Please <p><a href="https://texchi2.github.io/2024MSC/registration_form.html" target="_blank">CLICK</a></p>
+(deadline on 10 May 2024; **Lunch** will be provided for **registered participants only** following the conference.)
 
-Statistics of Participants
+## Statistics of Participants
 
 <div id="registrationChart"></div>
 
