@@ -126,6 +126,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#invited-speakers" id="toc-invited-speakers" class="nav-link active" data-scroll-target="#invited-speakers">Invited Speakers</a></li>
+  <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
   <li><a href="#speaker-submission" id="toc-speaker-submission" class="nav-link" data-scroll-target="#speaker-submission">Speaker Submission</a></li>
   </ul>
 </nav>
@@ -159,62 +160,85 @@ ul.task-list li input[type="checkbox"] {
   const speakers = [
     {
       name: "Dr. Jamal Tex Li-Hsing Chi",
-      topic: "WHO Dengue Fever Recommendations and Strategies (Presented on behalf of Dr. Deq Said Jama, WHO Somaliland Officer)"
+      topic: "WHO Dengue Fever Recommendations and Strategies (Presented on behalf of Dr. Deq Said Jama, WHO Somaliland Officer)",
+      keynoteUrl: "https://docs.google.com/file/d/1OQrjrvaQVKqswnnrhunErSRnBdAFBaXB/edit?usp=docslist_api&filetype=mspresentation"
     },
     {
       name: "Dr. Ahmed Abdi Hersi",
-      topic: "Clinical Guideline for Dengue Fever Management"
+      topic: "Clinical Guideline for Dengue Fever Management",
+      keynoteUrl: "https://docs.google.com/file/d/1OQrjrvaQVKqswnnrhunErSRnBdAFBaXB/edit?usp=docslist_api&filetype=mspresentation"
     },
     {
       name: "Dr. Chin-I Chen",
-      topic: "Taiwan Cares: The Dengue Management experience from Taiwan"
+      topic: "Taiwan Cares: The Dengue Management experience from Taiwan",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Omar Marshal",
-      topic: "Epidemiology of Breast, Esophageal, and Liver Cancer in Somaliland"
+      topic: "Epidemiology of Breast, Esophageal, and Liver Cancer in Somaliland",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Fadumo Ahmed Liban",
-      topic: "Breast Cancer Therapy in Somaliland"
+      topic: "Breast Cancer Therapy in Somaliland",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Abdillahi Abdi Ali",
-      topic: "Esophageal Carcinoma Therapy in Somaliland"
+      topic: "Esophageal Carcinoma Therapy in Somaliland",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Ming-Shun Wu",
-      topic: "Liver Cancer Prevention and Therapy—Taiwan Experience (pre-recorded video)"
+      topic: "Multi-bipolar Radiofrequency on Hepatocellular Carcinoma — Taiwan Experience (pre-recorded video mp4)",
+      keynoteUrl: "https://drive.google.com/file/d/1SreTuYIsZG1PRNU0ZBstdDG76YmQADnC/view?usp=drivesdk"
     },
     {
       name: "Dr. Yen-Hsiang Wang",
-      topic: "Introducing Laparoscopic Surgery for Hargeisa Group Hospital"
+      topic: "Introducing Laparoscopic Surgery for Hargeisa Group Hospital",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Ahmed Saed Ali",
-      topic: "Orthopedic Training Program at HGH"
+      topic: "Orthopedic Training Program at HGH",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Yu-Pin Chen",
-      topic: "Orthopedic Training Collaboration between HGH and TMWH"
+      topic: "Orthopedic Training Collaboration between HGH and TMWH",
+      keynoteUrl: "NA"
     },
     {
       name: "Dr. Abdirashid Ismail",
-      topic: "Fall Prevention for Adults: Reducing the Risk of Fractures and Cognitive Decline"
+      topic: "Fall Prevention for Adults: Reducing the Risk of Fractures and Cognitive Decline",
+      keynoteUrl: "NA"
     }
   ];
 
   const speakersDiv = document.getElementById('speakers');
 
-  speakers.forEach(speaker => {
+speakers.forEach(speaker => {
     const speakerDiv = document.createElement('div');
     speakerDiv.innerHTML = `
       <h3>${speaker.name}</h3>
       <p><strong>Topic:</strong> ${speaker.topic}</p>
+      <p><strong>Keynote:</strong> ${speaker.keynoteUrl === "NA" ? "Coming Soon" : `<a href="${speaker.keynoteUrl}" target="_blank">Preview</a>`}</p>
     `;
-
+    
     speakersDiv.appendChild(speakerDiv);
   });
 </script>
+</section>
+<section id="video" class="level2">
+<h2 class="anchored" data-anchor-id="video">Video</h2>
+Dr.&nbsp;Ming-Shun Wu’s talk:
+<p>
+<a href="https://drive.google.com/file/d/1HftoYI-PTTVgMuzlWJkpfvRdyilfcnJ0/view?usp=drivesdk" target="_blank">mp4</a>
+</p>
+Online Q&amp;A with Dr.&nbsp;Ming-Shun Wu:
+<p>
+<a href="https://meet.google.com/ghx-hfjo-fhq" target="_blank">google meet</a>
+</p>
 </section>
 <section id="speaker-submission" class="level2">
 <h2 class="anchored" data-anchor-id="speaker-submission">Speaker Submission</h2>
@@ -245,9 +269,12 @@ ul.task-list li input[type="checkbox"] {
 Submit
 </button>
 </form></li>
-<li>Please also upload your <strong>CV</strong> and <strong>keynote</strong> files at: choose “Upload File …”
+<li>Please also upload your <strong>CV</strong> and <strong>keynote</strong> files to”
 <p>
-<a href="https://share.multcloud.link/share/4bc82117-9830-4a77-b236-f1dfaa63bca5" target="_blank">uploading…</a>
+<a href="https://share.multcloud.link/share/4bc82117-9830-4a77-b236-f1dfaa63bca5" target="_blank">uploading</a>
+</p>
+<p>
+(choose “Upload File”)
 </p>
 <p>
 (Access Password: kB3U)
