@@ -16,9 +16,12 @@ website:
         text: Registration
       - href: project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
+      - href: thanks.qmd
+        text: Acknowledgements
       - href: h2023MSC.qmd
         text: "2023MSC"
-      - about.qmd
+      - href: about.qmd
+        text: About TMM
 
 format:
   html:
