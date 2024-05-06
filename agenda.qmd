@@ -1,6 +1,6 @@
 ---
 title: "Conference Agenda"
-date: 2024-05-01
+date: 2024-05-06
 title-block-banner: "#66e36a"
 published-title: Agenda last updated
 engine: knitr
