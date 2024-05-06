@@ -3,6 +3,11 @@ title: "2024 Multidisciplinary Specialty Conference"
 execute:
   echo: false
 ---
+
+<img src="images/IMG_2768.jpeg" alt="2024 Multi-Specialty Conference Banner" style="width: 120%; height: auto;">
+
+<!-- Rest of our text content -->
+
 ## Collaborating for Public Health: Sharing Knowledge, Saving Lives
 
 Brought you by Taiwan Medical Mission (TMM) in the Republic of Somaliland
