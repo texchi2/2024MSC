@@ -11,16 +11,16 @@ In particular, we would like to highlight the following initiatives and equipmen
 1. Laparoscopic Surgery for General Surgery Department:
    - Project: Empowering Surgeons, Transforming Lives: The Laparoscopic Training Initiative
    - Led by TMM staff Dr. Andrew Wang, and HGH Dr. Afnan
-   - Required equipment: Laparoscopic surgical instruments and training models
+   - Required equipment: **Laparoscopic surgical instruments** and training models
 
 2. Breast Cancer and Cervical Cancer Screening:
    - Project: Comprehensive Women's Cancer Screening Program
    - Led by HGH Dr. Fatima, TMM staff Dr. Andrew Wang (General Surgeon) and Dr. Huang (OBGYN)
-   - Required equipment: Ultrasound machine and probes
+   - Required equipment: Ultrasound machine and **probes**
 
 3. Dengue Fever Management and ICU Support:
    - Project: Strengthening Dengue Patient Care and Outcomes
-   - Required supplies: Arterial Blood Gas (ABG) reagent materials for severe dengue cases in ICU
+   - Required supplies: **Arterial Blood Gas (ABG) reagent** materials for severe dengue cases in ICU
 
 4. Visiting Scholarships for Training in Taiwan:
    - Project: Capacity Building for Somaliland Medical Personnel
@@ -33,17 +33,17 @@ In particular, we would like to highlight the following initiatives and equipmen
      a. TMM: Scholarship funding for 13 to 15 medical personnel (3 batches of 5)
      b. Coordination with TMWH for training arrangements
      c. Collaboration with HGH for personnel selection and public health program participation
-     d. MoU between HGH and TMWH
+     d. **MoU** between HGH and TMWH
      e. 13 scholarship candidates:
       - Batch 1
-        - Dr. Abdirahman Hohamed Osman (Hospital Director)
+        - Dr. Abdirahman Hohamed Osman (**Hospital Director**)
         - Dr. Khadar Good Nur (IPC Director)
         - Dr. Mohamed Hassan Nur (Resident, Orthopedic)
         - Dr. Hassan Mohamed Nur (Resident, Orthopedic)
       - Batch 2
         - Dr. Saed Mohamed Osman (Resident, Orthopedic)
         - Dr. Abdulrahman Adoosh Abdulaahi (Resident, Orthopedic)
-        - Dr. Adnan Sayid Abdo (General Surgery) => laparoscopic training
+        - Dr. Adnan Sayid Abdo (General Surgery) => **laparoscopic training**
         - Dr. Mustafe Ahmed Yusuf (Neurosurgery) => spine surgery
         - Dr. Idris Hassan Dahir (Cardiologist)
       - Batch 3
