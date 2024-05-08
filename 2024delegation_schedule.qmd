@@ -14,7 +14,9 @@ The schedule for the TMWH delegation visit to the Republic of Somaliland:
 ### Thursday, May 9, 2024
 
 14:30 | Flight from Bole International Airport (ADD), Ethiopia, arrive Hargeisa International Airport (HGA), Somaliland
-accommodation at Carro Edeg Hotel
+
+(Mr. Chris Lee, accompanied by the Deputy Ambassador, will be present at the airport to welcome and receive the delegation team from Taipei Municipal Wanfang Hospital, TMWH)
+
 
 16:00 - 17:00 | Visit to Taiwan Representative Office in Somaliland (TRO), Amb. Lou, and Mr. Chris Lee
 
@@ -22,8 +24,11 @@ accommodation at Carro Edeg Hotel
   - Collaborative Synergy: The Power of TMM and HGH's Partnership
 
 18:00 - 20:00 | Dinner with TMM at Damal Hotel Restaurant;
-(inviting) MoHD director general Dr. Hergeye; Hargeisa Group Hospital, Director, Dr. Abdirahman, and Deputy Director, Dr. Adnan, and orthopeidc Dr. Hassan.
+Hargeisa Group Hospital, Director, Dr. Abdirahman, and Deputy Director, Dr. Adnan, and orthopedic Dr. Hassan.
 
+<!-- (inviting) MoHD director general Dr. Hergeye; -->
+
+Accommodation at Carro Edeg Hotel
 
 ### Friday, May 10, 2024 | Day off | 
 
@@ -33,7 +38,7 @@ accommodation at Carro Edeg Hotel
 
 13:00 | Lunch break
 
-14:00 - 15:00 | Dr. Hassan introducing OT, arthroscopic set, POP, ward, emergency to Dr. Chen
+14:00 - 15:00 | Dr. Hassan introducing OT, arthroscopic set, POP, ward, emergency to orthopedic Dr. Chen
 
 18:00 | Dinner
 
@@ -41,6 +46,7 @@ accommodation at Carro Edeg Hotel
 ### Saturday, May 11, 2024
 
 08:30 - 13:00 | **2024 Multidisciplinary Specialty Conference (2024MSC)** at Carro Edeg Hotel (https://texchi2.github.io/2024MSC/agenda.html)
-               Lunch break included
+
+Lunch break included
                
 17:55         | Departure from Hargeisa International Airport (HGA)
