@@ -2,40 +2,85 @@
 title: "2024 TMM Project"
 ---
 
-I hope this letter finds you well. On behalf of the Taiwan Medical Mission (TMM), I would like to express our continued commitment to supporting healthcare services at Hargeisa Group Hospital (HGH) and across Somaliland. As we plan our collaboration for 2024, we kindly suggest you to share HGH's updated projects list, prioritizing items that align with our upcoming 2024 projects in public health and medical services.
+## Taiwan Medical Mission
+Collaborative Synergy: The Power of TMM and HGH's Daily Partnership
 
-In particular, we would like to highlight the following initiatives and equipment needs, arranged by priority:
+攜手共創：駐索馬利蘭醫療團與哈格薩總醫院的夥伴關係
 
-1. Laparoscopic Surgery for General Surgery Department:
-   - Project: Empowering Surgeons, Transforming Lives: The Laparoscopic Training Initiative
-   - Led by TMM staff Dr. Andrew Wang, and HGH Dr. Afnan
-   - Required equipment: **Laparoscopic surgical instruments** and training models
+來自臺灣的長駐醫療團，醫護人員與哈格薩總醫院的醫療團隊，每日並肩工作能產生非常大的價值與力量。在第一線的緊密合作，是索馬利蘭永續醫療發展的基石。透過共同努力，醫療團隊能深入了解駐地特有的挑戰、因地因時制宜，發現需求和改進的機會。
 
-2. Breast Cancer and Cervical Cancer Screening:
-   - Project: Comprehensive Women's Cancer Screening Program
-   - Led by HGH Dr. Fatima, TMM staff Dr. Andrew Wang (General Surgeon) and Dr. Huang (OBGYN)
-   - Required equipment: Ultrasound machine and **probes**
+透過紮根基層的參與，醫療團能夠發現關鍵問題，與本地醫護專家討論，然後創新設計出對應的方案。我們相信，最具影響力的計畫，是由深入醫院日常運作的專業人員，去發掘需求而產生的。這種模式能確保技術上合理，更能符合哈格薩總醫院的優先順序和發展方向。醫療團以專業的方式來發展計畫，結合兩地專家的專長，以實現醫療照護的提升。
 
-3. Dengue Fever Management and ICU Support:
-   - Project: Strengthening Dengue Patient Care and Outcomes
-   - Required supplies: **Arterial Blood Gas (ABG) reagent** materials for severe dengue cases in ICU
+## Public health and medical services (common diseases with double burden)
 
-4. Visiting Scholarships for Training in Taiwan:
-   - Project: Capacity Building for Somaliland Medical Personnel
-   - Collaborators: Taipei Municipal Wanfang Hospital (TMWH), Taiwan Medical Mission (TMM), and Hargeisa Group Hospital (HGH)
-   - Initiatives:
-     a. Provide "Visiting Scholar Scholarships" for 15 Somaliland medical personnel to receive training in Taiwan for up to three months
-     b. Conduct selection process jointly by Taiwan Medical Mission and HGH Director's Office
-     c. Invite selected personnel to participate in TMM's 2024 public health programs
-   - Required support:
-     a. TMM: Scholarship funding for 13 to 15 medical personnel (3 batches of 5)
-     b. Coordination with TMWH for training arrangements
-     c. Collaboration with HGH for personnel selection and public health program participation
-     d. **MoU** between HGH and TMWH
-     e. 13 scholarship candidates:
+1. The Laparoscopic Training Initiative for General Surgery Department
+  - Project: Empowering Surgeons, Transforming Lives: 
+  - Led by TMM staff Dr. Andrew Wang, and HGH Dr. Afnan
+  - Background: Hargeisa Group Hospital的一般外科醫師皆有豐富的開刀經驗，然受限於醫療資源的缺乏，Somaliland只有在私立醫院才有腹腔鏡手術，公立醫院則無。腹腔鏡手術已經是外科開刀的基本技能，舉凡任何的外科手術，如外傷手術、良性疾病的手術、惡性癌症的手術皆可以應用。HGH的醫師都有在外國接受過腹腔鏡手術的訓練，數位醫師甚至在私立醫院執行腹腔鏡手術。公立醫院若能配備腹腔鏡設備，手術的費用較廉宜，一般民眾也能付擔，有助於顯著提升一般外科的醫療水準。
+  - Required equipment: **Laparoscopic surgical instruments** and training models; 借用萬芳醫院的腹腔鏡模擬器械，在王醫師任期內，可以讓每位HGH一般外科醫師均熟悉腹腔鏡的操作。進一步若能編列預算，2024年採購完成腹腔鏡器械，則這項醫療服務將能在HGH生根壯大。
+
+2. Dengue Fever Management and ICU Support:
+  - Project: Strengthening Dengue Patient Care and Outcomes
+  - Required supplies: **Arterial Blood Gas (ABG) reagent** materials for severe dengue cases in ICU
+   
+3. Osteoporosis
+  - 骨質健康-「TOM 骨質疏鬆」篩檢與預防保健計劃
+  - TOM: Taiwan Osteoporosis Master (from femural x-ray to T-score)
+  
+4. 三大癌症防治計劃(肝癌、子宮頸癌、乳癌)
+
+5. Non-communicable diseases (NCD) 防治計劃
+
+## Outreach
+
+篩檢同步舉辦NCD義診活動(四次)，免費提供醫療服務藥物與諮詢
+
+1. Breast Cancer and Cervical Cancer Screening (子宮頸及乳癌篩檢):
+  - Project: Comprehensive Women's Cancer Screening Program
+  - Led by HGH Dr. Fatima, TMM staff Dr. Andrew Wang (General Surgeon) and Dr. Huang (OBGYN)
+  - CCCP: comprehensive cancer control plans
+    - HPV DNA test
+    - Pap stain and pathology training: Dr. Chen and Dr. Omar
+    - HPV vaccination for school girls (age 9-13)
+  - Required equipment: Ultrasound machine and **probes**, **HPV vaccine**
+   
+2. Osteoporosis
+  - HGH orthopedic and Burco General Hospital (BGH)
+
+3. HBV screening and vaccination for HGH staff
+  - 與WHO合作
+  - 哈格爾薩總醫院 (HGH) **HBV clinic** (since 2024/05)    
+  - HGH 約500-700名醫護人員: HBV篩檢和疫苗接種（每人三劑），建立示範效應。隨後逐步擴大至哈格爾薩大學 (University of Hargeisa) 的醫學生和護理系學生
+  - 定期追蹤HBV帶原者的肝臟健康
+  - 衛生教育：製作索馬利蘭語的宣傳手冊 (Booklet)，向民眾宣導健康飲食、不吸菸、不嚼食khat葉與菸草等，有效預防肝臟發炎
+  - Required equipment: **HBV vaccine**
+
+
+4. Outbound outreach
+  - at Naasahablood site B (難民村)
+  - triage: 分流(婦兒,男)
+  - consultation, medicine, T-score screening
+  - health education
+
+
+## Visiting Scholarships for Training in Taiwan
+
+
+  - Project: Capacity Building for Somaliland Medical Personnel
+  - Collaborators: Taipei Municipal Wanfang Hospital (TMWH), Taiwan Medical Mission (TMM), and Hargeisa Group Hospital (HGH)
+  - Initiatives:
+    a. Provide "Visiting Scholar Scholarships" for 13 to 15 Somaliland medical personnel to receive training in Taiwan for up to three months
+    b. Conduct selection process jointly by Taiwan Medical Mission and HGH Director's Office
+    c. Invite selected personnel to participate in **TMM's 2024 public health programs**
+  - Required support:
+    a. TMM: Scholarship funding for 13 to 15 medical personnel (3 batches of 5)
+    b. Coordination with TMWH for training arrangements
+    c. Collaboration with HGH for personnel selection and public health program participation
+    d. **MoU** between HGH and TMWH
+    e. 13 scholarship candidates:
       - Batch 1
         - Dr. Abdirahman Hohamed Osman (**Hospital Director**)
-        - Dr. Khadar Good Nur (IPC Director)
+        - Dr. Khadar Good Nur (Infection Prevention Centre Director)
         - Dr. Mohamed Hassan Nur (Resident, Orthopedic)
         - Dr. Hassan Mohamed Nur (Resident, Orthopedic)
       - Batch 2
@@ -49,4 +94,63 @@ In particular, we would like to highlight the following initiatives and equipmen
         - Mr. Mustafe (Technician, Pathology)
         - Mr. Ahmed (Nurse, OT director)
         - Dr. Omer Mohamed Bihi (Pathology)
+
+## Medical campaign
+  - TMM staff (長駐醫療) by demand
+    - orthopedic
+    - general surgery
+    - OBGYN
+    - pediatric
+    - emergency and intensive care
+  - Medical campaign (主題醫療) by HGH medical need
+    - Orthopedic:
+      - Arthroscopic knee surgery (meniscus repair, ACL reconstruction)
+      - Arthroscopic shoulder surgery (rotator cuff repair, labral repair)
+      - Spine surgery (laminectomy, discectomy, spinal fusion)
+      - Fracture fixation (open reduction and internal fixation)
+      - Required equipment: **arthroscopic instruments**
+  
+    - General Surgery:
+      - Laparoscopic cholecystectomy (gallbladder removal)
+      - Laparoscopic appendectomy
+      - Laparoscopic hernia repair (inguinal, umbilical, incisional)
+      - Thyroidectomy
+      - Required equipment: **laparoscopic instruments and video set**
+
+    - Neurosurgery (neurosurgery and maxillofacial department):
+      - Craniotomy for brain tumor resection
+      - Ventriculoperitoneal shunt placement
+      - Spine surgery (laminectomy, discectomy, spinal fusion)
+      - Cranioplasty for traumatic skull defects
+      - Required equipment: **craniotomy instruments and drill set**
+
+    - Chest Medicine
+      - TB Hospital
+      - NCD: asthma, chronic obstructive pulmonary disease (COPD)
+      - Bronchoscopy for diagnostic and therapeutic purposes
+      - Required equipment: **bronchoscope instruments and video set**
+
+  - 門診候診區設置**電視牆**，長期播放衛教宣導資料(一般外科、胸腔內科、骨科、神外、婦產科)
+
+
+
+
+
+## Telemedicine and medical education
+
+- HGH骨科專科醫師訓練計畫於2023/01/20正式開始
+- 2023/10主題醫療骨科專家郭宜潔來訪
+- 2024 預計安排四名骨科住院醫師，赴台接受三個月短期訓練
+  - Dr. 郭宜潔建議: 請事業發展部先安排一個內部會議，擬定訓練計劃。再和HGH的醫師們會議討論、公告訓練計劃
+- 2024 July 骨科專家將再度來訪HGH，指導進階骨折手術、脊椎手術、關節鏡等
+- 每季一次進行個案討論 teleconference (一般外科、胸腔內科、骨科、神外、婦產科，內臟內科、病理科、感控室)
+
+
+## TMM request
+
+- 編列預算購買團車
+
+- 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機、SPU 同時出勤，也就是說僅剩下乘客座位三名(擁擠)
+  1) 請求衛生部，替換大型車輛(Land Cruiser 八人座以上)
+  2) 目前上班、下班，暫時均需要分為兩趟、甚至三趟行車。
 
