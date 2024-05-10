@@ -12,8 +12,6 @@ website:
         text: Agenda
       - href: abstract_uploads.qmd
         text: Abstract and keynote
-      - href: registration_form.qmd
-        text: Registration
       - href: project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
       - href: thanks.qmd
