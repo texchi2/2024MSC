@@ -2,6 +2,9 @@
 ---
 title: "2024MSC Registration Form"
 ---
+Closed; Mahasanid
+
+<!--
 <style>
   button[type="submit"] {
     display: inline-block;
@@ -66,3 +69,5 @@ title: "2024MSC Registration Form"
 
   <button type="submit">Register</button>
 </form>
+
+-->

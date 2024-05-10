@@ -23,7 +23,7 @@ title: "Abstract and Keynote"
     {
       name: "Dr. Chin-I Chen",
       topic: "Taiwan Cares: Dengue Fever in Taiwan",
-      keynoteUrl: "https://docs.google.com/file/d/14o_XsnP3gcaayFYxOvR2TgOkonqyoM-L/edit?usp=docslist_api&filetype=mspresentation"
+      keynoteUrl: "https://docs.google.com/presentation/d/1tfZ_qTmyv9lifLR_V6wGQAuqoyubMrPN/edit?usp=share_link&ouid=110793978748284413196&rtpof=true&sd=true"
     },
     {
       name: "Dr. Omar Marshal",
@@ -52,7 +52,7 @@ title: "Abstract and Keynote"
     },
     {
       name: "Dr. Ahmed Saed Ali",
-      topic: "Orthopedic Training Program at HGH",
+      topic: "Orthopedic Training in Somaliland(HGH)",
       keynoteUrl: "NA"
     },
     {
@@ -62,8 +62,9 @@ title: "Abstract and Keynote"
     },
     {
       name: "Dr. Abdirashid Ismail",
-      topic: "Fall Prevention for Adults: Reducing the Risk of Fractures and Cognitive Decline",
-      keynoteUrl: "NA"
+      topic: "Understanding & Preventing Falls of Adults: A
+Multidisciplinary Approach",
+      keynoteUrl: "https://docs.google.com/presentation/d/1MDIVbKeAlsfjGXv0l5beu3rthkbYOO88/edit?usp=share_link&ouid=110793978748284413196&rtpof=true&sd=true"
     }
   ];
 
