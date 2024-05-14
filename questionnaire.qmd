@@ -1,0 +1,48 @@
+---
+title: "2024MSC Feedback Questionnaire"
+---
+
+<form id="feedbackForm" action="https://formspree.io/f/mqkrnprr" method="POST">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="speaker">Which speaker's presentation did you find most informative?</label>
+  <select id="speaker" name="speaker" required>
+    <option value="">Select a speaker</option>
+    <option value="Dr. Jamal Tex Li-Hsing Chi">Dr. Jamal Tex Li-Hsing Chi</option>
+    <option value="Dr. Ahmed Abdi Hersi">Dr. Ahmed Abdi Hersi</option>
+    <option value="Dr. Chin-I Chen">Dr. Chin-I Chen</option>
+    <option value="Dr. Omar Marshal">Dr. Omar Marshal</option>
+    <option value="Dr. Fadumo Ahmed Liban">Dr. Fadumo Ahmed Liban</option>
+    <option value="Dr. Abdillahi Abdi Ali">Dr. Abdillahi Abdi Ali</option>
+<!--    <option value="Dr. Ming-Shun Wu">Dr. Ming-Shun Wu</option> -->
+    <option value="Dr. Yen-Hsiang Wang">Dr. Yen-Hsiang Wang</option>
+    <option value="Dr. Ahmed Saed Ali">Dr. Ahmed Saed Ali</option>
+    <option value="Dr. Yu-Pin Chen">Dr. Yu-Pin Chen</option>
+    <option value="Dr. Abdirashid Ismail">Dr. Abdirashid Ismail</option>
+  </select>
+
+  <label for="satisfaction">How satisfied were you with the overall conference?</label>
+  <select id="satisfaction" name="satisfaction" required>
+    <option value="">Select your satisfaction level</option>
+    <option value="Very satisfied">Very satisfied</option>
+    <option value="Satisfied">Satisfied</option>
+    <option value="Neutral">Neutral</option>
+    <option value="Dissatisfied">Dissatisfied</option>
+    <option value="Very dissatisfied">Very dissatisfied</option>
+  </select>
+
+  <label for="topics">Which topics would you like to see covered in future conferences?</label>
+  <textarea id="topics" name="topics" rows="4"></textarea>
+
+  <label for="comments">Any additional comments or suggestions?</label>
+  <textarea id="comments" name="comments" rows="4"></textarea>
+
+  <button type="submit">Submit</button>
+
+</form>
+
