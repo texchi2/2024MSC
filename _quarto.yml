@@ -16,6 +16,8 @@ website:
         text: Laparoscopic Centre
       - href: thanks.qmd
         text: Acknowledgements
+      - href: questionnaire.qmd
+        text: Questionnaire
       - href: h2023MSC.qmd
         text: "2023MSC"
       - href: about.qmd

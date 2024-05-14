@@ -102,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Acknowledgements</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./questionnaire.qmd" rel="" target="">
+ <span class="menu-text">Questionnaire</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./h2023MSC.html" rel="" target="">
  <span class="menu-text">2023MSC</span></a>
   </li>  
@@ -159,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <script> 
 const speakers = [ { name: "Dr. Jamal Tex Li-Hsing Chi", topic: "WHO Dengue Fever Recommendations and Strategies (Presented on behalf of Dr. Deq Said Jama, WHO Somaliland Office)", keynoteUrl: "https://drive.google.com/file/d/1ZMjMRcZ4qCe64kjdPNgruACpnZh6x_20/view?usp=share_link" }, { name: "Dr. Ahmed Abdi Hersi", topic: "Clinical Guideline for Dengue Fever Management", keynoteUrl: "https://docs.google.com/file/d/1OQrjrvaQVKqswnnrhunErSRnBdAFBaXB/edit?usp=docslist_api&filetype=mspresentation" }, { name: "Dr. Chin-I Chen", topic: "Taiwan Cares: Dengue Fever in Taiwan", keynoteUrl: "https://docs.google.com/presentation/d/1tfZ_qTmyv9lifLR_V6wGQAuqoyubMrPN/edit?usp=share_link&ouid=110793978748284413196&rtpof=true&sd=true" }, { name: "Dr. Omar Marshal", topic: "Epidemiology of Breast, Esophageal, and Liver Cancer in Somaliland", keynoteUrl: "https://docs.google.com/file/d/1Fa3dkVf4oU0DLvefiI5XIcUHMTVo66sT/edit?usp=docslist_api&filetype=mspresentation" }, { name: "Dr. Fadumo Ahmed Liban", topic: "Breast Cancer Therapy in Somaliland", keynoteUrl: "https://docs.google.com/file/d/1Ush_s5482s-eH1bnmjdD-kHFoeeEW3My/edit?usp=docslist_api&filetype=mspresentation" }, { name: "Dr. Abdillahi Abdi Ali", topic: "Esophageal Carcinoma Therapy in Somaliland", keynoteUrl: "https://docs.google.com/file/d/1Ue5BWxAddEKSRVIc1rDJ2C2qEwm8elfw/edit?usp=docslist_api&filetype=mspresentation" }, { name: "Dr. Ming-Shun Wu", topic: "Multi-bipolar Radiofrequency on Hepatocellular Carcinoma — Taiwan Experience (pre-recorded video mp4)", keynoteUrl: "https://drive.google.com/file/d/1SreTuYIsZG1PRNU0ZBstdDG76YmQADnC/view?usp=drivesdk" }, 
-{ name: "Dr. Yen-Hsiang Wang", topic: "Introducing Laparoscopic Surgery for Hargeisa Group Hospital", keynoteUrl: "NA" }, 
+{ name: "Dr. Yen-Hsiang Wang", topic: "Introducing Laparoscopic Surgery for Hargeisa Group Hospital", keynoteUrl: "https://docs.google.com/file/d/1J0gGHlYgdqgGn9IzeEXNGy-hnQi2AqFA/edit?usp=docslist_api&filetype=mspresentation" }, 
 { name: "Dr. Ahmed Saed Ali", topic: "Orthopedic Training in Somaliland (HGH)", keynoteUrl: "https://docs.google.com/file/d/1mC8v0XnrDgB8Jj59oW0inpHAc3ArvD8E/edit?usp=docslist_api&filetype=mspresentation" }, { name: "Dr. Yu-Pin Chen", topic: "Orthopedic Training Collaboration between HGH and TMWH", keynoteUrl: "NA" }, { name: "Dr. Abdirashid Ismail", topic: "Understanding and Preventing Falls of Adults: A Multidisciplinary Approach", keynoteUrl: "https://docs.google.com/presentation/d/1MDIVbKeAlsfjGXv0l5beu3rthkbYOO88/edit?usp=share_link&ouid=110793978748284413196&rtpof=true&sd=true" } ]; 
 
 const speakersDiv = document.getElementById('speakers'); speakers.forEach(speaker => { const speakerDiv = document.createElement('div'); speakerDiv.innerHTML = '<h3>' + speaker.name + '</h3><p><strong>Topic:</strong> ' + speaker.topic + '</p><p><strong>Keynote:</strong> ' + (speaker.keynoteUrl === "NA" ? "by request to speaker" : '<a href="' + speaker.keynoteUrl + '" target="_blank">Preview</a>') + '</p>'; speakersDiv.appendChild(speakerDiv); }); </script>
