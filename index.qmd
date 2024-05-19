@@ -61,7 +61,7 @@ We are deeply appreciative of Dr. Deq's efforts in sharing this valuable resourc
 
 On behalf of the organizing committee, speakers, and attendees of the 2024 Multi-Specialty Conference, we extend our heartfelt thanks to WHO's support and collaboration. We look forward to future opportunities to work together in the fight against dengue fever and other public health challenges facing Somaliland.
 
-## Statistics of Participants, and Questionnaire
+## Statistics of Participants, and Feedback
 
-<div id="registrationChart"></div>
+<a href="https://texchi2.github.io/2024MSC/2024MSC_statistics.html" target="_blank">After conference...</a>
 
