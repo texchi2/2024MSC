@@ -1,6 +1,8 @@
 ---
 title: "2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 execute: 
   echo: false
   warning: false
@@ -222,7 +224,9 @@ comments_table <- after_data %>%
   rename(`Commenter Name` = name, `Comment` = comments)
 
 # Display the table
-knitr::kable(comments_table, align = 'l', row.names = FALSE)
+knitr::kable(comments_table, align = 'l', row.names = FALSE, col.names = c("Commenter", "Comment"))
+
+#latex enabled: "$\\delta{m}_1$"
 
 ```
 
