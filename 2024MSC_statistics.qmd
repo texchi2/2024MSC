@@ -32,6 +32,7 @@ library(tidyverse)
 library(lubridate)
 library(plotly)
 library(knitr) # for light weight kable()
+library(scales) # for percent()
 
 # Read the CSV file
 data <- read_csv("2024MSC_statistics_form.csv")
@@ -156,11 +157,7 @@ top_speakers_bar
 
 
 ### Satisfaction Levels
-The conference received positive feedback from the participants regarding their overall satisfaction. The satisfaction levels were as follows:
-
-1. Very satisfied: 60%
-2. Satisfied: 30%
-3. Neutral: 10%
+The conference received positive feedback from the participants regarding their overall satisfaction. 
 
 The high percentage of "Very satisfied" and "Satisfied" responses indicates that the conference met the expectations of the majority of the attendees. The bar chart represents the satisfaction levels graphically.
 
@@ -190,12 +187,19 @@ satisfaction_bar <- plot_ly(satisfaction_counts, x = ~satisfaction, y = ~n, type
                             hoverinfo = 'text',
                             text = ~paste(satisfaction, ': ', n, ' responses')) %>%
   layout(title = 'Satisfaction Levels in 2024MSC',
-         xaxis = list(title = 'Satisfaction', categoryorder = "array", categoryarray = satisfaction_levels),
+         xaxis = list(title = paste('Satisfaction, n =', nrow(after_data)), categoryorder = "array", categoryarray = satisfaction_levels),
          yaxis = list(title = 'Number of Responses'))
 
 satisfaction_bar
 
 ```
+
+The satisfaction levels were as follows:
+
+1. Very satisfied: `r percent(satisfaction_counts$n[satisfaction_counts$satisfaction == "Very satisfied"]/nrow(after_data))`
+2. Satisfied: `r percent(satisfaction_counts$n[satisfaction_counts$satisfaction == "Satisfied"]/nrow(after_data))`
+3. Neutral: `r percent(satisfaction_counts$n[satisfaction_counts$satisfaction == "Neutral"]/nrow(after_data))`
+
 
 ### Feedback and Comments
 The participants provided valuable feedback and suggestions for future conferences. Some of the notable comments include:
