@@ -64,7 +64,9 @@ Closed; Mahasanid
     <option value="Nephrology">Nephrology</option>
     <option value="Radiology">Radiology</option>
     <option value="Urology">Urology</option>
-    <option value="Other">Other</option>
+    <option value="General Practice">GP</option>
+    <option value="Infectious Disease and Tropical Medicine">GP</option>    
+    <option value="Others">Others</option>
   </select><br>
 
   <button type="submit">Register</button>

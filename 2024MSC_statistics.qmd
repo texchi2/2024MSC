@@ -1,6 +1,10 @@
 ---
-title: "2024MSC Feedback Analysis"
+title: "2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report"
 output: html_document
+execute: 
+  echo: false
+  warning: false
+date-modified: 18 May 2024
 ---
 
 <!-- This script does the following:
@@ -12,18 +16,22 @@ output: html_document
 5. Displays a table listing the comments and commenter names from the feedback section.
 -->
 
-# 2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report
+
 
 ### Introduction
 The 2024 Multi-Specialty Conference (2024MSC) brought together healthcare professionals from various specialties to discuss critical topics in public health. This report analyzes the feedback received from the conference participants and provides an overview of the event's success.
 
 
 ### Participant Demographics
-The conference attracted participants from diverse specialty backgrounds. The majority of the attendees were doctors (75%), followed by nurses (20%) and other healthcare professionals (5%). The pie chart illustrates the distribution of specialty categories among the speakers and participants.
 
-```{r setup, include=FALSE}
+<!--The pie chart illustrates the distribution of specialty categories among the speakers and participants.-->
+
+```{r}
+#| echo: false
 library(tidyverse)
 library(lubridate)
+library(plotly)
+library(knitr) # for light weight kable()
 
 # Read the CSV file
 data <- read_csv("2024MSC_statistics_form.csv")
@@ -37,13 +45,13 @@ after_data <- data %>% dplyr::filter(`_date` >= ymd("2024-05-11"))
 
 
 ####
-# Count the number of participants by specialty category
-specialty_counts <- before_data %>% 
+# Count the number of participants by doctor/nurse/others category
+category_counts <- before_data %>% 
   count(category) %>%
   mutate(percentage = n / sum(n) * 100)
 
 # Create a pie chart of specialty categories
-specialty_pie <- specialty_counts %>%
+specialty_pie <- category_counts %>%
   plot_ly(labels = ~category, values = ~percentage, type = 'pie',
           textposition = 'inside',
           textinfo = 'label+percent',
@@ -52,24 +60,75 @@ specialty_pie <- specialty_counts %>%
           text = ~paste(category, ' (', n, ')'),
           marker = list(colors = colors,
                         line = list(color = '#FFFFFF', width = 1)),
-          showlegend = FALSE) %>%
-  layout(title = 'Specialty Category Distribution')
+          showlegend = FALSE,
+          title = 'Participants Category Distribution') 
+# %>%
+#  layout(title = 'x Specialty Category Distribution')
 
 specialty_pie
 
 ```
+The conference attracted participants from diverse specialty backgrounds. The majority of the attendees were 48 doctors, followed by 23 nurses, and other healthcare professionals (4%). 
+Total 15 speakers (including VIP remarks), and `r nrow(before_data) - 15` persons in audience registered online.
+
+
+### Specialties of Speakers and Participants
+
+<!-- Here's a script to generate descriptive statistics for the specialties of speakers and participants before 2024/05/11, along with an academic English description: -->
+
+```{r}
+# Read the CSV file
+data <- read_csv("2024MSC_statistics_form.csv")
+
+# Convert the '_date' column to datetime format
+data$`_date` <- ymd_hms(data$`_date`)
+
+# Filter data before 2024/05/11
+before_data <- data %>% dplyr::filter(`_date` < ymd("2024-05-11"))
+
+# Count the number of participants by specialty
+specialty_counts <- before_data %>% 
+  count(specialty, sort = TRUE)
+
+# Display the specialty counts
+
+knitr::kable(specialty_counts, align = 'l', row.names = FALSE)
+
+
+# Orthopedics
+# General Surgery
+# Internal Medicine
+```
+
+
+The 2024 Multi-Specialty Conference (2024MSC) attracted a diverse range of healthcare professionals from various specialties. An analysis of the specialty distribution among speakers and participants who registered before 11 May, 2024, was conducted to gain insights into the conference's interdisciplinary nature.
+
+The data revealed that the most well-represented specialty was Orthopedics, with `r specialty_counts$n[specialty_counts$specialty == "Orthopedics"]` individuals. This highlights the conference's strong focus on musculoskeletal health and related surgical interventions.
+
+General Surgery followed closely, with `r specialty_counts$n[specialty_counts$specialty == "General Surgery"]` participants, reflecting the conference's emphasis on surgical disciplines.
+
+Internal Medicine had a notable presence, with `r specialty_counts$n[specialty_counts$specialty == "Internal Medicine"]` attendees, indicating the conference's attention to medical specialties dealing with the diagnosis, treatment, and prevention of adult diseases, such as noncommunicable diseases (NCDs) and Dengueu fever.
+
+Other specialties represented at the conference included Oral and Maxillofacial Surgery (OMS) (`r specialty_counts$n[specialty_counts$specialty == "OMS"]` participants), Radiology (`r specialty_counts$n[specialty_counts$specialty == "Radiology"]` participants), Pathology (`r specialty_counts$n[specialty_counts$specialty == "Pathology"]` participants), and one doctor working in tropical medicine. The presence of these specialties underscores the conference's commitment to fostering collaboration and knowledge exchange across various medical and surgical domains.
+
+Interestingly, the data also revealed the participation of professionals from other essential areas of healthcare, such as Pharmacy (`r specialty_counts$n[specialty_counts$specialty == "Pharmacy"]` participants) and Nursing (`r specialty_counts$n[specialty_counts$specialty == "Cardiology"]` participants in Cardiology). This diversity in specialties emphasizes the conference's recognition of the interdisciplinary nature of healthcare and the importance of involving multiple disciplines in addressing complex medical challenges.
+
+Furthermore, the conference attracted participants from specialties such as Neurology (`r specialty_counts$n[specialty_counts$specialty == "Neurology"]` participants), Nephrology (`r specialty_counts$n[specialty_counts$specialty == "Nephrology"]` participants), and Pediatrics (`r specialty_counts$n[specialty_counts$specialty == "Pediatrics"]` participants), showcasing the conference's comprehensive approach to healthcare across different age groups and organ systems.
+
+In conclusion, the specialty distribution among speakers and participants at the 2024 **Multi-Specialty** Conference demonstrates the event's success in bringing together a wide array of healthcare professionals. The strong representation of Internal Medicine, General Surgery, and Orthopedics, along with the participation of various other medical and surgical specialties, highlights the conference's commitment to fostering interdisciplinary collaboration and knowledge sharing. This diversity in specialties positions the conference as a platform for addressing the complex and multifaceted challenges in healthcare, ultimately contributing to improved patient care and outcomes.
+
 
 ### Top Welcomed Speakers
 Based on the feedback received, the top three speakers of the 2024MSC were:
 
 1. Dr. Fadumo Ahmed Liban
 2. Dr. Chin-I Chen
-3. Dr. Jamal Tex Li-Hsing Chi
+3. Dr. Abdilahi Abdi Ali
 
 These speakers were highly appreciated by the audience for their informative and engaging presentations. The bar chart in the HTML page visualizes the number of votes each top speaker received.
 
 
-```{r setup, include=FALSE}
+```{r}
 ####
 
 # Count the number of votes for each speaker
@@ -105,19 +164,32 @@ The conference received positive feedback from the participants regarding their 
 The high percentage of "Very satisfied" and "Satisfied" responses indicates that the conference met the expectations of the majority of the attendees. The bar chart represents the satisfaction levels graphically.
 
 
-```{r setup, include=FALSE}
+```{r}
+# Define the satisfaction levels in the desired order
+satisfaction_levels <- c("Very satisfied", "Satisfied", "Neutral", "Dissatisfied", "Very dissatisfied")
+
 # Count the number of responses for each satisfaction level
 satisfaction_counts <- after_data %>%
   count(satisfaction)
 
+# Add missing satisfaction levels with zero counts
+missing_levels <- setdiff(satisfaction_levels, satisfaction_counts$satisfaction)
+missing_data <- data.frame(satisfaction = missing_levels, n = 0)
+satisfaction_counts <- bind_rows(satisfaction_counts, missing_data)
+
+# Create a factor with the desired order of satisfaction levels
+satisfaction_counts$satisfaction <- factor(satisfaction_counts$satisfaction, levels = satisfaction_levels)
+
+# Define colors for each satisfaction level
+colors <- c("darkgreen", "green", "yellow", "orange", "red")
+
 # Create a bar chart of satisfaction levels
-satisfaction_bar <- satisfaction_counts %>%
-  plot_ly(x = ~satisfaction, y = ~n, type = 'bar',
-          marker = list(color = 'green'),
-          hoverinfo = 'text',
-          text = ~paste(satisfaction, ': ', n, ' responses')) %>%
-  layout(title = 'Satisfaction Levels',
-         xaxis = list(title = 'Satisfaction'),
+satisfaction_bar <- plot_ly(satisfaction_counts, x = ~satisfaction, y = ~n, type = 'bar',
+                            marker = list(color = colors),
+                            hoverinfo = 'text',
+                            text = ~paste(satisfaction, ': ', n, ' responses')) %>%
+  layout(title = 'Satisfaction Levels in 2024MSC',
+         xaxis = list(title = 'Satisfaction', categoryorder = "array", categoryarray = satisfaction_levels),
          yaxis = list(title = 'Number of Responses'))
 
 satisfaction_bar
@@ -127,7 +199,7 @@ satisfaction_bar
 ### Feedback and Comments
 The participants provided valuable feedback and suggestions for future conferences. Some of the notable comments include:
 
-1. "..." - Dr. Abdirahman, HGH director
+1. "I am very thrilled the work that you done" - Dr. Abdirahman, HGH director
 2. "Very good conference. Such conferences are much needed in Somaliland." - Dr. Hassan Nur
 3. "Oncology department is missing from the HGH, which needs to be established." - Dr. Abdillahi Abdi Ali
 4. "Topics should include research, articles, and cases done in hospitals of Somaliland." Dr. Nouh Ismail
@@ -136,8 +208,8 @@ The participants provided valuable feedback and suggestions for future conferenc
 
 The comments highlight the importance of the conference in addressing healthcare issues in Somaliland and suggest areas for improvement, such as including more research-based presentations and establishing an oncology department at the Hargeisa Group Hospital.
 
-
-```{r setup, include=FALSE}
+The other comments:
+```{r}
 # Create a table of comments and commenter names
 comments_table <- after_data %>%
   select(name, comments) %>%
@@ -145,7 +217,7 @@ comments_table <- after_data %>%
   rename(`Commenter Name` = name, `Comment` = comments)
 
 # Display the table
-kable(comments_table, align = 'l', row.names = FALSE)
+knitr::kable(comments_table, align = 'l', row.names = FALSE)
 
 ```
 
@@ -153,3 +225,6 @@ kable(comments_table, align = 'l', row.names = FALSE)
 The 2024 Multi-Specialty Conference successfully brought together healthcare professionals from various specialties to discuss important public health topics. The positive feedback received from the participants demonstrates the conference's impact and the need for similar events in the future. The organizing committee will take the feedback and suggestions into consideration to improve the upcoming conferences and continue to contribute to the advancement of healthcare in Somaliland.
 
 
+We wish see you soon on 2025MSC in Somaliland!
+
+In sha Allah,  إن شاء الله

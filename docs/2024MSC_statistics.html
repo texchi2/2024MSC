@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2024MSC - 2024MSC_statistics_formspree_feedback</title>
+<title>2024MSC - 2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,6 +59,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -125,14 +133,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#participant-demographics" id="toc-participant-demographics" class="nav-link" data-scroll-target="#participant-demographics">Participant Demographics</a></li>
+  <li><a href="#specialties-of-speakers-and-participants" id="toc-specialties-of-speakers-and-participants" class="nav-link" data-scroll-target="#specialties-of-speakers-and-participants">Specialties of Speakers and Participants</a></li>
+  <li><a href="#top-welcomed-speakers" id="toc-top-welcomed-speakers" class="nav-link" data-scroll-target="#top-welcomed-speakers">Top Welcomed Speakers</a></li>
+  <li><a href="#satisfaction-levels" id="toc-satisfaction-levels" class="nav-link" data-scroll-target="#satisfaction-levels">Satisfaction Levels</a></li>
+  <li><a href="#feedback-and-comments" id="toc-feedback-and-comments" class="nav-link" data-scroll-target="#feedback-and-comments">Feedback and Comments</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">2024MSC_statistics_formspree_feedback</h1>
+<h1 class="title">2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report</h1>
 </div>
 
 
@@ -141,6 +161,12 @@ ul.task-list li input[type="checkbox"] {
 
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 18, 2024</p>
+    </div>
+  </div>
     
   </div>
   
@@ -148,7 +174,227 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- This script does the following:
 
+1. Reads the CSV file and splits the data into before and after 2024/05/11 based on the '_date' column.
+2. Creates a pie chart showing the distribution of specialty categories among the speakers and participants.
+3. Ranks the top 3 speakers based on the number of votes received in the feedback and creates a bar chart.
+4. Creates a bar chart displaying the satisfaction levels from the feedback.
+5. Displays a table listing the comments and commenter names from the feedback section.
+-->
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>The 2024 Multi-Specialty Conference (2024MSC) brought together healthcare professionals from various specialties to discuss critical topics in public health. This report analyzes the feedback received from the conference participants and provides an overview of the event’s success.</p>
+</section>
+<section id="participant-demographics" class="level3">
+<h3 class="anchored" data-anchor-id="participant-demographics">Participant Demographics</h3>
+<!--The pie chart illustrates the distribution of specialty categories among the speakers and participants.-->
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-121ceb43a7ac05dceed2" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-121ceb43a7ac05dceed2">{"x":{"visdat":{"429b59fc0903":["function () ","plotlyVisDat"]},"cur_data":"429b59fc0903","attrs":{"429b59fc0903":{"labels":{},"values":{},"textposition":"inside","textinfo":"label+percent","insidetextfont":{"color":"#FFFFFF"},"hoverinfo":"text","text":{},"marker":{"colors":["function (distinct = FALSE) ","{","    c <- .Call(C_colors)","    if (distinct) ","        c[!duplicated(t(col2rgb(c)))]","    else c","}"],"line":{"color":"#FFFFFF","width":1}},"showlegend":false,"title":"Participants Category Distribution","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"labels":["Doctor","Nurse","Other","Pharmacist"],"values":[64.86486486486487,31.081081081081081,2.7027027027027026,1.3513513513513513],"textposition":["inside","inside","inside","inside"],"textinfo":"label+percent","insidetextfont":{"color":"#FFFFFF"},"hoverinfo":["text","text","text","text"],"text":["Doctor  ( 48 )","Nurse  ( 23 )","Other  ( 2 )","Pharmacist  ( 1 )"],"marker":{"color":"rgba(31,119,180,1)","colors":["structure(function (distinct = FALSE) ","{","    c <- .Call(C_colors)","    if (distinct) ","        c[!duplicated(t(col2rgb(c)))]","    else c","}, apiSrc = TRUE)"],"line":{"color":"#FFFFFF","width":1}},"showlegend":false,"title":"Participants Category Distribution","type":"pie","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>The conference attracted participants from diverse specialty backgrounds. The majority of the attendees were 48 doctors, followed by 23 nurses, and other healthcare professionals (4%). Total 15 speakers (including VIP remarks), and 59 persons in audience registered online.</p>
+</section>
+<section id="specialties-of-speakers-and-participants" class="level3">
+<h3 class="anchored" data-anchor-id="specialties-of-speakers-and-participants">Specialties of Speakers and Participants</h3>
+<!-- Here's a script to generate descriptive statistics for the specialties of speakers and participants before 2024/05/11, along with an academic English description: -->
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">specialty</th>
+<th style="text-align: left;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Orthopedics</td>
+<td style="text-align: left;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">General Surgery</td>
+<td style="text-align: left;">14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Internal Medicine</td>
+<td style="text-align: left;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other</td>
+<td style="text-align: left;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">OMS</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cardiology</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">General Practice</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pediatrics</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Radiology</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eye</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nephrology</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neurology</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Neurosurgery</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OBGYN</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pathology</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pharmacy</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rehabilitation</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The 2024 Multi-Specialty Conference (2024MSC) attracted a diverse range of healthcare professionals from various specialties. An analysis of the specialty distribution among speakers and participants who registered before 11 May, 2024, was conducted to gain insights into the conference’s interdisciplinary nature.</p>
+<p>The data revealed that the most well-represented specialty was Orthopedics, with 17 individuals. This highlights the conference’s strong focus on musculoskeletal health and related surgical interventions.</p>
+<p>General Surgery followed closely, with 14 participants, reflecting the conference’s emphasis on surgical disciplines.</p>
+<p>Internal Medicine had a notable presence, with 11 attendees, indicating the conference’s attention to medical specialties dealing with the diagnosis, treatment, and prevention of adult diseases, such as noncommunicable diseases (NCDs) and Dengueu fever.</p>
+<p>Other specialties represented at the conference included Oral and Maxillofacial Surgery (OMS) (4 participants), Radiology (2 participants), Pathology (1 participants), and one doctor working in tropical medicine. The presence of these specialties underscores the conference’s commitment to fostering collaboration and knowledge exchange across various medical and surgical domains.</p>
+<p>Interestingly, the data also revealed the participation of professionals from other essential areas of healthcare, such as Pharmacy (1 participants) and Nursing (3 participants in Cardiology). This diversity in specialties emphasizes the conference’s recognition of the interdisciplinary nature of healthcare and the importance of involving multiple disciplines in addressing complex medical challenges.</p>
+<p>Furthermore, the conference attracted participants from specialties such as Neurology (1 participants), Nephrology (1 participants), and Pediatrics (3 participants), showcasing the conference’s comprehensive approach to healthcare across different age groups and organ systems.</p>
+<p>In conclusion, the specialty distribution among speakers and participants at the 2024 <strong>Multi-Specialty</strong> Conference demonstrates the event’s success in bringing together a wide array of healthcare professionals. The strong representation of Internal Medicine, General Surgery, and Orthopedics, along with the participation of various other medical and surgical specialties, highlights the conference’s commitment to fostering interdisciplinary collaboration and knowledge sharing. This diversity in specialties positions the conference as a platform for addressing the complex and multifaceted challenges in healthcare, ultimately contributing to improved patient care and outcomes.</p>
+</section>
+<section id="top-welcomed-speakers" class="level3">
+<h3 class="anchored" data-anchor-id="top-welcomed-speakers">Top Welcomed Speakers</h3>
+<p>Based on the feedback received, the top three speakers of the 2024MSC were:</p>
+<ol type="1">
+<li>Dr.&nbsp;Fadumo Ahmed Liban</li>
+<li>Dr.&nbsp;Chin-I Chen</li>
+<li>Dr.&nbsp;Abdilahi Abdi Ali</li>
+</ol>
+<p>These speakers were highly appreciated by the audience for their informative and engaging presentations. The bar chart in the HTML page visualizes the number of votes each top speaker received.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-009b2c783fdfd1732ce8" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-009b2c783fdfd1732ce8">{"x":{"visdat":{"429b4a2a1985":["function () ","plotlyVisDat"]},"cur_data":"429b4a2a1985","attrs":{"429b4a2a1985":{"x":{},"y":{},"marker":{"color":"blue"},"hoverinfo":"text","text":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Top 3 Best Speakers","xaxis":{"domain":[0,1],"automargin":true,"title":"Speaker","type":"category","categoryorder":"array","categoryarray":["Dr. Abdillahi Abdi Ali","Dr. Chin-I Chen","Dr. Fadumo Ahmed Liban"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Number of Votes"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Dr. Fadumo Ahmed Liban","Dr. Chin-I Chen","Dr. Abdillahi Abdi Ali"],"y":[21,6,3],"marker":{"color":"blue","line":{"color":"rgba(31,119,180,1)"}},"hoverinfo":["text","text","text"],"text":["Dr. Fadumo Ahmed Liban :  21  votes","Dr. Chin-I Chen :  6  votes","Dr. Abdillahi Abdi Ali :  3  votes"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="satisfaction-levels" class="level3">
+<h3 class="anchored" data-anchor-id="satisfaction-levels">Satisfaction Levels</h3>
+<p>The conference received positive feedback from the participants regarding their overall satisfaction. The satisfaction levels were as follows:</p>
+<ol type="1">
+<li>Very satisfied: 60%</li>
+<li>Satisfied: 30%</li>
+<li>Neutral: 10%</li>
+</ol>
+<p>The high percentage of “Very satisfied” and “Satisfied” responses indicates that the conference met the expectations of the majority of the attendees. The bar chart represents the satisfaction levels graphically.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-95433b8ed4c13a0fae4f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-95433b8ed4c13a0fae4f">{"x":{"visdat":{"429ba598bef":["function () ","plotlyVisDat"]},"cur_data":"429ba598bef","attrs":{"429ba598bef":{"x":{},"y":{},"marker":{"color":["darkgreen","green","yellow","orange","red"]},"hoverinfo":"text","text":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Satisfaction Levels in 2024MSC","xaxis":{"domain":[0,1],"automargin":true,"title":"Satisfaction","categoryorder":"array","categoryarray":["Very satisfied","Satisfied","Neutral","Dissatisfied","Very dissatisfied"],"type":"category"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Number of Responses"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Satisfied","Very satisfied","Neutral","Dissatisfied","Very dissatisfied"],"y":[15,18,0,0,0],"marker":{"color":["darkgreen","green","yellow","orange","red"],"line":{"color":"rgba(31,119,180,1)"}},"hoverinfo":["text","text","text","text","text"],"text":["Satisfied :  15  responses","Very satisfied :  18  responses","Neutral :  0  responses","Dissatisfied :  0  responses","Very dissatisfied :  0  responses"],"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="feedback-and-comments" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-and-comments">Feedback and Comments</h3>
+<p>The participants provided valuable feedback and suggestions for future conferences. Some of the notable comments include:</p>
+<ol type="1">
+<li>“I am very thrilled the work that you done” - Dr.&nbsp;Abdirahman, HGH director</li>
+<li>“Very good conference. Such conferences are much needed in Somaliland.” - Dr.&nbsp;Hassan Nur</li>
+<li>“Oncology department is missing from the HGH, which needs to be established.” - Dr.&nbsp;Abdillahi Abdi Ali</li>
+<li>“Topics should include research, articles, and cases done in hospitals of Somaliland.” Dr.&nbsp;Nouh Ismail</li>
+<li>“Please make this conference regular and invite those Doctors who always make positive change in their community and those who always make a research and are going to publish studies by sharing their knowledge with others.” - Dr.&nbsp;Faadumo</li>
+</ol>
+<p>The comments highlight the importance of the conference in addressing healthcare issues in Somaliland and suggest areas for improvement, such as including more research-based presentations and establishing an oncology department at the Hargeisa Group Hospital.</p>
+<p>The other comments:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Commenter Name</th>
+<th style="text-align: left;">Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tex Chi</td>
+<td style="text-align: left;">waiting for 2025MSC</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wang Yen Hsiang</td>
+<td style="text-align: left;">Very good conference</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tex Chi</td>
+<td style="text-align: left;">mahasanid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hassan nur</td>
+<td style="text-align: left;">Well organized even thank you . Such conference are much needed in somaliland .</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dr.&nbsp;Abdillahi Abdi Ali</td>
+<td style="text-align: left;">Articles and publications should be focused than text book presentations.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dr.&nbsp;Abdillahi Abdi Ali</td>
+<td style="text-align: left;">Oncology department is missing from the HGH, which needs to be stablished.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dr.Nouh Ismail</td>
+<td style="text-align: left;">1. Topics should includes research, articles and case done in hospitals of somaliland.</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li><p>Lectures should contain relevent pictures | |Dr Abdirahman |Iam very thrilled the work that you done | |Faadumo |Please make this conference regularly and invite those Doctors who always make posative change in their communitg and those who always make a research and gonna to publish studies by sharing their knowledge to others. | |Tex Chi |waiting for 2025MSC | |Wang Yen Hsiang |Very good conference | |Tex Chi |mahasanid | |Hassan nur |Well organized even thank you . Such conference are much needed in somaliland . | |Dr.&nbsp;Abdillahi Abdi Ali |Articles and publications should be focused than text book presentations. | |Dr.&nbsp;Abdillahi Abdi Ali |Oncology department is missing from the HGH, which needs to be stablished. | |Dr.Nouh Ismail |1. Topics should includes research, articles and case done in hospitals of somaliland.</p></li>
+<li><p>Lectures should contain relevent pictures | |Dr Abdirahman |Iam very thrilled the work that you done | |Faadumo |Please make this conference regularly and invite those Doctors who always make posative change in their communitg and those who always make a research and gonna to publish studies by sharing their knowledge to others. | |Tex Chi |waiting for 2025MSC | |Wang Yen Hsiang |Very good conference | |Tex Chi |mahasanid | |Hassan nur |Well organized even thank you . Such conference are much needed in somaliland . | |Dr.&nbsp;Abdillahi Abdi Ali |Articles and publications should be focused than text book presentations. | |Dr.&nbsp;Abdillahi Abdi Ali |Oncology department is missing from the HGH, which needs to be stablished. | |Dr.Nouh Ismail |1. Topics should includes research, articles and case done in hospitals of somaliland.</p></li>
+<li><p>Lectures should contain relevent pictures | |Dr Abdirahman |Iam very thrilled the work that you done | |Faadumo |Please make this conference regularly and invite those Doctors who always make posative change in their communitg and those who always make a research and gonna to publish studies by sharing their knowledge to others. |</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>The 2024 Multi-Specialty Conference successfully brought together healthcare professionals from various specialties to discuss important public health topics. The positive feedback received from the participants demonstrates the conference’s impact and the need for similar events in the future. The organizing committee will take the feedback and suggestions into consideration to improve the upcoming conferences and continue to contribute to the advancement of healthcare in Somaliland.</p>
+<p>We wish see you soon on 2025MSC in Somaliland!</p>
+<p>In sha Allah, إن شاء الله</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
