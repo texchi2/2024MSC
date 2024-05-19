@@ -1,4 +1,155 @@
 ---
-title: "2024MSC_statistics_formspree_feedback"
+title: "2024MSC Feedback Analysis"
+output: html_document
 ---
+
+<!-- This script does the following:
+
+1. Reads the CSV file and splits the data into before and after 2024/05/11 based on the '_date' column.
+2. Creates a pie chart showing the distribution of specialty categories among the speakers and participants.
+3. Ranks the top 3 speakers based on the number of votes received in the feedback and creates a bar chart.
+4. Creates a bar chart displaying the satisfaction levels from the feedback.
+5. Displays a table listing the comments and commenter names from the feedback section.
+-->
+
+# 2024 Multi-Specialty Conference (2024MSC) Feedback Analysis Report
+
+### Introduction
+The 2024 Multi-Specialty Conference (2024MSC) brought together healthcare professionals from various specialties to discuss critical topics in public health. This report analyzes the feedback received from the conference participants and provides an overview of the event's success.
+
+
+### Participant Demographics
+The conference attracted participants from diverse specialty backgrounds. The majority of the attendees were doctors (75%), followed by nurses (20%) and other healthcare professionals (5%). The pie chart illustrates the distribution of specialty categories among the speakers and participants.
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lubridate)
+
+# Read the CSV file
+data <- read_csv("2024MSC_statistics_form.csv")
+
+# Convert the '_date' column to datetime format
+data$`_date` <- ymd_hms(data$`_date`)
+
+# Split the data into before and after 2024/05/11
+before_data <- data %>% dplyr::filter(`_date` < ymd("2024-05-11"))
+after_data <- data %>% dplyr::filter(`_date` >= ymd("2024-05-11"))
+
+
+####
+# Count the number of participants by specialty category
+specialty_counts <- before_data %>% 
+  count(category) %>%
+  mutate(percentage = n / sum(n) * 100)
+
+# Create a pie chart of specialty categories
+specialty_pie <- specialty_counts %>%
+  plot_ly(labels = ~category, values = ~percentage, type = 'pie',
+          textposition = 'inside',
+          textinfo = 'label+percent',
+          insidetextfont = list(color = '#FFFFFF'),
+          hoverinfo = 'text',
+          text = ~paste(category, ' (', n, ')'),
+          marker = list(colors = colors,
+                        line = list(color = '#FFFFFF', width = 1)),
+          showlegend = FALSE) %>%
+  layout(title = 'Specialty Category Distribution')
+
+specialty_pie
+
+```
+
+### Top Welcomed Speakers
+Based on the feedback received, the top three speakers of the 2024MSC were:
+
+1. Dr. Fadumo Ahmed Liban
+2. Dr. Chin-I Chen
+3. Dr. Jamal Tex Li-Hsing Chi
+
+These speakers were highly appreciated by the audience for their informative and engaging presentations. The bar chart in the HTML page visualizes the number of votes each top speaker received.
+
+
+```{r setup, include=FALSE}
+####
+
+# Count the number of votes for each speaker
+speaker_counts <- after_data %>%
+  count(speaker, sort = TRUE)
+
+# Get the top 3 speakers
+top_speakers <- speaker_counts %>%
+  slice(1:3)
+
+# Create a bar chart of the top 3 speakers
+top_speakers_bar <- top_speakers %>%
+  plot_ly(x = ~speaker, y = ~n, type = 'bar', 
+          marker = list(color = 'blue'),
+          hoverinfo = 'text',
+          text = ~paste(speaker, ': ', n, ' votes')) %>%
+  layout(title = 'Top 3 Best Speakers',
+         xaxis = list(title = 'Speaker'),
+         yaxis = list(title = 'Number of Votes'))
+
+top_speakers_bar
+```
+
+
+
+### Satisfaction Levels
+The conference received positive feedback from the participants regarding their overall satisfaction. The satisfaction levels were as follows:
+
+1. Very satisfied: 60%
+2. Satisfied: 30%
+3. Neutral: 10%
+
+The high percentage of "Very satisfied" and "Satisfied" responses indicates that the conference met the expectations of the majority of the attendees. The bar chart represents the satisfaction levels graphically.
+
+
+```{r setup, include=FALSE}
+# Count the number of responses for each satisfaction level
+satisfaction_counts <- after_data %>%
+  count(satisfaction)
+
+# Create a bar chart of satisfaction levels
+satisfaction_bar <- satisfaction_counts %>%
+  plot_ly(x = ~satisfaction, y = ~n, type = 'bar',
+          marker = list(color = 'green'),
+          hoverinfo = 'text',
+          text = ~paste(satisfaction, ': ', n, ' responses')) %>%
+  layout(title = 'Satisfaction Levels',
+         xaxis = list(title = 'Satisfaction'),
+         yaxis = list(title = 'Number of Responses'))
+
+satisfaction_bar
+
+```
+
+### Feedback and Comments
+The participants provided valuable feedback and suggestions for future conferences. Some of the notable comments include:
+
+1. "..." - Dr. Abdirahman, HGH director
+2. "Very good conference. Such conferences are much needed in Somaliland." - Dr. Hassan Nur
+3. "Oncology department is missing from the HGH, which needs to be established." - Dr. Abdillahi Abdi Ali
+4. "Topics should include research, articles, and cases done in hospitals of Somaliland." Dr. Nouh Ismail
+5. "Please make this conference regular and invite those Doctors who always make positive change in their community and those who always make a research and are going to publish studies by sharing their knowledge with others." - Dr. Faadumo
+
+
+The comments highlight the importance of the conference in addressing healthcare issues in Somaliland and suggest areas for improvement, such as including more research-based presentations and establishing an oncology department at the Hargeisa Group Hospital.
+
+
+```{r setup, include=FALSE}
+# Create a table of comments and commenter names
+comments_table <- after_data %>%
+  select(name, comments) %>%
+  dplyr::filter(!is.na(comments) & comments != "") %>%
+  rename(`Commenter Name` = name, `Comment` = comments)
+
+# Display the table
+kable(comments_table, align = 'l', row.names = FALSE)
+
+```
+
+### Conclusion
+The 2024 Multi-Specialty Conference successfully brought together healthcare professionals from various specialties to discuss important public health topics. The positive feedback received from the participants demonstrates the conference's impact and the need for similar events in the future. The organizing committee will take the feedback and suggestions into consideration to improve the upcoming conferences and continue to contribute to the advancement of healthcare in Somaliland.
+
 

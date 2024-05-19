@@ -1,0 +1,56 @@
+---
+title: "Original Research Article"
+format: html
+---
+Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study
+
+(article is available at <a href="https://www.longdom.org/open-access/seroprevalence-of-dengue-virus-infection-and-associated-factors-among-patients-with-febrile-illness-attending-at-edna-adan-univers-101897.html" target="_blank">Hussein et al., 2023</a>)
+
+## Summary
+
+This study, conducted by Hussein Mohamoud Nour, Mohamed Abdiqadir Ahmed, and Alemayehu Bayray Kahsay, is the first scientific publication on dengue fever in Somaliland. The cross-sectional study aimed to estimate the prevalence of dengue fever by detecting DENV-specific antibodies (IgM/IgG) among patients with febrile illness attending Edna Adan University Hospital in Hargeisa, Somaliland, from October to November 2022.
+
+### Key Results
+
+1. The overall incidence rate of dengue virus infection among patients with febrile illness was 37% (20 out of 54 patients).
+2. A higher incidence rate of dengue fever (5.9%) was observed in patients older than 50 years, followed by 5.6% in patients aged between 41-50 years.
+3. Among the dengue-positive patients, 50% tested positive for IgG, 35% for IgM, and 15% for both IgG and IgM.
+4. Factors such as gender (p<0.007), presence of fever (p<0.001), and retro-orbital pain were significantly associated with dengue seropositivity.
+
+### Discussion Highlights
+
+1. This study confirms the circulation of DENV in Somaliland and the presence of the Aedes mosquito species in all regions of the country.
+2. The incidence rate of 37% is comparable to studies conducted in India (31.5%) and Eritrea (33.3%), but higher than those reported in north-southern Nigeria (18%), Jordan (24.6%), and Lagos (24.9%).
+3. The high prevalence of dengue IgG (50%) indicates that a large proportion of the population has been exposed to DENV during the outbreak in the country.
+4. The study emphasizes the need for improved vector control measures, entomology studies, and a strong surveillance system in Somaliland, given the impact of climate change on the emergence and re-emergence of vector-borne diseases.
+5. Future large-scale investigations and molecular detection are warranted to discover different virus serotypes and better understand the epidemiology of dengue fever in Somaliland.
+
+In conclusion, this study provides the first evidence of dengue virus infection circulation in Somaliland and highlights the need for enhanced prevention, control, and surveillance measures to address this emerging public health threat.
+
+### Severe dengue
+
+The correlation between re-infection with a different DENV serotype and severe dengue can be explained by the antibody-dependent enhancement (ADE) phenomenon. When an individual is infected with one DENV serotype, they develop antibodies specific to that serotype. However, if they are later infected with a different DENV serotype, the pre-existing antibodies may not neutralize the virus effectively. Instead, these antibodies can enhance the entry of the virus into host cells, leading to increased viral replication and a more severe form of the disease, known as severe dengue or dengue hemorrhagic fever (DHF).
+
+Factors contributing to severe dengue include:
+
+1. Previous infection with a different DENV serotype, leading to ADE.
+2. Host genetic factors that may influence the immune response to DENV infection.
+3. Virulence of the specific DENV strain causing the infection.
+4. Age of the patient, with children and older adults being more susceptible to severe dengue.
+5. Presence of comorbidities, such as diabetes, hypertension, or chronic kidney disease.
+
+
+### Critical challenge questions for the author, Hussein Mohamoud Nour:
+
+1. What was the timing of blood sample collection for the study participants in relation to the onset of fever? This is crucial because the presence of NS1 antigen, IgM, and IgG antibodies varies depending on the stage of infection.
+   - NS1 antigen is detectable early in the course of infection, typically from day 1 to day 9 after the onset of symptoms.
+   - IgM antibodies appear around 3-5 days after the onset of symptoms and can persist for several weeks to a few months.
+   - IgG antibodies develop about a week after the onset of symptoms and can persist for several years.
+
+2. Why was NS1 antigen not checked in this study? NS1 antigen testing is a valuable tool for early diagnosis of dengue fever, as it can be detected before the appearance of antibodies. Including NS1 antigen testing could have provided a more comprehensive picture of the prevalence of dengue virus infection in the study population.
+
+3. Is there a possibility of underestimating the number of cases based on IgM or IgG antibodies if blood samples were drawn at the time of admission? If blood samples were collected very early in the course of infection, IgM and IgG antibodies might not have developed yet, leading to false-negative results and an underestimation of the true prevalence of dengue virus infection.
+
+Addressing these questions would help clarify the study's methodology and strengthen the interpretation of the findings. Furthermore, the inclusion of NS1 antigen testing in future studies could provide a more accurate assessment of the burden of dengue fever in Somaliland.
+
+
