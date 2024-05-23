@@ -12,7 +12,7 @@ website:
         text: Agenda
       - href: abstract_uploads.qmd
         text: Abstract and keynote
-      - href: project_HGH_laparoscopicCentre.qmd
+      - href: 2024Project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
       - href: thanks.qmd
         text: Acknowledgements

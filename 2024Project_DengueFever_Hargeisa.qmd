@@ -1,0 +1,41 @@
+---
+title: "2024 Project Dengue Fever"
+format: html
+---
+
+### Part III: MoHD Healthcare System Organizational Structure in Somaliland
+
+
+```{latex}
+\begin{tikzpicture}[
+    level 1/.style={sibling distance=40mm},
+    level 2/.style={sibling distance=20mm},
+    level 3/.style={sibling distance=15mm},
+    every node/.style={rectangle,draw,align=center}
+  ]
+
+  \node {Ministry of Health Development (MoHD)}
+    child {node {Regional Medical Officer\\(Maroodijeeh Region)}}
+    child {node {Other Regional\\Medical Officers}};
+
+  \node [below=of {Regional Medical Officer\\(Maroodijeeh Region)}] (HargeisaDistrict) {Hargeisa District Medical Office}
+    child {node {31 May}}
+    child {node {26 June}}
+    child {node {Ahmed Dhagah}}
+    child {node {Ahmed Moallim Haruun}}
+    child {node {Gacan Libaax}}
+    child {node {Ibrahim Kodbuur}}
+    child {node {Mohamoud Haibe}}
+    child {node {Mohamed Moge}};
+
+  \node [left=of HargeisaDistrict] {Public Sector Health System}
+    child {node {Primary Health Units (PHUs)}}
+    child {node {Health Centers (HCs)}}
+    child {node {Referral Health Centers (RHCs)}}
+    child {node {Regional Hospitals}}
+    child {node {Specialist Hospitals\\(TB, Mental, FGM)}}
+    child {node {Hargeisa Group Hospital (HGH)}};
+
+\end{tikzpicture}
+
+```
