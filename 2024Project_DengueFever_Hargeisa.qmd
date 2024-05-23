@@ -1,24 +1,35 @@
 ---
 title: "2024 Project Dengue Fever"
-format: html
+format: 
+  pdf:
+    documentclass: article
+    include-in-header:
+      - text: |
+          \usepackage[utf8]{inputenc}
+          \usepackage{pgfgantt}
+          \usepackage{tikz}
+          \usetikzlibrary{positioning}
 ---
+
 
 ### Part III: MoHD Healthcare System Organizational Structure in Somaliland
 
+\pagenumbering{gobble}
 
-```{latex}
+
 \begin{tikzpicture}[
-    level 1/.style={sibling distance=40mm},
-    level 2/.style={sibling distance=20mm},
-    level 3/.style={sibling distance=15mm},
+    grow=right,
+    level 1/.style={sibling distance=20mm},
+    level 2/.style={sibling distance=10mm},
+    level 3/.style={sibling distance=8mm},
     every node/.style={rectangle,draw,align=center}
   ]
 
   \node {Ministry of Health Development (MoHD)}
-    child {node {Regional Medical Officer\\(Maroodijeeh Region)}}
-    child {node {Other Regional\\Medical Officers}};
+    child {node (Maroodijeeh) {Regional Medical Officer \\ (Maroodijeeh Region)}}
+    child {node {Other 5 Regional\\ Medical Officers}};
 
-  \node [below=of {Regional Medical Officer\\(Maroodijeeh Region)}] (HargeisaDistrict) {Hargeisa District Medical Office}
+  \node [right=of Maroodijeeh] (HargeisaDistrict) {Hargeisa District \\Medical Office}
     child {node {31 May}}
     child {node {26 June}}
     child {node {Ahmed Dhagah}}
@@ -28,14 +39,14 @@ format: html
     child {node {Mohamoud Haibe}}
     child {node {Mohamed Moge}};
 
-  \node [left=of HargeisaDistrict] {Public Sector Health System}
+  \node [right=of HargeisaDistrict] {Public Sector Health System}
     child {node {Primary Health Units (PHUs)}}
     child {node {Health Centers (HCs)}}
     child {node {Referral Health Centers (RHCs)}}
     child {node {Regional Hospitals}}
-    child {node {Specialist Hospitals\\(TB, Mental, FGM)}}
+    child {node {Specialist Hospitals \\ (TB, Mental, FGM)}}
     child {node {Hargeisa Group Hospital (HGH)}};
 
 \end{tikzpicture}
 
-```
+
