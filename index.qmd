@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-<img src="images/IMG_2768.jpeg" alt="2024 Multi-Specialty Conference Banner" style="width: 120%; height: auto;">
+<img src="images/a-digital-masterpiece-capturing-the-essence-of-the-z7cKitahQZanjoUrqNsv1A-r-V9vPsfSCqL8tg3dPf3cw.jpeg" alt="2024 Multi-Specialty Conference Banner" style="width: 100%; height: auto;">
 
 <!-- Rest of our text content -->
 
