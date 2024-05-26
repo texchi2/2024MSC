@@ -1,0 +1,33 @@
+---
+title: "The current cervical cancer prevention and control strategies in Somaliland"
+---
+
+The key points regarding cervical cancer prevention and control strategies in Somaliland:
+
+- Knowledge and awareness about cervical cancer, its risk factors, screening methods like HPV DNA, Pap smears, and prevention through HPV vaccination is very low among Somali women [1][2][4]. Many Somali women are not familiar with cervical cancer screening tests and concepts.
+
+- There is a lack of national cervical cancer screening programs and HPV vaccination programs in Somalia [1] and Somaliland. Constraints in implementing and sustaining screening programs have limited the effectiveness of secondary prevention efforts.
+
+- Primary prevention through HPV vaccination is identified as a cost-effective preventive measure, but none of the Somali students surveyed had received the HPV vaccine [1]. Establishing national HPV vaccination strategies is recommended in Somaliland.
+
+- Barriers to cervical cancer screening among Somali women include limited knowledge, language difficulties, fear of the test, embarrassment exposing one's body, negative past experiences, and cultural factors like preferring female providers [2][4].
+
+- Efforts are needed to increase awareness through culturally-appropriate health education programs targeting Somali women and their families (especially Somali Men) about cervical cancer, HPV, and prevention methods [1][4].
+
+- Involving Somali men, who are often the key decision-makers in households, in cervical cancer prevention education could help increase uptake of screening and HPV vaccination among Somali women and adolescents [3].
+
+In summary, the literature highlights low levels of cervical cancer awareness and limited access to screening and vaccination services as major gaps in Somaliland and Somalia. Implementing national prevention programs, educational interventions tailored to Somali communities, and involving male household decision-makers are recommended strategies to improve cervical cancer control efforts in line with WHO goals [1][3][4].
+
+Citations:
+
+[1] <a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Knowledge, Awareness and Behaviors of Somalian Female University Students regarding Cervical Cancer, HPV and the HPV Vaccine: A Cross-Sectional Study</a>
+
+[2] <a href="https://dhhs.ne.gov/Documents/Cervical%20Cancer%20Attitudes%20and%20Knowledge%20in%20Somali%20Refugees%20in%20Nebraska.pdf" target="_blank"> Cervical Cancer Attitudes and Knowledge in Somali Refugees in ...</a>
+
+[3] <a href="https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/" target="_blank">Men May Be Key to Cervical Cancer Prevention Among Somali Women and Children</a>
+
+[4] <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Cervical Cancer: Barriers to screening in the Somali community in Minnesota</a>
+
+[5] <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10111298/" target="_blank">A Cervical Cancer Screening Toolkit for Somali Women: A Pilot Randomized Controlled Trial</a>
+ 
+
