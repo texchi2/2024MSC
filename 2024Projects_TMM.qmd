@@ -156,11 +156,12 @@ C. 台澳兩國在索馬利蘭的醫療合作：
   - prepare IECM (in somali language)
   - 試劑需定期補充,須建立長期供應管道=>  WHO prequalifies new dengue vaccine (https://www.who.int/news/item/15-05-2024-who-prequalifies-new-dengue-vaccine)
 
-<iframe src="docs/2024Project_DengueFever_Hargeisa-tikz.pdf" type="application/pdf" width="100%" height="100%"></iframe>
-
 <!--
-<img src="images/in-islamic-style-please-generate-an-illustration-t-20To_QkjSzq0xI_1XG5vAA-o803jGFyQaKUlTwVwHmazA.jpeg" alt="Progress Report (2024/05/27)" style="width: 100%; height: auto;">
+<iframe src="docs/2024Project_DengueFever_Hargeisa-tikz.pdf" type="application/pdf" width="100%" height="100%"></iframe>
 -->
+
+<img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
+
 
 - **Action points**:    
 
@@ -264,7 +265,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
   8. HPV疫苗推動事宜:
    - 向外交部說明HPV疫苗的必要性及優勢。  
-   - 與外交部達成共識,確定是否購買疫苗及所需數量。
+   - 與外交部達成共識,確定是否購買疫苗及所需數量。根據2023年調查，Hargeisa有5萬名9~14歲女學生(MoES教育部DG提供資料)
    - 黃醫師協助溝通,取得外交部支持後,向其報告推動方案。
 
 
@@ -346,7 +347,7 @@ Appendix
 
 
 
-
+<!--
 ###############################
 (before 2024/05/10 discussion)
 ## Taiwan Medical Mission
@@ -501,3 +502,4 @@ Collaborative Synergy: The Power of TMM and HGH's Daily Partnership
   1) 請求衛生部，替換大型車輛(Land Cruiser 八人座以上)
   2) 目前上班、下班，暫時均需要分為兩趟、甚至三趟行車。
 
+-->

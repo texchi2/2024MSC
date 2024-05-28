@@ -1,5 +1,6 @@
 ---
 title: "2024 Project Dengue Fever"
+title-block-style: none
 format: 
   pdf:
     documentclass: article
@@ -14,64 +15,56 @@ format:
 ---
 
 
-### MoHD Organizational Healthcare System in Somaliland
+### Adminitrative System in Somaliland
 
 \pagenumbering{gobble}
 
-
 \begin{tikzpicture}[
-    grow=right,
-    level 1/.style={sibling distance=10mm},
-    level 2/.style={sibling distance=10mm},
-    level 3/.style={sibling distance=10mm},
-    level distance=32mm,
-    every node/.style={rectangle,draw,align=center}
-  ]
+  grow=right,
+  level 1/.style={sibling distance=10mm},
+  level 2/.style={sibling distance=15mm},
+  level 3/.style={sibling distance=15mm},
+  level distance=32mm,
+  every node/.style={rectangle,draw,align=center}
+]
 
-  \node {MoHD}
-    child {node (Maroodijeeh) {Maroodijeeh (Region \\ Medical Office)}
-      child {node (HargeisaDistrict) {Hargeisa District \\Medical Office}
-        child {node {31 May}}
-        child {node {26 June}}
-        child {node {Ahmed Dhagah}}
-        child {node {Mohamed Moge}}
-        child {node {Gacan Libaax}}
-        child {node {Ibrahim Kodbuur}}
-        child {node {Mohamoud Haibe}}
-        child {node {Ahmed Moallim Haruun}} } }
-      child {node {Gebiley District \\Medical Office}
-    child {node {Togdheer Region}}
-    child {node {Sahil Region}}
-    child {node {Awdal Region}}
-    child {node {Sool Region}}
-    child {node {Sanaag Region}};
+\node (Somaliland) {Somaliland}
+  child {node (Maroodijeeh) {Maroodijeeh (Region \\ Medical Office)}
+    child {node {Gebiley District \\Medical Office}}
+    child {node (HargeisaDistrict) {Hargeisa District \\Medical Office}
+      child {node {31 May}}
+      child {node {26 June}}
+      child {node {Ahmed Dhagah}}
+      child {node {Mohamed Moge}}
+      child {node {Gacan Libaax}}
+      child {node {Ibrahim Kodbuur}}
+      child {node {Mohamoud Haibe}}
+      child {node {Ahmed Moallim Haruun}}
+    }
+  }
+  child {node {Togdheer Region}}
+  child {node {Sahil Region}}
+  child {node {Awdal Region}}
+  child {node {Sool Region}}
+  child {node {Sanaag Region}};
 
+
+\node [below=70mm of Somaliland, draw=none] (title2) {\textbf{MoHD Organizational Healthcare System in Somaliland}};
+
+
+\node [below=55mm of title2] (MoHD) {MoHD};
+
+\node [right=5mm of MoHD] (Public) {Public Sector}
+  child {node {Primary Health Units \\ (PHUs)}}
+  child {node {Health Centers\\ (HCs)}}
+  child {node {Referral Health Centers\\ (RHCs)}}
+  child {node {Regional Hospitals}}
+  child {node {Specialist Hospitals \\ (TB, Mental, FGM)}}
+  child {node {Hargeisa Group Hospital\\ (HGH)}};
+
+\draw (MoHD) -- (Public);
 
 \end{tikzpicture}
 
-%
 
-
-\begin{tikzpicture}[
-    grow=right,
-    level 1/.style={sibling distance=10mm},
-    level 2/.style={sibling distance=10mm},
-    level 3/.style={sibling distance=10mm},
-    level distance=32mm,
-    every node/.style={rectangle,draw,align=center}
-  ]
-
-  \node (MoHD) {MoHD}
-
-
-  \node [right=5mm of MoHD] (Public) {Public Sector}
-    child {node {Primary Health Units \\ (PHUs)}}
-    child {node {Health Centers\\ (HCs)}}
-    child {node {Referral Health Centers\\ (RHCs)}}
-    child {node {Regional Hospitals}}
-    child {node {Specialist Hospitals \\ (TB, Mental, FGM)}}
-    child {node {Hargeisa Group Hospital\\ (HGH)}};
-
-  \draw (MoHD) -- (Public);
-\end{tikzpicture}
 
