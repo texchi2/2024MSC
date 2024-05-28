@@ -264,9 +264,13 @@ C. 台澳兩國在索馬利蘭的醫療合作：
    - 萬芳醫院定期監督品質,確保判讀結果的可靠性。
 
   8. HPV疫苗推動事宜:
-   - 向外交部說明HPV疫苗的必要性及優勢。  
+   - 向外交部說明HPV疫苗的必要性及優勢(**獲得WHO, UNICEF, UNAIDS, IPPF肯定**的必要方式)。  
    - 與外交部達成共識,確定是否購買疫苗及所需數量。根據2023年調查，Hargeisa有5萬名9~14歲女學生(MoES教育部DG提供資料)
    - 黃醫師協助溝通,取得外交部支持後,向其報告推動方案。
+   - WHO的90-70-90，是分成
+      - Primary prevention: HPV vaccine
+      - Secondary prevention: Cancer screening (cytology, VIA, HPV DNA testing) plus treatment for precancerous lesions (thermal ablation/warm therapy or CO2 laser/cold therapy, LEEP)
+      - Tertiary prevention: Cancer management, including surgery, chemotherapy, radiotherapy, combined, and palliative care 
 
 
 
