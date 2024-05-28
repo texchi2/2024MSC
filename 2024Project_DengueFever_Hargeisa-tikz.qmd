@@ -14,7 +14,7 @@ format:
 ---
 
 
-### Part III: MoHD Organizational Healthcare System in Somaliland
+### MoHD Organizational Healthcare System in Somaliland
 
 \pagenumbering{gobble}
 
@@ -39,13 +39,32 @@ format:
         child {node {Ibrahim Kodbuur}}
         child {node {Mohamoud Haibe}}
         child {node {Ahmed Moallim Haruun}} } }
+      child {node {Gebiley District \\Medical Office}
     child {node {Togdheer Region}}
     child {node {Sahil Region}}
     child {node {Awdal Region}}
     child {node {Sool Region}}
     child {node {Sanaag Region}};
 
-  \node [right=20mm of HargeisaDistrict] (Public) {Public Sector}
+
+\end{tikzpicture}
+
+%
+
+
+\begin{tikzpicture}[
+    grow=right,
+    level 1/.style={sibling distance=10mm},
+    level 2/.style={sibling distance=10mm},
+    level 3/.style={sibling distance=10mm},
+    level distance=32mm,
+    every node/.style={rectangle,draw,align=center}
+  ]
+
+  \node (MoHD) {MoHD}
+
+
+  \node [right=5mm of MoHD] (Public) {Public Sector}
     child {node {Primary Health Units \\ (PHUs)}}
     child {node {Health Centers\\ (HCs)}}
     child {node {Referral Health Centers\\ (RHCs)}}
@@ -53,7 +72,6 @@ format:
     child {node {Specialist Hospitals \\ (TB, Mental, FGM)}}
     child {node {Hargeisa Group Hospital\\ (HGH)}};
 
-  \draw (HargeisaDistrict) -- (Public);
+  \draw (MoHD) -- (Public);
 \end{tikzpicture}
-
 
