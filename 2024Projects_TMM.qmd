@@ -42,13 +42,15 @@ format:
         - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
         - Dr. Khadar Good Nur (Infection Prevention Centre Director)
 
-  - gantt chart (2024):
+  - gantt chart (2024):@fig-gantt
   
 <!-- 
 <img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
 -->
 
-![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-tikz}
+![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-gantt width=110%}
+
+
 
   - **Action points**(who/when):
 
@@ -171,7 +173,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 <img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
 -->
 
-![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikz.pdf){#fig-tikz}
+![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikz.pdf){#fig-tikz width=110% height=150%}
 
 - **Action points**:    
 
@@ -187,7 +189,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
    - 預計由SAHA NCD director Dr. Ahmed Hersi 提供。
    - 待與Dr. Ahmed 取得資料(紙本登記簿)進行分析整理。
 
-  3. 索馬利蘭行政區劃分與醫療資源分佈:
+  3. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz
    - 6 regions in Somaliland。
    - Maroodijeeh Region分為2個District。
    - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
