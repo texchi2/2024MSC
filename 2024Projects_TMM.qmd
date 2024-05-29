@@ -173,7 +173,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 <img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
 -->
 
-![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikz.pdf){#fig-tikz width=110% height=150%}
+![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikz.pdf){#fig-tikz width=100% height=90% page=2}
 
 - **Action points**:    
 

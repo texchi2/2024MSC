@@ -1,6 +1,5 @@
 ---
-title: "2024 Project Dengue Fever"
-title-block-style: none
+title: "2024"
 format: 
   pdf:
     documentclass: article
@@ -12,6 +11,11 @@ format:
           \usetikzlibrary{positioning}
           \let\svtikzpicture\tikzpicture
           \def\tikzpicture{\noindent\svtikzpicture}
+          \pagenumbering{gobble}
+          \usepackage{atbegshi}
+          \AtBeginDocument{\let\maketitle\relax}
+          \AtBeginDocument{\thispagestyle{empty}}
+    keep-tex: true
 ---
 
 
