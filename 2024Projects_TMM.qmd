@@ -42,7 +42,11 @@ format:
         - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
         - Dr. Khadar Good Nur (Infection Prevention Centre Director)
 
-  - **Action points**:
+  - gantt chart (2024):
+<img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
+
+
+  - **Action points**(who/when):
 
   1. 赴臺受訓人員之科別應與短期主題醫療錯開,避免互相不見。並須考量萬芳醫院的教學量能。
 
