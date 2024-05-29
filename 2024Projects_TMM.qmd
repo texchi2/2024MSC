@@ -43,8 +43,12 @@ format:
         - Dr. Khadar Good Nur (Infection Prevention Centre Director)
 
   - gantt chart (2024):
+  
+<!-- 
 <img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
+-->
 
+![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-tikz}
 
   - **Action points**(who/when):
 
@@ -162,10 +166,12 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
 <!--
 <iframe src="docs/2024Project_DengueFever_Hargeisa-tikz.pdf" type="application/pdf" width="100%" height="100%"></iframe>
--->
+
 
 <img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
+-->
 
+![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikz.pdf){#fig-tikz}
 
 - **Action points**:    
 
