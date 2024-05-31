@@ -1,5 +1,5 @@
 ---
-title: "2024"
+title: "2024 Dengue Fever Project"
 format: 
   pdf:
     documentclass: article
@@ -12,16 +12,18 @@ format:
           \let\svtikzpicture\tikzpicture
           \def\tikzpicture{\noindent\svtikzpicture}
           \pagenumbering{gobble}
-          \usepackage{atbegshi}
-          \AtBeginDocument{\let\maketitle\relax}
-          \AtBeginDocument{\thispagestyle{empty}}
-    keep-tex: true
+    template-partials:
+      - before-body.tex
 ---
+<!-- modify before-body.tex
+to remove titlepage and frontmatter
+https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/
+-->
 
 
-### Adminitrative System in Somaliland
+## Adminitrative System in Somaliland
 
-\pagenumbering{gobble}
+
 
 \begin{tikzpicture}[
   grow=right,

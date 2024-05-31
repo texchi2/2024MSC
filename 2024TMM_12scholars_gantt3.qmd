@@ -8,54 +8,60 @@ format:
       - text: |
           \usepackage[utf8]{inputenc}
           \usepackage{pgfgantt}
+    template-partials:
+      - before-body.tex
 ---
-```{=html}
-html
-```
+<!-- modify before-body.tex
+to remove titlepage
+https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/
+-->
 
 ## Visiting Scholars Schedule to TMWH
 \pagenumbering{gobble}
 
-\begin{ganttchart}[vgrid,hgrid,progress label text={}, y unit chart=0.85cm]{1}{12}
-    \gantttitle{2024}{12} \\ % Year 2024 with a total of 12 months
+\begin{ganttchart}[vgrid,hgrid,progress label text={}, y unit chart=0.85cm, x unit=0.45cm]{1}{12}
+    \gantttitle{2024}{12}  \\ % Year 2024 with a total of 12 months
 
-    \gantttitlelist{1,...,12}{1} \\ % Months from January to December
+    \gantttitlelist{1,...,12}{1}  \\ % Months from January to December
     
 % Dr. Chen, TMWH Pathologist TO HGH
 % ***** 2025; or 2024 backup: Dr. Abdilahi Abdi (general surgery), Dr. Afnan (general surgery, after delivery her baby)
 % 2025: hemodialysis centre; blood bank technicians
 
-\ganttgroup{Batch 1}{9}{11} \\
+\ganttgroup{Batch 1}{8}{9} \\
+%\ganttmilestone{}{9} \\
+    \ganttbar[progress=100]{Dr. Saed Mohamed Osman (Resident, Orthopedic)}{10}{12} \\
+    \ganttbar[progress=100]{Dr. Mohamed Hassan Nur (Resident, Orthopedic)}{10}{12} \\
+%    \ganttbar[progress=100]{Dr. Ahmed Saeed (Orthopedic)}{9}{11} \\
+%    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{9}{11} \\ 
+
+
+
+\ganttgroup{Batch 2}{9}{11} \\
 %\ganttmilestone{}{6} \\
-    \ganttbar[progress=100]{Dr. Nouh Ismail Mohamed (General Surgery)}{9}{11} \\
+    \ganttbar[progress=100]{Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep}{6}{9} \\
 %    \ganttbar[progress=100]{Dr. Saed Osman (Orthopedic)}{6}{8} \\
-    \ganttbar[progress=100]{Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)}{10}{12} \\
-    \ganttbar[progress=100]{Dr. Hassan Mohamoud Nour (Resident, Orthopedic)}{10}{12} \\
-    \ganttbar[progress=100]{Mr. Ahmed Hussein Jama (Nurse, OT director)}{10}{12} \\
-    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{9}{11} \\ 
+    \ganttbar[progress=100]{Mr. Ahmed Hussein Jama (Nurse, OT director)}{9}{11} \\
+    \ganttbar[progress=100]{Mr. Mustafe Muse Mohamed (Technician, Pathology)}{9}{11} \\
+    \ganttbar[progress=100]{Dr. Abdihamid Mohamed Ali  (Neurosurgery)}{9}{11} \\
+
 %
 
 % Dr. Mustefe (Emergency), Miss Rakia (Ward nurse)
 % Dr. Wei, TMWH Neurosurgeon TO HGH
 
-\ganttgroup{Batch 2}{7}{9} \\
+\ganttgroup{Batch 3}{10}{12} \\
 %\ganttmilestone{}{7} \\
 %    \ganttbar[progress=100]{Dr. Yassin Awil (Orthopedic)}{7}{9} \\
-    \ganttbar[progress=100]{Dr. Abdihamid Mohamed Ali  (Neurosurgery)}{9}{11} \\
+    \ganttbar[progress=100]{Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)}{6}{9} \\
+    \ganttbar[progress=100]{Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep}{6}{9} \\
+    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{10}{12} \\ 
     \ganttbar[progress=100]{Dr. Adnan Sayid Abdo (General Surgery)}{10}{12} \\
     \ganttbar[progress=100]{Dr. Omer Mohamed Bihi (Pathology)}{10}{12} \\ % HPV DNA
-    \ganttbar[progress=100]{Dr. Idiris Hassan Dahir (Cardiologist)}{9}{11} \\  % CCU, ICU
+    \ganttbar[progress=100]{Dr. Idiris Hassan Dahir (Cardiologist)}{10}{12} \\  % CCU, ICU
 
 %
 % Dr. Chen, TMWH Orthopedic surgeon TO HGH
-
-\ganttgroup{Batch 3}{10}{12} \\
-%\ganttmilestone{}{9} \\
-    \ganttbar[progress=100]{Dr. Saed Mohamed Osman (Resident, Orthopedic)}{8}{9} \\
-    \ganttbar[progress=100]{Dr. Mohamed Hassan Nur (Resident, Orthopedic)}{8}{9} \\
-%    \ganttbar[progress=100]{Dr. Ahmed Saeed (Orthopedic)}{9}{11} \\
-%    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{9}{11} \\ 
-    \ganttbar[progress=100]{Mr. Mustafe Muse Mohamed (Technician, Pathology)}{9}{11} 
 
 
 
