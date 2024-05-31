@@ -492,8 +492,15 @@
   {
     "objectID": "2024Project_DengueFever_Hargeisa-tikz.html",
     "href": "2024Project_DengueFever_Hargeisa-tikz.html",
-    "title": "2024 Project Dengue Fever",
+    "title": "2024 Dengue Fever Project",
     "section": "",
-    "text": "Adminitrative System in Somaliland"
+    "text": "#| echo: false\n# removal of titlepage\n\npdfseparate -f 2 -l 2 \"2024Project_DengueFever_Hargeisa-tikz.pdf\" \"2024Project_DengueFever_Hargeisa-tikz_p2.pdf\"\n\n# pdfseparate sample.pdf sample-%d.pdf"
+  },
+  {
+    "objectID": "2024Project_DengueFever_Hargeisa-tikz.html#adminitrative-system-in-somaliland",
+    "href": "2024Project_DengueFever_Hargeisa-tikz.html#adminitrative-system-in-somaliland",
+    "title": "2024 Dengue Fever Project",
+    "section": "",
+    "text": "#| echo: false\n# removal of titlepage\n\npdfseparate -f 2 -l 2 \"2024Project_DengueFever_Hargeisa-tikz.pdf\" \"2024Project_DengueFever_Hargeisa-tikz_p2.pdf\"\n\n# pdfseparate sample.pdf sample-%d.pdf"
   }
 ]

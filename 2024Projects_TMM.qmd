@@ -172,15 +172,16 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
 
 <img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
--->
+
 
 ```{bash}
-#| echo: fenced
+#| echo: false
 #| output: false
-pdfseparate -l 1 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikzP2.pdf
+pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz_p2.pdf
 ```
+-->
 
-![MoHD public sector](docs/2024Project_DengueFever_Hargeisa-tikzP2.pdf){#fig-tikz width=100% height=100%}
+![MoHD public sector](2024Project_DengueFever_Hargeisa-tikz_p2.pdf){#fig-tikz width=100% height=100%}
 
 - **Action points**:    
 

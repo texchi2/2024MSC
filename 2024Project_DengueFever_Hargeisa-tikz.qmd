@@ -1,5 +1,7 @@
 ---
 title: "2024 Dengue Fever Project"
+execute:
+  echo: false
 format: 
   pdf:
     documentclass: article
@@ -74,4 +76,15 @@ https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/
 \end{tikzpicture}
 
 
+
+
+
+```{bash}
+#| echo: false
+# removal of titlepage
+
+pdfseparate -f 2 -l 2 "2024Project_DengueFever_Hargeisa-tikz.pdf" "2024Project_DengueFever_Hargeisa-tikz_p2.pdf"
+
+# pdfseparate sample.pdf sample-%d.pdf
+```
 

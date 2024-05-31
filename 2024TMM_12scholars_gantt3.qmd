@@ -28,35 +28,36 @@ https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/
 % ***** 2025; or 2024 backup: Dr. Abdilahi Abdi (general surgery), Dr. Afnan (general surgery, after delivery her baby)
 % 2025: hemodialysis centre; blood bank technicians
 
-\ganttgroup{Batch 1}{8}{9} \\
+\ganttgroup{Batch 1}{6}{8} \\
 %\ganttmilestone{}{9} \\
-    \ganttbar[progress=100]{Dr. Saed Mohamed Osman (Resident, Orthopedic)}{10}{12} \\
-    \ganttbar[progress=100]{Dr. Mohamed Hassan Nur (Resident, Orthopedic)}{10}{12} \\
+
 %    \ganttbar[progress=100]{Dr. Ahmed Saeed (Orthopedic)}{9}{11} \\
-%    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{9}{11} \\ 
+    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{6}{8} \\ 
+    \ganttbar[progress=100]{Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep}{6}{8} \\
+    \ganttbar[progress=100]{Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep}{6}{8} \\
+    \ganttbar[progress=100]{Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)}{6}{8} \\
+    \ganttbar[progress=100]{Mr. Ahmed Hussein Jama (Nurse, OT director)}{6}{8} \\
+   
 
 
-
-\ganttgroup{Batch 2}{9}{11} \\
+\ganttgroup{Batch 2}{8}{10} \\
 %\ganttmilestone{}{6} \\
-    \ganttbar[progress=100]{Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep}{6}{9} \\
+
 %    \ganttbar[progress=100]{Dr. Saed Osman (Orthopedic)}{6}{8} \\
-    \ganttbar[progress=100]{Mr. Ahmed Hussein Jama (Nurse, OT director)}{9}{11} \\
-    \ganttbar[progress=100]{Mr. Mustafe Muse Mohamed (Technician, Pathology)}{9}{11} \\
-    \ganttbar[progress=100]{Dr. Abdihamid Mohamed Ali  (Neurosurgery)}{9}{11} \\
 
-%
-
+    \ganttbar[progress=100]{Dr. Abdihamid Mohamed Ali  (Neurosurgery)}{8}{10} \\
+    \ganttbar[progress=100]{Mr. Mustafe Muse Mohamed (Technician, Pathology)}{8}{10} \\
+    \ganttbar[progress=100]{Dr. Adnan Sayid Abdo (General Surgery)}{8}{10} \\
 % Dr. Mustefe (Emergency), Miss Rakia (Ward nurse)
 % Dr. Wei, TMWH Neurosurgeon TO HGH
 
 \ganttgroup{Batch 3}{10}{12} \\
 %\ganttmilestone{}{7} \\
 %    \ganttbar[progress=100]{Dr. Yassin Awil (Orthopedic)}{7}{9} \\
-    \ganttbar[progress=100]{Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)}{6}{9} \\
-    \ganttbar[progress=100]{Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep}{6}{9} \\
-    \ganttbar[progress=100]{Dr. Mustafe Ahmed Yusuf (Neurosurgery)}{10}{12} \\ 
-    \ganttbar[progress=100]{Dr. Adnan Sayid Abdo (General Surgery)}{10}{12} \\
+    \ganttbar[progress=100]{Dr. Saed Mohamed Osman (Resident, Orthopedic)}{10}{12} \\
+    \ganttbar[progress=100]{Dr. Mohamed Hassan Nur (Resident, Orthopedic)}{10}{12} \\
+
+
     \ganttbar[progress=100]{Dr. Omer Mohamed Bihi (Pathology)}{10}{12} \\ % HPV DNA
     \ganttbar[progress=100]{Dr. Idiris Hassan Dahir (Cardiologist)}{10}{12} \\  % CCU, ICU
 
