@@ -3,6 +3,7 @@ title: "2024 Dengue Fever Project"
 format: 
   pdf:
     documentclass: article
+    latex-output-dir: ".."
     include-in-header:
       - text: |
           \usepackage[utf8]{inputenc}
