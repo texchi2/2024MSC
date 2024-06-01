@@ -1,4 +1,114 @@
 ---
+title: "Cervical Cancer in Somaliland: Burden, Barriers, and Opportunities for Prevention"
+format: 
+  html:
+    page-layout: article
+---
+
+### Background:
+Cervical cancer is a leading cause of cancer deaths among women in Africa, with an estimated age-standardized incidence rate of 27.6 per 100,000 in East Africa (Bruni et al., 2019). Approximately 95% of cervical cancer cases are caused by human papillomavirus (HPV) infection, particularly from high-risk genotypes (Muñoz et al., 2003). Despite this high regional burden, specific data on cervical cancer epidemiology in Somaliland is limited. Local healthcare providers at Hargeisa Group Hospital (HGH) anecdotally report cervical cancer as rare, contrasting with findings from Somali immigrant populations in the United States and Europe showing higher disease rates (<a href="https://dhhs.ne.gov/Documents/Cervical%20Cancer%20Attitudes%20and%20Knowledge%20in%20Somali%20Refugees%20in%20Nebraska.pdf" target="_blank">Dailey et al., 2017</a>; Idehen et al., 2020).
+
+The key points regarding cervical cancer prevention and control strategies in Somaliland:
+
+- Knowledge and awareness about cervical cancer, its risk factors, screening methods like HPV DNA, Pap smears, and prevention through HPV vaccination is very low among Somali women (<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli et al., 2023</a>; Gopalani et al., 2020; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Ghebre et al., 2015</a>). Many Somali women are not familiar with cervical cancer screening tests and concepts.
+- There is a lack of national cervical cancer screening programs and HPV vaccination programs in Somalia (<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli et al., 2023</a>) and Somaliland. Constraints in implementing and sustaining screening programs have limited the effectiveness of secondary prevention efforts.
+- Primary prevention through HPV vaccination is identified as a cost-effective preventive measure, but none of the Somali students surveyed had received the HPV vaccine (<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli et al., 2023</a>). Establishing national HPV vaccination strategies is recommended in Somaliland.
+- Barriers to cervical cancer screening among Somali women include limited knowledge, language difficulties, fear of the test, embarrassment exposing one's body, negative past experiences, and cultural factors like preferring female providers (Gopalani et al., 2020; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Ghebre et al., 2015</a>).
+- Efforts are needed to increase awareness through culturally-appropriate health education programs targeting Somali women and their families (especially Somali Men) about cervical cancer, HPV, and prevention methods (<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli et al., 2023</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Ghebre et al., 2015</a>).
+- Involving Somali men, who are often the key decision-makers in households, in cervical cancer prevention education could help increase uptake of screening and HPV vaccination among Somali women and adolescents (<a href="https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/" target="_blank">University of Minnesota, 2015</a>).
+
+In summary, the literature highlights low levels of cervical cancer awareness and limited access to screening and vaccination services as major gaps in Somaliland and Somalia. Implementing national prevention programs, educational interventions tailored to Somali communities, and involving male household decision-makers are recommended strategies to improve cervical cancer control efforts in line with WHO goals (<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli et al., 2023</a>; <a href="https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/" target="_blank">University of Minnesota, 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Ghebre et al., 2015</a>).
+
+Accurate local data is critical for informing prevention and control strategies aligned with WHO's global cervical cancer elimination targets. HPV infection, the primary cause of cervical cancer, can be detected through screening tests like Pap smears and HPV DNA assays. Screening provides an opportunity to identify precancerous lesions and early-stage cancers amenable to treatment.
+
+### Objectives:
+1. Determine the prevalence of HPV infection and cervical abnormalities among women attending HGH
+2. Raise awareness of cervical cancer burden and value of screening among HGH clinicians
+3. Establish feasibility of implementing routine cervical cancer screening in the HGH setting
+4. Train HGH pathologist doctors on organizing pathology data and contributing to cancer registries
+
+### Methods:
+We propose a pilot cross-sectional study of 500 women aged 30-49 presenting to HGH obstetrics and gynecology clinics. After informed consent, participants will undergo:
+- Pap smear and HPV DNA testing
+- Brief risk factor survey 
+- Education on cervical cancer prevention  
+
+Pap smears will be processed and interpreted locally by trained HGH laboratory staff, with quality assurance review by TMM pathologists. HPV DNA samples will be analyzed using a validated PCR-based assay. 
+
+Results will be reported back to participants with appropriate follow-up recommendations. Aggregated, de-identified data will be shared with HGH clinicians, highlighting the proportion of women with positive screening results. 
+
+HGH pathologist doctors will receive training on systematically documenting and organizing pathology data from cervical specimens. They will learn best practices for contributing this data to hospital-based and national cancer registries to track cervical cancer trends over time.
+
+### Potential Challenges:
+- Low perceived need for screening among clinicians
+- Cultural sensitivity around discussing sexually transmitted infections 
+- Limited laboratory infrastructure and personnel 
+
+### Strategies:
+- Engage HGH leadership as champions to promote screening 
+- Frame messaging around cancer prevention benefits
+- Provide intensive laboratory training and remote telepathology support
+
+### Expected Outcomes:
+Quantifying the burden of HPV infection and cervical abnormalities in this pilot study will provide critical local data to inform future screening implementation. We anticipate identifying a substantial number of high-risk women who can benefit from treatment and surveillance. Uncovering a higher than expected burden would challenge assumptions about low cervical cancer incidence in Somaliland and reinforce the need for routine screening aligned with WHO elimination goals. Successful completion will demonstrate the feasibility and value of screening in this setting.
+
+Improved pathology data management and cancer registry reporting by HGH pathologists will enable ongoing monitoring of cervical cancer epidemiology. This data can guide resource allocation and evaluate the impact of prevention efforts over time.
+
+### Budget Considerations:
+- Pap smear and HPV DNA testing supplies
+- Laboratory equipment and training
+- Patient/provider education materials
+- Data management and analysis software
+- Personnel time for study coordination, specimen processing, and results reporting
+- Training for HGH pathologists on data organization and cancer registry reporting
+
+
+
+### References:
+
+Bruni, L., Albero, G., Serrano, B., Mena, M., Gómez, D., Muñoz, J., ... & de Sanjosé, S. (2019). Human papillomavirus and related diseases in the world. Summary report. ICO/IARC information centre on HPV and cancer. Vaccine, 37, C1-C26.
+
+<a href="https://dhhs.ne.gov/Documents/Cervical%20Cancer%20Attitudes%20and%20Knowledge%20in%20Somali%20Refugees%20in%20Nebraska.pdf" target="_blank">Dailey, P. M., Mohamed, A. S., & Choi, W. S. (2017). Cervical cancer attitudes and knowledge in Somali refugees in Nebraska. Journal of Immigrant and Minority Health, 19(5), 1153-1160.</a>
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Ghebre, R. G., Sewali, B., Osman, S., Adawe, A., Nguyen, H. T., Okuyemi, K. S., & Joseph, A. (2015). Cervical cancer: barriers to screening in the Somali community in Minnesota. Journal of immigrant and minority health, 17(3), 722-728.</a>
+
+Gopalani, S., Janitz, A., Campbell, J., & Peck, J. (2020). Cervical cancer attitudes and knowledge in Somali refugees in Nebraska. Journal of Immigrant and Minority Health, 22(1), 190-197.
+
+Idehen, E. E., Korhonen, T., Castaneda, A., Juntunen, T., Kangasniemi, M., Pietilä, A. M., & Koponen, P. (2020). Factors associated with cervical cancer screening participation among immigrants of Russian, Somali and Kurdish origin: a population-based study in Finland. BMC women's health, 20(1), 1-15.
+
+Muñoz, N., Bosch, F. X., de Sanjosé, S., Herrero, R., Castellsagué, X., Shah, K. V., ... & Meijer, C. J. (2003). Epidemiologic classification of human papillomavirus types associated with cervical cancer. New England Journal of Medicine, 348(6), 518-527.
+
+<a href="https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/" target="_blank">University of Minnesota. (2015). Men May Be Key to Cervical Cancer Prevention Among Somali Women and Children. Retrieved from https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/</a>
+
+<a href="https://www.imrpress.com/journal/CEOG/51/2/10.31083/j.ceog5102041/htm" target="_blank">Weli, M. M., Omer, S. M., Salad, H. S., Hersi, H. M., Hussein, F. A., & Shirwac, A. A. (2023). Knowledge, Awareness and Behaviors of Somalian Female University Students regarding Cervical Cancer, HPV and the HPV Vaccine: A Cross-Sectional Study. Journal of Clinical Obstetrics and Gynecology, 51(2). DOI:10.31083/j.ceog5102041</a>
+
+
+<!--
+
+### References:
+
+Bruni, L., Albero, G., Serrano, B., Mena, M., Gómez, D., Muñoz, J., ... & de Sanjosé, S. (2019). Human papillomavirus and related diseases in the world. Summary report. ICO/IARC information centre on HPV and cancer. Vaccine, 37, C1-C26.
+
+Dailey, P. M., Mohamed, A. S., & Choi, W. S. (2017). Cervical cancer attitudes and knowledge in Somali refugees in Nebraska. Journal of Immigrant and Minority Health, 19(5), 1153-1160.
+
+Ghebre, R. G., Sewali, B., Osman, S., Adawe, A., Nguyen, H. T., Okuyemi, K. S., & Joseph, A. (2015). Cervical cancer: barriers to screening in the Somali community in Minnesota. Journal of immigrant and minority health, 17(3), 722-728.
+
+Gopalani, S., Janitz, A., Campbell, J., & Peck, J. (2020). Cervical cancer attitudes and knowledge in Somali refugees in Nebraska. Journal of Immigrant and Minority Health, 22(1), 190-197.
+
+Idehen, E. E., Korhonen, T., Castaneda, A., Juntunen, T., Kangasniemi, M., Pietilä, A. M., & Koponen, P. (2020). Factors associated with cervical cancer screening participation among immigrants of Russian, Somali and Kurdish origin: a population-based study in Finland. BMC women's health, 20(1), 1-15.
+
+Muñoz, N., Bosch, F. X., de Sanjosé, S., Herrero, R., Castellsagué, X., Shah, K. V., ... & Meijer, C. J. (2003). Epidemiologic classification of human papillomavirus types associated with cervical cancer. New England Journal of Medicine, 348(6), 518-527.
+
+University of Minnesota. (2015). Men May Be Key to Cervical Cancer Prevention Among Somali Women and Children. Retrieved from https://www.sph.umn.edu/news/men-may-key-cervical-cancer-prevention-among-somali-women-children/
+
+Weli, M. M., Omer, S. M., Salad, H. S., Hersi, H. M., Hussein, F. A., & Shirwac, A. A. (2023). Knowledge, Awareness and Behaviors of Somalian Female University Students regarding Cervical Cancer, HPV and the HPV Vaccine: A Cross-Sectional Study. Journal of Clinical Obstetrics and Gynecology, 51(2). DOI:10.31083/j.ceog5102041
+
+-->
+
+
+
+<!--
+---
 title: "The current cervical cancer prevention and control strategies in Somaliland"
 ---
 
@@ -29,5 +139,6 @@ Citations:
 [4] <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/" target="_blank">Cervical Cancer: Barriers to screening in the Somali community in Minnesota</a>
 
 [5] <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10111298/" target="_blank">A Cervical Cancer Screening Toolkit for Somali Women: A Pilot Randomized Controlled Trial</a>
- 
+
+-->
 
