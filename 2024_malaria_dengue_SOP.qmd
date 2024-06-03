@@ -1,0 +1,91 @@
+---
+title: "Bridging the Gap: A Proposed Standard Operating Procedure to Evaluating Malaria and Dengue Co-infection in Somaliland"
+format: html
+
+---
+
+## Abstract
+
+Malaria and dengue are two major mosquito-borne diseases that pose significant public health challenges in tropical and subtropical regions. The co-infection of these diseases has emerged as a growing concern due to their overlapping geographical distribution, shared clinical manifestations, and diagnostic challenges. This study aims to propose a standard operating procedure (SOP) for evaluating suspected malaria and dengue co-infection in low-resource settings, addressing the limitations of current rapid diagnostic tests (RDTs) and providing guidance on appropriate case management.
+
+## Introduction
+
+Malaria and dengue co-infection has become increasingly prevalent in endemic regions, particularly in parts of Asia, Africa, and the Americas[1]. The overlapping clinical symptoms and limitations of existing diagnostic tools make accurate detection and management of co-infections challenging[1][3]. Misdiagnosis or delayed treatment can lead to severe complications and poor outcomes[1][4]. Therefore, there is a pressing need for improved diagnostic strategies and standardized procedures for managing malaria and dengue co-infection in resource-limited settings.
+
+## Proposed Standard Operating Procedure
+
+Based on the reviewed literature, we propose the following SOP for evaluating fever with suspected malaria and dengue co-infection in low-resource settings:
+
+1. Initial Assessment
+   - Obtain detailed history of fever onset, pattern, duration, and associated symptoms[1]
+   - Record travel history, exposure risks, and epidemiological factors[1]
+
+2. Rapid Diagnostic Testing
+   - Perform RDT for malaria, if available[1][2]
+   - Perform RDT for dengue NS1 antigen, if available[1][3][4][5]
+
+3. Interpretation of Rapid Test Results
+   - If malaria RDT is positive, initiate antimalarial treatment as per guidelines[1][2]
+   - If dengue NS1 RDT is positive, provide supportive treatment for dengue[1][3][4]
+   - If both tests are positive, suspect malaria-dengue co-infection[1]
+
+4. Additional Diagnostic Evaluation
+   - If rapid tests are negative but clinical suspicion remains high:
+     - Perform microscopic examination of blood smear for malaria parasites[2]
+     - Consider dengue IgM/IgG serological tests[3][4][5]
+     - Obtain other basic tests as available (CBC, LFTs, urinalysis)[2]
+
+5. Management
+   - For confirmed malaria cases, initiate antimalarial treatment promptly[1][2]
+   - For confirmed dengue cases, provide supportive care (fluids, antipyretics)[1][3][4]
+   - For suspected co-infections, treat for both malaria and dengue simultaneously[1]
+   - Monitor for warning signs of severe disease and complications[1][3][4]
+   - Consider hospitalization for severe cases or complications[1][2][3][4]
+
+6. Documentation and Referral
+   - Document all diagnostic tests, results, and treatment provided[2]
+   - If diagnostic capabilities are limited or severe cases, refer to higher level of care[2]
+   - Cite relevant guidelines for diagnosis and management[1][2][3][4][5]
+
+## Implementation Challenges
+
+Implementing this SOP in low-resource settings may face several challenges:
+
+1. Limited availability and accessibility of rapid diagnostic tests for both malaria and dengue[1][3]
+2. Inadequate laboratory infrastructure and trained personnel for confirmatory testing[3]
+3. Potential cross-reactivity and false-positive results of current RDTs[1]
+4. Lack of a single combined rapid test for simultaneous detection of malaria and dengue co-infection[1][3]
+5. Overlapping clinical manifestations leading to misdiagnosis and delayed treatment[1][3]
+
+## Discussion and Conclusion
+
+The proposed SOP incorporates the use of RDTs for both malaria and dengue NS1 antigen detection as initial diagnostic tools, followed by additional confirmatory tests and appropriate management strategies. However, the limitations of current RDTs in accurately detecting co-infections highlight the need for improved point-of-care diagnostics[1][3].
+
+Implementing this SOP in low-resource settings requires addressing challenges such as limited access to diagnostic tools, inadequate laboratory infrastructure, and the need for training healthcare providers. Collaboration between public health authorities, researchers, and industry partners is essential to develop and validate a single combined rapid test for malaria and dengue co-infection[1][3].
+
+In conclusion, the proposed SOP provides a framework for evaluating suspected malaria and dengue co-infection in low-resource settings, emphasizing the importance of rapid diagnostic testing, appropriate management, and referral when necessary. However, further research and development of improved diagnostic tools are crucial to accurately detect and manage co-infections, ultimately reducing the burden of these diseases in endemic regions.
+
+
+## References
+
+[1] Bhagat M, Kanhere S, Phadke V, George R. Concurrent malaria and dengue Fever: a need for rapid diagnostic methods. J Family Med Prim Care. 2014 Oct-Dec;3(4):446-8. doi: 10.4103/2249-4863.148146. PMID: 25657963; PMCID: PMC4311362. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311362/
+
+[2] Huits R, Soentjens P, Maniewski-Kelner U, Theunissen C, Van Den Broucke S, Florence E, Clerinx J, Vlieghe E, Jacobs J, Cnops L, Van Den Bossche D, Van Esbroeck M, Bottieau E. Clinical Utility of the Nonstructural 1 Antigen Rapid Diagnostic Test in the Management of Dengue in Returning Travelers With Fever. Open Forum Infect Dis. 2017 Jan 9;4(1):ofw273. doi: 10.1093/ofid/ofw273. PMID: 28480265; PMCID: PMC5414095. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5414095/
+
+[3] Gebremariam, T.T., Schallig, H.D.F.H., Kurmane, Z.M. et al. Increasing prevalence of malaria and acute dengue virus coinfection in Africa: a meta-analysis and meta-regression of cross-sectional studies. Malar J 22, 300 (2023). https://doi.org/10.1186/s12936-023-04723-y; https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04723-y
+
+[4] Marsha S. Santoso, Benediktus Yohan, Dionisius Denis, Rahma F. Hayati, Sotianingsih Haryanto, Leily Trianty, Rintis Noviyanti, Martin L. Hibberd, R. Tedjo Sasmono,
+Diagnostic accuracy of 5 different brands of dengue virus non-structural protein 1 (NS1) antigen rapid diagnostic tests (RDT) in Indonesia,
+Diagnostic Microbiology and Infectious Disease,
+Volume 98, Issue 2, 2020,115116. https://www.sciencedirect.com/science/article/pii/S0732889320304934
+
+[5] Emilie Javelle, Philippe Gautret, Isabelle Leparc-Goffart. Letter to the editor: False-positive re- sults with rapid diagnostic tests (RDT) for dengue. Eurosurveillance, 2019, 24 (21), 10.2807/1560- 7917.ES.2019.24.21.1900304 . inserm-02374913 https://inserm.hal.science/inserm-02374913/document
+
+<!-- bibliography: references.bib 
+## Suggested Titles
+
+1. Navigating the Diagnostic Landscape of Malaria and Dengue Co-infection: A Proposed Standard Operating Procedure for Low-Resource Settings
+2. Bridging the Gap: A Standardized Approach to Evaluating Malaria and Dengue Co-infection in Resource-Limited Settings
+3. Overcoming Diagnostic Challenges in Malaria and Dengue Co-infection: A Practical Guide for Healthcare Providers in Low-Resource Settings
+
+-->
