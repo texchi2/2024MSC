@@ -12,6 +12,8 @@ website:
         text: Agenda
       - href: abstract_uploads.qmd
         text: Abstract and keynote
+      - href: 2024_malaria_dengue_SOP.qmd
+        text: Malaria and Dengue Co-infection
       - href: 2024Project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
       - href: thanks.qmd
