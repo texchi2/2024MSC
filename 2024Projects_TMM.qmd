@@ -8,6 +8,7 @@ jupyter: python3
 <img src="images/in-islamic-style-please-generate-an-illustration-t-20To_QkjSzq0xI_1XG5vAA-o803jGFyQaKUlTwVwHmazA.jpeg" alt="Progress Report (2024/05/27)" style="width: 100%; height: auto;">
 
 ## Progress Report (2024/05/27)
+## Progress Report (2024/06/12)
 
 目前進度與瓶頸(五大項)
 
@@ -57,28 +58,21 @@ jupyter: python3
 
   1. 赴臺受訓人員之科別應與短期主題醫療錯開,避免互相不見。並須考量萬芳醫院的教學量能。
 
-  2. 儘速安排遠距視訊會議,特別是病理科與骨科。
+  2. (ok) 請提供正式的Word文件予醫療團,俾利作業。依衛福部規定,提供來臺受訓人員之資料,送訓名單確定後不得臨時更換。
 
-  3. 請提供正式的Word文件予醫療團,俾利作業。依衛福部規定,提供來臺受訓人員之資料,送訓名單確定後不得臨時更換。
+  3. (ok) 已提供受訓人員名單(十名)及預計來臺時間,以利申請作業。以三個月training為原則,暫不考慮其他行政細節如年度經費核銷等。
 
-  4. 提供受訓人員名單及預計來臺時間,以利申請作業。以三個月training為原則,暫不考慮其他行政細節如年度經費核銷等。
+  4. 若本次名額無法全數送訓,可分批安排,延至2025年再續送第二梯次。
+  
+  5. 第一批次預計 2~4 名醫師送訓，已進行七日公開招標(@Geeska Africa 網頁)，開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。
 
-  5. 若本次名額無法全數送訓,可分批安排,延至2025年再續送第二梯次。
-
-***示範**
-
-### 2. 一般外科腹腔鏡手術訓練中心
-- 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群，合作推行   
-- 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
-- 所需設備:腹腔鏡手術器械與訓練模型   
-- 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
-- **Action points**: home made DIY simulator box
-
+  6. (謝謝病理科陳主任指導)安排遠距視訊會議,特別是病理科與骨科。接下來送訓科別是神經外科、心臟內科。
+  
 
 
 ***示範**
 
-### 3. 骨科關節鏡中心
+### 2. 骨科關節鏡中心
 
 A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
 - 計畫內容:關節鏡膝關節手術  
@@ -150,7 +144,21 @@ C. 台澳兩國在索馬利蘭的醫療合作：
   2.以上設備需由哈爾格薩總醫院向臺灣正式提出申請，醫療團的經費可協助支付運送成本。
 
   3.承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的**二手設備**，得以撥借或捐贈，以共襄盛舉。
+  
+  4. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。
 
+***示範**
+
+### 3. 一般外科腹腔鏡手術訓練中心
+- 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括六月份將赴臺北的 Dr. Nouh)，合作推行   
+- 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
+- 所需設備:腹腔鏡手術器械與訓練模型   
+- 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
+- **Action points**: 
+  1. home made DIY simulator box
+  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用
+
+{{< pagebreak >}}
 
 ***公共衛生**
 
@@ -186,33 +194,52 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 - **Action points**:    
 
   1. 2023年索馬利蘭衛生部及WHO Dengue fever 資料蒐集:
-   - 索馬利蘭衛生部DG Dr. Hergeye，透過其祕書排定會見醫療團的日期，與WHO Dr. Deq會面亦待安排。  
+   - 索馬利蘭衛生部DG Dr. Hergeye，透過其祕書排定會見醫療團的日期; 與WHO Dr. Deq會面已安排於2024/06/16。  
    - 2023年的登革熱相關資料尚未取得。
-   - 來自本土發表的文章: 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
+   - 來自本土發表的文章: **醫療團已與作者取得聯繫 Mr. Hussein Mohamoud Nour** 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
 (https://www.longdom.org/open-access-pdfs/seroprevalence-of-dengue-virus-infection-and-associated-factors-among-patients-with-febrile-illness-attending-at-edna-ad.pdf)
-  - 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
+  - **dengue NS1 RDTs is only available in few private hospitals**
+  - (尚未回應) 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
 
 
-  2. 2023年HGH登革熱資料蒐集:
+  2. 2023年 Hargeisa Group Hospital登革熱資料蒐集:
    - 預計由SAHA NCD director Dr. Ahmed Hersi 提供。
    - 待與Dr. Ahmed 取得資料(紙本登記簿)進行分析整理。
+   - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
 
   3. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz
    - 6 regions in Somaliland。
    - Maroodijeeh Region分為2個District。
    - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
-   - Hargeisa District內有2家 regional hospital,下轄 referral health center (RHC), health center (HC), 及primary health unit (PHU)。
+   - Hargeisa District內有
+    - 3 regional hospital (Naaso Hablood Hospital, Gurmad Hospital, and Daryeel Hospital)
+    - 3 Referral Health center (RHC), 3 Health Center (HC), 45 Primary Health Unit (PHU) **non-functional**, and 66 Maternal Child Health clinics (MCH)。
 
   4. 進行Hargeisa行政區域及各層級醫療機構分佈調查:  
    - 釐清Hargeisa區內各層級(RHC, HC, PHU)醫療機構家數。
    - 瞭解各行政區可及的醫療資源,作為登革熱防治規劃的參考。
 
-  5. 倘需UNICEF協助,須尋求適當管道引薦:
-   - 避免涉及敏感的**一個中國議題**。
-   - 以專業中立的醫療人道立場,爭取UNICEF支持。
+  5. UNICEF協助
+   - **已循適當管道引薦**
+   - 避免涉及敏感的**一個中國議題**
+   - 以專業中立的醫療人道立場,爭取UNICEF支持
    - vector control in Somaliland, implemented by UNCEF on October 2023
 
+  6. 2024/06/11 HGH副院長Dr.Adnan召開會議，醫療團與小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)交換意見，
 
+   - **現行 (2022) HGH Dengue fever management guideline**
+
+   - 2024 June: 91 suspected cases (HGH HIS record in adult)
+
+   - 2024 May/June 目前累積的小兒登革熱案例(十八歲以下)，計有
+    - 139 confirmed cases on May and June (by NS1 in private sector, or IgG/IgM test in HGH)
+    - 8 severe dengue cases (5.8%): upper/lower GI bleeding, plasma leakage, myocarditis (due to congenital heart disease), encephalitis, diabetic ketoacidosis (in type 1 diabetes)
+    - **0 mortality (0%)** so far
+
+   - Action to do:
+    - USD2.5 per test for **Dengue NS1 RDT** 快篩、檢驗與血庫
+    - 藥品(**缺乏小兒科藥品**/**小兒科醫師們自費購買**)
+    - 開設隔離病房須設施（床單、蚊帳、insecticide spray、衛生、重症support）
 
 
 ***公共衛生**
@@ -226,8 +253,6 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 - 子宮頸癌篩檢:引進HPV DNA real-time PCR檢測、Pap smear抹片染色與細胞病理訓練課程
 - 子宮頸癌預防:引進HPV vaccine
 - 乳癌篩檢:乳房超音波檢查
-
-- 目前進度:Pap smear/Pap stain ready，待黃醫師與Dr. Fatima 重整之後，將重新啟動，並同步推出乳房超音波檢查
 
 - 瓶頸:
   - cancer registry and cancer statistics: 
@@ -258,7 +283,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
   3. 安排與索馬利蘭駐地病理科視訊會議(tele-pathology conference):
    - 邀請臺北病理科陳威宇主任,與索馬利蘭駐地團隊進行視訊討論。
-   - HGH 病理科現有 digital slide scanner ()。
+   - HGH 病理科現有 digital slide scanner。
    - HGH 病理科僅有 H&E and cytology stain (Pap stain)服務，無IHC staining。
    - 就子宮頸癌防治、病理診斷等議題交換意見,提供專業建議。
    - Dr. Omar與病理技術員 Mr. Mustafe亦在2024送訓臺北的學員名單中。
@@ -270,24 +295,28 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - Dr. Shih-Han Hung 萬芳醫院ENT洪主任，自2023/08 到訪之後，與Dr. Omar 持續連絡，或許已有相關的統計成果，與發表文章。建議請副院長詢問一下。
 
   5. 子宮頸癌防治計畫推動方式:
+   - Pap smear/Pap stain (ready)
+   - HPV DNA
+   - HPV vaccine
    - 建議由OBGYN director Dr. Fatima醫師主動啟動,透過宣導及篩檢提高覆蓋率。
    - 駐地護理師協助資料整理、追蹤及衛教等工作。  
    - 醫療團持續提供技術指導及所需資源(reagents),確保計畫順利進行。
-
+   
+<!--
   6. Dr.YuHsin 黃醫師與HGH婦產科討論合作項目:
    - 黃醫師於2024/05/30抵任,2024/06/01與當地婦產科團隊Dr. Fatima重新討論合作範圍。
    - 針對子宮頸抹片(Pap smear)、乳房超音波(ultrasound for breast cancer screening)(醫療團Dr. Andrew 王醫師支援)等項目,擬定二合一篩檢執行策略。
    - draft proposal: <a href="https://texchi2.github.io/2024MSC/2024Project_HPV.html" target="_blank">Cervical Cancer in Somaliland: Burden, Barriers, and Opportunities for Prevention...</a>
+-->
 
-
-  7. 子宮頸採檢、基因與細胞抹片檢查:
+  6. 子宮頸採檢、基因與細胞抹片檢查:
    - HPV DNA test (HGH院內檢驗科，現有Qiagen Rotor-Gene Q real-time PCR 儀器): 須要另外採購 HPV DNA PCR reagents。
    - 由HGH病理科Dr. Omar負責判讀子宮頸抹片 Pap stain and cytology。
    - 萬芳醫院病理科提供相關教學及技術支援。
    - 定期盤點染色試劑存量,適時提出申請,避免斷貨。並持續培訓病理染色及判讀人員。
    - 萬芳醫院定期監督品質,確保判讀結果的可靠性。
 
-  8. HPV疫苗推動事宜:
+  7. HPV疫苗推動事宜:
    - 向外交部說明HPV疫苗的必要性及優勢(**獲得WHO, UNICEF, UNAIDS, IPPF肯定**的必要方式)。  
    - 與外交部達成共識,確定是否購買疫苗及所需數量。根據2023年調查，Hargeisa有5萬名9~14歲女學生(MoES教育部DG提供資料)
    - 黃醫師協助溝通,取得外交部支持後,向其報告推動方案。
@@ -297,7 +326,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
       - Tertiary prevention: Cancer management, including surgery, chemotherapy, radiotherapy, combined, and palliative care 
 
 
-
+<!-- hold this time
 B. 口腔癌
 
 - 與HGH頭頸外科團隊合作,利用Velscope藍光儀器篩檢口腔黏膜病變  
@@ -313,6 +342,8 @@ B. 口腔癌
   1. 訓練頭頸外科醫事人員，VelScope 儀器使用與門診、義診。
 
   2. 考量針對口腔癌(黏膜病變)進行研究，調查Khat是否與病變之風險有關，日後再進一步延伸至食道癌(十大癌症排名第一)
+
+-->
 
 {{< pagebreak >}}
 
