@@ -211,12 +211,11 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - 6 regions in Somaliland。
    - Maroodijeeh Region分為2個District。
    - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
-   - Hargeisa District內有
-    - 3 regional hospital (Naaso Hablood Hospital, Gurmad Hospital, and Daryeel Hospital)
-    - 3 Referral Health center (RHC), 3 Health Center (HC), 45 Primary Health Unit (PHU) **non-functional**, and 66 Maternal Child Health clinics (MCH)。
 
   4. 進行Hargeisa行政區域及各層級醫療機構分佈調查:  
-   - 釐清Hargeisa區內各層級(RHC, HC, PHU)醫療機構家數。
+   - Hargeisa District 內各層級(RHC, HC, PHU or MCH)醫療機構家數
+      - 3 regional hospital (Naaso Hablood Hospital, Gurmad Hospital, and Daryeel Hospital)
+      - 3 Referral Health center (RHC), 3 Health Center (HC), 45 Primary Health Unit (PHU) **non-functional**, and 66 Maternal Child Health clinics (MCH)
    - 瞭解各行政區可及的醫療資源,作為登革熱防治規劃的參考。
 
   5. UNICEF協助
