@@ -226,10 +226,10 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
   6. 2024/06/11 HGH副院長Dr.Adnan召開會議，醫療團與小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)交換意見，
 
-   - **現行 (2022) HGH Dengue fever management guideline**
+   - **現行 (2022) HGH Dengue fever management guideline**(@fig-dengue)
    <img src="images/IMG_3003.png" style="width: 100%; height: auto;">
 
-![Dengue Fever cases: 3 groups](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
+![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
 
 
    - 2024 June: 91 suspected cases (HGH HIS record in adult)
@@ -271,9 +271,9 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 - **Action points**:
 
-<!--  0. ![Draft proposal by Dr. YuHsin](docs/Initiate Reproductive Cancer Screening and Early Detection in Somaliland 0612.pdf){#fig-gantt width=110%}
--->
-  0. Draft proposal by Dr. YuHsin
+![Draft proposal by Dr. YuHsin](docs/Initiate Reproductive Cancer Screening and Early Detection in Somaliland 0612.pdf){#fig-hpv width=110%}
+
+  0. Draft proposal by Dr. YuHsin (@fig-hpv)
   
   1. 醫療團團長分享資料:
    - Carroll et al., 2007: barrier for screening (https://pubmed.ncbi.nlm.nih.gov/17454183)
