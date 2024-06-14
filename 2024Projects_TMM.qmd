@@ -202,9 +202,16 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
   - (尚未回應) 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
 
 
-  2. 2023年 Hargeisa Group Hospital登革熱資料蒐集:
-   - 預計由SAHA NCD director Dr. Ahmed Hersi 提供。
-   - 待與Dr. Ahmed 取得資料(紙本登記簿)進行分析整理。
+  2. 2022-2024年(June) Hargeisa Group Hospital登革熱資料蒐集:
+   - 由SAHA NCD director Dr. Ahmed Hersi (紙本登記簿)提供其分析結果(2024/06/13):
+      - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable or laboratory confirmed?) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
+      - The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
+
+      - The age distribution of the patients was as follows: 1,723 (60.0%) were under 30 years old, 774 (27.0%) were between 31 and 50 years old, and 374 (13.0%) were over 50 years old.
+
+      - The total number of dengue fever-related deaths was 23, with a higher mortality rate observed among female patients. 
+
+   - 進一步向 Dr. Ahmed 索取raw data 進行完整分析、以及risk category of severe dengue。
    - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
 
   3. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz

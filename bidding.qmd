@@ -1,0 +1,197 @@
+---
+title: "Evaluation and Selection Process for TMM Visiting Scholar Air Travel Procurement"
+format: docx
+---
+
+# Bidder Comparison Report
+
+The Taiwan Medical Mission (TMM) has received quotations from several travel agencies for air tickets for visiting scholars. This report compares the bids against the key requirements outlined in the tender notice.
+
+## Comparison Table
+
+
+```{r}
+#| echo: false
+library(flextable)
+
+bidders <- c("Otickett 1", "Otickett 2", "Otickett 3", "Makkah", "Liban 1", "Liban 2", "Liban 3", "Merkato", "SHUJA")
+requirements <- c("Up to 5 economy tickets", "Depart from HGA", "Arrive at TPE", "Segment 1: HGA to ADD", 
+                  "Segment 2: ADD to BKK", "Segment 3: BKK to TPE", "Avoid Hong Kong routing",
+                  "Depart HGA by Jun 20 (flexible)", "Return from TPE after Sep 20 (flexible)", 
+                  "Detailed itinerary provided", "Baggage allowance specified", "Itemized ticket price",
+                  "Terms and conditions included", "Booking lead time provided", "Reschedule/cancellation policy",
+                  "Additional services information")
+
+data <- matrix(c("Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Unknown", "Jun 19", "Jun 20", "Jun 21", "Jun 20", "Jun 20",
+                 "Meets", "Meets", "Meets", "Unknown", "Sep 21", "Sep 21", "Sep 21", "Sep 20", "Sep 20", 
+                 "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Yes", "Yes",
+                 "Yes", "Yes", "Yes", "No", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)",
+                 "$1,790", "$1,990", "$1,780", "$1,400", "$1,934", "$2,007", "$1,934", "$1,960", "$1,905",
+                 "Yes", "Yes", "Yes", "No", "Partially", "Partially", "Partially", "Partially", "Partially",
+                 "No", "No", "No", "No", "No", "No", "No", "No", "No", 
+                 "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Partially", "Partially",
+                 "Limited", "Limited", "Limited", "No", "24/7 Support", "24/7 Support", "24/7 Support", "No", "No"),
+                nrow = length(requirements), ncol = length(bidders), byrow = TRUE)
+
+
+
+# data <- data.frame(data)
+```
+
+```{r}
+#| echo: false
+library(flextable)
+
+bidders <- c("Otickett 1", "Otickett 2", "Otickett 3", "Makkah", "Liban 1", "Liban 2", "Liban 3", "Merkato", "SHUJA", "Noble", "Eurosom", "Flyway 1", "Flyway 2", "Flyway 3")
+requirements <- c("Up to 5 economy tickets", "Depart from HGA", "Arrive at TPE", "Segment 1: HGA to ADD", 
+                  "Segment 2: ADD to BKK", "Segment 3: BKK to TPE", "Avoid Hong Kong routing",
+                  "Depart HGA by Jun 20 (flexible)", "Return from TPE after Sep 20 (flexible)", 
+                  "Detailed itinerary provided", "Baggage allowance specified", "Itemized ticket price",
+                  "Terms and conditions included", "Booking lead time provided", "Reschedule/cancellation policy",
+                  "Additional services information")
+
+data <- matrix(c("Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "No", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets", "Meets",
+                 "Meets", "Meets", "Meets", "Unknown", "Jun 19", "Jun 20", "Jun 21", "Jun 20", "Jun 20", "Jun 20", "Jun 22", "Jun 20", "Jun 20", "Jun 20",
+                 "Meets", "Meets", "Meets", "Unknown", "Sep 21", "Sep 21", "Sep 21", "Sep 20", "Sep 20", "Sep 21", "Sep 21", "Sep 20", "Sep 21", "Sep 20",
+                 "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes",
+                 "Yes", "Yes", "Yes", "No", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Yes (46kg)", "Unknown", "Yes (46kg)", "Yes (46kg)", "Yes (23kg)",
+                 "$1,790", "$1,990", "$1,780", "$1,400", "$1,934", "$2,007", "$1,934", "$1,960", "$1,905", "$1,900", "$1,970", "$2,250", "$1,600", "$1,750",
+                 "Yes", "Yes", "Yes", "No", "Partially", "Partially", "Partially", "Partially", "Partially", "Unknown", "Unknown", "Partially", "Partially", "Partially",
+                 "No", "No", "No", "No", "No", "No", "No", "No", "No", "Unknown", "Unknown", "Yes (24h)", "Yes (24h)", "Yes (24h)",
+                 "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Partially", "Partially", "Unknown", "Unknown", "Unknown", "Unknown", "Unknown",
+                 "Limited", "Limited", "Limited", "No", "24/7 Support", "24/7 Support", "24/7 Support", "No", "No", "Unknown", "Unknown", "Yes", "Yes", "Yes"),
+                nrow = length(requirements), ncol = length(bidders), byrow = TRUE)
+
+
+
+
+headers <- paste0("**", bidders, "**")
+colnames(data) <- headers
+data <- data.frame(cbind(requirements, data))
+
+data2 <- rbind(data[1:12,], data[15:16,])
+
+# rownames(data) <- requirements
+
+comparison_table <- flextable(data2)
+fit_to_width(autofit(comparison_table), 8.0)
+
+#comparison_table
+```
+
+
+
+```{r}
+#| output: docx_document
+#| number_sections: true
+#| toc: true
+#| echo: false
+
+
+```
+
+## Evaluation
+
+The bids were evaluated based on their compliance with the specified route, travel dates, baggage allowance, pricing, terms and conditions, and additional services.
+
+Required lead time for booking confirmation.
+
+Note:
+  - Booking can be held for 24 hours but cannot be grantee due to Supply & Demands
+  - Seats and Fares are not guaranteed and subject to change as per the availability at the time of booking.
+
+## Summary
+
+Based on the comparison of all bidders against the key requirements outlined in the tender notice, here is a summary: (ordered by receiving date of bidding)
+
+
+
+1. Otickett Travel:
+
+   - Offered three options, all meeting the core route, segment, and date requirements
+   
+   - Prices ranged from $1,780 to $1,990 per ticket
+   
+   - Provided detailed itineraries, baggage allowance, and some terms and conditions
+
+   - Lacked information on booking lead time and additional services
+
+   - Overall, a strong contender with competitive pricing and compliance with most requirements
+
+
+
+2. Liban Travel:
+
+   - Provided three options, all meeting the core route, segment, and date requirements
+
+   - Prices ranged from $1,934 to $2,007 per ticket
+
+   - Offered detailed itineraries but lacked information on baggage allowance, terms and conditions, and additional services
+
+   - Option 2 mentioned a long transit time and had the highest price
+
+   - Options 1 and 3 were competitive, but additional details would be needed for a full evaluation
+
+
+3. SHUJA Travel and Tourism:
+
+   - Quoted $1,905 per ticket, meeting all core requirements
+
+   - Provided a detailed itinerary, 46kg baggage allowance, and 10kg hand luggage
+
+   - Offered one-year ticket validity and some information on change and no-show fees
+
+
+
+4. Flyway Travel:
+   - Provides 24-hour support services to ensure customer satisfaction and availability
+   - Provided a detailed itinerary, 46kg baggage allowance (23kg in Option 3), and 10kg hand luggage
+
+   - Flight Options:
+      - Option 1 (Short Transit): $2,250 per person
+      - Option 2 (Long Transit at Addis Ababa): $1,600 per person
+      - Option 3 (Two Separate Tickets): $1,750 per person
+
+
+## Shortlisting
+
+
+After evaluating all the bids, it's important to note that the reschedule policy is a crucial factor, and the actual price may vary depending on availability at the time of booking. Therefore, the lowest quoted price should **not** be the sole determining factor in selecting the best offer.
+
+Flyway Travel's Option 2 has the lowest price at $1,600, likely due to the long 13-hour transit time. However, this extended layover may not be ideal for the comfort and convenience of the traveling scholars.
+
+Flyway Travel's Option 3, which offers two separate tickets for each trip (HGA-BKK-HGA and BKK-TPE-BKK), is not recommended as it would require re-checking luggage during the layover in Bangkok. This could lead to potential issues with baggage handling and increase the risk of lost or delayed luggage.
+
+Considering all factors, including the reschedule policy, itinerary, and overall service, the **three strongest candidates** for this bidding process are:
+
+1. **Liban Travel** (Option 1 or 3): Offers competitive pricing, a detailed itinerary, 46kg baggage allowance, and a clear reschedule/cancellation policy. They also provide 24/7 customer support for booking.
+
+2. SHUJA Travel and Tourism: Provides a competitive price, detailed itinerary, 46kg baggage allowance, and a one-year ticket validity. They have a partial reschedule/cancellation policy, but more information may be needed on their additional services.
+
+3. Flyway Travel (Option 1): While having the highest price among the three candidates, they offer a detailed itinerary, 46kg baggage allowance, a 12-month ticket validity, and 24-hour support services. However, their reschedule/cancellation policy is not addressed, even they provide a 24-hour booking hold option.
+
+## Final Selection and Contract Signing
+
+TMM should consider reaching out to the first candidate for further clarification on his policies and services to make a well-informed decision that best suits the needs and preferences of the visiting scholars.
+
+   - TMM proceeded to sign a contract with the selected travel agency, finalizing the air travel arrangements for the visiting scholars.
+   - The contract included all relevant details, such as the agreed-upon itinerary, pricing, baggage allowance, and any additional services or support to be provided.
+
+## Booking and Coordination:
+   - TMM worked closely with the selected travel agency to book the flights and coordinate all necessary arrangements for the visiting scholars.
+   - The travel agency provided timely updates and support to ensure a smooth and hassle-free travel experience for the scholars.
+   
+   
