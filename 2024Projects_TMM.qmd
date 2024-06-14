@@ -112,7 +112,7 @@ B. TOM 骨質疏鬆預防保健計畫
 
   3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
 
-- **Action points**:
+- **Action points**(who/when): TBD
 
 
 
@@ -266,12 +266,12 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
 
 
-  6. [2024/06/11] 小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)統計報告:(Taiwan Medical Mission / 2024/06/26)
+  6. [2024/06/11] 小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)統計報告:(revision by Taiwan Medical Mission / 2024/06/26)
 
    - 2024 May/June 累積的小兒登革熱案例(十八歲以下)，計有
     - 139 confirmed cases on May and June (by NS1 in private sector, or IgG/IgM test in HGH)
     - 8 severe dengue cases (5.8%): upper/lower GI bleeding, plasma leakage, myocarditis (due to congenital heart disease), encephalitis, diabetic ketoacidosis (in type 1 diabetes)
-    - **0 mortality (0%)** so far
+    - 0 mortality (0%)
 
   7. HGH dengue fever strategy:(HGH / ongoing)
      - **現行 (2022) HGH Dengue fever management guideline**(@fig-dengue)
@@ -378,7 +378,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 
 
-- **Action points**:
+- **Action points**(who/when):
 1. 在2022 TMM 建立的基礎上，推進乳癌及子宮頸癌的預防和早期診斷。
 
 2. 提升婦女健康，促進性別平等:
