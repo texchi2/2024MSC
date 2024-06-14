@@ -62,28 +62,28 @@ jupyter: python3
 
   - **Action points**(who/when):
 
-  1. 第一批次預計 2~4 名醫師送訓，已進行七日公開招標(@Geeska Africa 網頁)，開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。
+  1. 第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
 
-  2. (謝謝病理科陳主任指導)安排遠距視訊會議(**2024/6/17，19，20 安排中**，以助瞭解HGH pathology: staff 和設備，進一步溝通合作細節)。接下來送訓科別是神經外科、心臟內科，也可安排視訊會議第一次接觸。
+  2. (謝謝病理科陳主任指導)安排遠距視訊會議(**2024/6/17，19，20 安排中**，以助瞭解HGH pathology: staff 和設備，進一步溝通合作細節)。接下來送訓科別是神經外科、心臟內科，也可安排視訊會議第一次接觸。(Taiwan Medical Mission / 2024/06/20)
 
-  3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。
+  3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。(Taiwan Medical Mission / 2024 by gantt chart)
 
   4. 預計三位醫師、一位護理師的培訓時間為89天，因低於三個月，無法進行臨床實務操作。
 
     - 2024/06/13 已完成萬芳醫院骨科陳昱斌副主任、與索馬利蘭骨科醫師視訊會議，確認來台培訓細節，雙方獲得共識，以符合其骨科訓練計畫的既定「年度指定課程」
 
     - Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep =>
-衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作) 已準備採購機票，辦理 VISA 出發
+衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
 
-    - Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep  =>衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作; 亦經骨科 陳副主任認可) 已準備採購機票，辦理 VISA 出發
+    - Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep  =>衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作; 亦經骨科 陳副主任認可) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
 
-    - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)  => 請申請 七月中旬開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)
+    - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)  => 請申請 七月中旬開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
 
-    - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)
+    - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
 
-  5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)
+  5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)(Taiwan Medical Mission / 2024/06/21)
   
-  6. 骨科醫師分批來臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務。
+  6. 骨科醫師分批來臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務。(Taiwan Medical Mission / 2024 by gantt)
 
 
 ***示範**
@@ -147,9 +147,9 @@ C. 台澳兩國在索馬利蘭的醫療合作：
   - 儲藏室層架與工作檯 shelving, bench tops in storage area
   - 給皂機 soap dispensers：2台 for scrubbing
 
-- **Action points**:   
 
-  1.經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
+
+### 經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
 
   - 手術顯微鏡
   - 高壓滅菌鍋
@@ -159,15 +159,17 @@ C. 台澳兩國在索馬利蘭的醫療合作：
   - 急救藥車
   - 輸血加溫器
 
-  2.以上設備需由哈爾格薩總醫院向臺灣GMISS正式提出申請，醫療團**2025年度**的經費可協助支付運送成本。
+- 以上設備需由哈爾格薩總醫院向臺灣GMISS正式提出申請，醫療團**2025年度**的經費可協助支付運送成本。
 
-  3.承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
+- **Action points**(who/when): 
+
+  1.承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
   
-  4. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。
+  2. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。(Taiwan Medical Mission / after renovation plan finalization)
   
-  5. 建議詳細規劃設備來源與運費問題，並與外交部協調2025年編列設備經費。
+  3. 建議詳細規劃設備來源與運費問題，並與外交部協調2025年編列設備經費。(Taiwan Medical Mission / after renovation plan finalization)
   
-  6. 鼓勵索蘭衛生部、HGH自籌經費購買。
+  4. 鼓勵索蘭衛生部、HGH自籌經費購買。(Somaliland MoHD & HGH / ongoing)
 
 
 ***示範**
@@ -177,8 +179,8 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 - 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
 - 所需設備:腹腔鏡手術器械與訓練模型   
 - 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
-- **Action points**: 
-  1. home made DIY simulator box
+- **Action points**(who/when): 
+  1. home made DIY simulator box (Taiwan Medical Mission / after delivery)
   
 <!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
 
@@ -218,13 +220,13 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 ![MoHD public sector](2024Project_DengueFever_Hargeisa-tikz_p2.pdf){#fig-tikz width=100% height=100%}
 
-- **Action points**:    
-  0. TMM 醫療團計劃:
+- **Action points**(who/when):    
+  0. TMM 醫療團計劃:(Taiwan Medical Mission / 2024/06/26)
       - 2023年疫情資料(WHO, Somaliland)整理是準備2024年行動的關鍵，包含檢測數據、陽性率、地區分佈。
       - 追蹤2023年快篩試劑RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
-      - 資金利用：若不適合IDS，預算資金可轉向其他更合適的防疫措施。
+      - 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
 
-  1. 2023年索馬利蘭衛生部及WHO Dengue fever 資料蒐集:
+  1. 2023年索馬利蘭衛生部及WHO Dengue fever 資料蒐集:(Taiwan Medical Mission / 2024/06/26)
    - 索馬利蘭衛生部DG Dr. Hergeye，透過其祕書排定會見醫療團的日期; 與WHO Dr. Deq會面已安排於2024/06/16。  
    - 2023年的登革熱相關資料尚未取得。
    - 來自本土發表的文章: **醫療團已與作者取得聯繫 Mr. Hussein Mohamoud Nour** 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
@@ -251,7 +253,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - 以專業中立的醫療人道立場,爭取UNICEF支持
    - vector control in Somaliland, implemented by UNCEF on October 2023
 
-  5. **2022-2024年(June) Hargeisa Group Hospital登革熱**統計報告:
+  5. **2022-2024年(June) Hargeisa Group Hospital登革熱**統計報告:(Taiwan Medical Mission / 2024/06/15)
    - 由SAHA NCD director Dr. Ahmed Hersi(紙本登記簿)提供其分析結果**[2024/06/13]**:
       - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable or laboratory confirmed?) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
       - The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
@@ -264,14 +266,14 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
 
 
-  6. [2024/06/11] 小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)統計報告:
+  6. [2024/06/11] 小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)統計報告:(Taiwan Medical Mission / 2024/06/26)
 
    - 2024 May/June 累積的小兒登革熱案例(十八歲以下)，計有
     - 139 confirmed cases on May and June (by NS1 in private sector, or IgG/IgM test in HGH)
     - 8 severe dengue cases (5.8%): upper/lower GI bleeding, plasma leakage, myocarditis (due to congenital heart disease), encephalitis, diabetic ketoacidosis (in type 1 diabetes)
     - **0 mortality (0%)** so far
 
-  7. HGH dengue fever strategy:
+  7. HGH dengue fever strategy:(HGH / ongoing)
      - **現行 (2022) HGH Dengue fever management guideline**(@fig-dengue)
    <img src="images/IMG_3003.png" style="width: 100%; height: auto;">
 
@@ -315,9 +317,9 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 ![Draft proposal by Dr. YuHsin](docs/Initiate Reproductive Cancer Screening and Early Detection in Somaliland 0612.pdf){#fig-hpv width=110%}
 
-  0. Draft proposal by Dr. YuHsin (@fig-hpv)
+- Current Information
   
-  1. 醫療團團長分享資料:
+  1. reviewed articles
    - Carroll et al., 2007: barrier for screening (https://pubmed.ncbi.nlm.nih.gov/17454183)
    - Ghebre RG et al., 2015 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4312274/)
    - Cervical cancer in Somaliland (literature review): https://texchi2.github.io/2024MSC/2024Project_HPV.html
@@ -374,6 +376,8 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
       - Secondary prevention: Cancer screening (cytology, VIA, HPV DNA testing) plus treatment for precancerous lesions (thermal ablation/warm therapy or CO2 laser/cold therapy, LEEP)
       - Tertiary prevention: Cancer management, including surgery, chemotherapy, radiotherapy, combined, and palliative care 
 
+
+
 - **Action points**:
 1. 在2022 TMM 建立的基礎上，推進乳癌及子宮頸癌的預防和早期診斷。
 
@@ -391,7 +395,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
   - 考量到索馬利蘭的病理科醫師人數(僅三名)，宜優先進行HPV DNA 篩檢。
   - HGH laboratory 擁有real-time PCR cycler 機器(**Qiagen Rotor-Gene Q**, for research only)，但需購買耗材(HPV DNA kits)。
   - 與當地**病理科醫師**合作，建立持續合作關係。
-  - 計畫Phase 1的預算，確保順利執行後，再進一步計畫Phase 2。
+  - 計畫Phase 1的預算，確保順利執行後，再進一步計畫Phase 2。(Taiwan Medical Mission / 2024/06/30)
   
 
 <!-- hold this time
