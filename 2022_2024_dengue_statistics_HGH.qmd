@@ -1,0 +1,56 @@
+---
+title: "2022-2024 Dengue fever cases in Hargeisa Group Hospital (HGH)"
+author: "HGH"
+---
+
+
+## Methods:
+Hargeisa Group Hospital (HGH) conducted a retrospective analysis of dengue fever cases registered from October 2022 to June 2024. Demographic data, including age and sex, as well as clinical outcomes, such as outpatient or inpatient status and mortality, were collected. The criteria for hospital admission, as per the HGH Dengue Fever Clinical Management Guideline (2022), included patients with warning signs of severe infection, severe dengue infection, dengue infection with coexisting conditions, elevated hematocrit (Hct>50%), leukopenia (WBC ≤5000 cells/mm³), thrombocytopenia (platelet count ≤100,000 cells/mm³), blood pressure <90/60 mmHg, and altered consciousness.
+
+## Results:
+From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable or laboratory confirmed?) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
+
+The age distribution of the patients was as follows: 1,723 (60.0%) were under 30 years old, 774 (27.0%) were between 31 and 50 years old, and 374 (13.0%) were over 50 years old.
+
+The total number of dengue fever-related deaths was 23, with a higher mortality rate observed among female patients. 
+
+<!-- Compared to the previous years, the number of dengue cases increased from ??? in 2022 to ??? in 2023 and ??? in 2024 (up to June). The mortality rates were 0.?% (? deaths) in 2022, 0.?% (? deaths) in 2023, and 0.?% (? deaths) in 2024.
+-->
+
+
+
+<!--
+Suggestions for improving the report:
+
+1. Provide more detailed age stratification (e.g., 0-10, 11-20, 21-30 years) to better understand the age distribution of dengue fever cases; and report the case fatality rate (CFR) for each age group and sex to identify high-risk populations.
+
+2. Include information on the monthly distribution of cases to assess seasonal trends and peak transmission periods.
+
+
+
+7. Provide recommendations for future studies or interventions based on the findings, such as targeted vector control measures or public health education campaigns.
+-->
+
+
+## Discussion:
+<!-- The increasing trend in dengue cases and mortality rates from 2022 to 2024 highlights the need for enhanced dengue control measures in Hargeisa. -->
+The high proportion of cases among females and younger age groups suggests that targeted interventions should focus on these populations.
+
+Limitations of this study include potential underreporting of cases, particularly among those with mild symptoms who may not seek medical care, and missing data on clinical characteristics and outcomes. Additionally, the study was conducted at OPD and ward for adults in Hargeisa Group hospital, which may not be representative of the entire population especially children under 18.
+
+## Recommendations:
+Based on the findings of this study, we recommend the following:
+
+1. Strengthen vector control measures, particularly in areas with high dengue incidence, through community engagement and education on mosquito breeding site elimination.
+
+2. Conduct targeted public health education campaigns focusing on dengue prevention and early recognition of symptoms, especially among females and younger age groups.
+
+3. Improve dengue surveillance systems to capture a more accurate representation of the burden of disease in Hargeisa through ICDF Hospital Information System (HIS) at OPD and emergency department.
+
+4. Enhance the capacity of healthcare facilities to manage dengue cases effectively, with a focus on early identification and appropriate management of severe cases through laboratory confirmation.
+
+5. Conduct further research to identify risk factors associated with severe dengue and mortality in the local context to inform targeted interventions.
+
+In conclusion, this study highlights the increasing burden of dengue fever in Hargeisa and the need for strengthened prevention, control, and management strategies. Collaborative efforts between public health authorities, healthcare providers, and the community are essential to reduce the impact of dengue in the region.
+
+
