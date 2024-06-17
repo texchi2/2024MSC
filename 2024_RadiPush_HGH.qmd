@@ -1,0 +1,56 @@
+---
+title: "Pathology Department Collaboration (TMWH/HGH)"
+author: "RadiPush"
+---
+
+Agenda for Online Meeting: Pathology Department Collaboration
+
+Date: Wednesday, 19 June, 2024 (10:30-11:30)
+
+Attendees: Dr. Chen (Department Director, TMWH) and Dr. Omar (Department Director, HGH)
+
+1. Overview of HGH Pathology Department Capacity
+   a. **Surgical Pathology**
+      - Case number per year
+      - Common disease entities
+   b. Cytology
+      - Case number per year (Pap smear, fine-needle aspiration biopsy)
+      - Challenges and opportunities for improvement
+   c. Frozen Section Diagnosis (no frozen service available)
+
+2. Pathology Reporting System at HGH
+   a. Current reporting format (MS Word .docx based)
+   b. **Vision online whole-slide images system** for telepathology
+      - Technical support and maintenance
+
+3. Human Resources and Equipment
+   a. Staffing
+      - One pathologist doctor: Dr. Omar
+      - Two (or three?) pathology technicians
+      - Training needs and skill development plans
+   b. Equipment Inventory
+      - fine-needle and core-needle **biopsy services by Dr. Omar**
+      - **H&E staining process**
+         - Tissue processor for fixation and dehydration
+         - Embedding station and paraffin dispenser
+         - Microtome for sectioning
+         - Water bath for slide mounting
+         - Slide drying oven
+         - Staining racks and dishes
+         - Microscopes for slide review
+         - Reagents and consumables (e.g., formalin, xylene, ethanol, paraffin, hematoxylin, eosin)
+      - Gaps in equipment and infrastructure (no IHC service, no frozen diagnosis)
+
+
+4. Collaboration Opportunities between HGH and TMWH Pathology Departments
+   a. **Telepathology** consultation and second opinions
+   b. Training and education exchange programs (**2024 visiting scholarship** is ongoing)
+   c. **Joint research** projects, statistics, and publications
+   d. **Quality assurance** and standardization initiatives, **national cancer control board**
+   e. Other areas of collaboration (to be discussed)
+
+
+5. Action Points (who/when)
+   a. Summarize key discussion points and decisions
+   b. Assign responsibilities and timelines for follow-up tasks  (who/when)
+   c. Schedule future meetings or communication channels
