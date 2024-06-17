@@ -20,7 +20,7 @@ Attendees: Dr. Chen (Department Director, TMWH) and Dr. Omar (Department Directo
 
 2. Pathology Reporting System at HGH
    a. Current reporting format (MS Word .docx based)
-   b. **Vision online whole-slide images system** for telepathology
+   b. **Vision Assist online whole-slide images system** (https://vision-suite.com/) for telepathology
       - Technical support and maintenance
 
 3. Human Resources and Equipment
