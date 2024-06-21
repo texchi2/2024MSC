@@ -1,0 +1,323 @@
+---
+title: "Pathological Cases Analysis at Hargeisa Group Hospital: A Descriptive Study"
+author: "Dr. Omer Mohamed Bihi, Dr. Tex Li-Hsing Chi"
+date: "2024-06-21"
+format: 
+  html:
+    toc: true
+    code-fold: true
+#  pdf:
+#    toc: true
+#    number-sections: true
+#bibliography: references_pathology.bib
+---
+
+```{r}
+#| echo: false
+#| include: false
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+# Abstract
+
+This study presents a descriptive analysis of 110 pathological cases at Hargeisa Group Hospital (HGH) in Somaliland. The analysis covers surgical biopsies, fine-needle aspiration cytology (FNAC), cytology, and hematology cases. Key findings include a high prevalence of tuberculosis in lymph node specimens and anemia cases. The study also highlights the need for enhanced diagnostic capabilities and improved data management systems.
+
+# Introduction
+
+Pathological analysis plays a crucial role in diagnosing and managing various diseases. In resource-limited settings like Somaliland, understanding the spectrum of pathological cases can inform healthcare planning and resource allocation. This study aims to provide insights into the types and frequencies of pathological cases seen at Hargeisa Group Hospital.
+
+# Methods
+
+## Data Collection
+
+Data were extracted in Microsoft Access database and collected from the pathology department of Hargeisa Group Hospital between August 2023 and June 2024. The dataset includes 110 cases across four categories: surgical biopsies, FNAC, cytology, and hematology.
+
+## Data Interpretation with AI-powered approach
+The pathology reports, initially recorded as free-text entries, were processed using natural language processing (NLP) techniques to extract non-structured information. We employed the Claude 3.5 Sonnet large language model (LLM), developed by Anthropic, to interpret and categorize the unstructured text data. This AI (artificial intelligent) powered approach allowed for efficient and consistent extraction of key diagnostic information, specimen types, and patient demographics from the English language used in the reports. The LLM was prompted to identify and classify diagnoses, categorize specimens, and extract relevant clinical details. To ensure accuracy, a two-step validation process was implemented: first, the AI-generated interpretations were reviewed by a trained medical data analyst, and then all cases was selected for review by an experienced surgeon doctor. This process allowed us to leverage the efficiency of AI while maintaining high standards of medical accuracy. The structured data output from this NLP pipeline was then compiled into standardized data tables, facilitating subsequent statistical analysis using R (version 4.4.0). This methodology enabled us to transform complex narrative reports into quantifiable data points, ensuring a comprehensive and reliable basis for our descriptive statistical analysis while minimizing human error in data extraction and classification.
+
+
+## Data Analysis
+
+Data were managed by de-identification, cleaning, missing data management, and manual curation mentioned in "Data Interpretation with AI-powered approach".
+Descriptive statistics were calculated using R (version 4.4.0), copiloted with Claude 3 Opus LLM. Data were analyzed for frequency distributions, age ranges, and gender distributions.
+
+# Results
+
+```{r}
+#| eval: false
+#| echo: false
+#data-import, echo=FALSE
+biopsy_data <- read.csv("BiopsyTable_dataClean2.csv")
+fnac_data <- read.csv("FNACTable_dataClean2.csv")
+cytology_data <- read.csv("CytologyTable_dataClean2.csv")
+hematology_data <- read.csv("HematologyTable_dataClean2.csv")
+```
+
+## Surgical Biopsies
+
+```{r}
+#| eval: false
+#| echo: false
+#biopsy-analysis
+biopsy_summary <- biopsy_data %>%
+  group_by(Diagnosis.) %>%
+  summarise(Count = n()) %>%
+  mutate(Percentage = Count / sum(Count) * 100)
+
+kable(biopsy_summary, caption = "Distribution of Surgical Biopsy Cases") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+#| label: surgical-biopsy-table
+#| tbl-cap: "Distribution of Surgical Biopsy Cases"
+
+library(knitr)
+library(kableExtra)
+
+biopsy_data <- data.frame(
+  Category = c("Soft tissue lesions", "Gynecological specimens", "Gastrointestinal tract", "Breast", "Prostate", "Other"),
+  Count = c(7, 6, 3, 2, 2, 4),
+  Percentage = c(29.2, 25.0, 12.5, 8.3, 8.3, 16.7)
+)
+
+kable(biopsy_data, 
+      col.names = c("Category", "Count", "Percentage (%)"),
+      align = c("l", "c", "c"),
+      digits = 1) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE) %>%
+  footnote(general = "Total cases: 24. Age range: 2-80 years (mean: 41 years). Gender: 54.2% female.")
+```
+
+Surgical Biopsy (24 cases): The surgical biopsies covered a diverse range of specimens, with soft tissue lesions (29.2%) and  gynecological specimens (25.0%) being the most common. The age range was 2-80 years (mean: 41 years), with a slight female predominance (54.2%).
+
+- Soft tissue lesions (n=7, 29.2%): Including cases of epidermal inclusion cyst, intramuscular myxoma, lobular capillary hemangioma, and carcinoma in situ (origin of tissue site: not in record).
+
+- Gynecological specimens (n=6, 25.0%): Including cases of ruptured ectopic pregnancy, gestational choriocarcinoma, partial hydatidiform mole, high-grade serous carcinoma of the ovary, and leiomyoma.
+
+- Gastrointestinal tract (n=3, 12.5%): Two cases of inflammatory bowel disease (Crohn's disease) and one case of acute on chronic cholecystitis. 
+
+- Breast (n=2, 8.3%): One case of benign phyllodes tumor and one case of pseudoangiomatous stromal hyperplasia. 
+
+- Prostate (n=2, 8.3%): Both cases were diagnosed as benign nodular prostatic hyperplasia.
+
+## FNAC
+
+```{r}
+#| eval: false
+#| echo: false
+# fnac-analysis
+fnac_summary <- fnac_data %>%
+  group_by(Diagnosis.) %>%
+  summarise(Count = n()) %>%
+  mutate(Percentage = Count / sum(Count) * 100)
+
+kable(fnac_summary, caption = "Distribution of FNAC Cases") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+#| label: fnac-table
+#| tbl-cap: "Distribution of Fine Needle Aspiration Cytology (FNAC) Cases"
+
+library(knitr)
+library(kableExtra)
+
+fnac_data <- data.frame(
+  Category = c("Lymph nodes", "Soft tissue lesions", "Breast lesions", "Thyroid", "Salivary gland", "Other"),
+  Count = c(14, 13, 6, 5, 3, 5),
+  Percentage = c(30.4, 28.3, 13.0, 10.9, 6.5, 10.9)
+)
+
+kable(fnac_data, 
+      col.names = c("Category", "Count", "Percentage (%)"),
+      align = c("l", "c", "c"),
+      digits = 1) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE) %>%
+  footnote(general = paste("FNAC (46 cases): FNAC was most commonly performed on lymph nodes (30.4%) and soft tissue lesions (28.3%). The age range was 4-70 years (mean: 36 years), with a female predominance (56.5%).", sep = "\n"))
+```
+
+FNAC (46 cases): FNAC was most commonly performed on lymph nodes (30.4%) and soft tissue lesions (28.3%). The age range was 4-70 years (mean: 36 years), with a female predominance (56.5%).
+
+- Lymph nodes (n=14, 30.4%): Seven cases of granulomatous lymphadenitis consistent with tuberculosis, three cases of reactive lymphoid hyperplasia, and four cases of suppurative lymphadenitis/abscess. 
+
+- Soft tissue lesions (n=13, 28.3%): Predominantly lipomas and one case of keratinous cyst. 
+
+- Breast lesions (n=6, 13.0%): Three cases of fibroadenoma, one case of intraductal papilloma, one case of proliferative lesion with atypia, and one case of ductal carcinoma. 
+
+- Thyroid (n=5, 10.9%): Three cases of nodular colloid goiter, one case suspicious for follicular neoplasm, and one thyroglossal cyst. 
+
+- Salivary gland (n=3, 6.5%): Including one case of high-grade mucoepidermoid carcinoma and two cases of chronic sialadenitis.
+
+
+## Cytology
+
+```{r}
+#| eval: false
+#| echo: false
+# cytology-analysis
+cytology_summary <- cytology_data %>%
+  group_by(Diagnosis.) %>%
+  summarise(Count = n()) %>%
+  mutate(Percentage = Count / sum(Count) * 100)
+
+kable(cytology_summary, caption = "Distribution of Cytology Cases") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+#| label: cytology-table
+#| tbl-cap: "Distribution of Cytology Cases"
+
+library(knitr)
+library(kableExtra)
+
+cytology_data <- data.frame(
+  Category = c("Pleural fluid", "Peritoneal (Ascitic) fluid"),
+  Count = c(5, 2),
+  Percentage = c(71.4, 28.6)
+)
+
+kable(cytology_data, 
+      col.names = c("Category", "Count", "Percentage (%)"),
+      align = c("l", "c", "c"),
+      digits = 1) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE) %>%
+  footnote(general = paste("Total cases: 7. Age range: 9-60 years (mean: 39 years).",
+                           "Gender: 57.1% male.", sep = "\n"))
+
+
+```
+
+Cytology (7 cases): Cytology specimens were predominantly pleural fluids (71.4%). The age range was 9-60 years (mean: 39 years), with a slight male predominance (57.1%).
+
+- Pleural fluid (n=5, 71.4%): Five cases were negative for malignancy, and one was hemorrhagic. One relative lymphocytosis suggested to do GeneXpert PCR testing 
+
+- Peritoneal (Ascitic) fluid (n=2, 28.6%): One case of acute suppurative inflammation and one malignant effusion.
+
+## Hematology
+
+```{r}
+#| eval: false
+#| echo: false
+# hematology-analysis
+hematology_summary <- hematology_data %>%
+  group_by(Diagnosis.) %>%
+  summarise(Count = n()) %>%
+  mutate(Percentage = Count / sum(Count) * 100)
+
+kable(hematology_summary, caption = "Distribution of Hematology Cases") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+#| label: hematology-table
+#| tbl-cap: "Distribution of Hematology Cases"
+
+library(knitr)
+library(kableExtra)
+
+hematology_data <- data.frame(
+  Category = c("Anemias", "Thrombocytopenias", "Leukemias", "Other conditions"),
+  Count = c(22, 7, 3, 1),
+  Percentage = c(66.7, 21.2, 9.0, 3.1)
+)
+
+kable(hematology_data, 
+      col.names = c("Category", "Count", "Percentage (%)"),
+      align = c("l", "c", "c"),
+      digits = 1) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE) %>%
+  footnote(general = paste("Total cases: 33. Age range: 1-94 years (mean: 39 years).",
+                           "Gender: 57.6% male.",
+                           sep = "\n"))
+```
+
+Hematology (33 cases): Anemias were the most common hematological disorder (66.7%), followed by thrombocytopenias (21.2%). The age range was 1-94 years (mean: 39 years), with a slight male predominance (57.6%).
+
+- Anemias (n=22, 66.7%): Including macrocytic, microcytic, and hemolytic anemias. 
+
+- Thrombocytopenias (n=7, 21.2%): Often associated with other hematological abnormalities. -Leukemias (n=3, 9.0%): Three cases of acute leukemia (two ALL, one AML with non APL type). A 4 y/o boy has confirmed ALL, his bone marrow biopsy revealed Partial Remission of ALL.
+
+- Other conditions: Polycythemia vera (n=1, suggested to do JAK 2 Mutation test), leukomoid reaction (n=2), and cases with atypical lymphocytes. 
+
+- 5 recommended for further bone marrow biopsy.
+
+
+
+# Cancer Statistics
+
+```{r}
+#| echo: false
+#cancer-analysis
+cancer_cases <- c(3, 2, 1, 1, 1, 1, 1)
+cancer_types <- c("Hematological", "Gynecological", "Breast", "Salivary Gland", "Soft Tissue", "Thyroid", "Skin")
+cancer_data <- data.frame(Type = cancer_types, Cases = cancer_cases)
+
+kable(cancer_data, caption = "Distribution of Cancer Cases") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+Total confirmed cancer cases: 10, in 110 specimen
+
+- Hematological Malignancies (n=3, 2.7%): Three cases of acute leukemia (two ALL, one AML non-APL type). -Gynecological Cancers (n=2, 1.8%): One case of high-grade serous carcinoma of the ovary and one case of gestational choriocarcinoma.
+- Breast Cancer (n=1, 0.9%): One case of ductal carcinoma. 
+- Salivary Gland Cancer (n=1, 0.9%): One case of high-grade mucoepidermoid carcinoma. 
+- Soft Tissue Sarcoma (n=1, 0.9%): One case of high-grade sarcoma. 
+- Thyroid Cancer (n=1, 0.9%): One case suspicious for follicular neoplasm. 
+- Skin Cancer (n=1, 0.9%): One case of carcinoma in situ (origin of tissue site not specified).
+
+# Discussion
+
+<!--[Discussion of the results, their implications, and comparison with existing literature]
+-->
+
+1. The data provides valuable insights into the spectrum of pathological cases at HGH, demonstrating a wide range of conditions across various organ systems and age groups.
+2. There is a notable prevalence of tuberculosis in lymph node specimens and a significant number of anemia cases, reflecting common health challenges in the region.
+3. The cancer statistics, while limited in number, suggest a diverse range of malignancies, with hematological and breast cancers being the most frequent.
+4. The absence of cervical cancer cases and Pap smears indicates a potential gap in women's health screening services.
+5. The limited diagnostic capabilities for hematological malignancies are evident, with recommendations for bone marrow biopsies in several cases.
+
+
+# Conclusion and Recommendations
+
+1. Implement a cervical cancer screening program to address the apparent gap in women's health services.
+2. Enhance diagnostic capabilities for hematological malignancies, including the establishment of immunohistochemistry (IHC) service.
+3. Develop a comprehensive cancer registry (National Cancer Control board; based on Pathology Data Management and Reporting Systems; see point 7) to better understand the cancer burden and trends in the region.
+4. Invest in training pathologists and technicians in specialized areas such as cytopathology and hematopathology.
+5. Establish collaborations with international institutions for second opinions on complex cases and to facilitate continuous medical education.
+6. Implement a quality assurance program to ensure accurate and consistent diagnoses across all pathology services.
+7. Improve Pathology Data Management and Reporting Systems: The current pathology reporting system using Microsoft Access, while capable of generating official HGH pathology reports, is facing significant challenges: a) System instability leading to substantial data loss (only about 20.6% of cases are properly recorded in the database compared to paper records). b) Data quality issues requiring manual curation before analysis.
+8. To address these critical problems and enhance the overall efficiency and reliability of pathology reporting at HGH, we suggest the following:
+   * Implement an open-source Laboratory Information Management System (LIMS) specifically designed for pathology. Options like OpenLIS or Bahmni (which includes a laboratory module) could be explored. These systems offer:
+      * Robust data storage and backup capabilities
+      * Standardized data entry forms to reduce errors
+      * Built-in quality control measures
+      * Customizable reporting features
+      * Potential for integration with other hospital systems
+   * Initiate a data digitization project:
+      * Collaborate with Taiwan Medical Mission (TMM) to digitize all paper-based pathology records dating back to August 2023.
+      * This will create a comprehensive digital archive and allow for more accurate statistical analysis and trending of pathological cases over time.
+   * Develop a data quality assurance protocol:
+      * Implement regular data audits and cleaning procedures.
+      * Provide training to staff on proper data entry and the importance of data integrity.
+   * Establish a regular system maintenance and upgrade schedule to ensure the long-term stability and reliability of the pathology information system.
+
+Implementing these measures will significantly improve the quality and completeness of pathology data at HGH. This will not only enhance day-to-day operations and patient care but also provide a solid foundation for future research and public health initiatives in Somaliland. The improved data management will allow for more accurate tracking of disease patterns, cancer incidence, and other critical health indicators, ultimately contributing to better health outcomes for the population served by HGH.
+
+
+# References
+
+
+
+<!-- This Quarto script provides a structure for your manuscript, incorporating the data analysis and presentation. You'll need to fill in the detailed descriptions, discussion, and other sections as per your template. The script uses R to read the CSV files, perform basic analysis, and create tables. You may need to adjust the file paths and add more detailed analyses as needed.
+
+Remember to create a `references.bib` file for your bibliography if you're citing sources. You can render this Quarto document to HTML, PDF, or other formats as needed.
+-->

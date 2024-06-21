@@ -1,0 +1,109 @@
+Code:,Tel:,Name:,MRN:,Age:,Sex:,Clinical Diagnosis:,Nature of specimen:,Date Biopsy taken:,Referring Physican:,Hx,Gross,Microscopy:,Diagnosis:,Comment:,Name and Signature Pathologist,Date of Report:,5,6
+//,,Fuad Xasan Cumar,,61,M,,FNAC,,,,"Right lateral cervical, firm and skin based and measures 1.5x1.5cm
+Upper back, firm and skin based which measures 3x3cm  
+Asp = x2 Thick",Smear from both sites show dispersed anucleated squames in dirty backround.,Right Lateral Cervical and Upper Back- Keratinous Cyst,,Dr Omar Bihi,06-Sep-24,,
+01/C,,Ahmed Yusuf Ismail,,58,M,,FNAC,,Dr Amira,,"Midline posterior neck swelling which is soft subcutaneous based swelling measurinh 3x3cm 
+Asp:1x1 oily",Smear shows oily background showing fragments of mature adipose tissue,Soft Tissue(post neck)- Lipoma,,Dr Omar Bihi,02-Jan-24,,
+02/C,,Abdirizak Salah,,25,M,,,,Dr Amira,,"left posterior cervical soft to firm lymphadenopathy measuring 1.5c1cm 
+Asp:1x1 3ml of pus was aspirated","Smear shows sheets and sheets of neutrophils admixed with area of lymphohistiocytic aggregate 
+no features of TB or maliganancy seen.",Lymph node(left psoterior cervical)- Suppurative Lymphadenitis(Abscess),,Dr Omar Bihi,04-Jan-24,,
+029/C,,Khadar Cawil Yusuf,,45,M,,FNAC,,,,"Multinodular soft to firm thyroid enlargement measuring 4x4cm 
+Asp:2x2",Smear shows increased celluularity showing repititive microfollicles admixed with clusters of bland folllicular epithelial cells admixed with scanty colloid.,Thyroid- Suspicious For Follicular Neoplasm,,Dr Omar Bihi,30-Jan-24,,
+033/C,,Munira Mohamed Daaud,,12,F,,FNAC,,Nageeye,,"Bilateral psoterior cervical firm matted lymphadeopathy mlargest measuring 2x2cm 
+Asp:2x2",Smear shows caseous necrotic background showing well fored granulomas and multinucleated giant cells.,Lymph Node(bilateral posterior cervical) Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,30-Jan-24,,
+030/C,,Shukri Dauud,,65,F,,,,Dr kooshin,,"Left shoulder soft subcutaneous based swelling measuring 7x7cm 
+Asp:1x1 oily",Smear shows oily background showing fragments of mature adipose tissue fragments,Soft Tissue(left shoulder)- Lipoma,,Dr Omar Bihi,30-Jan-24,,
+031/C,,Caasha Cumar,,65,F,,FNAC,,,,"Right hand soft subcutaneous based swelling measuring 2x2cm 
+Asp:1x1 oily",Smear shows oily background showing fragments of mature adipose tissue fragments,Soft Tissue(Right Hand)- Lipoma,,Dr Omar Bihi,30-Jan-24,,
+037/C,,Safiya Mohamoud Muse,,45,F,,FNAC,,Dr Noah Ismail,,"left posterior shoulder and midline back subcutanoeus based swelling measuring 3x3cm and 1.5x1cm 
+Asp:2X2 Oily",Amear shows oily background showing fragments of mature adipose tissue,Soft Tissue(left shoulderand midline back)- Lipoma,,Dr Omar Bihi,01-Feb-24,,
+05/C,,Nimco Ahmed Yusuf,,21,F,,,,Dr Saidov,,"Right breast UOQ  firm mobile swelling measuring 2x2cm 
+Asp:2x2",Smear shows clusters and monolayered sheets of bilayared epithelial and myoepithelial cells admixed with stromal fragments and bilopar bare nuclei in the background.,Right Breast(UOQ)- Benign- Fibroadenoma,,Dr Omar Bihi,06-Jan-24,,
+050/C,,Halimo Ahmed,,65,F,,,,Dr Kooshin,,"right upper abdomen soft subcuetaneos based swelling measuring 3x3cm 
+Asp:1x1 oily",Smear shows oily background showing fragments of mature adipose tissue fragments.,Soft Tissue(right upper abdomen)-Benign- Lipoma,,Dr Omar Bihi,18-Feb-24,,
+054/C,,Asmo Hassan,,,,,FNAC,,Dr Afnan,,"Left elbow area firm  to hard swelling measuring 6x6x4cm 
+Asp:2x2",Smear shows increased cellularity with hemorrhagic background showing clusters and sheets of large cells with irregular nuclear border and prominent nucleoli and vaculated cytoplasm  with areas of binucleation embeded in fibrillary matrix.,Bone(left elbow)- Malignant- High Grade Sarcoma,Surgical Biopsy for histioptyping,Dr Omar Bihi,22-Feb-24,,
+055/C,,Liban Cabdi,,7,M,,,,,,"Right anterior cervical firm lymphanopathy measuring 1.5x1cm 
+Asp:1x1",Smear shows heterogenous lymphoid population mainly small mature lymphocytes admixed with follicular center cells and plasma cells.,Lymph node(right anterior cervical)- Reactive Lymphoid Hyperplasia,Any histroy of tonsillitis Dr?,Dr Omar Bihi,22-Feb-24,,
+07/C,,Ahmed Yusuf Jama,,60,M,,FNAC,,Dr Abdilahi,,"Posterior neck soft subcutaneous based swelling measuring 3x3cm 
+Asp:1x1 oily",Smear shows oily background showing fragments of mature adipose tissue,Soft Tissue(posterior neck)- Lipoma,,Dr Omar Bihi,06-Jan-24,,
+101/C/,,Mohamed Sicid Abdilahi,,23,M,,FNAC,,Dr Afnan,,"Left inguinal multiple matted lymphadenopathy measuring 3x3cm 
+Asp:2x2 pus was aspirated",Smear shows caseous necrotic background consisting of well formed granulomas and multinucleated giant cells.,Lymph node(left inguinal)- Necrotizing Granulomatous Lymphadenitis consistent with Tuberculosis,,Dr Omar Bihi,06-Sep-23,,
+105/C,,Cisma Cali Colow,,65,M,,FNAC,,Dr Abdirihin,,"Right submandibular firm to hard swelling measuring 4x4cm and there is submental firm lymphaenopathy measuring 2x2cm 
+Asp:4x4","Smear shows hemorrhagic background showing clusters and monolayered sheets of moderately to highly pleomorphic round to oval cells with prominent nuclei admixed with intermediate cellsand necrotic background
+Submental lymph node showing clusters of pleom","Salivary Gland(Right submandibular)- Malignant- Most likely High Grade Mucoepidermoid Carcinoma
+Lymph node(submental)- Secondary Carcinoma",,Dr Omar Bihi,01-Apr-24,,
+107/C,,Awil Ismail,,43,M,,FNAC,,Dr Noah Ismail,,"Right posterior cervical soft swelling measuring 3x3cm
+Asp:1x1 7ML of thin brownish fluid was aspirated and completely regressed",Smear shows protienatious background showing foamy histiocytes and cholesterol clefts.,Posterior Cervical - Benign Cystic Lesion,,Dr Omar Bihi,09-Sep-23,,
+108/C,,Maryam Jamac Jahweyne,,70,F,,FNAC,,,,"both right and left breasst firm swelling largest measuring 3x3cm 
+Asp:3x3",Smear shows hemorrhagic background showing clusters of mild to moderately pleomorphic round to oval cells with areas of papillary structures.,Left Breast- Proliferative Lesion with Atypia,Excisional biopsy is recommended,Dr Omar Bihi,01-Apr-24,,
+108/C/,,Saado Mohamed,,,,,FNAC,,Dr Abdihamid,,"left fore arm soft subcuatenous based swelling measuring 2x1cm 
+Asp:1x1 oily",Smear shows oily background consisting of fragments of mature adipose tissue fragments.,Soft tissue(right forearm)- Lipoma,,Dr Omar Bihi,09-Sep-23,,
+109/C,,Niciima Khadar,,16,F,,FNAC,,Dr Kooshin,,"Left breast UOQ firm mobile swelling measuring 2x2cm 
+Asp:2x2",Cellular smear showing clusters and monolayered sheets of epithelial and myoepithelial cells admixed with stromal fragments and bipolar bare nuclei.,Left Breast(UOQ)- Benign- Fibroadenoma,,Dr Omar Bihi,01-Apr-24,,
+113/,,Faysal Cabdi Mohamed,,55,M,,FNAC,,,,"bilateral axillary and inuinal firm mobile lymphadenopathy largest measuring 2x2cm 
+Asp:2x2","Smear shows monotomous lymphoid population small, mature lymphocytes with round nucleus, clumped chromatin and only small nucleoli
+PM
+There small mature lymphocytes with smudged cells.","Lymph Node(bilateral axilla,inguinal)- Chronic lymphocytic leukemia (CLL)",,Dr Omar Bihi,05-Jun-24,,
+1189/C,,Axmed Adan Mohamoud,,60,M,,FNAC,,,,"Left anterior neck soft subcutaneous based swelling measuring 2x2cm 
+Asp:1x1 oily
+Smear shows oily background showing fragments of mature adipose tissue fragments",,Soft Tissue(left anterior cervical)- Lipoma,,Dr Omar Bihi,06-Jun-24,,
+134/C,,UmulkhaYR Mohamed,,30,F,,FNAC,,,,"Left breast firm swelling on the nipple areolar area measuring 1x1cm with serosanginous discharge of the nipple 
+Asp:2x2",Smear shows fluidy background showing clusters of bland bilayered epithelium with papillary fragments.,Left Breast(Nipple areolar)- Benign- Papilloma,,Dr Omar Bihi,23-May-24,,
+137/C,,Hilal Hussien,,35,F,,,,Dr Saidov,,"multinodular firm thyroid enlargement measuring 3x3cm 
+Asp:2x2",Smear shows hemorrhagic and colloidy background showing clusters of bland follicular epithelial cells.,Thyroid- Benign- Nodular Colloid Goiter,,Dr Omar Bihi,28-May-24,,
+140/C,,Khadar Cabdilahi,,30,,,,,,,"Right inguinal area soft lymphadenopathy measuring 2x2cm 
+Asp:2x2 2ml of pus was aspirated",Smear shows casoeus necrotic background showing well formed granuloma admixed with multinucleated giant cells.,Lymph Node(Right inguinal)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,04-Jun-24,,
+141/C,,Khadra Cabdale Xasan,,30,M,,FNAC,,Dr Zubeer,,"Right axillary area soft to firm enlargement measuring 2x2cm 
+Asp:2x2  2ml of frank pus was aspirated",Smear shows sheets and sheets of neutrophils.,Lymph Node(Right axilla)- Acute Lymphadenitis/ Abscess,,Dr Omar Bihi,04-Jun-24,,
+142/C,,Klatuun Mohamed,,,,,FNAC,,Dr Ahmed,,"Left anterior cervical soft lymphadenopathy measuring 2x2cm 
+Asp:2x2 2 ml of frank pus was aspirated","Smear shows caseous necrosis only.
+No granuloma or multinucleated giant cells seen.",L;ymph Node(Left anterior cervical)- Necrotizing Lymphadenitis,Suppurative Abscess is top of the differential Tuberculosis is less likely,Dr Omar Bihi,04-Jun-24,,
+144c24,,Maxamed Khadar Cumar,,18,M,,FNAC,,,Soft swelling from the head which measures 2x2cm,"Soft swelling from the head which measures 2x2cm
+Asp; 6ml frank pus",Smear shows intact and degenerated inflammatory cells mainly neutrophils in suppurative backround.,Head: Suppurative Inflammation/Abscess,,Dr Omar Bihi,05-Oct-24,,
+145/H,,Amina Ibrahim,,60,F,,FNAC,,,,"Left breast UOQ hard fixed multinodular swelling measuring 5x5cm and there is left axillary firm mobile lymphadenopathy measuring 2x2cm 
+Asp:3x3",Smear shows increased cellularity showing clusters of highly pleomorphic round to oval cells with irregular nuclear border and prominent nucleoli and areas of duct accentuation.,"Left Breast(UOQ)- Malignant- Ductal Carcinoma 
+Left Axillary Lymph Node- Secondary Ductal Carcinoma",,Dr Omar Bihi,08-Jun-24,,
+148/C,,Khadar Cumar,,20,M,,FNAC,,,,"Right anterior cervical soft flactuant swelling measuring 4x4cm 
+Asp:-2x2 2ml of pus was aspirated",Smear shows sheets and sheets of neutrophils only,Lymph Node(right anterior neck)- Abscess,Incision and drainage and broad spectrum antibiotics,Dr Omar Bihi,11-Jun-24,,
+149/C,,Ayan Jamac Cabeye,,19,F,,FNAC,,Dr Sidiq,,"Right hand soft to firm nodular swelling measuring 1.5x1.5cm 
+Asp:2x2",Smear shows hemorrhagic background showing few clusters of mildly pleomorphic oval to spindle cells.,Soft Tissue(Right hand)- Spindle Cell Neoplasm,Excisional biopsy is recommended,Dr Omar Bihi,11-Jun-24,,
+150/C,,Barwaaqo Madar Ahmed,,20,F,,FNAC,,,,"Left anterior cervical firm lymphadenopathy largest measuring 2x2cm 
+Asp:1x1 pussy",Smear shows casoeus necrotic background showing well formed granuloma and multinucleated giant cells.,Lymph Node(Anterior cervical)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,11-Jun-24,,
+151/C/24,,Sakariye Ismacil,,35,M,,FNAC,,,,"Left submandibular diffuse firm swelling measuring 1.5x1.5cm 
+Asp:2x2","Smear shows hemorrhagic backgound showing lobules of normal acini admixed with mild Chronic inflamation.
+No features of malignancy seen",Left Submandibular Gland-  Chronic Sialoadenitis,,Dr Omar Bihi,18-Jun-24,,
+152/C,,Tamad  Jama Cabdi,,40,F,,FNAC,,Dr Ahmed Hyabe,,"bilateral submadibular firm diffuse swelling measuring 2x2cm 
+Asp:2x2","Smear shows hemorrhagic backgrouns showing lobules of acini admixed with mononuclear inflamatory infilterates.
+No features of tuberculosis seen",Saalivary Gland(submandibular)- Chronic Saialoadenitis,,Dr Omar Bihi,20-Jun-24,,
+154/C,,Adan Ciise,,40,M,,FNAC,,,,"bilateral psoterior cervical firm lymphadenopathylargest measuring 2x2cm 
+Asp:-2x2 pussy",Smear shows caseous necrotic background showing well formed granuomas and multinucleated giant cells.,Lymph Node(posterior cervical)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,20-Jun-24,,
+177/C,,Nimco Mohamed,,38,F,,FNAC,,Dr Samir,,"Right supraclavicular soft to brownish well circumcribed swelling measuring 1.5x1.5cm 
+Asp:-2x2 3ML of frank blood was aspirated",Smear shows only hemorrhage.,Soft tissue(right supraclavicular)- Benign Vascular Lesion likely Hemangioma,,Dr Omar Bihi,05-Dec-23,,
+178/C,,Cali Muhumed Gaas,,60,M,,FNAC,,Dr Mustafe,,"Right paravertebral soft subcutaneous based swelling measuring 2x2cm 
+Asp:1x1 Oily",Smear shows oily background showing fragments of mature adipose tissue fragments,Soft Tissue(right paravertebral)- Lipoma,,Dr Omar Bihi,05-Dec-23,,
+179/C,,Deeqa Mohamed Farah,,25,F,,FNAC,,Dr SIDIQ,,"Multinodular soft to firm thyroid enlargement measuring 1.5x1.5cm 
+Asp:1x1 Colloidy",Smear shows abundant colloidy background showing clusters and monolayered sheets of bland follicular epithelial cells admixed with foamy histiocytes,Thyroid- Benign- Nodular Colloid Goiter With Cystic Degeneration,,Dr Omar Bihi,05-Dec-23,,
+179/C/24,,Suhayb Abdi Mohamed,,18,F,,FNAC,,,,"Anterior neck swelling which moves with deglutation measuring 1x1cm 
+Asp;1x1 1ml of thin brownish fluid is aspirated",Smear shows abundant colloidy background showing clusters of bland follicular epithelial cells admixed with cholesterol crystals.,Thyroid- Thyroglosal Cyst,,Dr Omar Bihi,28-May-24,,
+180/C,,Maaida Hussien Abdilahi,,4,F,,FNAC,,Dr Aideed,,"Bilateral posterior cervical firm mobile lymphadenopathy largest measuring 0.8x8.8cm 
+Asp:1x1",Smear shows heterogenous lymphoid population mainly small mature lymphocytes admixed with follicular center cells and plasma cells and few clusters of lymphohiocytic aggregate.,Lymph node(Right posterior cervical)- Reactive Lymphoid Hyperplasia,"It is likely due to the tonsillitis, No features of Tuberculosis seen.",Dr Omar Bihi,05-Dec-23,,
+190/C,,Rayan Dauud Adan,,14,F,,FNAC,,,,"nodular soft to firm thyroid enlargement measuring 2x2cm
+Asp:1x1 colloidy",Smear shows abundant colloidy background showing clusters of bland follicular epithelial cells admixed with some foamy histiocytes.,Thyroid- Benign- Nodular Colloid Goiter with Degenerative Changes,,Dr Omar Bihi,16-Dec-23,,
+191/C,,Anab Salad,,70,F,,FNAC,,Dr Yasin,,"Right mid foot soft to firm swelling with sinus discharge  measuring 3x3cm 
+Asp:2x2","Smear shows hemorrhgic background showing mixed inflamatory cells mainly plasma cells,lymphocytes and macrophages and few neutrophils admixed with multinucleated giant cells.
+No features of maligancy or tuberculosis seen.",Soft tissue(rt mid foot)- Chronic Inflamation Suggestive of Chronic Osteomyelitis,,Dr Omar Bihi,16-Dec-23,,
+203/C,,Faadumo Ahmed Hasan,,35,F,,FNAC,,,,"Right anterior cervical firm lymphadenopathy measuring 1.5x1cm 
+Asp: 2ml of pus was aspirated",Smear shows caseous necrotic background showing well formed granulomas and multinucleated giant cells.,Lymph node(right anterior cervical)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,06-Jan-24,,
+30/C,,Hana Ali Muhumed,,24,F,,FNAC,,Dr Fadumo,,"Right breast nipple serous discharge 
+Asp:2x2","Smear shows fluidy backhround showing few clusters of bland epithelial and myopeithelial cells.
+No features of atypia or malignancy seen.",Right Breast(nipple)- Benign- Intraductal Papilloma,,Dr Omar Bihi,17-Feb-24,,
+78/C,,Kawsar Cabdi,,35,F,,FNAC,,,,"Right upper gingiva and lip cauliflower like swelling measuring 3.5x3.5cm 
+Asp:2x2",Smear shows hemorrhagic background showing clusters of monotomous oval to spindle cells embeded in matrix stroma.,Right Upper Gingiva and Lip- Benign- Myoepithelial Predominant Neoplasm,Complete Surgical Resection with free margin is recommended,Dr Omar Bihi,11-Mar-24,,
+99/C/,,Kawsar Hasan,,54,F,,FNAC,,Dr Afnan,Left supraclavicular swelling of 1yr duration,"Left supraclavicular swelling soft subcutaneous based swelling measuring 2x2cm 
+Asp:1x1 oily","Smear shows oily background consisting  of mature adipose tissue fragments.
+No lymphoid tissue seen.",Soft tissue(left supraclavicular)- Lipoma,,Dr Omar Bihi,29-Aug-23,,
+jju,,Subeer Sakariye,,5,M,,FNAC,,Dr Hamda,,"Righ pre-auricular soft flactuant swelling measuring 2x2cm 
+Asp:1x1 1ml of pus was aspirated","Smear shows casoeus necrotic background showing well formed granuloma and multinucleated giant cells.
+Lymph Node(right per-auricular)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis
+Righ pre-auricular soft flactuant swelling measur",Lymph Node(right per-auricular)- Necrotizing Granulomatous Lymphadenitis Consistent with Tuberculosis,,Dr Omar Bihi,11-Jun-24,,

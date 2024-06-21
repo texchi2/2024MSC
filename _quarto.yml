@@ -16,6 +16,8 @@ website:
         text: Malaria and Dengue Co-infection
       - href: 2024Project_HGH_laparoscopicCentre.qmd
         text: Laparoscopic Centre
+      - href: 2024Project_HGH_pathology_LIMS.qmd
+        text: HGH Pathology LIMS
       - href: thanks.qmd
         text: Acknowledgements
       - href: questionnaire.qmd
