@@ -9,6 +9,7 @@ jupyter: python3
 
 ## Progress Report (2024/05/27)
 ## Progress Report (2024/06/12)
+## Progress Report (2024/06/28)
 
 目前進度與瓶頸(五大項)
 
@@ -28,7 +29,8 @@ jupyter: python3
     b. Coordination with TMWH for training arrangements
     c. Collaboration with HGH for personnel selection and public health program participation
     d. **MoU** between HGH and TMWH
-    e. 12 scholarship candidates:
+    
+<!--    e. 12 scholarship candidates:
       - Batch 1 (June to September)
         - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)
         - Dr. Hassan Mohamoud Nour (Resident, Orthopedic)
@@ -46,26 +48,43 @@ jupyter: python3
         - Dr. Omer Mohamed Bihi (Pathology)
         - Dr. Saed Mohamed Osman (Resident, Orthopedic)
         - Dr. Mohamed Hassan Nur (Resident, Orthopedic)
+-->
 <!--
         - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
         - Dr. Khadar Good Nur (Infection Prevention Centre Director)
 -->
   - gantt chart (2024):@fig-gantt
-  
+
+
+
 <!-- 
 <img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
 -->
 
+<!--
 ![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-gantt width=110%}
-
+-->
 
 
   - **Action points**(who/when):
 
-  1. 第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
+  1. **(HOLD)**第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
 
-  2. (謝謝病理科陳主任指導)安排遠距視訊會議(**2024/6/17，19，20 安排中**，以助瞭解HGH pathology: staff 和設備，進一步溝通合作細節)。接下來送訓科別是神經外科、心臟內科，也可安排視訊會議第一次接觸。(Taiwan Medical Mission / 2024/06/20)
+  2. (謝謝病理科陳主任指導)安排遠距視訊會議(**2024/6/20**，以助瞭解HGH pathology: staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經 manually input as excel file and presented in 2024MSC conferences)
 
+    - 110 病例分析如下
+https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
+    - 正在安排第一次 telepathology meeting for case discussion
+    
+  3. 接下來送訓科別是骨科、一般外科、ICU/胸腔內科(已有培訓計劃書)、開刀房護理師、病理科，也將安排視訊會議讓雙方第一次接觸。(Taiwan Medical Mission / 2024/07)
+  
+  <!-- 神經外科、心臟內科、腫瘤科chemotherapy Dr. Ahmed Hersi -->
+
+  4. **HGH 院長 Dr. Abdirahman**                
+      - 希望能於七月/八月赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
+      - 希望能於七月份，赴**代表處**拜見羅大使，進一步針對醫療團於HGH的年度計劃，交換意見
+      
+<!--  
   3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。(Taiwan Medical Mission / 2024 by gantt chart)
 
   4. 預計三位醫師、一位護理師的培訓時間為89天，因低於三個月，無法進行臨床實務操作。
@@ -82,8 +101,9 @@ jupyter: python3
     - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
 
   5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)(Taiwan Medical Mission / 2024/06/21)
+-->  
   
-  6. 骨科醫師分批來臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務。(Taiwan Medical Mission / 2024 by gantt)
+  5. 骨科醫師分批赴臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務，且能於2024年度完成專科訓練的**必修課程**，以參加年底的**年度晉級考試**。(Taiwan Medical Mission / 2024 by gantt)
 
 
 ***示範**
@@ -167,9 +187,20 @@ C. 台澳兩國在索馬利蘭的醫療合作：
   
   2. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。(Taiwan Medical Mission / after renovation plan finalization)
   
-  3. 建議詳細規劃設備來源與運費問題，並與外交部協調2025年編列設備經費。(Taiwan Medical Mission / after renovation plan finalization)
+  3. 建議詳細規劃設備來源與運費問題，並由萬芳醫院與外交部協調2025年編列設備經費。(Taiwan Medical Mission / after renovation plan finalization)
   
-  4. 鼓勵索蘭衛生部、HGH自籌經費購買。(Somaliland MoHD & HGH / ongoing)
+    - 聚焦提供手術室醫療設備：
+    - 符合我方專長，尤其可以避免涉及土木建築等複雜情況。
+    - 提供臺灣醫療科技，以及儀器訓練，展現醫療實力，並增加二手平臺(GMISS)醫療設備的使用率。
+    - 提供設備使用和維護培訓課程，以確保永續發展。
+
+  4. TMM 與 ADFA 明確界定合作範疇、相輔相成：
+
+    - ADFA主要負責建設和整體項目管理，臺灣提供的醫療設備可與之相輔相成，避免重疊。
+    - 與ADFA密切協調，確保我方設備符合其建設規劃和規格（如手術台、牽引裝置、電刀機和抽吸機等）。
+    - 為確保臺灣的contribution得到適當紀錄，建議醫療團與ADFA另行簽訂協議MoU (Dr Graham 將於八月份來訪 HGH)。
+    - 於手術室建設完成階段，再與衛生部、哈爾格薩總醫院討論認可Taiwan contribution的方式(集中火力，要有社群及當地媒體露出)。
+
 
 
 ***示範**
@@ -180,7 +211,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 - 所需設備:腹腔鏡手術器械與訓練模型   
 - 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
 - **Action points**(who/when): 
-  1. home made DIY simulator box (Taiwan Medical Mission / after delivery)
+  1. home made DIY simulator box (Taiwan Medical Mission / 2024/07)
   
 <!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
 
@@ -221,39 +252,26 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 ![MoHD public sector](2024Project_DengueFever_Hargeisa-tikz_p2.pdf){#fig-tikz width=100% height=100%}
 
 - **Action points**(who/when):    
-  0. TMM 醫療團計劃:(Taiwan Medical Mission / 2024/06/26)
-      - 2023年疫情資料(WHO, Somaliland)整理是準備2024年行動的關鍵，包含檢測數據、陽性率、地區分佈。
+
+  1. 2023年索馬利蘭 WHO Dengue fever 資料蒐集: (Taiwan Medical Mission)
+   - WHO Dr. Deq: 醫療團已於2024/06/18拜會  
+     - 建議與指示:
+        - WHO and TMM to maintain open communication and collaboration in supporting MoHD's efforts to control the dengue fever outbreak in Somaliland.
+        - WHO: the shared data on dengue fever cases from October 2023 and identify potential areas for support in the surveillance system.
+        - Dr. Deq strongly recommends that **TMM focuses on supporting the weakest part** of the Ministry of Health and Development (MoHD): **the dengue fever surveillance system**, from community and regional levels to MoHD.
+        - IDSR HMIS surveillance: meeting minutes at
+https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
+
+
+  2. 索馬利蘭衛生部/HGH: (Taiwan Medical Mission / 2024/06/27)
+      - 2023年疫情資料整理是準備2024年行動的關鍵，包含檢測數據、陽性率、地區分佈。
       - 追蹤2023年快篩試劑RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
-      - 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
-
-  1. 2023年索馬利蘭衛生部及WHO Dengue fever 資料蒐集:(Taiwan Medical Mission / 2024/06/26)
-   - 索馬利蘭衛生部DG Dr. Hergeye，透過其祕書排定會見醫療團的日期; 與WHO Dr. Deq會面已安排於2024/06/16。  
-   - 2023年的登革熱相關資料尚未取得。
-   - 來自本土發表的文章: **醫療團已與作者取得聯繫 Mr. Hussein Mohamoud Nour** 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
-(https://www.longdom.org/open-access-pdfs/seroprevalence-of-dengue-virus-infection-and-associated-factors-among-patients-with-febrile-illness-attending-at-edna-ad.pdf)
-  - **dengue NS1 RDTs is only available in few private hospitals**
-  - (尚未回應) 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
+          - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT: 陽性確診率 25.9%
+          - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 當面回覆詢問，答稱不清楚)
+      - TMM 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
 
 
-
-  2. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz
-   - 6 regions in Somaliland。
-   - Maroodijeeh Region分為2個District。
-   - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
-
-  3. 進行Hargeisa行政區域及各層級醫療機構分佈調查:  
-   - Hargeisa District 內各層級(RHC, HC, PHU or MCH)醫療機構家數
-      - 3 regional hospital (Naaso Hablood Hospital, Gurmad Hospital, and Daryeel Hospital)
-      - 3 Referral Health center (RHC), 3 Health Center (HC), 45 Primary Health Unit (PHU) **non-functional**, and 66 Maternal Child Health clinics (MCH)
-   - 瞭解各行政區可及的醫療資源,作為登革熱防治規劃的參考。
-
-  4. UNICEF協助
-   - **已循適當管道引薦**
-   - 避免涉及敏感的**一個中國議題**
-   - 以專業中立的醫療人道立場,爭取UNICEF支持
-   - vector control in Somaliland, implemented by UNCEF on October 2023
-
-  5. **2022-2024年(June) Hargeisa Group Hospital登革熱**統計報告:(Taiwan Medical Mission / 2024/06/15)
+  3. **2022-2024年(June) HGH 登革熱**統計報告:(Taiwan Medical Mission / 2024/06/15)
    - 由SAHA NCD director Dr. Ahmed Hersi(紙本登記簿)提供其分析結果**[2024/06/13]**:
       - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable or laboratory confirmed?) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
       - The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
@@ -262,29 +280,54 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
       - The total number of dengue fever-related deaths was 23, with a higher mortality rate observed among female patients. 
 
-   - 進一步向 Dr. Ahmed 索取raw data 進行完整分析、以及risk category of severe dengue。
+   - 進一步**向 Dr. Ahmed 索取raw data 進行完整分析**、以及risk category of severe dengue。
    - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
 
 
-  6. [2024/06/11] 小兒科醫師(Dr. Mohamed and Dr. Guuled, and Dr Hamda)統計報告:(revision by Taiwan Medical Mission / 2024/06/26)
+  4. [2024/06/11] HGH 小兒科統計報告:(Dr. Mohamed and Dr. Guuled, and Dr Hamda)(revision by Taiwan Medical Mission / 2024/06/26)
 
    - 2024 May/June 累積的小兒登革熱案例(十八歲以下)，計有
-    - 139 confirmed cases on May and June (by NS1 in private sector, or IgG/IgM test in HGH)
-    - 8 severe dengue cases (5.8%): upper/lower GI bleeding, plasma leakage, myocarditis (due to congenital heart disease), encephalitis, diabetic ketoacidosis (in type 1 diabetes)
-    - 0 mortality (0%)
+      - 139 confirmed cases on May and June (by NS1 in private sector, or IgG/IgM test in HGH)
+      - 8 severe dengue cases (5.8%): upper/lower GI bleeding, plasma leakage, myocarditis (due to congenital heart disease), encephalitis, diabetic ketoacidosis (in type 1 diabetes)
+      - 0 mortality (0%)
 
-  7. HGH dengue fever strategy:(HGH / ongoing)
+  5. HGH dengue fever strategy SOP :(HGH / ongoing)
      - **現行 (2022) HGH Dengue fever management guideline**(@fig-dengue)
    <img src="images/IMG_3003.png" style="width: 100%; height: auto;">
 
-![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
+<!-- ![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
+
 
     - USD2.5 per test for **Dengue NS1 RDT** 快篩、檢驗與血庫
     - 藥品(**缺乏小兒科藥品**/**小兒科醫師們自費購買**)
     - 開設隔離病房須設施（床單、蚊帳、insecticide spray、衛生、重症support）
+-->
 
 
+  6. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz
+   - 6 regions in Somaliland。
+   - Maroodijeeh Region分為2個District。
+   - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
 
+  7. 進行Hargeisa行政區域及各層級醫療機構分佈調查:  
+   - Hargeisa District 內各層級(RHC, HC, PHU or MCH)醫療機構家數
+      - 3 regional hospital (Naaso Hablood Hospital, Gurmad Hospital, and Daryeel Hospital)
+      - 3 Referral Health center (RHC), 3 Health Center (HC), 45 Primary Health Unit (PHU) **non-functional**, and 66 Maternal Child Health clinics (MCH)
+   - 瞭解各行政區可及的醫療資源,作為登革熱防治規劃的參考。
+
+  8. Somaliland Publications  
+   - 來自本土發表的文章: **醫療團已與作者取得聯繫 Mr. Hussein Mohamoud Nour** 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
+(https://www.longdom.org/open-access-pdfs/seroprevalence-of-dengue-virus-infection-and-associated-factors-among-patients-with-febrile-illness-attending-at-edna-ad.pdf)
+  - **dengue NS1 RDTs is only available in few private hospitals**
+  - (尚未回應) 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
+
+<!--
+  6. UNICEF協助
+   - **已循適當管道引薦**
+   - 避免涉及敏感的**一個中國議題**
+   - 以專業中立的醫療人道立場,爭取UNICEF支持
+   - vector control in Somaliland, implemented by UNCEF on October 2023
+-->
 
 
 {{< pagebreak >}}
@@ -424,12 +467,14 @@ Appendix
 ## Hargeisa Group Hospital (HGH) Intensive Care Unit (ICU) Survey (2024/05/26)
 
 ### Bed Capacity and Patient Distribution
-- Total bed capacity: 14 beds (7 for male patients and 7 for female patients)
-- Most medical conditions treated: Cerebrovascular accidents (CVA), pneumonia, acute myocardial infarction (AMI), and major trauma
-- Elective post-operative patients are admitted sometimes (rare major surgery)
+- Adult ICU:
+  - Total bed capacity: 14 beds (7 for male patients and 7 for female patients)
+  - Most medical conditions treated: Cerebrovascular accidents (CVA), pneumonia, acute myocardial infarction (AMI), and major trauma
+  - Elective post-operative patients are admitted sometimes (rare major surgery)
+- Pediatric ICU: 5 bed capacity
+- Neonatal ICU
 
-
-### Medical Staff
+### Medical Staff of Adult ICU
 - Dr. Jacfar is the director of the ICU at HGH
 - 8 general practitioner (GP) doctors and 3 internist specialist doctors (including director, and Dr. Saed Ahmed) work in the ICU
 - No in-charge physician system; all 8 GP doctors collectively care for the 14 patients
