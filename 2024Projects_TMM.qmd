@@ -74,6 +74,7 @@ jupyter: python3
 
     - 110 病例分析如下
 https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
+
     - 正在安排第一次 telepathology meeting for case discussion
     
   3. 接下來送訓科別是骨科、一般外科、ICU/胸腔內科(已有培訓計劃書)、開刀房護理師、病理科，也將安排視訊會議讓雙方第一次接觸。(Taiwan Medical Mission / 2024/07)
@@ -144,7 +145,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
 哈爾格薩總醫院正與澳洲ADFA基金會合作，著手規劃興建四間現代化骨科手術室，預計六個月完成房舍建築。根據ADFA理事長Dr. Graham提供的醫療設備清單(如下)，
 
-#### 新建OT所需設備(及現況)如下:
+- 新建OT所需設備(及現況)如下:
 
   - 骨科手術床 OR tables for orthopaedics：2張，具透光面板，1張需配備牽引裝置 (traction fittings)、側向支架 (side supports and brackets)
   - 一般手術床 regular OR tables：2張
@@ -169,7 +170,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
 
 
-### 經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
+- 經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
 
   - 手術顯微鏡
   - 高壓滅菌鍋
@@ -183,7 +184,7 @@ C. 台澳兩國在索馬利蘭的醫療合作：
 
 - **Action points**(who/when): 
 
-  1.承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
+  1. 承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
   
   2. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。(Taiwan Medical Mission / after renovation plan finalization)
   
@@ -280,8 +281,8 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
       - The total number of dengue fever-related deaths was 23, with a higher mortality rate observed among female patients. 
 
-   - 進一步**向 Dr. Ahmed 索取raw data 進行完整分析**、以及risk category of severe dengue。
-   - WHO's dengue NS1 RDTs in 2023: public sector and Hargeisa Group Hospital => **empty stock in 2024**
+   - 已進一步**向 Dr. Ahmed 索取raw data 以便進行完整分析**、以及risk category of severe dengue。
+
 
 
   4. [2024/06/11] HGH 小兒科統計報告:(Dr. Mohamed and Dr. Guuled, and Dr Hamda)(revision by Taiwan Medical Mission / 2024/06/26)
@@ -318,7 +319,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
   8. Somaliland Publications  
    - 來自本土發表的文章: **醫療團已與作者取得聯繫 Mr. Hussein Mohamoud Nour** 2022 Edna Adan University Hospital (EAH) statistics, a research article titled "Sero-prevalence of Dengue virus infection and associated factors among patients with febrile illness attending at Edna Adan University Hospital. Hargeisa, Somaliland, 2022: A cross-sectional study" published in the Journal of Women's Health Care.
 (https://www.longdom.org/open-access-pdfs/seroprevalence-of-dengue-virus-infection-and-associated-factors-among-patients-with-febrile-illness-attending-at-edna-ad.pdf)
-  - **dengue NS1 RDTs is only available in few private hospitals**
+  - [2024/06] **dengue NS1 RDTs is only available in few private hospitals**
   - (尚未回應) 就教於當地專家 Dr Yusuf Mohamed (Infectious disease and tropical medicine) in Hargeisa, he attended 2024MSC as a participant)
 
 <!--
