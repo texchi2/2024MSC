@@ -2,6 +2,7 @@
 title: "2024 Multidisciplinary Specialty Conference"
 execute:
   echo: false
+engine: knitr
 ---
 
 <img src="images/a-digital-masterpiece-capturing-the-essence-of-the-z7cKitahQZanjoUrqNsv1A-r-V9vPsfSCqL8tg3dPf3cw.jpeg" alt="2024 Multi-Specialty Conference Banner" style="width: 100%; height: auto;">

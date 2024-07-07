@@ -10,6 +10,7 @@ jupyter: python3
 ## Progress Report (2024/05/27)
 ## Progress Report (2024/06/12)
 ## Progress Report (2024/06/28)
+## Progress Report (2024/07/10)
 
 目前進度與瓶頸(五大項)
 
@@ -25,12 +26,13 @@ jupyter: python3
     b. Conduct selection process jointly by Taiwan Medical Mission and HGH Director's Office
     c. Invite selected personnel to participate in **TMM's 2024 public health programs**
   - Required support:
-    a. TMM: Scholarship funding for 12 medical personnel (2 batches of 6 and 6)
+    a. TMM: Scholarship funding for 12 medical personnel (one batch)
     b. Coordination with TMWH for training arrangements
     c. Collaboration with HGH for personnel selection and public health program participation
-    d. **MoU** between HGH and TMWH
+
+<!--    d. **MoU** between HGH and TMWH
     
-<!--    e. 12 scholarship candidates:
+    e. 12 scholarship candidates:
       - Batch 1 (June to September)
         - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)
         - Dr. Hassan Mohamoud Nour (Resident, Orthopedic)
@@ -52,9 +54,9 @@ jupyter: python3
 <!--
         - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
         - Dr. Khadar Good Nur (Infection Prevention Centre Director)
--->
-  - gantt chart (2024):@fig-gantt
 
+  - gantt chart (2024):@fig-gantt
+-->
 
 
 <!-- 
@@ -68,24 +70,36 @@ jupyter: python3
 
   - **Action points**(who/when):
 
-  1. **(HOLD)**第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
+<!--  1. **(HOLD)**第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
+-->
 
-  2. (謝謝病理科陳主任指導)安排遠距視訊會議(**2024/6/20**，以助瞭解HGH pathology: staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經 manually input as excel file and presented in 2024MSC conferences)
+  1. (謝謝病理科陳主任指導)遠距視訊會議(**2024/6/20**，瞭解HGH pathology 之 staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經由Dr. Omar手工輸入，轉為 Excel file， 亦已於 2024MSC 研討會中初步 報告)
 
-    - 110 病例分析如下
+    - 110 名病例分析如下
 https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
 
-    - 正在安排第一次 telepathology meeting for case discussion
+    - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar)
     
-  3. 接下來送訓科別是骨科、一般外科、ICU/胸腔內科(已有培訓計劃書)、開刀房護理師、病理科，也將安排視訊會議讓雙方第一次接觸。(Taiwan Medical Mission / 2024/07)
+    - 正在請示Dr. Omar 分享上述 Excel data (Dr. Omar)
+    
+  2. 送訓科別(尚缺培訓計劃書):骨科、病理科
   
-  <!-- 神經外科、心臟內科、腫瘤科chemotherapy Dr. Ahmed Hersi -->
+  3. 送訓科別(已有培訓計劃書):一般外科、ICU/胸腔內科、開刀房護理師(護理部擬定中)
+  
+  4. 建議送訓科別: 神經外科、心臟內科、HGH研究中心(醫師、護理師、助產士)
 
-  4. **HGH 院長 Dr. Abdirahman**                
-      - 希望能於七月/八月赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
-      - 希望能於七月份，赴**代表處**拜見羅大使，進一步針對醫療團於HGH的年度計劃，交換意見
+  <!-- 神經外科、心臟內科、腫瘤科chemotherapy Dr. Ahmed Hersi -->
+  
+  5. 待遴選完成後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利申請 90日之受訓，執行臨床實作) (預計為十月份開始受訓)(Taiwan Medical Mission / 2024/07)
+
+  6. **HGH 院長 Dr. Abdirahman**: 希望能於八月份赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
+  
+  7. 新成立的 **HGH研究中心 research center**: 並肩負 IRB 的功能
+  - online virtual meeting with TMWH研究部, 訓練研究人員使用分析工具 / Train researchers in using analytical tools
+  - visiting scholars (Taiwan Medical Mission / 2024/08)
+
+<!--      - 希望能於七月份，赴**代表處**拜見羅大使，進一步針對醫療團於HGH的年度計劃，交換意見
       
-<!--  
   3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。(Taiwan Medical Mission / 2024 by gantt chart)
 
   4. 預計三位醫師、一位護理師的培訓時間為89天，因低於三個月，無法進行臨床實務操作。
@@ -102,11 +116,12 @@ https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
     - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
 
   5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)(Taiwan Medical Mission / 2024/06/21)
--->  
+ 
   
   5. 骨科醫師分批赴臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務，且能於2024年度完成專科訓練的**必修課程**，以參加年底的**年度晉級考試**。(Taiwan Medical Mission / 2024 by gantt)
+    --> 
 
-  6. **HGH研究中心計畫 research center**: 顧問, IRB, online virtual meeting with TMWH研究部, 訓練研究人員使用分析工具 / Train researchers in using analytical tools, visiting scholars (Taiwan Medical Mission / 2024/07)
+{{< pagebreak >}}
 
 ***示範**
 
@@ -140,80 +155,18 @@ B. TOM 骨質疏鬆預防保健計畫
 
 {{< pagebreak >}}
 
-C. 台澳兩國在索馬利蘭的醫療合作：
-  
-#### 因應現代化開刀房(4 operating theatre rooms) 建設、籌備開刀房內醫療儀器、以及人員訓練。
-
-哈爾格薩總醫院正與澳洲ADFA基金會合作，著手規劃興建四間現代化骨科手術室，預計六個月完成房舍建築。根據ADFA理事長Dr. Graham提供的醫療設備清單(如下)，
-
-- 新建OT所需設備(及現況)如下:
-
-  - 骨科手術床 OR tables for orthopaedics：2張，具透光面板，1張需配備牽引裝置 (traction fittings)、側向支架 (side supports and brackets)
-  - 一般手術床 regular OR tables：2張
-  - 關節鏡膝部支架 knee brace for arthroscopy：1組
-  - 關節鏡塔 arthroscopy towers：2座，各配備2組攝影機 (cameras)、內視鏡 (scopes)、光源 (light sources)；關節刨刀 (模組 shaver modules + 電動手機 hand pieces) 2套
-    - **現有設備**：2座關節鏡塔、2組攝影機、4支內視鏡、2組光源 (澳洲ADFA 2022年捐贈)；1台Stryker刨刀 (臺灣2023年捐贈)
-    - **尚缺** 2 cameras, 1 關節刨刀 (shaver)
-
-  - 手術無影燈 overhead lights：4組，或2組手術無影燈搭配2組移動式照明燈
-  - 麻醉機 anaesthetic machines：4台，廠牌型號需相同(建議為全新品)，以利人員訓練與維護
-  - 電燒機 diathermy machines：2台，含1台單極 (mono polar) 式，供神經外科使用
-  - 抽吸機 suction machines：4台
-  - 止血帶壓力機 tourniquet machines：2台，含止血帶10條
-  - 影像增強器暨C臂X光機 image intensifier with C-arm x-ray machine：1台(由現有手術室移撥，**臺灣2023年捐贈**)
-  - X光片閱片機 XRay viewing boxes：2台
-  - 資訊設備 screens and computers for IT purpose
-  - 高壓蒸氣滅菌器 autoclaves：2台
-  - 恢復室之監視器 monitors for recovery room：8台
-  - 病床 beds：8張；急救藥車 trolleys for transport：4台 (澳洲ADFA提供)
-  - 儲藏室層架與工作檯 shelving, bench tops in storage area
-  - 給皂機 soap dispensers：2台 for scrubbing
-
-
-
-- 經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
-
-  - 手術顯微鏡
-  - 高壓滅菌鍋
-  - 紫外線消毒燈
-  - 防X光屏風
-  - 手術推床(病床)
-  - 急救藥車
-  - 輸血加溫器
-
-- 以上設備需由哈爾格薩總醫院向臺灣GMISS正式提出申請，醫療團**2025年度**的經費可協助支付運送成本。
-
-- **Action points**(who/when): 
-
-  1. 承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
-  
-  2. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。(Taiwan Medical Mission / after renovation plan finalization)
-  
-  3. 建議詳細規劃設備來源與運費問題，並由萬芳醫院與外交部協調2025年編列設備經費。(Taiwan Medical Mission / after renovation plan finalization)
-  
-    - 聚焦提供手術室醫療設備：
-    - 符合我方專長，尤其可以避免涉及土木建築等複雜情況。
-    - 提供臺灣醫療科技，以及儀器訓練，展現醫療實力，並增加二手平臺(GMISS)醫療設備的使用率。
-    - 提供設備使用和維護培訓課程，以確保永續發展。
-
-  4. TMM 與 ADFA 明確界定合作範疇、相輔相成：
-
-    - ADFA主要負責建設和整體項目管理，臺灣提供的醫療設備可與之相輔相成，避免重疊。
-    - 與ADFA密切協調，確保我方設備符合其建設規劃和規格（如手術台、牽引裝置、電刀機和抽吸機等）。
-    - 為確保臺灣的contribution得到適當紀錄，建議醫療團與ADFA另行簽訂協議MoU (Dr Graham 將於八月份來訪 HGH)。
-    - 於手術室建設完成階段，再與衛生部、哈爾格薩總醫院討論認可Taiwan contribution的方式(集中火力，要有社群及當地媒體露出)。
-
 
 
 ***示範**
 
 ### 3. 一般外科腹腔鏡手術訓練中心
-- 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括六月份將赴臺北的 Dr. Nouh)，合作推行   
+- 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括十月份將赴臺北的 Dr. Nouh)，合作推行
 - 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
 - 所需設備:腹腔鏡手術器械與訓練模型   
 - 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
-- **Action points**(who/when): 
-  1. home made DIY simulator box (Taiwan Medical Mission / 2024/07)
+- home made DIY simulator box 
+- **Action points**(who/when):
+  - 待課程規劃、器械整理後，開始訓練教學 (Taiwan Medical Mission / 2024/07)
   
 <!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
 
@@ -269,7 +222,8 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
       - 2023年疫情資料整理是準備2024年行動的關鍵，包含檢測數據、陽性率、地區分佈。
       - 追蹤2023年快篩試劑RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
           - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT: 陽性確診率 25.9%
-          - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 當面回覆詢問，答稱不清楚)
+          - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 經當面詢問，答稱不清楚)
+          - MoHD public health department (已安排 [2024/07/04]會議，但當日 公衛主管失約，未上班)
       - TMM 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
 
 
@@ -478,6 +432,73 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
     - 建立 HBV 和 HCV 監測和評估框架 (TMM 公衛專家、MoHD 疾病監測部門 / 2024年10月31日前)
     - 定期與 WHO、SAHA、MoHD 和其他相關者進行策略協調會議 (TMM 計畫主持人、相關單位代表 / 每季度一次，從2024年9月開始)
 
+
+<!-- 被動低調
+
+C. 台澳兩國在索馬利蘭的醫療合作：
+  
+#### 因應現代化開刀房(4 operating theatre rooms) 建設、籌備開刀房內醫療儀器、以及人員訓練。
+
+哈爾格薩總醫院正與澳洲ADFA基金會合作，著手規劃興建四間現代化骨科手術室，預計六個月完成房舍建築。根據ADFA理事長Dr. Graham提供的醫療設備清單(如下)，
+
+- 新建OT所需設備(及現況)如下:
+
+  - 骨科手術床 OR tables for orthopaedics：2張，具透光面板，1張需配備牽引裝置 (traction fittings)、側向支架 (side supports and brackets)
+  - 一般手術床 regular OR tables：2張
+  - 關節鏡膝部支架 knee brace for arthroscopy：1組
+  - 關節鏡塔 arthroscopy towers：2座，各配備2組攝影機 (cameras)、內視鏡 (scopes)、光源 (light sources)；關節刨刀 (模組 shaver modules + 電動手機 hand pieces) 2套
+    - **現有設備**：2座關節鏡塔、2組攝影機、4支內視鏡、2組光源 (澳洲ADFA 2022年捐贈)；1台Stryker刨刀 (臺灣2023年捐贈)
+    - **尚缺** 2 cameras, 1 關節刨刀 (shaver)
+
+  - 手術無影燈 overhead lights：4組，或2組手術無影燈搭配2組移動式照明燈
+  - 麻醉機 anaesthetic machines：4台，廠牌型號需相同(建議為全新品)，以利人員訓練與維護
+  - 電燒機 diathermy machines：2台，含1台單極 (mono polar) 式，供神經外科使用
+  - 抽吸機 suction machines：4台
+  - 止血帶壓力機 tourniquet machines：2台，含止血帶10條
+  - 影像增強器暨C臂X光機 image intensifier with C-arm x-ray machine：1台(由現有手術室移撥，**臺灣2023年捐贈**)
+  - X光片閱片機 XRay viewing boxes：2台
+  - 資訊設備 screens and computers for IT purpose
+  - 高壓蒸氣滅菌器 autoclaves：2台
+  - 恢復室之監視器 monitors for recovery room：8台
+  - 病床 beds：8張；急救藥車 trolleys for transport：4台 (澳洲ADFA提供)
+  - 儲藏室層架與工作檯 shelving, bench tops in storage area
+  - 給皂機 soap dispensers：2台 for scrubbing
+
+
+
+- 經查，臺灣GMISS衛福部二手醫材平台可提供下列器材，且均能正常使用：
+
+  - 手術顯微鏡
+  - 高壓滅菌鍋
+  - 紫外線消毒燈
+  - 防X光屏風
+  - 手術推床(病床)
+  - 急救藥車
+  - 輸血加溫器
+
+- 以上設備需由哈爾格薩總醫院向臺灣GMISS正式提出申請，醫療團**2025年度**的經費可協助支付運送成本。
+
+- **Action points**(who/when): 
+
+  1. 承代表處羅大使指示，懇請萬芳醫院惠予勘估，是否有符合需求的二手設備，得以撥借或捐贈，以共襄盛舉: 查北醫旗下醫院，暫無二手設備可提供。
+  
+  2. 2024/06/11 承代表處三等祕書翁祕書，轉達羅大使的指示，**待開刀房改建定案，後請優先自醫療團本年度(2024)設備款中提列，上述醫療設備援贈新開刀房使用(預計六個月完成改建)，屆時並建議「集中火力，要有社群及當地媒體露出」**。(Taiwan Medical Mission / after renovation plan finalization)
+  
+  3. 建議詳細規劃設備來源與運費問題，並由萬芳醫院與外交部協調2025年編列設備經費。(Taiwan Medical Mission / after renovation plan finalization)
+  
+    - 聚焦提供手術室醫療設備：
+    - 符合我方專長，尤其可以避免涉及土木建築等複雜情況。
+    - 提供臺灣醫療科技，以及儀器訓練，展現醫療實力，並增加二手平臺(GMISS)醫療設備的使用率。
+    - 提供設備使用和維護培訓課程，以確保永續發展。
+
+  4. TMM 與 ADFA 明確界定合作範疇、相輔相成：
+
+    - ADFA主要負責建設和整體項目管理，臺灣提供的醫療設備可與之相輔相成，避免重疊。
+    - 與ADFA密切協調，確保我方設備符合其建設規劃和規格（如手術台、牽引裝置、電刀機和抽吸機等）。
+    - 為確保臺灣的contribution得到適當紀錄，建議醫療團與ADFA另行簽訂協議MoU (Dr Graham 將於八月份來訪 HGH)。
+    - 於手術室建設完成階段，再與衛生部、哈爾格薩總醫院討論認可Taiwan contribution的方式(集中火力，要有社群及當地媒體露出)。
+
+-->
 
 <!-- hold this time
 B. 口腔癌
