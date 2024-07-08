@@ -1,7 +1,12 @@
-.sidebar nav[role="doc-toc"]::before {
-  content: "On This Page" !important;
+#toc-title {
+  visibility: hidden;
+  position: relative;
 }
 
-.quarto-search::before {
-  content: "Search" !important;
+#toc-title::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "On This Page";
 }
