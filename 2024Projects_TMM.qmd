@@ -3,8 +3,30 @@ title: "2024 TMM Project"
 format: 
   html:
     page-layout: article
-jupyter: python3
+    encoding: UTF-8
+    css: styles.css
+
+engine: knitr
+lang: zh-TW
+
+#language: 
+  #zh-TW:
+    #custom-language-file: _language-zh-tw.yml
+ 
+#    jupyter: python3
+#    mainfont: "Noto Sans CJK SC"
+
 ---
+
+```{r}
+#| include: FALSE
+Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
+
+#<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+```
+
+  
 <img src="images/in-islamic-style-please-generate-an-illustration-t-20To_QkjSzq0xI_1XG5vAA-o803jGFyQaKUlTwVwHmazA.jpeg" alt="Progress Report (2024/05/27)" style="width: 100%; height: auto;">
 
 ## Progress Report (2024/05/27)
@@ -12,7 +34,14 @@ jupyter: python3
 ## Progress Report (2024/06/28)
 ## Progress Report (2024/07/10)
 
-目前進度與瓶頸(五大項)
+## TMM request
+
+- 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機，乘客座位三、四名，而計劃推展中，常常須要二組人馬出動(不同目的地)，加上因應八月份徐醫師到任，
+  1) 上班、下班，暫時均需要分為兩趟、甚至三趟行車。
+  2) 請示改變預算(旅運費)，以支付約每個月USD1,800的租車費用(司機、車、diesel)
+
+
+**Projects 進度與瓶頸(六大項)**
 
 ***訓練**
 
@@ -195,16 +224,20 @@ B. TOM 骨質疏鬆預防保健計畫
 
 
 <img src="images/2024Project_DengueFever_Hargeisa-tikz.jpg" style="width: 100%; height: auto;">
+-->
 
-
-```{bash}
+<!--
+{bash}
 #| echo: false
 #| output: false
 pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz_p2.pdf
-```
+
 -->
 
+<!-- 暫時不用
 ![MoHD public sector](2024Project_DengueFever_Hargeisa-tikz_p2.pdf){#fig-tikz width=100% height=100%}
+-->
+
 
 - **Action points**(who/when):    
 
@@ -253,6 +286,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
 <!-- ![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
 
+@fig-tikz
 
     - USD2.5 per test for **Dengue NS1 RDT** 快篩、檢驗與血庫
     - 藥品(**缺乏小兒科藥品**/**小兒科醫師們自費購買**)
@@ -260,7 +294,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 -->
 
 
-  6. 索馬利蘭行政區劃分與醫療資源分佈:@fig-tikz
+  6. 索馬利蘭行政區劃分與醫療資源分佈:
    - 6 regions in Somaliland。
    - Maroodijeeh Region分為2個District。
    - Hargeisa為一獨立District,下設8個行政區(Sub-district)。
@@ -312,9 +346,10 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
   - WHO's suggested **HPV疫苗**需要尋求來源GAVI (Hargeisa primary school girls aged 9-14: 50,000 persons; 資料來源 2023 statistics from Ministry of Education and Science, MoES);
   - 民眾健康觀念需宣導，並必須與 sexual transmission 切割明確，以免因民情保守，讓 推行受到阻礙
 
-
+<!--
 
 ![Draft proposal by Dr. YuHsin](docs/Initiate Reproductive Cancer Screening and Early Detection in Somaliland 0612.pdf){#fig-hpv width=110%}
+-->
 
 - Current Information
   
@@ -366,6 +401,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
    - 定期盤點染色試劑存量,適時提出申請,避免斷貨。並持續培訓病理染色及判讀人員。
    - 萬芳醫院定期監督品質,確保判讀結果的可靠性。
 
+<!--
   7. HPV疫苗推動事宜:
    - 向外交部說明HPV疫苗的必要性及優勢(**獲得WHO, UNICEF, UNAIDS, IPPF肯定**的必要方式)。  
    - 與外交部達成共識,確定是否購買疫苗及所需數量。根據2023年調查，Hargeisa有5萬名9~14歲女學生(MoES教育部DG提供資料)
@@ -374,7 +410,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
       - Primary prevention: HPV vaccine
       - Secondary prevention: Cancer screening (cytology, VIA, HPV DNA testing) plus treatment for precancerous lesions (thermal ablation/warm therapy or CO2 laser/cold therapy, LEEP)
       - Tertiary prevention: Cancer management, including surgery, chemotherapy, radiotherapy, combined, and palliative care 
-
+-->
 
 
 - **Action points**(who/when):
@@ -394,8 +430,10 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
   - 考量到索馬利蘭的病理科醫師人數(僅三名)，宜優先進行HPV DNA 篩檢。
   - HGH laboratory 擁有real-time PCR cycler 機器(**Qiagen Rotor-Gene Q**, for research only)，但需購買耗材(HPV DNA kits)。
   - 與當地**病理科醫師**合作，建立持續合作關係。
-  - 計畫Phase 1的預算，確保順利執行後，再進一步計畫Phase 2。(Taiwan Medical Mission / 2024/06/30)
+  - 計畫Phase 1的預算，確保順利執行後，再進一步計畫Phase 2。(Taiwan Medical Mission / 2024/07)
   
+
+{{< pagebreak >}}
 
 ### 6. 索馬利蘭病毒性肝炎(Viral Hepatitis)篩檢與預防控制計畫
   - 與WHO合作，以及 NGO SAHA 合作
@@ -517,7 +555,7 @@ B. 口腔癌
 
   2. 考量針對口腔癌(黏膜病變)進行研究，調查Khat是否與病變之風險有關，日後再進一步延伸至食道癌(十大癌症排名第一)
 
--->
+
 
 {{< pagebreak >}}
 
@@ -571,7 +609,7 @@ Appendix
 
 {{< pagebreak >}}
 
-
+-->
 
 
 

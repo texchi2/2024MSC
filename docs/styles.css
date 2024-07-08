@@ -1,1 +1,7 @@
-/* css styles */
+.sidebar nav[role="doc-toc"]::before {
+  content: "On This Page" !important;
+}
+
+.quarto-search::before {
+  content: "Search" !important;
+}
