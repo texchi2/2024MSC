@@ -107,9 +107,9 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
     - 110 名病例分析如下
 https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
 
-    - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar)
+    - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
     
-    - 正在請示Dr. Omar 分享上述 Excel data (Dr. Omar)
+    - 正在邀請Dr. Omar 分享上述 Excel data (**Dr. Omar, since 20 June**)
     
   2. 送訓科別(尚缺培訓計劃書):骨科、病理科
   
@@ -247,30 +247,29 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
         - WHO and TMM to maintain open communication and collaboration in supporting MoHD's efforts to control the dengue fever outbreak in Somaliland.
         - WHO: the shared data on dengue fever cases from October 2023 and identify potential areas for support in the surveillance system.
         - Dr. Deq strongly recommends that **TMM focuses on supporting the weakest part** of the Ministry of Health and Development (MoHD): **the dengue fever surveillance system**, from community and regional levels to MoHD.
-        - IDSR HMIS surveillance: meeting minutes at
+        - IDSR surveillance: meeting minutes at
 https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
 
   2. 索馬利蘭衛生部/HGH: (Taiwan Medical Mission / 2024/06/27)
-      - 2023年疫情資料整理是準備2024年行動的關鍵，包含檢測數據、陽性率、地區分佈。
+      - 2023年疫情資料整理是準備2024年行動的關鍵，包含檢測數據、**陽性率**、地區分佈。
       - 追蹤2023年快篩試劑RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
-          - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT: 陽性確診率 25.9%
+          - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT: **陽性率 25.9%**
           - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 經當面詢問，答稱不清楚)
-          - MoHD public health department (已安排 [2024/07/04]會議，但當日 公衛主管 Mr. Mahdi Dahir Bahdoon 失約，未上班)
+          - **MoHD public health department** (已安排 [2024/07/04]會議，但當日 公衛主管 Mr. Mahdi Dahir Bahdoon 失約，未上班): **IDSR surveillance**
       - TMM 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
 
 
   3. **2022-2024年(June) HGH 登革熱**統計報告:(Taiwan Medical Mission / 2024/06/15)
    - 由SAHA NCD director Dr. Ahmed Hersi(紙本登記簿)提供其分析結果**[2024/06/13]**:
-      - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable or laboratory confirmed?) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
+      - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
       - The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
 
       - The age distribution of the patients was as follows: 1,723 (60.0%) were under 30 years old, 774 (27.0%) were between 31 and 50 years old, and 374 (13.0%) were over 50 years old.
 
-      - The total number of dengue fever-related deaths was 23, with a higher mortality rate observed among female patients. 
+      - The total number of **dengue fever-related deaths** was 23, with a higher mortality rate observed among female patients. 
 
-   - 已進一步**向 Dr. Ahmed 索取raw data 以便進行完整分析**、以及risk category of severe dengue。
-
+   - 已進一步**向 Dr. Ahmed 索取raw data (since 14 June 2024)** 以便進行完整分析**陽性率**、以及risk category of severe dengue。
 
 
   4. [2024/06/11] HGH 小兒科統計報告:(Dr. Mohamed and Dr. Guuled, and Dr Hamda)(revision by Taiwan Medical Mission / 2024/06/26)
@@ -281,10 +280,13 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
       - 0 mortality (0%)
 
   5. HGH dengue fever strategy SOP :(HGH / ongoing)
-     - **現行 (2022) HGH Dengue fever management guideline**(@fig-dengue)
+     - 現行 (2022) HGH Dengue fever management guideline
+
+<!--     
+     (@fig-dengue)
    <img src="images/IMG_3003.png" style="width: 100%; height: auto;">
 
-<!-- ![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
+ ![Dengue Fever SOP](docs/2022_HGH_Dengue_fever_Guidline.pdf){#fig-dengue width=110%}
 
 @fig-tikz
 
@@ -437,39 +439,40 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 {{< pagebreak >}}
 
 #### B. 索馬利蘭病毒性肝炎(Viral Hepatitis)篩檢與預防控制計畫
-  - 與WHO合作，以及 NGO SAHA 合作
-  - 協助索馬利蘭制定 HBV 和 HCV 篩檢與預防控制的國家策略
-  - 建立以哈格爾薩總醫院(HGH)為核心的 HBV 和 HCV 管理模式
-  - 提高醫護人員與民眾對 HBV 和 HCV 的認識和重視(健康飲食、不吸菸、不嚼食khat葉與菸草等，預防**脂肪肝**、有效預防肝臟發炎，阻止肝炎 、肝硬化、肝癌三部曲的危機。)製作索馬利蘭語的宣傳手冊 (Booklet)
+  - 經WHO Dr. Deq 主動提出合作意願，TMM並可邀請 NGO SAHA 合作
+  - 協助索馬利蘭制定 HBV 和 HCV 篩檢與預防控制的 **national policy**
+  - 建立以哈格爾薩總醫院(HGH)為核心的 HBV 和 HCV 管理模式 + MoHD IDSR
+  - 提高醫護人員與民眾對 HBV 和 HCV 的認識和重視(健康飲食、不吸菸、不嚼食khat葉與菸草等，預防**脂肪肝**、有效預防肝臟發炎，阻止肝炎 、肝硬化、肝癌三部曲的危機。)
+  - 製作索馬利蘭語的宣傳手冊 (Booklet)
   - 建立 HBV 帶原者的追蹤和 HCV病毒根除治療
 
   - 計畫成果指標：
 
       - 完成 HBV 和 HCV 國家策略文件的制定(WHO 建議)
       - HGH (約500-700名醫護人員)院內完成 HBV/HCV 篩檢和 HBV 疫苗接種
-      - 建立 HGH HBV/HCV 門診運作模式，並擴展至其他公立醫療機構，以及格爾薩大學醫學生和護理系學生
+      - 加強 HGH HBV/HCV 門診運作(2024/04 已新成立)，並擴展至其他公立醫療機構，以及格爾薩大學醫學生和護理系學生(未來的第一線醫事人員)
       - 製作並發放索馬利蘭語的健康教育手冊
-      - 建立 HBV 帶原者追蹤系統，並開始 HCV病毒根除治療
+      - IDSR 建立 HBV 帶原者追蹤系統，並開始 HCV病毒根除治療
 
   - **Action Points* (who/when)：
 
-    - 向 MoHD 申請: HGH 門診(HIS) 統計資料分析 (TMM 計畫主持人 / 2024年7月)
-    - 與 WHO、NGO SAHA 和 MoHD 共同制定 HBV 和 HCV 國家策略框架 (TMM 計畫主持人、WHO Dr. Deq、SAHA 代表、MoHD 代表 / 2024年8月)
-    - 了解 HGH HBV/HCV 門診的運作方式 (TMM 駐索醫師、HGH HBV/HCV 門診負責人 / 2024年7月)
+    - 向 MoHD 申請: HGH 門診(HIS) 統計資料分析 (TMM / 2024年7月)
+    - 與 WHO、NGO SAHA 和 MoHD 共同制定 HBV 和 HCV 國家策略框架 (TMM、WHO Dr. Deq、SAHA Dr. Max、MoHD 公衛主任 / 2024年8月)
+    - 了解 HGH HBV/HCV 門診的運作方式 (TMM、HGH HBV/HCV 門診負責人 / 2024年7月)
     - 為 HGH 醫護人員進行 HBV/HCV 篩檢和 HBV 疫苗接種
-      a. 制定篩檢和接種計劃 (TMM 駐索醫師、HGH 人力資源部門 / 2024年8月)
-      b. 執行篩檢和接種 (HGH 醫療團隊、TMM 支援人員 / 2024年9月1日至2024年11月30日)
-    - 制定 HBV 帶原者定期追蹤和治療方案 (TMM 肝炎專家、HGH HBV 門診負責人 / 2024年10月)
+      a. 制定篩檢和接種計劃 (TMM、HGH 人力資源部 / 2024年8月)
+      b. 執行篩檢和接種 (HGH 醫療團隊、TMM  / 2024年9月1日至2024年11月30日)
+    - 制定 HBV 帶原者定期追蹤和治療方案 (TMM + SAHA、HGH HBV 門診負責人 / 2024年10月)
     - 開發索馬利蘭語健康教育手冊
-      a. 內容撰寫 (TMM 醫療團隊、當地公衛專家 / 2024年11月)
+      a. 內容撰寫 (TMM 、萬芳醫院肝炎專家 / 2024年11月)
       b. 翻譯和設計 (當地翻譯人員、設計師 / 2024年12月)
-      c. 印刷和發放 (TMM 行政團隊、HGH 行政部門 / 2024年12月)
+      c. 印刷和發放 (TMM、HGH 行政部門 / 2024年12月)
     - 制定醫護人員 HBV 和 HCV 管理培訓課程
-      a. 課程設計 (TMM 肝炎專家、HGH 醫學教育部門 / 2024年9月)
-      b. 培訓執行 (TMM 培訓講師、HGH 醫護人員 / 2024年10月1日至2024年12月31日)
-    - 協調 HBV 疫苗和 HCV 治療藥物的採購和供應 (TMM 行政團隊、MoHD 採購部門 / 2024年8月1日至2024年12月31日持續進行)
-    - 建立 HBV 和 HCV 監測和評估框架 (TMM、MoHD IDSR/ 2024年10月)
-    - 定期與 WHO、SAHA、MoHD 和其他相關者進行策略協調會議 (TMM, Dr. Deq, Dr. Max, Mr. Mahdi Dahir Bahdoon. / 每季一次，從2024年9月開始)
+      a. 課程設計 (萬芳醫院肝炎專家、SAHA Dr. Max, HGH Dr. Ahmed / 2024年9月)
+      b. 培訓執行 (萬芳醫院肝炎專家、HGH 醫護人員 / 2024年10月1日至2024年12月31日)
+    - 協調 HBV 疫苗和 HCV 治療藥物的採購和供應 (TMM、MoHD national cold chain / 2024年10月1日至2024年12月31日持續進行)
+    - 建立 HBV 和 HCV 監測和評估框架 (TMM、MoHD IDSR/ 2024年11月)
+    - 定期與 WHO、SAHA、MoHD、HGH 和其他相關者進行策略協調會議 (TMM, Dr. Deq, Dr. Max, Mr. Mahdi Dahir Bahdoon. / 每季一次，從2024年9月開始)
 
 
 <!-- 被動低調
