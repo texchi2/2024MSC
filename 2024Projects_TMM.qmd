@@ -247,7 +247,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
         - WHO and TMM to maintain open communication and collaboration in supporting MoHD's efforts to control the dengue fever outbreak in Somaliland.
         - WHO: the shared data on dengue fever cases from October 2023 and identify potential areas for support in the surveillance system.
         - Dr. Deq strongly recommends that **TMM focuses on supporting the weakest part** of the Ministry of Health and Development (MoHD): **the dengue fever surveillance system**, from community and regional levels to MoHD.
-        - IDSR surveillance: meeting minutes at
+        - **Integrated Disease Surveillance and Response (IDSR)**: meeting minutes at
 https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
 
@@ -454,7 +454,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
       - 製作並發放索馬利蘭語的健康教育手冊
       - IDSR 建立 HBV 帶原者追蹤系統，並開始 HCV病毒根除治療
 
-  - **Action Points* (who/when)：
+  - **Action Points** (who/when)：
 
     - 向 MoHD 申請: HGH 門診(HIS) 統計資料分析 (TMM / 2024年7月)
     - 與 WHO、NGO SAHA 和 MoHD 共同制定 HBV 和 HCV 國家策略框架 (TMM、WHO Dr. Deq、SAHA Dr. Max、MoHD 公衛主任 / 2024年8月)
