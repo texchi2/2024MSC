@@ -39,11 +39,11 @@ While specific data for Hargeisa is not available, broader studies on Somalia pr
 
 - Overall pooled prevalence rate: 90.2% (95% CI: 77.8% to 96%) [@hassan2018epidemiology]
 - Age-specific prevalence rates:
-  - < 1 year old: 61.54%
+  - less than 1 year old: 61.54%
   - 1-10 years old: 91.91%
   - 11-19 years old: 96.31%
   - 20-39 years old: 91.3%
-  - > 40 years old: 86.96%
+  - above 40 years old: 86.96%
 
 These high rates indicate that HAV is endemic in Somalia, with most people being exposed to the virus at a young age.
 
