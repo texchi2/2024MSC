@@ -34,14 +34,14 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 ## Progress Report (2024/06/28)
 ## Progress Report (2024/07/10)
 
-## TMM request
+## TMM 行政
 
 - 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機，乘客座位三、四名，而計劃推展中，常常須要二組人馬出動(不同目的地)，加上因應八月份徐醫師到任，
   1) 上班、下班，暫時均需要分為兩趟、甚至三趟行車。
-  2) 請示改變預算(旅運費)，以支付約每個月USD1,800的租車費用(司機、車、diesel)
+  2) 請示預算(旅運費)，以支付約**每個月USD1,800的租車費用(司機、車、diesel)**
 
 
-## Projects 進度與瓶頸(六大項)
+## TMM Projects 進度(四大項)
 
 ***訓練**
 
@@ -104,8 +104,9 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 
   1. (謝謝病理科陳主任指導)遠距視訊會議(**2024/6/20**，瞭解HGH pathology 之 staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經由Dr. Omar手工輸入，轉為 Excel file， 亦已於 2024MSC 研討會中初步 報告)
 
-    - 110 名病例分析如下
-https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
+    - 110 名病例分析: 
+    <a href="https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html" target="_blank">from MS Access database</a> 
+
 
     - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
     
@@ -117,13 +118,23 @@ https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html
   
   4. 建議送訓科別: 神經外科、心臟內科、HGH研究中心(醫師、護理師、助產士)
 
-  <!-- 神經外科、心臟內科、腫瘤科chemotherapy Dr. Ahmed Hersi -->
+  <!-- 腫瘤科chemotherapy Dr. Ahmed Hersi -->
   
-  5. 待遴選完成後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利申請 90日之受訓，執行臨床實作) (預計為十月份開始受訓)(Taiwan Medical Mission / 2024/07)
+  5. 一般外科腹腔鏡手術訓練中心
+    - 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括十月份將赴臺北的 Dr. Nouh)，合作推行
+    - 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
+    - 所需設備:萬芳醫院提供腹腔鏡手術器械與訓練模型(home made DIY simulator box)  
+    - **Action points**(who/when):
+      - 待課程規劃、器械整理後，開始訓練教學 (Taiwan Medical Mission / 2024/07)
+      - 通過認證者，得遴選為**赴臺送訓**的種子學員(上限三名)
+  
+<!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
 
-  6. **HGH 院長 Dr. Abdirahman**: 希望能於八月份赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
+  6. 待遴選完成後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利申請 90日之受訓，執行臨床實作) (預計為十月份開始受訓)(Taiwan Medical Mission / 2024/07)
+
+  7. **HGH 院長 Dr. Abdirahman**: 希望能於八月份赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
   
-  7. 新成立的 **HGH研究中心 research center**: 並肩負 IRB 的功能
+  8. 新成立的 **HGH研究中心 research center**: 並肩負 IRB 的功能
   - online virtual meeting with TMWH研究部, 訓練研究人員使用分析工具 / Train researchers in using analytical tools
   - visiting scholars (Taiwan Medical Mission / 2024/08)
 
@@ -186,38 +197,30 @@ B. TOM 骨質疏鬆預防保健計畫
 
 
 
-***示範**
-
-### 3. 一般外科腹腔鏡手術訓練中心
-- 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括十月份將赴臺北的 Dr. Nouh)，合作推行
-- 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
-- 所需設備:腹腔鏡手術器械與訓練模型   
-- 目前進度:已由萬芳醫院提供腹腔鏡手術器械,讓HGH醫師熟悉操作;   
-- home made DIY simulator box 
-- **Action points**(who/when):
-  - 待課程規劃、器械整理後，開始訓練教學 (Taiwan Medical Mission / 2024/07)
-  
-<!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
 
 
 
 
-{{< pagebreak >}}
+
 
 ***公共衛生**
 
-### 4. 登革熱重症管理與加護病房支援
+### 3. 登革熱追蹤管理暨加護病房重症支援
 
-- 計畫名稱:強化登革熱病患照護與預後   
-- 所需物資:動脈血液氣體分析試劑,供加護病房重症患者使用; 篩檢 dengue fever NS1 rapid diagnostic test (RDT); HGH laboratory (IgM/IgG antibody ELISA)
-- Ventilator and respiratory care in ICU: 李主任主題醫療(see appendix)
-- 目前進度:已向萬芳醫院提出申請
-- 瓶頸:
-  - MoHD, Director General, Dr. Hargeye 接洽中;
-  - dengue fever statistics (from 2022-2024 HGH NCD Dr. Ahmed Hersi) 獲得**初步報告**;
-  - WHO Dr. Deq, UNICEF: vector control 接洽中;
-  - prepare IECM (in somali language)
-  - 試劑需定期補充,須建立長期供應管道=>  WHO prequalifies new dengue vaccine (https://www.who.int/news/item/15-05-2024-who-prequalifies-new-dengue-vaccine)
+- 登革熱追蹤管理 IDSR
+- 加護病房重症支援:
+  - 動脈血液氣體分析試劑,供加護病房重症患者使用; 篩檢 dengue fever NS1 rapid diagnostic test (RDT); HGH laboratory (IgM/IgG antibody ELISA)
+  - Ventilator and respiratory care in ICU: 李枝新主任主題醫療
+- 瓶頸(資訊破碎、不完整):
+  - MoHD, Director General, Dr. Hergeye, Public Health department 接洽中;
+  - dengue fever statistics;
+- Epidemiological Overview: Case reports and trends
+  - October-December 2023: 2,635 cases (734 positive, **27.9%**) (WHO, Somaliland)
+  - September 2023-January 2024: **6,394 suspected** cases (WHO, Somaliland)
+  - October 2022-June 2024: 2,871 cases at HGH, Hargeisa
+    - WHO provision of 20,000 RDTs (December 2023) => HGH laboratory usage: 1,512 tests (**25.9% positive rate**)
+
+<img src="images/Week 5_ HC-Epidemiological_dengue_Somaliland.jpg" style="width: 100%; height: auto;">
 
 <!--
 <iframe src="docs/2024Project_DengueFever_Hargeisa-tikz.pdf" type="application/pdf" width="100%" height="100%"></iframe>
@@ -242,27 +245,31 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 - **Action points**(who/when):    
 
   1. 2023年索馬利蘭 WHO Dengue fever 資料蒐集: (Taiwan Medical Mission)
+   - 2635 cases of dengue fever were reported in Somaliland **October to December 2023** of which 734 were tested **positive (27.9%)** for dengue by rapid diagnostic test (RDT) kit. The most affected districts are Hargeisa, Boroma and Gebiley. (https://reliefweb.int/report/somalia/who-somalia-health-emergency-programme-update-december-2023)
+   - **6394 cases of suspected dengue fever** were reported in Somaliland **September 2023 to  January 2024** (5 months period, **peak on November 2023**; https://reliefweb.int/report/somalia/cholera-dengue-diphtheria-disease-outbreak-response-somalia-hc-meeting-15-02-2024)
    - WHO Dr. Deq: 醫療團已於2024/06/18拜會  
      - 建議與指示:
         - WHO and TMM to maintain open communication and collaboration in supporting MoHD's efforts to control the dengue fever outbreak in Somaliland.
         - WHO: the shared data on dengue fever cases from October 2023 and identify potential areas for support in the surveillance system.
         - Dr. Deq strongly recommends that **TMM focuses on supporting the weakest part** of the Ministry of Health and Development (MoHD): **the dengue fever surveillance system**, from community and regional levels to MoHD.
-        - **Integrated Disease Surveillance and Response (IDSR)**: meeting minutes at
-https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
+        - **Integrated Disease Surveillance and Response (IDSR)**:
+<a href="https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html" target="_blank">meeting minutes</a> 
+
+        
 
 
   2. 索馬利蘭衛生部/HGH: (Taiwan Medical Mission / 2024/06/27)
       - 2023年疫情資料整理是準備2024年行動的關鍵，包含檢測數據、**陽性率**、地區分佈。
-      - 追蹤2023年快篩試劑RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
-          - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT: **陽性率 25.9%**
+      - 追蹤December 2023年快篩試劑 20,000 test of RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
+          - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT (December 2023 to 27 June 2024): **陽性率 25.9%**
           - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 經當面詢問，答稱不清楚)
           - **MoHD public health department** (已安排 [2024/07/04]會議，但當日 公衛主管 Mr. Mahdi Dahir Bahdoon 失約，未上班): **IDSR surveillance**
-      - TMM 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施。
+      - TMM project 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施 => IDSR
 
 
   3. **2022-2024年(June) HGH 登革熱**統計報告:(Taiwan Medical Mission / 2024/06/15)
-   - 由SAHA NCD director Dr. Ahmed Hersi(紙本登記簿)提供其分析結果**[2024/06/13]**:
-      - From October 2022 to June 2024, a total of 2,871 patients with dengue fever (probable) were registered at HGH. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
+   - 由 HGH NCD director Dr. Ahmed Hersi(紙本登記簿)提供其分析結果**[2024/06/13]**:
+      - From October 2022 to June 2024, a total of **2,871 patients with dengue fever were registered at HGH (test? unknown)**. Among these patients, 1,232 (42.9%) were male, and 1,639 (57.1%) were female. 
       - The majority of patients (2,036, 70.9%) received outpatient medical services, while 835 (29.1%) required hospital admission due to the severity of their illness.
 
       - The age distribution of the patients was as follows: 1,723 (60.0%) were under 30 years old, 774 (27.0%) were between 31 and 50 years old, and 374 (13.0%) were over 50 years old.
@@ -326,7 +333,7 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
 ***公共衛生**
 
-### 5. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
+### 4. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
 
 ####  A. 子宮頸癌防治中心、乳癌
 
@@ -456,6 +463,8 @@ https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html
 
   - **Action Points** (who/when)：
 
+    - HBV/HCV mini review:
+    <a href="https://texchi2.github.io/2024MSC/2024Project_hepatitis.html" target="_blank">(Somalia, 2018)</a> 
     - 向 MoHD 申請: HGH 門診(HIS) 統計資料分析 (TMM / 2024年7月)
     - 與 WHO、NGO SAHA 和 MoHD 共同制定 HBV 和 HCV 國家策略框架 (TMM、WHO Dr. Deq、SAHA Dr. Max、MoHD 公衛主任 / 2024年8月)
     - 了解 HGH HBV/HCV 門診的運作方式 (TMM、HGH HBV/HCV 門診負責人 / 2024年7月)
