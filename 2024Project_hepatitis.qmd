@@ -1,0 +1,73 @@
+---
+title: "Hepatitis in Somalia: A Mini Review"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+bibliography: references_HBV.bib
+---
+
+## Introduction
+
+This report summarizes the current situation of hepatitis B virus (HBV), hepatitis C virus (HCV), and other forms of viral hepatitis in Somalia, based on recent systematic reviews and meta-analyses.
+
+## Prevalence of Viral Hepatitis
+
+### Hepatitis B (HBV)
+
+The epidemiology of viral hepatitis in Somalia shows a high prevalence of all forms of viral hepatitis, with chronic hepatitis B being the most common cause of chronic liver disease [@hassan2018epidemiology; @worldhealthorganization2017somalia].
+
+- Overall pooled prevalence: 18.9% (95% CI: 14% to 29%) [@hassan2018epidemiology]
+- Prevalence in specific groups:
+  - Pregnant women: 20.5%
+  - Children: 5.7%
+  - Patients with chronic liver disease/hepatocellular carcinoma: 39.2% [@hassan2018epidemiology]
+
+### Hepatitis C (HCV)
+
+- Overall pooled prevalence: 4.84% (95% CI: 3.02% to 7.67%) [@hassan2018epidemiology]
+- Prevalence in patients with chronic liver disease/hepatocellular carcinoma: 29.82% [@hassan2018epidemiology]
+
+### Hepatitis D (HDV)
+
+- Overall pooled prevalence: 28.99%
+- Prevalence in patients with chronic liver disease/hepatocellular carcinoma: 43.77% [@hassan2018epidemiology]
+
+### Hepatitis A (HAV)
+
+While specific data for Hargeisa is not available, broader studies on Somalia provide insight:
+
+- Overall pooled prevalence rate: 90.2% (95% CI: 77.8% to 96%) [@hassan2018epidemiology]
+- Age-specific prevalence rates:
+  - < 1 year old: 61.54%
+  - 1-10 years old: 91.91%
+  - 11-19 years old: 96.31%
+  - 20-39 years old: 91.3%
+  - > 40 years old: 86.96%
+
+These high rates indicate that HAV is endemic in Somalia, with most people being exposed to the virus at a young age.
+
+## Hepatitis in Hemodialysis Patients
+
+A recent study on hemodialysis patients in Somalia found [@ahmed2021prevalence]:
+
+- HBV prevalence: 7.3%
+- HCV prevalence: 3.2%
+- Co-infection (HBV and HCV): 0.5%
+
+Risk factors associated with higher prevalence of HBV and HCV in hemodialysis patients included longer duration of hemodialysis, history of blood transfusion, and higher number of hemodialysis sessions per week [@ahmed2021prevalence].
+
+## Public Health Challenges
+
+The high prevalence of viral hepatitis, especially HBV, highlights the need for urgent public health interventions and strategic policy directions to control the disease burden in Somalia [@hassan2018epidemiology].
+
+The World Health Organization's 2017 country profile for Somalia indicates limited infrastructure and policies for hepatitis testing and treatment [@worldhealthorganization2017somalia]. As of 2015, there were:
+
+- No official guidelines for hepatitis B or C treatment
+- No estimates of people on antiviral treatment for either HBV or HCV
+
+## Conclusion
+
+These findings underscore the significant public health challenge posed by viral hepatitis in Somalia and the need for improved prevention, testing, and treatment strategies.
+
+## References
