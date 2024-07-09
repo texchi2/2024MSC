@@ -217,7 +217,7 @@ B. TOM 骨質疏鬆預防保健計畫
 - Epidemiological Overview: Case reports and trends
   - October-December 2023: 2,635 cases (734 positive, **27.9%**) (WHO, Somaliland)
   - September 2023-January 2024: **6,394 suspected** cases (WHO, Somaliland)
-  - October 2022-June 2024: 2,871 cases at HGH, Hargeisa
+  - **October 2022**-June 2024: 2,871 cases at HGH, Hargeisa
     - WHO provision of 20,000 RDTs (December 2023) => HGH laboratory usage: 1,512 tests (**25.9% positive rate**)
 
 <img src="images/Week 5_ HC-Epidemiological_dengue_Somaliland.jpg" style="width: 100%; height: auto;">
