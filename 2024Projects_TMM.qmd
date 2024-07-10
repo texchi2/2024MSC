@@ -43,167 +43,10 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 
 ## TMM Projects 進度(四大項)
 
-***訓練**
-
-### 1. Visiting Scholarships for Training in Taiwan
-
-
-  - Project: Capacity Building for Somaliland Medical Personnel
-  - Collaborators: Taipei Municipal Wanfang Hospital (TMWH), Taiwan Medical Mission (TMM), and Hargeisa Group Hospital (HGH)
-  - Initiatives:
-    a. Provide "Visiting Scholar Scholarships" for 12 Somaliland medical personnel to receive training in Taiwan for up to three months
-    b. Conduct selection process jointly by Taiwan Medical Mission and HGH Director's Office
-    c. Invite selected personnel to participate in **TMM's 2024 public health programs**
-  - Required support:
-    a. TMM: Scholarship funding for 12 medical personnel (one batch)
-    b. Coordination with TMWH for training arrangements
-    c. Collaboration with HGH for personnel selection and public health program participation
-
-<!--    d. **MoU** between HGH and TMWH
-    
-    e. 12 scholarship candidates:
-      - Batch 1 (June to September)
-        - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)
-        - Dr. Hassan Mohamoud Nour (Resident, Orthopedic)
-        - Dr. Nouh Ismail Mohamed (General Surgery)
-        - Mr. Ahmed Hussein Jama (Nurse, OT director)
-      
-      - Batch 2 (September to November)
-        - Dr. Mustafe Ahmed Yusuf (Neurosurgery) => spine surgery
-        - Dr. Abdihamid Mohamed Ali (Neurosurgery) => cranial surgery
-        - Dr. Adnan Sayid Abdo (General Surgery) => **laparoscopic training**
-        - Dr. Idiris Hassan Dahir (Cardiologist)
-
-      - Batch 3 (October to December)
-        - Mr. Mustafe (Technician, Pathology)
-        - Dr. Omer Mohamed Bihi (Pathology)
-        - Dr. Saed Mohamed Osman (Resident, Orthopedic)
-        - Dr. Mohamed Hassan Nur (Resident, Orthopedic)
--->
-<!--
-        - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
-        - Dr. Khadar Good Nur (Infection Prevention Centre Director)
-
-  - gantt chart (2024):@fig-gantt
--->
-
-
-<!-- 
-<img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
--->
-
-<!--
-![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-gantt width=110%}
--->
-
-
-  - **Action points**(who/when):
-
-<!--  1. **(HOLD)**第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
--->
-
-  1. (謝謝病理科陳主任指導)遠距視訊會議(**2024/6/20**，瞭解HGH pathology 之 staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經由Dr. Omar手工輸入，轉為 Excel file， 亦已於 2024MSC 研討會中初步 報告)
-
-    - 110 名病例分析: 
-    <a href="https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html" target="_blank">from MS Access database</a>
-    
-  - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
-  - 正在邀請Dr. Omar 分享上述 Excel data (**Dr. Omar, since 20 June**)
-    
-  2. 送訓科別(尚缺培訓計劃書):骨科、病理科
-  
-  3. 送訓科別(已有培訓計劃書):一般外科(2 or 3名主治醫師)、ICU/胸腔內科(待進一步說明 Dr. Jacfar)、開刀房護理師(護理部擬定中)
-  
-  4. 建議送訓科別: 神經外科、心臟內科、HGH研究中心(醫師、護理師、助產士)
-
-  <!-- 腫瘤科chemotherapy Dr. Ahmed Hersi -->
-  
-  5. 一般外科腹腔鏡手術訓練中心
-    - 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括十月份將赴臺北的 Dr. Nouh)，合作推行
-    - 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
-    - 所需設備:萬芳醫院提供腹腔鏡手術器械與訓練模型(home made DIY simulator box)  
-    - **Action points**(who/when):
-      - 待課程規劃、器械整理後，開始訓練教學 (Taiwan Medical Mission / 2024/07)
-      - 通過認證者，得遴選為**赴臺送訓**的種子學員(上限三名)
-  
-<!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
-
-  6. 待遴選完成後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利申請 90日之受訓，執行臨床實作) (預計為十月份開始受訓)(Taiwan Medical Mission / 2024/07)
-
-  7. **HGH 院長 Dr. Abdirahman**: 希望能於八月份赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
-  
-  8. 新成立的 **HGH研究中心 research center**: 並肩負 IRB 的功能
-  - online virtual meeting with TMWH研究部, 訓練研究人員使用分析工具 / Train researchers in using analytical tools
-  - visiting scholars (Taiwan Medical Mission / 2024/08)
-
-<!--      - 希望能於七月份，赴**代表處**拜見羅大使，進一步針對醫療團於HGH的年度計劃，交換意見
-      
-  3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。(Taiwan Medical Mission / 2024 by gantt chart)
-
-  4. 預計三位醫師、一位護理師的培訓時間為89天，因低於三個月，無法進行臨床實務操作。
-
-    - 2024/06/13 已完成萬芳醫院骨科陳昱斌副主任、與索馬利蘭骨科醫師視訊會議，確認來台培訓細節，雙方獲得共識，以符合其骨科訓練計畫的既定「年度指定課程」
-
-    - Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep =>
-衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
-
-    - Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep  =>衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作; 亦經骨科 陳副主任認可) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
-
-    - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)  => 請申請 七月中旬開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
-
-    - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
-
-  5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)(Taiwan Medical Mission / 2024/06/21)
- 
-  
-  5. 骨科醫師分批赴臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務，且能於2024年度完成專科訓練的**必修課程**，以參加年底的**年度晉級考試**。(Taiwan Medical Mission / 2024 by gantt)
-    --> 
-
-{{< pagebreak >}}
-
-***示範**
-
-### 2. 骨科關節鏡中心
-
-A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
-- 計畫內容:關節鏡膝關節手術  
-- 所需設備: 膝關節鏡手術器械(ready)  
-- 目前進度:2023年10月郭醫師親自示範手術技巧,培訓種子醫師;2024年8月骨科專家將再度蒞臨指導進階手術  
-- 瓶頸:
-  - 醫師學習曲線較長,需反覆練習;
-  - 關節鏡設備維修保養需OT的醫學工程技術員、及開刀房主任（護理師)負責
-
-B. TOM 骨質疏鬆預防保健計畫    
-- 計畫名稱:「TOM骨質疏鬆」篩檢與預防保健     
-- 內容:利用股骨X光片,透過AI人工智慧計算T-score,評估骨質密度   
-- 目前進度:已引進TOM系統,規劃舉辦義診活動推廣   
-- 瓶頸:民眾對骨質疏鬆認知不足,由護理部支援，於院內骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
-
-- case control study in hip fracture
-
-  1. 先行建立骨質疏鬆檢測系統(TOM: pelvic x-ray 建議拍攝參數 kVp:85, mAs:30, SID:100cm),並完成設備與網路架設(intranet)。
-  
-  2. 進行髖部骨折病例對照研究(Hip fracture Case control study),調查分析當地骨質疏鬆盛行現況。
-
-  3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
-
-- **Action points**(who/when): TBD
-
-
-
-{{< pagebreak >}}
-
-
-
-
-
-
-
-
 
 ***公共衛生**
 
-### 3. 登革熱追蹤管理暨加護病房重症支援
+### 1. 登革熱追蹤管理暨加護病房重症支援
 
 - 登革熱追蹤管理 IDSR
 - 加護病房重症支援:
@@ -240,7 +83,35 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 -->
 
 
-- **Action points**(who/when):    
+- **Action points**(who/when):
+[2024/07/24]:
+
+1. 2023年Somaliland登革熱資料收集:
+   - 與WHO和MoHD確認2023年完整資料可獲得性 (TMM / 2024/07/31)
+   - 分析資料獲取困難點，提出解決方案 (TMM / 2024/08/15)
+
+2. 2024年疫情準備:
+   - 制定2024年登革熱應對計劃 (TMM / 2024/08/31)
+   - 評估現有資源和準備程度 (TMM / 2024/08/15)
+   - 建立疫情監測系統改進計劃 (TMM / 2024/09/15)
+
+3. 萬芳醫院支援需求:
+   - 列出所需技術支援清單 (TMM / 2024/07/31)
+   - 與萬芳醫院討論遠距諮詢(感染科醫師) (TMWH / 2024/08/15)
+   - 制定培訓計劃，提升當地醫護人員能力 (TMWH / 2024/09/30)
+
+4. 資料分析和報告:
+   - 分析HGH 2022年10月至2024年6月的2,871例病例資料 (TMM / 2024/08/31)
+   - 評估WHO提供的20,000 RDTs使用情況，特別是HGH實驗室使用的1,512測試 (TMM / 2024/08/15)
+   - 製作綜合報告，包括流行病學概況和趨勢分析 (TMM / 2024/09/30)
+
+5. 資源管理:
+   - 評估現有RDTs庫存和未來需求 (TMM / 2024/07/31)
+   - 制定資源分配策略，確保有效利用有限的RDTs (TMM / 2024/08/15)
+   
+   
+
+[2024/07/10]
 
   1. 2023年索馬利蘭 WHO Dengue fever 資料蒐集: (Taiwan Medical Mission)
    - 2635 cases of dengue fever were reported in Somaliland **October to December 2023** of which 734 were tested **positive (27.9%)** for dengue by rapid diagnostic test (RDT) kit. The most affected districts are Hargeisa, Boroma and Gebiley. (https://reliefweb.int/report/somalia/who-somalia-health-emergency-programme-update-december-2023)
@@ -327,11 +198,146 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 -->
 
 
+
+
+
+
+{{< pagebreak >}}
+
+***訓練**
+
+### 2. Visiting Scholarships for Training in Taiwan
+
+
+  - Project: Capacity Building for Somaliland Medical Personnel
+  - Collaborators: Taipei Municipal Wanfang Hospital (TMWH), Taiwan Medical Mission (TMM), and Hargeisa Group Hospital (HGH)
+  - Initiatives:
+    a. Provide "Visiting Scholar Scholarships" for 12 Somaliland medical personnel to receive training in Taiwan for up to three months
+    b. Conduct selection process jointly by Taiwan Medical Mission and HGH Director's Office
+    c. Invite selected personnel to participate in **TMM's 2024 public health programs**
+  - Required support:
+    a. TMM: Scholarship funding for 12 medical personnel (one batch)
+    b. Coordination with TMWH for training arrangements
+    c. Collaboration with HGH for personnel selection and public health program participation
+
+<!--    d. **MoU** between HGH and TMWH
+    
+    e. 12 scholarship candidates:
+      - Batch 1 (June to September)
+        - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)
+        - Dr. Hassan Mohamoud Nour (Resident, Orthopedic)
+        - Dr. Nouh Ismail Mohamed (General Surgery)
+        - Mr. Ahmed Hussein Jama (Nurse, OT director)
+      
+      - Batch 2 (September to November)
+        - Dr. Mustafe Ahmed Yusuf (Neurosurgery) => spine surgery
+        - Dr. Abdihamid Mohamed Ali (Neurosurgery) => cranial surgery
+        - Dr. Adnan Sayid Abdo (General Surgery) => **laparoscopic training**
+        - Dr. Idiris Hassan Dahir (Cardiologist)
+
+      - Batch 3 (October to December)
+        - Mr. Mustafe (Technician, Pathology)
+        - Dr. Omer Mohamed Bihi (Pathology)
+        - Dr. Saed Mohamed Osman (Resident, Orthopedic)
+        - Dr. Mohamed Hassan Nur (Resident, Orthopedic)
+-->
+<!--
+        - Dr. Abdirahman Mohamed Osman (**Hospital Director**)
+        - Dr. Khadar Good Nur (Infection Prevention Centre Director)
+
+  - gantt chart (2024):@fig-gantt
+-->
+
+
+<!-- 
+<img src="images/2024TMM_12scholars_gantt3.jpg" style="width: 100%; height: auto;">
+-->
+
+<!--
+![gantt for 2024 visiting scholars](docs/2024TMM_12scholars_gantt3.pdf){#fig-gantt width=110%}
+-->
+
+
+  - **Action points**(who/when):
+
+<!--  1. **(HOLD)**第一批次預計 2~4 名醫師送訓，已完成七日公開招標(@Geeska Africa 網頁)，[2024/06/14]於開標、決標後將依照，衛生福利部**核可人員名單**，準備辦理機票採購及Taiwan VISA申請作業。預計二名醫師(骨科 Dr. Hassan 及一般外科 Dr. Nouh)將於 2024/06/23 之前抵達臺北。預計九月20日完成訓練。(Taiwan Medical Mission / 2024/06/16)
+-->
+
+  1. (謝謝病理科陳主任指導)遠距視訊會議(**2024/6/20**，瞭解HGH pathology 之 staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經由Dr. Omar手工輸入，轉為 Excel file， 亦已於 2024MSC 研討會中初步 報告): 110 名病例分析 <a href="https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html" target="_blank">from MS Access database</a>
+    
+  - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
+  - 正在邀請Dr. Omar 分享上述 Excel data (**Dr. Omar, since 20 June**)
+    
+  2. 送訓科別(尚缺培訓計劃書):神經外科、病理科、骨科
+  
+  3. 送訓科別(已有培訓計劃書):一般外科(2 or 3名主治醫師)、ICU/胸腔內科(待進一步說明 Dr. Jacfar)、開刀房護理師(一名)
+  
+  4. 建議送訓科別: 心臟內科(例如，心臟內科醫師的培訓需要考慮HGH現有的設備情況，如超音波機器的類型。)
+  
+  5. 為確保受訓者回國後能實際運用所學技能的重要性。各科的培訓計畫中，須明確訂立每位受訓者回國後的服務目標。
+  
+<!--  、HGH研究中心(醫師、護理師、助產士) -->
+
+  <!-- 腫瘤科chemotherapy Dr. Ahmed Hersi -->
+  
+  6. 一般外科腹腔鏡手術訓練中心
+    - 由醫療團王彥翔醫師與HGH Afnan醫師及一般外科醫師群(包括十月份將赴臺北的 Dr. Nouh)，合作推行
+    - 背景:HGH一般外科醫師具豐富開刀經驗,但受限於資源,公立醫院尚無腹腔鏡設備   
+    - 所需設備:萬芳醫院提供腹腔鏡手術器械與訓練模型(home made DIY simulator box)  
+    - **Action points**(who/when):
+      - 待課程規劃、器械整理後，開始訓練教學 (Taiwan Medical Mission / 2024/07)
+      - 通過認證者，得遴選為**赴臺送訓**的種子學員(上限三名)
+  
+<!--  2. 醫療團建議，2024年度若仍有設備款預算，提列**腹腔鏡手術設備**援贈新開刀房使用 -->
+
+  7. 待遴選完成後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利申請 90日之受訓，執行臨床實作) (預計為十月份開始受訓)(Taiwan Medical Mission / 2024/07)
+
+<!--  7. **HGH 院長 Dr. Abdirahman**: 希望能於八月份赴萬芳醫院(二週)，接受醫院經營管理之培訓。(TMWH / 2024/07)
+  
+  8. 新成立的 **HGH研究中心 research center**: 並肩負 IRB 的功能
+  - online virtual meeting with TMWH研究部, 訓練研究人員使用分析工具 / Train researchers in using analytical tools
+  - visiting scholars (Taiwan Medical Mission / 2024/08)
+-->
+
+<!--      - 希望能於七月份，赴**代表處**拜見羅大使，進一步針對醫療團於HGH的年度計劃，交換意見
+      
+  3. 訓練分四批進行：第一批六月中、七、八、九月，第二批預計在七、八月、九月，第三批在九、十、十一月，第四批十、十一、十二月。(Taiwan Medical Mission / 2024 by gantt chart)
+
+  4. 預計三位醫師、一位護理師的培訓時間為89天，因低於三個月，無法進行臨床實務操作。
+
+    - 2024/06/13 已完成萬芳醫院骨科陳昱斌副主任、與索馬利蘭骨科醫師視訊會議，確認來台培訓細節，雙方獲得共識，以符合其骨科訓練計畫的既定「年度指定課程」
+
+    - Dr. Nouh Ismail Mohamed (General Surgery) 23 Jun - 20 Sep =>
+衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
+
+    - Dr. Hassan Mohamoud Nour (Resident, Orthopedic) 23 Jun - 20 Sep  =>衛福部已核可(89 days 無須健康檢查報告,不執行臨床實作; 亦經骨科 陳副主任認可) 已準備採購機票，辦理 VISA 出發(Taiwan Medical Mission / 2024/06/20)
+
+    - Dr. Abdulrahmaan Adoosh Abdulaahi (Resident, Orthopedic)  => 請申請 七月中旬開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
+
+    - Mr. Ahmed Hussein Jama (Nurse, OT director) => 請申請 七月中旬 開始受訓 (89 days 無須健康檢查報告,不執行臨床實作)(陳尚臻事業發展部  / 2024/06/20)
+
+  5. 其餘人員，待2024/06/15各別通知後，辦理健康檢查(Chest X-ray, Tuberculosis (TB) Sputum Test, Syphilis/VDRL, Measles/Rubella)，以利即日起申請 90日之受訓，執行臨床實作) (預計為九月，十月開始受訓)(Taiwan Medical Mission / 2024/06/21)
+ 
+  
+  5. 骨科醫師分批赴臺，每次最多兩位，兩批次（第一/二，及第四批）日期不重疊，以維持骨科正常運作與服務，且能於2024年度完成專科訓練的**必修課程**，以參加年底的**年度晉級考試**。(Taiwan Medical Mission / 2024 by gantt)
+    --> 
+
+
+
+
+
+
+
+
+
+
+
+
 {{< pagebreak >}}
 
 ***公共衛生**
 
-### 4. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
+### 3. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
 
 ####  A. 子宮頸癌防治中心、乳癌
 
@@ -420,6 +426,38 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 -->
 
 
+
+- **Action Points**(who/when):
+
+1. 分拆子宮頸癌和乳癌預防及早期診斷計畫 (Dr. Huang / 2024/07/13)
+
+2. 提升婦女健康，促進性別平等:
+   - 設計社區健康工作者（Community Health Workers）和志工（Volunteers）培訓計畫 (RN Penny / 2024/08/15)
+   - 製作 Reproductive Cancer 健康教育材料 (RN Penny / 2024/08/31)
+   - 與 WHO 討論 HPV 檢測流程 (Dr. Huang / 2024/08/15)
+   - 設計完整的病患轉診流程 (Dr. Wang / 2024/08/31)
+   - 與私立醫院討論 mammography 和 chemotherapy 服務合作 (Dr. Huang / 2024/09/15)
+   - 建立 IDEM 資料庫計畫 (TMM / 2024/09/30)
+
+3. 確保計畫持續性:
+   - 在Dr. Huang 離開前可以做哪些; 離開之後誰可以做什麼 (2024/11)
+   - 與萬芳醫院婦產科及家醫科討論主題醫療支援可能性 (Dr. Huang / 2024/07/11)
+   - 試擬定當地計劃經理人聘用計畫 (Dr. Huang / 2024/08/15)
+   - 設計當地病理科醫師培訓計畫 (TMWH / 2024/07/31)
+
+4. 預算和設備:
+   - 修改預算，分別列出子宮頸癌和乳癌項目 (Dr. Huang / 2024/07/12)
+   - 加快必要設備採購流程，包括 HPV DNA kits (TMWH / 2024/08/01)
+   - 完成 2024 年 Phase 1 預算 (Dr. Huang / 2024/08/31)
+   - 編製 2025 年 Phase 2 計劃與預算書 (Dr. Huang / 2024/11/20)
+
+5. 研究和報告:
+   - 制定研究計畫，準備SCI國際期刊發表 (Dr. Huang / 2024/10/31)
+   - 完成 2024 年期中報告 (Dr. Huang / 2024/11/20)
+
+
+<!--
+[2024/07/10]
 - **Action points**(who/when):
 
 1. 在2022 TMM 建立的基礎上，推進乳癌及子宮頸癌的預防和早期診斷。
@@ -439,13 +477,14 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
   - HGH laboratory 擁有real-time PCR cycler 機器(**Qiagen Rotor-Gene Q**, for research only)，但需購買耗材(HPV DNA kits)。
   - 與當地**病理科醫師**合作，建立持續合作關係。
   - 計畫Phase 1的預算，確保順利執行後，再進一步計畫Phase 2。(Taiwan Medical Mission / 2024/07)
-  
+-->
 
 {{< pagebreak >}}
 
 #### B. 索馬利蘭病毒性肝炎(Viral Hepatitis)篩檢與預防控制計畫
   - 經WHO Dr. Deq 主動提出合作意願，TMM並可邀請 NGO SAHA 合作
   - 協助索馬利蘭制定 HBV 和 HCV 篩檢與預防控制的 **national policy**
+  - HGH最近成立了HBV門診
   - 建立以哈格爾薩總醫院(HGH)為核心的 HBV 和 HCV 管理模式 + MoHD IDSR
   - 提高醫護人員與民眾對 HBV 和 HCV 的認識和重視(健康飲食、不吸菸、不嚼食khat葉與菸草等，預防**脂肪肝**、有效預防肝臟發炎，阻止肝炎 、肝硬化、肝癌三部曲的危機。)
   - 製作索馬利蘭語的宣傳手冊 (Booklet)
@@ -464,8 +503,10 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
     - HBV/HCV mini review:
     <a href="https://texchi2.github.io/2024MSC/2024Project_hepatitis.html" target="_blank">(Somalia, 2018)</a> 
     - 向 MoHD 申請: HGH 門診(HIS) 統計資料分析 (TMM / 2024年7月)
+    - 從國家公共衛生部門、醫院實驗室和現有的HBV門診**收集HBV/HCV盛行率等數據**
     - 與 WHO、NGO SAHA 和 MoHD 共同制定 HBV 和 HCV 國家策略框架 (TMM、WHO Dr. Deq、SAHA Dr. Max、MoHD 公衛主任 / 2024年8月)
     - 了解 HGH HBV/HCV 門診的運作方式 (TMM、HGH HBV/HCV 門診負責人 / 2024年7月)
+    - 審查**醫療團2024預算**，看是否可能重新分配資金以支持HBV/HCV篩檢和疫苗接種。
     - 為 HGH 醫護人員進行 HBV/HCV 篩檢和 HBV 疫苗接種
       a. 制定篩檢和接種計劃 (TMM、HGH 人力資源部 / 2024年8月)
       b. 執行篩檢和接種 (HGH 醫療團隊、TMM  / 2024年9月1日至2024年11月30日)
@@ -480,6 +521,43 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
     - 協調 HBV 疫苗和 HCV 治療藥物的採購和供應 (TMM、MoHD national cold chain / 2024年10月1日至2024年12月31日持續進行)
     - 建立 HBV 和 HCV 監測和評估框架 (TMM、MoHD IDSR/ 2024年11月)
     - 定期與 WHO、SAHA、MoHD、HGH 和其他相關者進行策略協調會議 (TMM, Dr. Deq, Dr. Max, Mr. Mahdi Dahir Bahdoon. / 每季一次，從2024年9月開始)
+
+
+
+
+{{< pagebreak >}}
+
+***示範**
+
+### 4. 骨科關節鏡中心
+
+A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
+- 計畫內容:關節鏡膝關節手術  
+- 所需設備: 膝關節鏡手術器械(ready)  
+- 目前進度:2023年10月郭醫師親自示範手術技巧,培訓種子醫師;2024年8月骨科專家將再度蒞臨指導進階手術  
+- 瓶頸:
+  - 醫師學習曲線較長,需反覆練習;
+  - 關節鏡設備維修保養需OT的醫學工程技術員、及開刀房主任（護理師)負責
+
+B. TOM 骨質疏鬆預防保健計畫    
+- 計畫名稱:「TOM骨質疏鬆」篩檢與預防保健     
+- 內容:利用股骨X光片,透過AI人工智慧計算T-score,評估骨質密度   
+- 目前進度:已引進TOM系統,規劃舉辦義診活動推廣   
+- 瓶頸:民眾對骨質疏鬆認知不足,由護理部支援，於院內骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
+
+- case control study in hip fracture
+
+  1. 先行建立骨質疏鬆檢測系統(TOM: pelvic x-ray 建議拍攝參數 kVp:85, mAs:30, SID:100cm),並完成設備與網路架設(intranet)。
+  
+  2. 進行髖部骨折病例對照研究(Hip fracture Case control study),調查分析當地骨質疏鬆盛行現況。
+
+  3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
+
+- **Action points**(who/when): TBD
+
+
+
+{{< pagebreak >}}
 
 
 <!-- 被動低調
