@@ -105,12 +105,10 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
   1. (謝謝病理科陳主任指導)遠距視訊會議(**2024/6/20**，瞭解HGH pathology 之 staff 和設備，進一步溝通合作細節)。取得 Dr Omar 電子版的 病理報告，Microsoft Access database 並完成分析，近半年僅有 110 份報告，4/5 都未能存檔；所幸尚有紙本報告留存在 file folder (已經由Dr. Omar手工輸入，轉為 Excel file， 亦已於 2024MSC 研討會中初步 報告)
 
     - 110 名病例分析: 
-    <a href="https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html" target="_blank">from MS Access database</a> 
-
-
-    - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
+    <a href="https://texchi2.github.io/2024MSC/2024Project_HGH_pathology_LIMS.html" target="_blank">from MS Access database</a>
     
-    - 正在邀請Dr. Omar 分享上述 Excel data (**Dr. Omar, since 20 June**)
+  - 正在安排第一次 telepathology meeting for case discussion (Dr. Omar, **since 20 June**)
+  - 正在邀請Dr. Omar 分享上述 Excel data (**Dr. Omar, since 20 June**)
     
   2. 送訓科別(尚缺培訓計劃書):骨科、病理科
   
