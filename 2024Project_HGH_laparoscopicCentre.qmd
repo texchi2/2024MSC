@@ -2,73 +2,78 @@
 title: "Empowering Surgeons, Transforming Lives: The Laparoscopic Training Initiative in Hargeisa Group Hospital"
 author: "Taiwan Medical Mission"
 format: html
-date: 29 April 2024
+date: 20 July 2024
 ---
 
 
 ## Project Overview
-The Taiwan Medical Mission (TMM) in the Republic of Somaliland, in collaboration with the Hargeisa Group Hospital (HGH), proposes the establishment of a Laparoscopic Training Center to enhance surgical care and improve patient outcomes in the region. This initiative aims to introduce and develop laparoscopic surgery techniques among the general surgery department at HGH, under the guidance of Dr. Yen-Hsiang Wang, a visiting surgeon from Taipei Municipa Wanfang Hospital (TMWH), Taiwan.
+The Taiwan Medical Mission (TMM) in the Republic of Somaliland, in collaboration with the Hargeisa Group Hospital (HGH), proposes the establishment of a Laparoscopic Training Center to enhance surgical care and improve patient outcomes in the region. This initiative aims to introduce and develop laparoscopic surgery techniques among the general surgery department at HGH, under the guidance of Dr. (Andrew) Yen-Hsiang Wang, a visiting surgeon from Taipei Municipal Wanfang Hospital (TMWH), Taiwan.
 
 ### Background and Rationale
 
-Dr. Yen-Hsiang Wang, a general surgeon from TMWH, has been working with the TMM in Somaliland for nearly four weeks. During this time, he has collaborated with the local general surgery team, participating in outpatient clinics, surgeries, and ward rounds.
-The initial assessment has revealed a significant opportunity to fulfill the shared aspirations of the TMM and the local general surgeons: the development of laparoscopic surgery in Somaliland.
+Dr. Yen-Hsiang Wang, a general surgeon from TMWH, has been working with the TMM in Somaliland for more than three months. During this time, he has collaborated with the local general surgery team, participating in outpatient clinics, surgeries, and ward rounds.
+The initial assessment has revealed a significant opportunity to fulfill the shared aspirations of the TMM and the local general surgeons: **the development of laparoscopic surgery in Hargeisa Group Hospital**.
 Currently, at least six attending physicians at HGH have had exposure to laparoscopic surgery during their specialist training in neighboring Ethiopia. However, due to the lack of necessary equipment at HGH, they have been unable to perform laparoscopic procedures.
-The attending physicians and residents in the general surgery department at HGH have expressed a strong interest in learning laparoscopic surgery under the guidance of Dr. Wang. Their proficiency in a wide range of open surgical techniques makes laparoscopy an area where Taiwanese surgeons can showcase their expertise.
+The attending physicians and residents in the general surgery department at HGH have expressed a strong interest in developing laparoscopic surgery. Their proficiency in a wide range of open surgical techniques makes laparoscopy an area where Taiwanese surgeons can showcase their expertise.
 
 ## Project Objectives
 
 - Establish a Laparoscopic Training Center at Hargeisa Group Hospital.
 - Train attending physicians and residents in laparoscopic surgical techniques.
-- Improve patient care by introducing minimally invasive surgical options.
 - Foster collaboration and knowledge exchange between Taiwanese and Somaliland surgeons.
 
 ## Implementation Plan
 
 1. Dr. Wang will develop a comprehensive laparoscopic surgery training curriculum, tailored to the needs and resources of HGH.
 
-2. The TMM kindly requests the Teaching Department of TMWH to lend a laparoscopic simulator for a period of four months. Dr. Wang will return the simulator upon his return to Taiwan.
+2. The TMM kindly requests the Teaching Department of TMWH to support a laparoscopic simulator and instruments.
 
-3. Dr. Wang will conduct hands-on training sessions, demonstrations, and supervised laparoscopic procedures during his remaining four months in Somaliland.
+3. Dr. Wang will conduct hands-on training sessions, demonstrations, and supervised laparoscopic procedures during his time in Somaliland.
 
-4. The TMM will explore the possibility of procuring laparoscopic equipment for HGH, with the aim of providing long-term benefits to the people of Somaliland.
+<!-- 4. The TMM will explore the possibility of procuring laparoscopic equipment for HGH, with the aim of providing long-term benefits to the people of Somaliland.
+-->
 
 ### Laparoscopic Simulator:
 
-Brand: 3D Systems (formerly Simbionix)
-
-Model: LAP Mentor III
 
 Features:
 
-1) Realistic 3D graphics and tactile feedback
+1) Realistic 2D graphics and tactile feedback
 2) Adjustable difficulty levels for various training scenarios
 3) Comprehensive curriculum with guided tasks and performance metrics
 4) Compatibility with a wide range of laparoscopic instruments
-5) Reference https://surgicalscience.com/medical-specialities/general-surgery/
+
+<!--5) Reference https://surgicalscience.com/medical-specialities/general-surgery/ -->
 
 
 
-### Laparoscopic Instrument Set:
+Laparoscopic Instrument Set for Simulator:
 
-- 5mm Maryland dissector (x2)
-- 5mm curved scissors (x2)
-- 5mm atraumatic grasper (x2)
-- 5mm Babcock forceps (x2)
+- 5mm Maryland dissector (x1)
+- 5mm curved scissors (x1)
+- 5mm atraumatic grasper (x1)
+- 5mm Babcock forceps (x1)
 - 5mm Hasson trocar (x2)
-- 5mm-11mm reducer (x2)
+- Light cable (x1)
+- Camera (x1)
+- Android Go tablet (x1)
+- Needle holder (x1)
+- Grasping forceps (x2)
+<!-- - 5mm-11mm reducer (x2)
 - 10mm-11mm trocar (x2)
 - 10mm-0° laparoscope (x1)
 - 10mm-30° laparoscope (x1)
-- Light cable (x2)
+
 - Veress needle (x2)
 - Suction-irrigation device (x1)
-- Needle holder (x2)
+
 - Clip applicator (x1)
 - Monopolar hook electrode (x2)
 - Bipolar forceps (x1)
-- Grasping forceps (x2)
+
 - Knot pusher (x1)
+
+
 
 ## Future Prospects
 
@@ -102,6 +107,7 @@ Note: Prices are estimated based on average costs of laparoscopic equipment made
 
 This budget plan covers the essential equipment required to establish a functional laparoscopic surgery unit at Hargeisa Group Hospital. The procurement of high-quality, cost-effective equipment from Indian manufacturers will ensure the sustainability and long-term success of the Laparoscopic Training Centre initiative.
 
+-->
 
 ## Conclusion
 The establishment of a Laparoscopic Training Centre at Hargeisa Group Hospital represents a significant step towards improving surgical care and patient outcomes in Somaliland. Through collaboration, training, and knowledge exchange, this initiative will empower local surgeons, transform lives, and contribute to the overall development of the healthcare system in the region.
