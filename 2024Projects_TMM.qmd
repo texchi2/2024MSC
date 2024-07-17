@@ -33,12 +33,8 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 ## Progress Report (2024/06/12)
 ## Progress Report (2024/06/28)
 ## Progress Report (2024/07/10)
+## Progress Report (2024/07/??)
 
-## TMM 行政
-
-- 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機，乘客座位三、四名，而計劃推展中，常常須要二組人馬出動(不同目的地)，加上因應八月份徐醫師到任，
-  1) 上班、下班，暫時均需要分為兩趟、甚至三趟行車。
-  2) 請示預算(旅運費)，以支付約**每個月USD1,800的租車費用(司機、車、diesel)**
 
 
 ## TMM Projects 進度(四大項)
@@ -529,7 +525,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 ***示範**
 
-### 4. 骨科關節鏡中心
+### 4. 骨質健康計劃
 
 A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
 - 計畫內容:關節鏡膝關節手術  
@@ -541,19 +537,21 @@ A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊
 
 B. TOM 骨質疏鬆預防保健計畫    
 - 計畫名稱:「TOM骨質疏鬆」篩檢與預防保健     
-- 內容:利用股骨X光片,透過AI人工智慧計算T-score,評估骨質密度   
-- 目前進度:已引進TOM系統,規劃舉辦義診活動推廣   
-- 瓶頸:民眾對骨質疏鬆認知不足,由護理部支援，於院內骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
+- 內容:利用股骨X光片,透過**AI人工智慧**計算T-score/Z-score,評估骨質密度   
+- 目前進度:已引進Taiwan Osteoporosis Master (TOM)系統,規劃舉辦**義診以推廣活動**   
+- 瓶頸:民眾對骨質疏鬆認知不足,由骨科與放射科醫師支援，於院內骨科門診、骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
 
-- case control study in hip fracture
+- case control study in hip fracture (retrospective)
 
   1. 先行建立骨質疏鬆檢測系統(TOM: pelvic x-ray 建議拍攝參數 kVp:85, mAs:30, SID:100cm),並完成設備與網路架設(intranet)。
+  
+  2. 首月執行義診服務，由醫療團補貼放射科股骨X光片及放射科主治醫師的診斷費用。
   
   2. 進行髖部骨折病例對照研究(Hip fracture Case control study),調查分析當地骨質疏鬆盛行現況。
 
   3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
 
-- **Action points**(who/when): TBD
+- **Action points**(who/when): TMM / 2024/08
 
 
 
@@ -865,5 +863,11 @@ Collaborative Synergy: The Power of TMM and HGH's Daily Partnership
 - 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機、SPU 同時出勤，也就是說僅剩下乘客座位三名(擁擠)
   1) 請求衛生部，替換大型車輛(Land Cruiser 八人座以上)
   2) 目前上班、下班，暫時均需要分為兩趟、甚至三趟行車。
+
+## TMM 行政
+
+- 基於衛生部提供的 Nissan NP300 交通車，醫療團每一趟出車均需要司機，乘客座位三、四名，而計劃推展中，常常須要二組人馬出動(不同目的地)，加上因應八月份徐醫師到任，
+  1) 上班、下班，暫時均需要分為兩趟、甚至三趟行車。
+  2) 請示預算(旅運費)，以支付約**每個月USD1,800的租車費用(司機、車、diesel)**
 
 -->
