@@ -1,0 +1,77 @@
+---
+title: "Visiting Scholars: Cardiology"
+author: "Hargeisa Group Hospital and Taipei Municipal Wanfang Hospital"
+lang: zh-TW
+format: 
+  pdf:
+    encoding: UTF-8
+    documentclass: article
+    include-in-header:
+      - text: |
+          \usepackage[utf8]{inputenc}
+          \usepackage{pgfgantt}
+          \usepackage{xeCJK}
+    mainfont: "PingFang TC"
+    CJKmainfont: "PingFang TC"
+    pdf-engine: xelatex
+    template-partials:
+      - before-body.tex
+---
+
+
+
+
+\section{哈爾格薩總醫院(HGH)心臟科現況}
+
+\begin{itemize}
+\item 現有設備:
+  \begin{itemize}
+  \item 心電圖機
+  \item 心臟超音波儀(用於成人及兒童)：具備彩色都卜勒功能 (Color Doppler)
+  \end{itemize}
+\item 心臟病房(CCU):監視器、除顫器(defibrillator)
+\item ICU/急診室均有呼吸器(ventilators),但因缺乏訓練而全院各科均未使用
+\item 無兒科心臟專科醫師,由一般心臟科醫師Dr. Idiris診斷先天性心臟病
+\item 無心導管室,需轉診至私立醫院(三家)
+\end{itemize}
+
+
+\section{2024年心臟內科醫師\textbf{建議培訓計畫}}
+為Dr. Idiris Hassan Dahir安排為期3個月的臨床培訓計畫:
+
+\begin{itemize}
+\item 地點:臺北市立萬芳醫院
+\item 時間:2024年第四季(暫定)
+\item 培訓內容:
+    \begin{itemize}
+    \item 呼吸器及除顫器操作訓練
+    \item 兒童先天性心臟病診斷與處置:包括
+      \begin{itemize}
+      \item ASD: 心房中隔缺損 (Atrial Septal Defect)
+      \item VSD: 心室中隔缺損 (Ventricular Septal Defect)
+      \item PDA: 動脈導管未閉 (Patent Ductus Arteriosus)
+      \item TOF: 法洛氏四重症 (Tetralogy of Fallot)
+      \item TGA: 大血管轉位 (Transposition of the Great Arteries)
+      \end{itemize}
+    \item ICU/CCU加護病房管理
+    \item 心導管檢查及介入性治療技術簡介
+    \end{itemize}
+\end{itemize}
+
+\subsection{後續支援}
+\begin{itemize}
+\item 2024/09 萬芳醫院胸腔內科專家訪問HGH,進行ICU/呼吸器示範及教學
+\item 2025年 安排萬芳醫院小兒心臟科專家訪問HGH,進行示範及教學
+\item 建立遠距會診機制,協助複雜病例診治
+
+\end{itemize}
+
+\section{預期成效}
+\begin{itemize}
+\item 提升HGH心臟科診療能力,尤其在兒童心臟病及重症處置方面
+
+\item 培養當地心臟科醫師,提升索馬利蘭心臟醫療水準
+\end{itemize}
+
+請示長官，
+此計畫是否加入2024年TMM培訓計畫?具體計畫書將進一步討論制定。

@@ -1,6 +1,7 @@
 ---
 title: "Visiting Scholars Schedule"
 author: "Hargeisa Group Hospital and Taipei Municipal Wanfang Hospital"
+lang: zh-TW
 format: 
   pdf:
     documentclass: article
