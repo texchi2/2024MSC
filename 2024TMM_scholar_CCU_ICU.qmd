@@ -11,6 +11,7 @@ format:
           \usepackage[utf8]{inputenc}
           \usepackage{pgfgantt}
           \usepackage{xeCJK}
+          \usepackage{outlines}
     mainfont: "PingFang TC"
     CJKmainfont: "PingFang TC"
     pdf-engine: xelatex
@@ -53,7 +54,17 @@ format:
       \item TOF: 法洛氏四重症 (Tetralogy of Fallot)
       \item TGA: 大血管轉位 (Transposition of the Great Arteries)
       \end{itemize}
-    \item ICU/CCU加護病房管理
+    \item ICU/CCU加護病房
+    \begin{outline}
+      \1 Integrate Cardiology-Specific Content/modules:
+        \2 cardiac causes of acute respiratory failure (e.g., cardiogenic pulmonary edema, acute coronary syndromes)
+        \2 Include training on management of cardiac patients requiring mechanical ventilation
+      \1 Cardiovascular-Respiratory Interactions:
+        \2 Expand on the "Cardiovascular dysfunction and hemodynamic monitoring" module
+        \2 Add content on interpreting ECGs in the context of respiratory failure
+        
+    \end{outline}
+    
     \item 心導管檢查及介入性治療技術簡介
     \end{itemize}
 \end{itemize}
