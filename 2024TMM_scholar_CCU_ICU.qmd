@@ -12,6 +12,7 @@ format:
           \usepackage{pgfgantt}
           \usepackage{xeCJK}
           \usepackage{outlines}
+          \usepackage{enumitem}
     mainfont: "PingFang TC"
     CJKmainfont: "PingFang TC"
     pdf-engine: xelatex
@@ -86,3 +87,80 @@ format:
 
 請示長官，
 此計畫是否加入2024年TMM培訓計畫?具體計畫書將進一步討論制定。
+
+
+\clearpage
+
+
+
+
+\section{Hargeisa Group Hospital (HGH) Intensive Care Unit (ICU) Capacity Assessment [May 2024]}
+
+\subsection{Bed Capacity}
+Total beds: 14 (7 male, 7 female)
+
+\subsection{Primary Case Mix}
+Predominant conditions include cerebrovascular accidents (CVA), pneumonia, acute myocardial infarction (AMI), and major trauma. Notably, post-operative care for major elective surgeries is not routinely managed in this ICU.
+
+\subsection{Staffing}
+
+\subsubsection{Nursing Staff}
+\begin{itemize}
+    \item Total complement: 16 nurses
+    \item Shift distribution:
+    \begin{itemize}
+        \item Shift A: 6 nurses
+        \item Shift B: 4 nurses
+        \item Shift C: 6 nurses
+    \end{itemize}
+    \item Responsibilities: Vital sign monitoring, nursing documentation, and execution of medical orders
+    \item Care model: Shared responsibility for all 14 patients without primary nursing assignments
+\end{itemize}
+
+\subsection{Respiratory Therapy}
+\begin{itemize}
+    \item One respiratory therapist
+    \item Work schedule: Shift A, with Fridays off
+    \item Current role: Performing nursing duties due to absence of intubated patients
+    \item Professional development: Received 10 months of training in the Philippines
+\end{itemize}
+
+\subsubsection{Medical Staff}
+\begin{itemize}
+    \item ICU Director: Dr. Jacfar
+    \item 8 General Practitioner (GP) doctors
+    \item 3 Internist specialist doctors (including Dr. Saed Ahmed)
+    \item Care model: Shared responsibility among 8 GP doctors for all 14 patients without primary physician assignments
+    \item Educational component: Medical student rotations incorporated
+\end{itemize}
+
+\subsection{Equipment Inventory}
+
+\subsubsection{Oxygen Supply}
+\begin{itemize}
+    \item Source: Oxygen cylinders, supplied from HGH oxygen concentrator
+    \item Dedicated personnel for transport and supply management
+\end{itemize}
+
+\subsubsection{Ventilation Equipment}
+\begin{itemize}
+    \item Mechanical ventilators (Dräger): 3 units (only 1 operational, unused to date)
+    \item Portable ventilator: Quantity unspecified
+    \item BiPAP: 1 unit (functional but unused)
+    \item CPAP: 1 unit (functional but unused)
+\end{itemize}
+
+\subsubsection{Monitoring and Support Equipment}
+\begin{itemize}
+    \item Vital signs monitors (three-in-one): 11 units (ECG leads used on an as-needed basis due to shortage)
+    \item IV micro-pumps: 6 units
+    \item Defibrillator: 1 unit (functionality questionable)
+    \item Ultrasound: 1 standard unit, supplemented by several handheld ultrasound devices (Android tablets) donated and used for teaching by Dr. Max from SAHA
+\end{itemize}
+
+\subsubsection{Diagnostic Equipment}
+\begin{itemize}
+    \item Arterial Blood Gas (ABG) analyzer: 1 unit (currently non-operational due to reagent depletion)
+    \item Glucometers: 4 units
+\end{itemize}
+
