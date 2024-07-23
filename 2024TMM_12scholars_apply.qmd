@@ -79,13 +79,20 @@ This is an opportunity for focused training at Taipei Municipal Wanfang Hospital
 Submit inquiries and complete the streamlined application process to unlock this invaluable Taiwan training opportunity!
 
 **Step 6:** confirmed scholars could submit
-  - proof of work from HGH administration,
+
+  - proof of work from HGH administration, and
+
   - health check report (within 3 months) with the following specific tests and screenings:
+
     - Chest X-ray 
+
     - Tuberculosis (TB) Sputum Test 
+
     - Syphilis/VDRL/RPR/TPHA Serology Tests (antibody)
+
     - Measles and Rubella Serology (antibody)
-    - (please  <a href="docs/2024TMM_HGH_form_health-certificate.pdf" class="button">Download/a> this **health certificate form**)
+
+    - (please  <a href="docs/2024TMM_HGH_form_health-certificate.pdf" class="button"> Download </a> this **health certificate form**)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
