@@ -1,0 +1,95 @@
+---
+title: "Health Certificate for Medical Practice Application"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
+    fontsize: 10pt
+    include-in-header: 
+      text: |
+        \usepackage{wasysym}
+---
+
+![](images/Hargeisa_Group_Hospital_logo.jpg){width=2in}
+
+(Hospital's Name, Address, Tel, Fax)
+
+# Basic Data
+
+| Field | Value |
+|-------|-------|
+| Name ||
+| Sex | \Square Male \Square Female |
+| ID No. ||
+| Passport No. ||
+| Date of Birth ||
+| Nationality ||
+| Age ||
+| Phone No. ||
+
+![Photo](images/IMG_3003.png){width=1.5in}
+
+# Laboratory Examinations
+
+## A. Chest X-ray for Tuberculosis:
+
+Findings: 
+
+Result: \Square Passed \Square TB suspect \Square Pending \Square Failed
+
+\Square Not required for pregnant women or children under 12 years of age
+
+## B. Stool Examination for Parasites:
+
+\Square Positive, Species: _________________ \Square Negative
+
+\Square Other parasites that do not require treatment: _________________
+
+\Square Not required for applicants from countries/areas listed in Appendix 3
+
+## C. Serological Tests for Syphilis:
+
+Tests:
+a. \Square RPR \Square VDRL
+   \Square Positive, Titers _______ \Square Negative, Titers _______
+b. \Square TPHA \Square TPPA \Square FTA-abs \Square TPLA \Square EIA \Square CIA
+   \Square Positive, Titers _______ \Square Negative, Titers _______
+c. \Square Other ___________________
+   \Square Positive, Titers _______ \Square Negative, Titers _______
+
+Result: \Square Passed \Square Failed
+
+\Square Not required for children under 15 years of age
+
+## D. Proof of Positive Measles and Rubella Antibody or Measles and Rubella Vaccination Certificates:
+
+a. Antibody Tests
+   Measles Antibody \Square Positive \Square Negative \Square Equivocal
+   Rubella Antibody \Square Positive \Square Negative \Square Equivocal
+
+b. Vaccination Certificates
+   \Square Measles Vaccination Certificate
+   \Square Rubella Vaccination Certificate
+
+c. \Square Having contraindications, not suitable for vaccination
+
+{{< pagebreak >}}
+
+# The final result of health examination:
+
+\Square Passed \Square Need further examinations \Square Failed
+
+Signature of Chief Medical Technologist: ______________________________
+
+Signature of Chief Physician: ________________________________________
+
+Signature of Superintendent: ________________________________________
+
+Date: ______ / ______ / ______
+      YYYY    MM      DD
+
+Note: The certificate is valid for three months.
