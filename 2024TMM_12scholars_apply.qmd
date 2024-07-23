@@ -1,0 +1,184 @@
+---
+title: "2024 Announcement of Visiting Scholarship"
+author: "Taiwan Medical Mission (TMM)"
+format: html
+---
+
+------------------------------------------------------------------------
+
+![](images/TMM_logo.svg){fig-align="right" width="68"}
+
+The Visiting Scholarship program, launched in 2024, aims to encourage outstanding health professionals from Somaliland to pursue focused training in Taiwan. This deepens understanding of Taiwan’s healthcare environment and enhances future exchanges and partnerships.
+
+## Programs
+
+**1. Fellowship Program**
+
+Specialized professional training in medical, nursing, or allied health fields at Taipei Municipal Wanfang Hospital (TMWH) for up to 3 months.
+
+**2. Observership Program**
+
+Shadowing opportunities across clinical and non-clinical departments at Taipei Municipal Wanfang Hospital for up to 2 weeks.
+
+## Timeline
+
+**Observership Program:** Up to 2 weeks; for hospital administration
+
+**Fellowship Program:** Up to 3 months; the training curriculum will cover aspects mentioned below Participants will serve as conduits for knowledge transfer to build capacity at Hargeisa Hospital upon return.
+
+## 12 Scholars
+
+The Taiwan Medical Mission Visiting Scholar Program to Taipei is slated to host up to 15 medical staff over 2024 through three cohorts of 5 persons each.
+
+This is an opportunity for focused training at Taipei Municipal Wanfang Hospital in your specialty areas like:
+
+-   Hospital Administration
+
+-   Operation theatre (OT) management
+
+-   Orthopedics
+
+-   Neurosurgery
+
+-   Pathology
+
+-   NCD clinic and case management
+
+-   ICU and CCU
+
+## Eligibility
+
+**Practicing professionals at Hargeisa Group Hospital with:**
+
+-   Currently employed at Hargeisa Group Hospital
+
+-   Minimum 1 year of experience post-qualification
+
+-   Good professional standing
+
+-   English language proficiency
+
+-   Endorsement from **department head and hospital director**
+
+## How To Apply
+
+**Step 1:** Visit \[https://texchi2.github.io/2024MSC/2024TMM_12scholars_apply.html\] and download application form: <a href="docs/ApplicationForm_VisitingScholarship.docx" class="button">Download This File</a>
+
+**Step 2** Please fill \[2024 SCHOLARSHIP APPLICATION FORM\] (refer our "an example" below); print and sign your signature (and signature of your **department head**) => total two signatures
+
+**Step 3:** Submit completed application and supporting documents (Passport copy, Degree/Diploma Certificate, NHPC license, CV with your wish list of courses in Taiwan, and **one recommend letter**) to **TMM offiska in HGH** by 26 February 2024 (deadline)
+
+**Step 4:** Shortlisted candidates will be notified for interviews
+
+**Step 5:** Final selections announced and placement confirmations
+
+**Contact:** Dr. Tex Li-Hsing Chi, TMM chief
+
+**Email:** \[tmm2022sln\@gmail.com\]
+
+Submit inquiries and complete the streamlined application process to unlock this invaluable Taiwan training opportunity!
+
+**Step 6:** confirmed scholars could submit
+  - proof of work from HGH administration,
+  - health check report (within 3 months) with the following specific tests and screenings:
+    - Chest X-ray 
+    - Tuberculosis (TB) Sputum Test 
+    - Syphilis/VDRL/RPR/TPHA Serology Tests (antibody)
+    - Measles and Rubella Serology (antibody)
+    - (please  <a href="docs/2024TMM_HGH_form_health-certificate.pdf" class="button">Download/a> this **health certificate form**)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+------------------------------------------------------------------------
+
+## 2024 SCHOLARSHIP APPLICATION FORM (an example)
+
+# Taiwan Medical Mission Visiting Scholarship Program
+
+```{r applicant-details, echo=FALSE}
+name <- "Mohamed Abdi"
+nationality <- "Somaliland"
+dob <- "24-10-1991"
+age <- "32"
+gender <- "Male"  
+status <- "Married"
+contact <- "+252-674441234"
+email <- "moabdi@email.com"
+address <- "Road No One, Hargeisa"
+```
+
+**Name:** `r name`
+
+**Nationality:** `r nationality`
+
+**Date of Birth:** `r dob`
+
+**Age:** `r age`
+
+**Gender:** `r gender`
+
+**Marital Status:** `r status`
+
+**Contact Number:** `r contact`
+
+**Email Address:** `r email`
+
+**Mailing Address:** `r address`
+
+## Education
+
+**Institution:** University of Hargeisa
+
+**Dates Attended:** 08-2015 to 09-2022
+
+**Degree/Certificate:** Bachelor's Degree
+
+**Field of Study:** Medicine
+
+## Work Experience
+
+**Employer:** Hargeisa Group Hospital
+
+**Title:** Doctor
+
+**Duration:** 10-2022 to 02-2024
+
+## Personal Statement
+
+1)  A brief summary of yourself:
+
+2)  What's the motivation for your visiting to TMWH? Discuss how receiving the TMM visiting scholarship to train in your specialty area in Taipei would benefit your professional development and enable you to better serve your home country upon return. (1000 words max):
+
+## Reference from the Department Head of HGH
+
+**Name:** Abdi Mohamed
+
+**Position/Title:** Director of Orthopedic Department
+
+**Relation:** Colleague
+
+**Contact:** amoxamed\@ortho.hgh
+
+**Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Date:** \_\_\_\_\_\_\_\_\_\_\_\_
+
+I certify that the information provided in this application is accurate to the best of my knowledge. I understand that any misrepresentations may warrant disqualification if discovered even after acceptance.
+
+------------------------------------------------------------------------
+
+## Contract of Applicant and HGH
+
+As part of the scholarship application process, I hereby commit to returning to Hargeisa Group Hospital (HGH) after completing my studies abroad and contributing my knowledge and skills to improve patient care in Somaliland. During my time at HGH (**at least one year upon return**), I will prioritize effective knowledge transfer by sharing my experiences and insights with colleagues, participating in training programs, and engaging in continuous learning opportunities. Upon returning to my home country, I pledge to continue serving the healthcare community with dedication and professionalism, utilizing the skills and expertise gained during my scholarship program for the betterment of our nation's health outcomes.
+
+**Applicant Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Date:** \_\_\_\_\_\_\_\_\_\_\_\_
+
+------------------------------------------------------------------------
+
+This website is hosted and maintained by Taiwan Medical Mission, a humanitarian non-profit organization. We are dedicated to providing medical aid and empowering healthcare professionals internationally.
+
+Copyright Taiwan Medical Mission in the Republic of Somaliland ©2022-2024. All rights reserved.
