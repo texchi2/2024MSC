@@ -58,7 +58,7 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
     - WHO provision of 20,000 RDTs (December 2023) => HGH laboratory usage: 1,512 tests (**25.9% positive rate**)
 
 <img src="images/Week 5_ HC-Epidemiological_dengue_Somaliland.jpg" style="width: 100%; height: auto;">
-
+(image courtesy: https://reliefweb.int/report/somalia/cholera-dengue-diphtheria-disease-outbreak-response-somalia-hc-meeting-15-02-2024)
 <!--
 <iframe src="docs/2024Project_DengueFever_Hargeisa-tikz.pdf" type="application/pdf" width="100%" height="100%"></iframe>
 
