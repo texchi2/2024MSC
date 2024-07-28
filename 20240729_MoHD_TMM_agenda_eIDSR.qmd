@@ -1,0 +1,47 @@
+---
+title: "Meeting Agenda"
+---
+
+eIDSR Implementation, Dengue Surveillance, and Data Access in Somaliland
+
+Date: Monday, 29 July, 2024
+
+Time: 09:00–10:00
+
+Attendees: MoHD DG Dr. Hergeye, Public Health director Mr. Mahdi Dahir, TMM chief Dr. Tex Chi 
+
+- IDSR Implementation and Data Management (from community to MoHD)
+  a. Overview of IDSR roll-out plan in Somaliland for 2024
+    - Weekly/monthly aggregate reporting
+    - MoHD DHIS2 database and **dashboard implementation**
+
+  b. eIDSR: Integration of DHIS2 and ICDF HIS in 4 public general hospitals (**Hargeisa, Boroma, Berbera, and Burco**)
+    - Current status and challenges
+    - Strategies for real-time data sharing and analysis
+
+  c. eIDSR: mHealth initiatives
+    - Mobile technologies for data collection and reporting in **regional hospitals, health centers, and communities**
+    - Case-based immediate reporting using DHIS2 tracker module app (e.g., **dengue fever surveillance**)
+    - E-learning programs for training of healthcare workers
+
+<!-- -->
+
+- Dengue RDT Quality Concerns and Surveillance
+  a. Reports of **false negative** results in severe dengue cases
+    - Proposed quality control measures for diagnostic tools
+
+<!--  b. Differential diagnosis challenges (Arbovirus: dengue, chikungunya, Zika)
+    - Impact on patient outcomes and surveillance data quality
+    - Strategies for comprehensive arboviral surveillance
+-->
+
+- Data Access and Request Workflow
+  a. TMM's request for specific data:
+    - **Dengue fever data** (IDSR) from HGH (epi-week 1, 2023 to June 2024)
+    - **HBV/HCV** case data
+  b. Data sharing protocols and necessary approvals
+    - Workflow for data requests
+    - **Application form template** review: https://texchi2.github.io/2024MSC/RequestForm_MoHD_DHIS2_database.html
+
+
+
