@@ -1076,5 +1076,12 @@
     "title": "Health Certificate for Medical Practice Application",
     "section": "D. Proof of Positive Measles and Rubella Antibody or Measles and Rubella Vaccination Certificates:",
     "text": "D. Proof of Positive Measles and Rubella Antibody or Measles and Rubella Vaccination Certificates:\n\nAntibody Tests Measles Antibody Positive Negative Equivocal Rubella Antibody Positive Negative Equivocal\nVaccination Certificates Measles Vaccination Certificate Rubella Vaccination Certificate\nHaving contraindications, not suitable for vaccination"
+  },
+  {
+    "objectID": "RequestForm_MoHD_DHIS2_database.html",
+    "href": "RequestForm_MoHD_DHIS2_database.html",
+    "title": "DHIS2 DATA REQUEST APPLICATION FORM",
+    "section": "",
+    "text": "Requester Information:\nName: ________________________\nOrganization: __________________\nPosition: ______________________\nEmail: ________________________\nPhone: ________________________\nData Requested:\n[ ] Dengue fever weekly aggregate reports\n[ ] HBV/HCV monthly aggregate reports\n[ ] Other (please specify): ___________________\nTime Period: From (dd/mm/yyyy): //______ To (dd/mm/yyyy): //______\nGeographical Area:\n[ ] Nationwide\n[ ] Specific region(s): [ ] Hargeisa Group Hospital, [ ] Burco General Hospital, [ ] Boroma General Hospital, [ ] Berbera General Hospital\nData Format Requested: [ ] Excel spreadsheet, or [ ] CSV file\nPurpose of Data Request:\n[ ] Disease Surveillance\n[ ] Research\n[ ] Program planning\n[ ] Policy development\n[ ] Other (please specify): ___________________\nBrief description of how the data will be used:\nData Security Measures: [ ] Data will be stored on encrypted, password-protected devices accessible only to authorized personnel. All data will be de-identified before analysis. No individual-level data will be shared or published.\nData Destruction:\nProposed date for data destruction: //______\nAgreement:\n[ ] I agree to use the data only for the purpose stated above.\n[ ] I agree not to share the data with any third parties without explicit permission from MoHD.\n[ ] I agree to acknowledge MoHD as the data source in any publications or presentations.\nSignature: ____________________ Date: //______\nFor Official Use Only:\nDate Received: //______ Request ID: __________________\nApproved by: MoHD Director General _________________\nDate Approved: //______"
   }
 ]

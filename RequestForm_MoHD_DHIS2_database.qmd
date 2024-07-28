@@ -1,0 +1,85 @@
+---
+title: "DHIS2 DATA REQUEST APPLICATION FORM"
+---
+
+
+Requester Information:
+
+Name: ________________________
+
+Organization: __________________
+
+Position: ______________________
+
+Email: ________________________
+
+Phone: ________________________
+
+
+Data Requested:
+
+  [ ] Dengue fever weekly aggregate reports
+
+  [ ] HBV/HCV monthly aggregate reports
+
+  [ ] Other (please specify): ___________________
+
+
+Time Period: From (dd/mm/yyyy): //______ To (dd/mm/yyyy): //______
+
+Geographical Area:
+
+[ ] Nationwide
+
+[ ] Specific region(s): [ ] Hargeisa Group Hospital, [ ] Burco General Hospital, 
+    [ ] Boroma General Hospital, [ ] Berbera General Hospital
+
+
+Data Format Requested: [ ] Excel spreadsheet, or [ ] CSV file
+
+Purpose of Data Request:
+
+[ ] Disease Surveillance
+
+[ ] Research
+
+[ ] Program planning
+
+[ ] Policy development
+
+[ ] Other (please specify): ___________________
+
+
+Brief description of how the data will be used:
+
+
+
+Data Security Measures:
+[ ] Data will be stored on encrypted, password-protected devices accessible only to authorized personnel. All data will be de-identified before analysis. No individual-level data will be shared or published. 
+
+
+Data Destruction:
+
+Proposed date for data destruction: //______
+
+
+Agreement:
+
+[ ] I agree to use the data only for the purpose stated above.
+
+[ ] I agree not to share the data with any third parties without explicit permission from MoHD.
+
+[ ] I agree to acknowledge MoHD as the data source in any publications or presentations.
+
+
+Signature: ____________________  Date: //______
+
+For Official Use Only:
+
+Date Received: //______
+Request ID: __________________
+
+Approved by: MoHD Director General _________________
+
+Date Approved: //______
+
