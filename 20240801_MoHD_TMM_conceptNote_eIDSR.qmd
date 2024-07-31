@@ -101,7 +101,7 @@ file.remove(png_file)
 #cat("JPEG file created: eIDSR_workflow_diagram.jpg")
 ```
 
-<img src="images/eIDSR_workflow_diagram.jpg" style="width: 100%; height: auto;">
+<img src="images/eIDSR_workflow_diagram.jpg" alt="eIDSR Reporting Workflow Diagram" style="width: 100%; height: auto;">
 
 
 ### Implementation Steps
