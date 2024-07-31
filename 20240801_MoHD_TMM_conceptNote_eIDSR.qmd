@@ -51,10 +51,12 @@ The integration of electronic Integrated Disease Surveillance and Response (eIDS
 #| fig-cap: "eIDSR Reporting Workflow Diagram"
 #| fig-width: 8
 #| fig-height: 6
-#| echo: false
+#| include: false
 library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
 
-grViz("
+graph <- grViz("
   digraph eIDSR_workflow {
     rankdir=TB;
     node [shape=rectangle, style=filled, fillcolor=lightblue, fontname=Helvetica, fontsize=10];
@@ -79,7 +81,27 @@ grViz("
     E -> C [label='Report cases'];
   }
 ")
+
+# Convert to SVG, then to PNG, then save as JPEG
+graph %>%
+  export_svg() %>%
+  charToRaw() %>%
+  rsvg_png("eIDSR_workflow_diagram.png", width = 800)
+
+# Convert PNG to JPEG
+png_file <- "eIDSR_workflow_diagram.png"
+jpeg_file <- "images/eIDSR_workflow_diagram.jpg"
+png_image <- png::readPNG(png_file)
+jpeg::writeJPEG(png_image, jpeg_file, quality = 0.9)
+
+# Remove the PNG file (optional)
+file.remove(png_file)
+
+# Print a message to confirm the file was created
+#cat("JPEG file created: eIDSR_workflow_diagram.jpg")
 ```
+
+<img src="images/eIDSR_workflow_diagram.jpg" style="width: 100%; height: auto;">
 
 
 ### Implementation Steps

@@ -61,11 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/viz-1.8.2/viz.js"></script>
-<link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-<script src="site_libs/grViz-binding-1.0.11/grViz.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -239,13 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Data analysis and response at MoHD level</li>
 </ol></li>
 </ol>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-5c060d733cc9819eadab" style="width:100%;height:487px;"></div>
-<script type="application/json" data-for="htmlwidget-5c060d733cc9819eadab">{"x":{"diagram":"\n  digraph eIDSR_workflow {\n    rankdir=TB;\n    node [shape=rectangle, style=filled, fillcolor=lightblue, fontname=Helvetica, fontsize=10];\n    edge [color=gray50, fontname=Helvetica, fontsize=8];\n\n    subgraph cluster_0 {\n      rank = same;\n      E [label=\"HIS in hospitals\n(OPD/emergency)\"];\n      B [label=\"Laboratory results\nintegration via LIMS\"];\n    }\n\n\n    A [label=\"Community-level reporting\nvia DHIS2 mobile app\n(Android phone)\", shape=box3d];\n    C [label=\"Verification by\ndistrict officers\"];\n    D [label=\"Data analysis and response\nat MoHD (DHIS2)\"];\n    \n    A -> C [label=\"Report cases\n(with NS1)\"];\n    B -> C [label=\"Send results\"];\n    C -> D [label=\"Verified data\"];\n    D -> A [label=\"Feedback and\nresponse actions\", style=dashed];\n    D -> B [label=\"Feedback and\nresponse actions\", style=dashed];\n    E -> C [label=\"Report cases\"];\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-<p>eIDSR Reporting Workflow Diagram</p>
-</div>
-</div>
+<p><img src="images/eIDSR_workflow_diagram.jpg" style="width: 100%; height: auto;"></p>
 </section>
 <section id="implementation-steps" class="level3" data-number="4.2">
 <h3 data-number="4.2" class="anchored" data-anchor-id="implementation-steps"><span class="header-section-number">4.2</span> Implementation Steps</h3>
@@ -298,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
 | LIMS integration                         | 30,000     |
 | Mobile devices for community health workers | 20,000   |
 | Training programs                        | 25,000     |
-| Quality control equipment and supplies   | 15,000     |
+| Quality control equipment and supplies (NS1, PCR)   | 15,000     |
 | Project management and technical support | 40,000     |
 | Monitoring and evaluation                | 20,000     |
 | Contingency (10%)                        | 20,000     |
