@@ -44,7 +44,84 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 
 ### 1. 登革熱追蹤管理暨加護病房重症支援
 
-- 登革熱追蹤管理 IDSR
+---
+title: "索馬利蘭登革熱防治計劃報告更新"
+format: html
+editor: visual
+---
+
+## 2024年索馬利蘭登革熱防治計劃報告
+
+### 計劃概述
+
+本計劃旨在支援索馬利蘭的登革熱防治工作，重點包括強化疾病監測系統、提升重症管理能力，並協助建立完善的資料收集和分析機制。
+
+### 主要內容更新
+
+1. **登革熱疫情監控（IDSR and eIDSR）**
+   - 協助MoHD實施整合性疾病監測與應對（IDSR）系統
+   - 支援eIDSR在4家公立醫院的整合：Hargeisa、Boroma、Berbera和Burco (ICDF HIS)
+   - 推動mHealth於區域醫院、衛生中心和社區的應用
+
+2. **加護病房重症支援**
+   - 提供動脈血液氣體分析試劑，用於加護病房重症患者
+   - 協助引進登革熱NS1快速診斷測試（RDT）(避免價廉品質不佳的產品)
+   - 支援HGH實驗室進行IgM/IgG抗體ELISA檢測
+   - 由李枝新主任主導呼吸器和呼吸照護 ICU重症培訓計劃
+
+3. **Dengue feverf流行病學概況** 破碎不完整的資訊
+   - 2023年10月-12月：2,635例病例（734例陽性，陽性率27.9%）
+   - 2023年9月-2024年1月：6,394例疑似病例(WHO)
+   - 2022年10月-2024年6月：HGH報告2,871例病例(沒有實驗室data)
+   - WHO提供20,000個RDT，HGH實驗室分配到1,512個（陽性率25.9%）
+
+### **Action Points**(who/when)
+
+1. **eIDSR系統整合** (MoHD Public Health / 2024年10月前)
+   - 規劃DHIS2與ICDF HIS在4家公立醫院的整合
+   - KPI：系統整合完成度，即時數據dashboard功能正常運作
+
+2. **mHealth技術推廣** (TMM / 2024年12月前)
+   - 在區域醫院、衛生中心和社區推廣DHIS2 tracker module app收集和報告技術
+   - KPI：至少20%的public sectors in Hargeisa 採用mHealth技術進行數據報告
+
+3. **登革熱RDT品質管制** (HGH實驗室主任 / 2024年9月起)
+   - 建立RDT質量控制機制，解決false negative問題
+   - KPI：降低偽陰性率至5%以下
+
+4. **加護病房能力建設** (李枝新主任 / 2024年9-12月)
+   - 完成在地呼吸器和呼吸照護培訓計劃
+   - KPI：培訓至少10名ICU醫護人員，提高重症severe dengue存活率10%
+
+5. **建立 data request 機制** (TMM + Dr. Hergeye / 2024年9月)
+   - 與MoHD確立明確的數據共享流程和申請表格
+   - KPI：建立標準化數據共享協議，縮短dengue case reporting 時間至每日通報
+
+### 醫療外交亮點
+
+1. **跨國醫療合作典範**
+   - 技術團、醫療團與索馬利蘭衛生部合作，展現台灣醫療軟實力
+   - KPI：促成至少3項技術轉移協議，提升索馬利蘭公共衛生能力
+
+2. **數位醫療外交**
+   - 推動eIDSR系統整合，展現台灣ICT優勢
+   - KPI：系統使用率達85%，提高疾病監測效率30%
+
+3. **人道援助貢獻**
+   - 通過重症管理能力建設，直接改善當地醫療品質
+   - KPI：重症登革熱病例死亡率下降10%
+
+<!--
+4. **永續發展目標響應**
+   - 符合聯合國SDG3（健康與福祉）目標，提升國際能見度
+   - KPI：在國際衛生組織會議中，至少2次報告計劃成果
+
+通過以上行動計劃和外交亮點包裝，本計劃不僅能有效改善索馬利蘭的登革熱防治能力，還可以彰顯台灣在國際醫療合作領域的重要貢獻，提升台灣的國際形象和影響力。
+ -->
+
+
+[2024/07/29]:
+- 登革熱追蹤管理 IDSR and eIDSR
 - 加護病房重症支援:
   - 動脈血液氣體分析試劑,供加護病房重症患者使用; 篩檢 dengue fever NS1 rapid diagnostic test (RDT); HGH laboratory (IgM/IgG antibody ELISA)
   - Ventilator and respiratory care in ICU: 李枝新主任主題醫療
@@ -128,7 +205,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
       - 追蹤December 2023年快篩試劑 20,000 test of RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
           - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT (December 2023 to 27 June 2024): **陽性率 25.9%**
           - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 經當面詢問，答稱不清楚)
-          - **MoHD public health department** (已安排 [2024/07/04]會議，但當日 公衛主管 Mr. Mahdi Dahir Bahdoon 失約，未上班): **IDSR surveillance**
+          - **MoHD Dr. Hergeye and Public health department** Mr. Mahdi Dahir Bahdoon (安排 [2024/07/29]會議: https://texchi2.github.io/2024MSC/20240729_MoHD_TMM_agenda_eIDSR.html): **eIDSR surveillance**
       - TMM project 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施 => IDSR
 
 

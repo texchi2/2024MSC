@@ -1,0 +1,141 @@
+---
+title: "eIDSR Concept Note: Enhancing Dengue Fever Surveillance in Somaliland"
+author: "Dr. Jamal Tex LH Chi (Taiwan Medical Mission)"
+date: "1 August, 2024"
+format: 
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Introduction
+
+The integration of electronic Integrated Disease Surveillance and Response (eIDSR) in Somaliland presents a significant opportunity to enhance the detection, reporting, and management of **acute febrile illnesses**, particularly dengue fever. This concept note outlines the proposed implementation of eIDSR, focusing on the use of DHIS2 and the integration of advanced diagnostic tools.
+
+## Current Status
+
+- DHIS2 and **paper-based** IDSR are currently implemented in MoHD
+- Unvalidated dengue RDT test kits in use, leading to potential false negatives
+- GeneReach Pockit PCR machines available: 4 in HGH, 1 each in Boroma, Burco, and Berbera general hospitals
+
+
+## Objectives
+
+1. Implement an eIDSR system using DHIS2 for improved dengue fever surveillance
+2. Enhance the accuracy of dengue fever diagnosis through quality control measures
+3. Strengthen the capacity for early outbreak detection and response
+4. Improve data-driven decision-making in public health management
+
+## Methodology
+
+### eIDSR Framework Implementation
+
+1. DHIS2 Integration:
+   - Deploy DHIS2 mobile app for automatic reporting from community level
+   - Integrate a pilot of LIMS (Laboratory Information Management System) in public hospitals
+   - Link clinical and epidemiological data from ICDF HIS using established case definitions in HGH, Boroma, Burco, and Berbera general hospitals
+
+2. Enhanced Dengue Diagnosis:
+   - Implement quality control measures for RDTs:
+     * 10% sampling of RDT negative cases for PCR confirmation
+     * Utilize GeneReach Pockit PCR machines for dengue virus RNA detection
+
+3. Reporting Workflow:
+   a. Community-level reporting via DHIS2 mobile app in android cell phone
+   b. Automatic integration of laboratory results through LIMS (with HIS in hospitals)
+   c. Verification by district officers
+   d. Data analysis and response at MoHD level
+
+```{r}
+#| label: eIDSR-workflow
+#| fig-cap: "eIDSR Reporting Workflow Diagram"
+#| fig-width: 8
+#| fig-height: 6
+#| echo: false
+library(DiagrammeR)
+
+grViz("
+  digraph eIDSR_workflow {
+    rankdir=TB;
+    node [shape=rectangle, style=filled, fillcolor=lightblue, fontname=Helvetica, fontsize=10];
+    edge [color=gray50, fontname=Helvetica, fontsize=8];
+
+    subgraph cluster_0 {
+      rank = same;
+      E [label='HIS in hospitals\n(OPD/emergency)'];
+      B [label='Laboratory results\nintegration via LIMS'];
+    }
+
+
+    A [label='Community-level reporting\nvia DHIS2 mobile app\n(Android phone)', shape=box3d];
+    C [label='Verification by\ndistrict officers'];
+    D [label='Data analysis and response\nat MoHD (DHIS2)'];
+    
+    A -> C [label='Report cases\n(with NS1)'];
+    B -> C [label='Send results'];
+    C -> D [label='Verified data'];
+    D -> A [label='Feedback and\nresponse actions', style=dashed];
+    D -> B [label='Feedback and\nresponse actions', style=dashed];
+    E -> C [label='Report cases'];
+  }
+")
+```
+
+
+### Implementation Steps
+
+1. Technical Setup:
+   - Configure DHIS2 for dengue fever surveillance
+   - Integrate LIMS with existing hospital systems
+   - Ensure interoperability between DHIS2, LIMS, and ICDF HIS
+
+2. Training:
+   - Conduct training sessions for community health workers on DHIS2 mobile app
+   - Train laboratory staff on LIMS and quality control procedures
+   - Educate district officers on data verification processes
+
+3. Quality Assurance:
+   - Establish protocols for PCR confirmation of RDT negative cases
+   - Implement regular system audits and data quality assessments
+
+## Expected Results
+
+1. Improved timeliness and accuracy of dengue fever surveillance
+2. Enhanced quality control of diagnostic tests
+3. Real-time data availability for evidence-based decision making
+4. Strengthened capacity for early outbreak detection and response
+5. Reduced **false negatives** in dengue diagnosis
+6. Improved **patient outcomes** through more accurate and timely diagnoses
+
+## Monitoring and Evaluation
+
+- Set up dashboards for real-time monitoring of dengue fever cases
+- Conduct monthly reviews of system performance and data quality
+- Perform quarterly evaluations of the impact on dengue fever surveillance and response
+
+## Budget
+
+<!--
+| Item                                     | Cost (USD) |
+|------------------------------------------|------------|
+| DHIS2 configuration and customization    | 50,000     |
+| LIMS integration                         | 30,000     |
+| Mobile devices for community health workers | 20,000   |
+| Training programs                        | 25,000     |
+| Quality control equipment and supplies (NS1, PCR)   | 15,000     |
+| Project management and technical support | 40,000     |
+| Monitoring and evaluation                | 20,000     |
+| Contingency (10%)                        | 20,000     |
+| **Total**                                | **220,000**|
+
+-->
+
+## Next Steps
+
+1. Finalize technical specifications for system integration
+2. Develop a detailed implementation timeline
+3. Secure necessary resources and partnerships for full-scale rollout
+4. Conduct a stakeholder meeting to present and refine the concept
+
+This concept note provides a framework for discussion and further development of the eIDSR system in Somaliland, with a focus on enhancing dengue fever surveillance through improved technology integration and quality control in diagnosis.
+
