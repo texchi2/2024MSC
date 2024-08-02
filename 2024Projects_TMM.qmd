@@ -20,10 +20,24 @@ lang: zh-TW
 
 ```{r}
 #| include: FALSE
-Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
+#Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
+knitr::opts_chunk$set(echo = TRUE)
+Sys.setlocale("LC_CTYPE", "zh_TW.UTF-8")
+Sys.setlocale("LC_COLLATE", "zh_TW.UTF-8")
+Sys.setlocale("LC_TIME", "zh_TW.UTF-8")
+Sys.setlocale("LC_MESSAGES", "zh_TW.UTF-8")
+Sys.setlocale("LC_MONETARY", "zh_TW.UTF-8")
 
+library(stringi)
+options(encoding = "UTF-8")
+
+Sys.getlocale()
 #<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+text <- "進度(四大項)"
+print(charToRaw(text))
+print(Encoding(text))
+print(stringi::stri_enc_mark(text))
 ```
 
   
@@ -33,26 +47,68 @@ Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
 ## Progress Report (2024/06/12)
 ## Progress Report (2024/06/28)
 ## Progress Report (2024/07/10)
-## Progress Report (2024/07/??)
+## Progress Report (2024/08/07)
 
 
 
-## TMM Projects 進度(四大項)
-
+# TMM Projects 進度(四大項)
 
 ***公共衛生**
 
-### 1. 登革熱追蹤管理暨加護病房重症支援
+## 1. 2024年登革熱追蹤管理暨加護病房重症支援
 
----
-title: "索馬利蘭登革熱防治計劃報告更新"
-format: html
-editor: visual
----
-
-## 2024年索馬利蘭登革熱防治計劃報告
 
 ### 計劃概述
+本計劃旨在支援索馬利蘭的登革熱防治工作，重點包括強化疾病監測系統、提升重症管理能力，並協助建立完善的資料收集和分析機制。鑑於目前疫情升溫，我們將優先建立HGH lab的RDT-confirmed dengue cases surveillance system，作為eIDSR的第一階段，以快速掌握疫情動態並有效利用資源。
+
+### 主要內容更新
+1. **登革熱疫情監控（IDSR and eIDSR）**
+   - 協助MoHD實施整合性疾病監測與應對（IDSR）系統
+   - 優先在HGH lab建立RDT-confirmed dengue cases surveillance system，作為eIDSR第一階段
+   - 後續支援eIDSR在4家公立醫院的整合：Hargeisa、Boroma、Berbera和Burco (ICDF HIS)
+   - 推動mHealth於區域醫院、衛生中心和社區的應用
+   - 確保臺灣供應的RDT能透過新建立的stage I eIDSR系統有效追蹤使用情況
+
+2. **加護病房重症支援**
+   - 提供動脈血液氣體分析試劑，用於加護病房重症患者
+   - 協助引進高品質登革熱NS1快速診斷測試（RDT），避免價廉品質不佳的產品
+   - 支援HGH實驗室進行IgM/IgG抗體ELISA檢測
+   - 由李枝新主任主導呼吸器和呼吸照護ICU重症培訓計劃
+   - 強化severe dengue的診斷及照護能力，以減少重症死亡比率
+
+3. **Dengue fever流行病學概況**（破碎不完整的資訊，突顯建立統一監測系統的重要性）
+   - 2023年10月-12月：2,635例病例（734例陽性，陽性率27.9%）
+   - 2023年9月-2024年1月：6,394例疑似病例(WHO)
+   - 2022年10月-2024年6月：HGH報告2,871例病例(沒有實驗室data)
+   - WHO提供20,000個RDT，HGH實驗室分配到1,512個（陽性率25.9%）
+
+### **Action Points**(who/when)
+1. **eIDSR系統整合** (MoHD Public Health / 2024年10月前)
+   - 優先在HGH lab建立RDT-confirmed dengue cases surveillance system
+   - 規劃DHIS2與ICDF HIS在4家公立醫院的整合
+   - KPI：HGH lab系統建立完成度，即時數據dashboard功能正常運作
+
+2. **mHealth技術推廣** (TMM / 2024年12月前)
+   - 在區域醫院、衛生中心和社區推廣DHIS2 tracker module app收集和報告技術
+   - KPI：至少20%的public sectors in Hargeisa採用mHealth技術進行數據報告
+
+3. **登革熱RDT品質管制** (HGH實驗室主任 / 2024年9月起)
+   - 建立RDT質量控制機制，解決false negative問題
+   - 確保臺灣供應RDT的有效使用和追蹤
+   - KPI：降低偽陰性率至5%以下，RDT使用率達90%以上
+
+4. **加護病房能力建設** (李枝新主任 / 2024年9-12月)
+   - 完成在地呼吸器和呼吸照護培訓計劃
+   - 強化severe dengue的診斷及照護流程
+   - KPI：培訓至少10名ICU醫護人員，提高重症severe dengue存活率10%
+
+5. **建立data request機制** (TMM + Dr. Hergeye / 2024年9月)
+   - 與MoHD確立明確的數據共享流程和申請表格
+   - KPI：建立標準化數據共享協議，縮短dengue case reporting時間至每日通報
+
+
+
+### 計劃概述 (archieved) (2024/08/07)
 
 本計劃旨在支援索馬利蘭的登革熱防治工作，重點包括強化疾病監測系統、提升重症管理能力，並協助建立完善的資料收集和分析機制。
 
@@ -164,9 +220,9 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
    - 分析資料獲取困難點，提出解決方案 (TMM / 2024/08/15)
 
 2. 2024年疫情準備:
-   - 制定2024年登革熱應對計劃 (TMM / 2024/08/31)
+   - 制定2024年登革熱應對計劃 NS1 rapid diagnostic test (TMM / 2024/08/31)
    - 評估現有資源和準備程度 (TMM / 2024/08/15)
-   - 建立疫情監測系統改進計劃 (TMM / 2024/09/15)
+   - 建立疫情監測系統改進計劃eIDSR (TMM / 2024/09/15)
 
 3. 萬芳醫院支援需求:
    - 列出所需技術支援清單 (TMM / 2024/07/31)
@@ -194,7 +250,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
         - WHO and TMM to maintain open communication and collaboration in supporting MoHD's efforts to control the dengue fever outbreak in Somaliland.
         - WHO: the shared data on dengue fever cases from October 2023 and identify potential areas for support in the surveillance system.
         - Dr. Deq strongly recommends that **TMM focuses on supporting the weakest part** of the Ministry of Health and Development (MoHD): **the dengue fever surveillance system**, from community and regional levels to MoHD.
-        - **Integrated Disease Surveillance and Response (IDSR)**:
+        - **Electronic Integrated Disease Surveillance and Response (eIDSR)**:
 <a href="https://texchi2.github.io/2024MSC/2022_2024_dengue_statistics_HGH.html" target="_blank">meeting minutes</a> 
 
         
@@ -205,7 +261,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
       - 追蹤December 2023年快篩試劑 20,000 test of RDTs的使用：受測者demographic data，快篩試劑分配方式，UNICEF培訓人員(110 health workers)的現狀，參考上述 as national adaptation，以做出2024應變的計劃。
           - 經查 **HGH laboratory 取得僅 1512 test** of dengue NS1 RDT (December 2023 to 27 June 2024): **陽性率 25.9%**
           - 其他的 18,488 RDTs 分配方式不明(MoHD DG Dr. Hergeye 經當面詢問，答稱不清楚)
-          - **MoHD Dr. Hergeye and Public health department** Mr. Mahdi Dahir Bahdoon (安排 [2024/07/29]會議: https://texchi2.github.io/2024MSC/20240729_MoHD_TMM_agenda_eIDSR.html): **eIDSR surveillance**
+          - **MoHD Dr. Hergeye and Public health department** Mr. Mahdi Dahir Bahdoon ( [2024/08/01]會議: https://texchi2.github.io/2024MSC/20240729_MoHD_TMM_agenda_eIDSR.html): **eIDSR surveillance**
       - TMM project 資金利用：若不適合IRS(indoor residual spray)，預算資金可轉向其他更合適的防疫措施 => IDSR
 
 
@@ -279,7 +335,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 ***訓練**
 
-### 2. Visiting Scholarships for Training in Taiwan
+## 2. Visiting Scholarships for Training in Taiwan
 
 
   - Project: Capacity Building for Somaliland Medical Personnel
@@ -401,6 +457,38 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 
 
+{{< pagebreak >}}
+
+***示範**
+
+## 3. 骨質健康計劃
+
+A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
+- 計畫內容:關節鏡膝關節手術  
+- 所需設備: 膝關節鏡手術器械(ready)  
+- 目前進度:2023年10月郭醫師親自示範手術技巧,培訓種子醫師;2024年8月骨科專家將再度蒞臨指導進階手術  
+- 瓶頸:
+  - 醫師學習曲線較長,需反覆練習;
+  - 關節鏡設備維修保養需OT的醫學工程技術員、及開刀房主任（護理師)負責
+
+B. TOM 骨質疏鬆預防保健計畫    
+- 計畫名稱:「TOM骨質疏鬆」篩檢與預防保健     
+- 內容:利用股骨X光片,透過**AI人工智慧**計算T-score/Z-score,評估骨質密度   
+- 目前進度:已引進Taiwan Osteoporosis Master (TOM)系統,規劃舉辦**義診以推廣活動**   
+- 瓶頸:民眾對骨質疏鬆認知不足,由骨科與放射科醫師支援，於院內骨科門診、骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
+
+- case control study in hip fracture (retrospective)
+
+  1. 先行建立骨質疏鬆檢測系統(TOM: pelvic x-ray 建議拍攝參數 kVp:85, mAs:30, SID:100cm),並完成設備與網路架設(intranet)。
+  
+  2. 首月執行義診服務，由醫療團補貼放射科股骨X光片及放射科主治醫師的診斷費用。
+  
+  2. 進行髖部骨折病例對照研究(Hip fracture Case control study),調查分析當地骨質疏鬆盛行現況。
+
+  3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
+
+- **Action points**(who/when): TMM / 2024/08
+
 
 
 
@@ -410,7 +498,7 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 ***公共衛生**
 
-### 3. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
+## 4. 三項癌症防治計畫(子宮頸癌、乳癌、肝癌)
 
 ####  A. 子宮頸癌防治中心、乳癌
 
@@ -597,38 +685,6 @@ pdfseparate -f 2 -l 2 ~/2024MSC/docs/2024Project_DengueFever_Hargeisa-tikz.pdf ~
 
 
 
-
-{{< pagebreak >}}
-
-***示範**
-
-### 4. 骨質健康計劃
-
-A. 由萬芳醫院骨科郭宜潔醫師/陳昱斌醫師指導HGH骨科團隊  
-- 計畫內容:關節鏡膝關節手術  
-- 所需設備: 膝關節鏡手術器械(ready)  
-- 目前進度:2023年10月郭醫師親自示範手術技巧,培訓種子醫師;2024年8月骨科專家將再度蒞臨指導進階手術  
-- 瓶頸:
-  - 醫師學習曲線較長,需反覆練習;
-  - 關節鏡設備維修保養需OT的醫學工程技術員、及開刀房主任（護理師)負責
-
-B. TOM 骨質疏鬆預防保健計畫    
-- 計畫名稱:「TOM骨質疏鬆」篩檢與預防保健     
-- 內容:利用股骨X光片,透過**AI人工智慧**計算T-score/Z-score,評估骨質密度   
-- 目前進度:已引進Taiwan Osteoporosis Master (TOM)系統,規劃舉辦**義診以推廣活動**   
-- 瓶頸:民眾對骨質疏鬆認知不足,由骨科與放射科醫師支援，於院內骨科門診、骨科住院病患衛教宣導做起，並架設系統與網路讓 TOM上線
-
-- case control study in hip fracture (retrospective)
-
-  1. 先行建立骨質疏鬆檢測系統(TOM: pelvic x-ray 建議拍攝參數 kVp:85, mAs:30, SID:100cm),並完成設備與網路架設(intranet)。
-  
-  2. 首月執行義診服務，由醫療團補貼放射科股骨X光片及放射科主治醫師的診斷費用。
-  
-  2. 進行髖部骨折病例對照研究(Hip fracture Case control study),調查分析當地骨質疏鬆盛行現況。
-
-  3. 根據研究結果,與骨科團隊討論後續執行方向,擬定符合在地需求的骨鬆防治策略。
-
-- **Action points**(who/when): TMM / 2024/08
 
 
 

@@ -152,12 +152,147 @@ file.remove(png_file)
 
 -->
 
-## Next Steps
+## Meeting Minutes [2024/08/01]
 
-1. Finalize technical specifications for system integration
+1. Finalize technical specifications for system integration:
+
+stage I: LabPush-SLN
+1) [tracking] all suspected and confirmed (NS1) dengue fever cases will be reported to DHIS2 in daily basis, for initial disease surveillance.
+then, 
+2) [diagnosis] TMM will try to support NS1 RDTs to HGH lab as Dr. Hergeye’s request under emergency endemic situation. all donated RDTs must be tracked under this surveillance system, LabPush-SLN.
+
+stage II: DHIS2 Android Capture App for communities
+
 2. Develop a detailed implementation timeline
 3. Secure necessary resources and partnerships for full-scale rollout
 4. Conduct a stakeholder meeting to present and refine the concept
 
 This concept note provides a framework for discussion and further development of the eIDSR system in Somaliland, with a focus on enhancing dengue fever surveillance through improved technology integration and quality control in diagnosis.
 
+National HMIS Somaliland
+Somaliland Health Data Warehouse
+https://somalilandhis.net/dhis-web-commons/security/login.action
+
+(eIDSR) Abdilahi + Tex: statistics office in HGH, Sunday, Aug 4 · 09:00–10:30
+
+LabPush-SLN: LIMS (NS1, PCR) + HIS → regional officer (Abdirahman) → DHIS2 MoHD
+for 47 notifiable conditions (dengue fever, immediately)
+
+(Tex think: there is no good dengue surveillance in IDSR, weak point, how insecticide spray could do on proper target since October 2023 by UNICEF)
+IRS: December 2023, IDSR section of MoHD is working with Ministry of Agriculture to do vector control, under limited information (supported by UNICEF)
+
+
+## The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.
+
+[Ministry of Health and Development Letterhead]
+
+[Date]
+
+Dr. Jamal Tex LH Chi
+Taiwan Medical Mission in the Republic of Somaliland
+
+Dear Dr. Tex,
+
+Subject: Request for Support in Implementing Electronic Integrated Disease Surveillance and Response (eIDSR) for Dengue Fever Control
+
+I hope this letter finds you well. On behalf of the Ministry of Health and Development (MoHD) of Somaliland, I am writing to formally request support from Taiwan Medical Mission (TMM) in implementing an Electronic Integrated Disease Surveillance and Response (eIDSR) system, with a specific focus on enhancing our dengue fever surveillance and control efforts.
+
+The current dengue fever situation in Somaliland is of significant concern, and our existing surveillance system faces several challenges that hinder our ability to respond effectively. Allow me to present some key evidence that underscores the urgent need for an improved surveillance system:
+
+1. Data Fragmentation and Inconsistency:
+   - From October to December 2023, 2,635 cases of dengue fever were reported, with 734 testing positive (27.9%) using rapid diagnostic tests (RDTs).
+   - However, another report indicates 6,394 suspected dengue fever cases from September 2023 to January 2024, with a peak in November 2023.
+   - Hargeisa Group Hospital (HGH) alone registered 2,871 dengue fever patients from October 2022 to June 2024, but the laboratory results for these cases are unknown.
+
+These discrepancies highlight the fragmentation of our current paper-based IDSR system and the urgent need for a unified, electronic system.
+
+2. Inadequate RDT Distribution and Utilization Tracking:
+   - In December 2023, 20,000 RDTs were received, but records of their distribution and usage are incomplete.
+   - HGH laboratory received only 1,512 dengue NS1 RDTs (December 2023 to June 27, 2024), with a positivity rate of 25.9%.
+   - The distribution of the remaining 18,488 RDTs is unclear, indicating a lack of proper tracking and inventory management.
+
+3. Incomplete Demographic Data:
+   - The demographic data of those tested with RDTs is incomplete, hindering our ability to understand the population most affected by dengue fever.
+
+4. Lack of Coordination in Vector Control:
+   - The responsibility for Indoor Residual Spraying (IRS) for mosquito control has been delegated to the Ministry of Agriculture, leading to a disconnect between case detection and vector control efforts.
+
+Given these challenges, we believe that implementing an eIDSR system would significantly enhance our ability to track, respond to, and control dengue fever outbreaks. The eIDSR system would address the following key areas:
+
+1. Real-time data collection and reporting
+2. Improved data accuracy and consistency
+3. Enhanced ability to identify outbreak hotspots
+4. Better coordination between case detection and response activities
+5. Improved inventory management of diagnostic tools (RDTs)
+
+Additionally, we support the recommendation to focus on improving the quality control of RDTs, aiming to reduce the false negative rate to below 5%.
+
+We kindly request TMM's support in the following areas:
+
+1. Technical expertise in setting up and implementing the eIDSR system
+2. Training for our staff in using the eIDSR system effectively
+3. Support in establishing a quality control mechanism for RDTs
+4. Guidance on integrating the eIDSR system with our existing health information systems (i.e., District Health Information Software 2, DHIS2)
+
+To facilitate this process, we have prepared a detailed **outline for requesting comprehensive dengue fever data** from our DHIS2 system by Mr. Abdilahi, which will serve as a crucial foundation for the eIDSR implementation and help TMM better understand the current gaps in our surveillance system.
+
+We believe that this project aligns well with TMM's expertise and Somaliland's public health priorities. By focusing on strengthening our surveillance system rather than IRS, we can more effectively allocate resources to combat dengue fever.
+
+We look forward to collaborating with TMM on this crucial initiative. Please let us know if you require any additional information or clarification.
+
+Thank you for your continued support and partnership in improving public health in Somaliland.
+
+Sincerely,
+
+Mr. Mahdi Dahir Bahdon
+
+Director of Public Health Department (MoHD)
+
+Republic of Somaliland, Hargeisa
+
+Somaliland
+
+
+## DHIS2 Somaliland, data schema in dengue fever surveillance
+The outline for the data request is comprehensive and should help you gather the necessary information from DHIS2. 
+
+### Outline: Request for Dengue Fever Data (2023-2024) from DHIS2
+
+1. Introduction
+   - Purpose of the request: for capacity building of dengue fever surveillance system
+   - Timeframe: 2023-2024
+
+2. Specific Data Points Requested
+   a. Total number of suspected dengue fever cases
+   b. Number of confirmed dengue fever cases (by dengue NS1 RDT, or dengue RNA PCR)
+   c. Demographic information of cases (if available)
+      - Age groups (1-5, 6-18, 18-60, 60+)
+      - Gender
+   d. Geographical distribution of cases
+      - By region
+      - By district
+   e. Data schema in dengue fever surveillance
+      - which data could be collected by DHIS2
+      - data elements in represented in the database (postsql)
+   f. Temporal distribution of cases
+      - weekly and Monthly breakdown
+      - Identification of peak periods
+
+3. Additional Information
+   a. brands of RDTs used
+   b. Number of RDTs distributed and used
+   c. Positivity rates of dengue NS1 RDTs
+
+4. Data Format
+   - Request for data in electronic format (e.g., csv or Excel spreadsheet)
+
+5. Data Use and Confidentiality
+   - Assurance of data confidentiality
+   - Intended use of data for eIDSR project planning and evaluation
+
+6. Timeline
+   - 10 August 2024 for data delivery
+
+7. Contact Information
+   - Dr. Jamal Tex LH Chi, Taiwan Medical Mission
+   
