@@ -1,5 +1,5 @@
 ---
-title: "Strong Bones, Strong Life: Understanding Osteoporosis"
+title: "Strong Bones, Strong Life: Understanding Osteoporosis and Your t-score"
 author: "2024 Taiwan Medical Mission"
 ---
 <img src="images/IECM_osteoporosis.jpg" alt="Osteoporosis" style="width: 100%; height: auto;">
