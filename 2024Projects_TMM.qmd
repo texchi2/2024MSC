@@ -18,27 +18,33 @@ lang: zh-TW
 
 ---
 
+<!--
+
 ```{r}
 #| include: FALSE
-#Sys.setlocale(category = "LC_ALL", locale= c("zh_TW.UTF-8"))
+Sys.setlocale(category = "LC_ALL", locale= "zh_TW.UTF-8")
+
 knitr::opts_chunk$set(echo = TRUE)
-Sys.setlocale("LC_CTYPE", "zh_TW.UTF-8")
-Sys.setlocale("LC_COLLATE", "zh_TW.UTF-8")
-Sys.setlocale("LC_TIME", "zh_TW.UTF-8")
-Sys.setlocale("LC_MESSAGES", "zh_TW.UTF-8")
-Sys.setlocale("LC_MONETARY", "zh_TW.UTF-8")
+#Sys.setlocale("LC_CTYPE", "zh_TW.UTF-8")
+#Sys.setlocale("LC_COLLATE", "zh_TW.UTF-8")
+#Sys.setlocale("LC_TIME", "zh_TW.UTF-8")
+#Sys.setlocale("LC_MESSAGES", "zh_TW.UTF-8")
+#Sys.setlocale("LC_MONETARY", "zh_TW.UTF-8")
 
-library(stringi)
-options(encoding = "UTF-8")
+#library(stringi)
+#options(encoding = "UTF-8")
 
-Sys.getlocale()
-#<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+#Sys.getlocale()
+##<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-text <- "進度(四大項)"
-print(charToRaw(text))
-print(Encoding(text))
-print(stringi::stri_enc_mark(text))
+#text <- "進度(四大項)"
+#print(charToRaw(text))
+#print(Encoding(text))
+#print(stringi::stri_enc_mark(text))
+#text
 ```
+
+-->
 
   
 <img src="images/in-islamic-style-please-generate-an-illustration-t-20To_QkjSzq0xI_1XG5vAA-o803jGFyQaKUlTwVwHmazA.jpeg" alt="Progress Report (2024/05/27)" style="width: 100%; height: auto;">

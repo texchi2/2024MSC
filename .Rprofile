@@ -1,0 +1,1 @@
+Sys.setenv(LANG = "zh_TW.UTF-8")
