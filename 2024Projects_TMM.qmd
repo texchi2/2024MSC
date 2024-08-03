@@ -61,7 +61,7 @@ print(stringi::stri_enc_mark(text))
 ### 計劃概述
 本計劃旨在支援索馬利蘭的登革熱防治工作，重點包括強化疾病監測系統、提升重症管理能力，並協助建立完善的資料收集和分析機制。鑑於目前疫情升溫，我們將優先建立HGH lab的RDT-confirmed dengue cases surveillance system，作為eIDSR的第一階段，以快速掌握疫情動態並有效利用資源。
 
-### 主要內容更新
+### 主要內容更新 (2024/08/07)
 1. **登革熱疫情監控（IDSR and eIDSR）**
    - 協助MoHD實施整合性疾病監測與應對（IDSR）系統
    - 優先在HGH lab建立RDT-confirmed dengue cases surveillance system，作為eIDSR第一階段
