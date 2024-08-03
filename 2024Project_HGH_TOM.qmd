@@ -2,6 +2,7 @@
 title: "Strong Bones, Strong Life: Understanding Osteoporosis"
 author: "2024 Taiwan Medical Mission"
 ---
+<img src="images/IECM_osteoporosis.jpg" alt="Osteoporosis" style="width: 100%; height: auto;">
 
 ### What is Osteoporosis?
 Osteoporosis is a condition that makes your bones weak and easy to break. It's like your bones become hollow and fragile.
