@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Jamal Tex LH Chi (Taiwan Medical Mission)">
-<meta name="dcterms.date" content="2024-08-01">
+<meta name="dcterms.date" content="2024-08-04">
 
-<title>2024MSC - eIDSR Concept Note: Enhancing Dengue Fever Surveillance in Somaliland</title>
+<title>2024MSC - LabPush-SLN: A Stage I eIDSR Project for Dengue Fever Surveillance in Somaliland</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,6 +104,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Laparoscopic Centre</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./2024Project_HGH_TOM.html" rel="" target="">
+ <span class="menu-text">TOM Osteoporosis</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./2024Project_HGH_pathology_LIMS.html" rel="" target="">
  <span class="menu-text">HGH Pathology LIMS</span></a>
   </li>  
@@ -140,21 +144,26 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
-  <li><a href="#current-status" id="toc-current-status" class="nav-link" data-scroll-target="#current-status"><span class="header-section-number">2</span> Current Status</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives"><span class="header-section-number">3</span> Objectives</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">4</span> Methodology</a>
+  <li><a href="#current-endemic-status-of-dengue-fever" id="toc-current-endemic-status-of-dengue-fever" class="nav-link" data-scroll-target="#current-endemic-status-of-dengue-fever"><span class="header-section-number">2</span> Current Endemic Status of Dengue Fever</a></li>
+  <li><a href="#current-status-of-idsr" id="toc-current-status-of-idsr" class="nav-link" data-scroll-target="#current-status-of-idsr"><span class="header-section-number">3</span> Current Status of IDSR</a></li>
+  <li><a href="#objectives-of-labpush-sln" id="toc-objectives-of-labpush-sln" class="nav-link" data-scroll-target="#objectives-of-labpush-sln"><span class="header-section-number">4</span> Objectives of LabPush-SLN</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">5</span> Methodology</a>
   <ul class="collapse">
-  <li><a href="#eidsr-framework-implementation" id="toc-eidsr-framework-implementation" class="nav-link" data-scroll-target="#eidsr-framework-implementation"><span class="header-section-number">4.1</span> eIDSR Framework Implementation</a></li>
-  <li><a href="#implementation-steps" id="toc-implementation-steps" class="nav-link" data-scroll-target="#implementation-steps"><span class="header-section-number">4.2</span> Implementation Steps</a></li>
+  <li><a href="#system-design" id="toc-system-design" class="nav-link" data-scroll-target="#system-design"><span class="header-section-number">5.1</span> System Design</a></li>
+  <li><a href="#eidsr-framework-implementation" id="toc-eidsr-framework-implementation" class="nav-link" data-scroll-target="#eidsr-framework-implementation"><span class="header-section-number">5.2</span> eIDSR Framework Implementation</a></li>
+  <li><a href="#implementation-steps" id="toc-implementation-steps" class="nav-link" data-scroll-target="#implementation-steps"><span class="header-section-number">5.3</span> Implementation Steps</a></li>
+  <li><a href="#phases" id="toc-phases" class="nav-link" data-scroll-target="#phases"><span class="header-section-number">5.4</span> Phases</a></li>
   </ul></li>
-  <li><a href="#expected-results" id="toc-expected-results" class="nav-link" data-scroll-target="#expected-results"><span class="header-section-number">5</span> Expected Results</a></li>
-  <li><a href="#monitoring-and-evaluation" id="toc-monitoring-and-evaluation" class="nav-link" data-scroll-target="#monitoring-and-evaluation"><span class="header-section-number">6</span> Monitoring and Evaluation</a></li>
-  <li><a href="#budget" id="toc-budget" class="nav-link" data-scroll-target="#budget"><span class="header-section-number">7</span> Budget</a></li>
-  <li><a href="#meeting-minutes-20240801" id="toc-meeting-minutes-20240801" class="nav-link" data-scroll-target="#meeting-minutes-20240801"><span class="header-section-number">8</span> Meeting Minutes [2024/08/01]</a></li>
-  <li><a href="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." id="toc-the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="nav-link" data-scroll-target="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">9</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</a></li>
-  <li><a href="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance" id="toc-dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="nav-link" data-scroll-target="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">10</span> DHIS2 Somaliland, data schema in dengue fever surveillance</a>
+  <li><a href="#capacity-building" id="toc-capacity-building" class="nav-link" data-scroll-target="#capacity-building"><span class="header-section-number">6</span> Capacity Building</a></li>
+  <li><a href="#expected-results" id="toc-expected-results" class="nav-link" data-scroll-target="#expected-results"><span class="header-section-number">7</span> Expected Results</a></li>
+  <li><a href="#monitoring-and-evaluation" id="toc-monitoring-and-evaluation" class="nav-link" data-scroll-target="#monitoring-and-evaluation"><span class="header-section-number">8</span> Monitoring and Evaluation</a></li>
+  <li><a href="#budget-plan" id="toc-budget-plan" class="nav-link" data-scroll-target="#budget-plan"><span class="header-section-number">9</span> Budget Plan</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">10</span> Conclusion</a></li>
+  <li><a href="#meeting-minutes-20240801" id="toc-meeting-minutes-20240801" class="nav-link" data-scroll-target="#meeting-minutes-20240801"><span class="header-section-number">11</span> Meeting Minutes [2024/08/01]</a></li>
+  <li><a href="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." id="toc-the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="nav-link" data-scroll-target="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">12</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</a></li>
+  <li><a href="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance" id="toc-dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="nav-link" data-scroll-target="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">13</span> DHIS2 Somaliland, data schema in dengue fever surveillance</a>
   <ul class="collapse">
-  <li><a href="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2" id="toc-outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="nav-link" data-scroll-target="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">10.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</a></li>
+  <li><a href="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2" id="toc-outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="nav-link" data-scroll-target="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">13.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -164,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">eIDSR Concept Note: Enhancing Dengue Fever Surveillance in Somaliland</h1>
+<h1 class="title">LabPush-SLN: A Stage I eIDSR Project for Dengue Fever Surveillance in Somaliland</h1>
 </div>
 
 
@@ -181,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2024</p>
+      <p class="date">August 4, 2024</p>
     </div>
   </div>
   
@@ -193,35 +202,61 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
-<p>The integration of electronic Integrated Disease Surveillance and Response (eIDSR) in Somaliland presents a significant opportunity to enhance the detection, reporting, and management of <strong>acute febrile illnesses</strong>, particularly dengue fever. This concept note outlines the proposed implementation of eIDSR, focusing on the use of DHIS2 and the integration of advanced diagnostic tools.</p>
+<p>Dengue fever poses a significant public health challenge in Somaliland, with recent outbreaks highlighting the urgent need for improved surveillance and response mechanisms. The current paper-based Integrated Disease Surveillance and Response (IDSR) system has proven inadequate in providing timely and accurate data, hindering effective public health interventions. This project proposal introduces LabPush-SLN, a Stage I electronic IDSR (eIDSR) system designed to enhance dengue fever surveillance in Somaliland.</p>
+<p>The eIDSR presents a significant opportunity to enhance the detection, reporting, and management of <strong>acute febrile illnesses</strong>, particularly dengue fever. This proposal outlines the implementation of eIDSR, focusing on the use of DHIS2 and the integration of advanced diagnostic tools.</p>
 </section>
-<section id="current-status" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="current-status"><span class="header-section-number">2</span> Current Status</h2>
+<section id="current-endemic-status-of-dengue-fever" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="current-endemic-status-of-dengue-fever"><span class="header-section-number">2</span> Current Endemic Status of Dengue Fever</h2>
+<p>Recent epidemiological data from Somaliland demonstrates the severity of the dengue situation:</p>
 <ul>
-<li>DHIS2 and <strong>paper-based</strong> IDSR are currently implemented in MoHD</li>
+<li>October to December 2023: 2,635 reported cases, with 734 RDT-positive cases (27.9% positivity rate)</li>
+<li>September 2023 to January 2024: 6,394 suspected cases reported by WHO</li>
+<li>October 2022 to June 2024: Hargeisa Group Hospital (HGH) reported 2,871 cases (laboratory data unavailable)</li>
+</ul>
+<p>The discrepancies in these figures underscore the critical need for a standardized, efficient surveillance system.</p>
+</section>
+<section id="current-status-of-idsr" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="current-status-of-idsr"><span class="header-section-number">3</span> Current Status of IDSR</h2>
+<ul>
+<li>DHIS2 and <strong>paper-based</strong> IDSR are currently implemented in MoHD
+<ul>
+<li>dengue NS1 RDT, dengue ELISA (IgM/IgG) could be manually entered in LIMS (HGH laboratory)</li>
+<li>aggregated data daily print-out -&gt; DHIS2 client in Statistics Office of HGH</li>
+<li>ICDF HIS print-out monthly -&gt; DHIS2 client in Statistics Office of HGH</li>
+</ul></li>
 <li>Unvalidated dengue RDT test kits in use, leading to potential false negatives</li>
 <li>GeneReach Pockit PCR machines available: 4 in HGH, 1 each in Boroma, Burco, and Berbera general hospitals</li>
 </ul>
 </section>
-<section id="objectives" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="objectives"><span class="header-section-number">3</span> Objectives</h2>
+<section id="objectives-of-labpush-sln" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="objectives-of-labpush-sln"><span class="header-section-number">4</span> Objectives of LabPush-SLN</h2>
 <ol type="1">
-<li>Implement an eIDSR system using DHIS2 for improved dengue fever surveillance</li>
-<li>Enhance the accuracy of dengue fever diagnosis through quality control measures</li>
-<li>Strengthen the capacity for early outbreak detection and response</li>
-<li>Improve data-driven decision-making in public health management</li>
+<li>To establish a real-time, laboratory-based surveillance system for dengue fever in Somaliland.</li>
+<li>To improve the accuracy and timeliness of dengue case reporting.</li>
+<li>To enhance the capacity for early outbreak detection and response.</li>
+<li>To optimize the utilization of Rapid Diagnostic Tests (RDTs) through systematic tracking and quality control.</li>
 </ol>
 </section>
-<section id="methodology" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="methodology"><span class="header-section-number">4</span> Methodology</h2>
-<section id="eidsr-framework-implementation" class="level3" data-number="4.1">
-<h3 data-number="4.1" class="anchored" data-anchor-id="eidsr-framework-implementation"><span class="header-section-number">4.1</span> eIDSR Framework Implementation</h3>
+<section id="methodology" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="methodology"><span class="header-section-number">5</span> Methodology</h2>
+<section id="system-design" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="system-design"><span class="header-section-number">5.1</span> System Design</h3>
+<p>LabPush-SLN will leverage the open-source DHIS2 platform, customized for dengue fever surveillance in Somaliland. The system will focus on:</p>
+<ol type="1">
+<li>Integration with existing Hospital Laboratory Information Management Systems (LIMS) where possible.</li>
+<li>Real-time data entry of laboratory-confirmed dengue cases.</li>
+<li>Automated data validation and error-checking mechanisms.</li>
+<li>User-friendly interfaces for laboratory technicians and public health officials.</li>
+</ol>
+</section>
+<section id="eidsr-framework-implementation" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="eidsr-framework-implementation"><span class="header-section-number">5.2</span> eIDSR Framework Implementation</h3>
 <ol type="1">
 <li>DHIS2 Integration:
 <ul>
 <li>Deploy DHIS2 mobile app for automatic reporting from community level</li>
-<li>Integrate a pilot of LIMS (Laboratory Information Management System) in public hospitals</li>
-<li>Link clinical and epidemiological data from ICDF HIS using established case definitions in HGH, Boroma, Burco, and Berbera general hospitals</li>
+<li>DHIS2 customization and integration with LIMS (Laboratory Information Management System) at HGH laboratory.</li>
+<li>ICDF HIS using established case definitions in HGH, Boroma, Burco, and Berbera general hospitals</li>
 </ul></li>
 <li>Enhanced Dengue Diagnosis:
 <ul>
@@ -233,16 +268,28 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Reporting Workflow:
 <ol type="a">
-<li>Community-level reporting via DHIS2 mobile app in android cell phone</li>
-<li>Automatic integration of laboratory results through LIMS (with HIS in hospitals)</li>
-<li>Verification by district officers</li>
+<li>Community-level reporting via DHIS2 mobile app in android smart phone</li>
+<li>Laboratory Testing in hospitals: Dengue RDT and ELISA (IgM/IgG) tests performed at the hospital laboratory.</li>
+</ol>
+<ul>
+<li><p>Data Entry: Data clerk enters test results into the existing LIMS.</p></li>
+<li><p>Data Push and Alerts:</p>
+<ol type="a">
+<li>Daily push from LIMS to DHIS2 in the Statistics Office of HGH, then to DHIS2 at MoHD.</li>
+<li>SMS alerts sent to referral physicians for immediate patient care.</li>
+<li>Aggregated data pushed monthly from LIMS to DHIS2 in the Statistics Office of HGH, then to DHIS2 at MoHD.</li>
+</ol></li>
+</ul>
+<ol start="3" type="a">
+<li>Verification by district/regional officers</li>
+<li>Case Management: The Infection Prevention Center (IPC) at HGH will oversee case management.</li>
 <li>Data analysis and response at MoHD level</li>
 </ol></li>
 </ol>
 <p><img src="images/eIDSR_workflow_diagram.jpg" alt="eIDSR Reporting Workflow Diagram" style="width: 100%; height: auto;"></p>
 </section>
-<section id="implementation-steps" class="level3" data-number="4.2">
-<h3 data-number="4.2" class="anchored" data-anchor-id="implementation-steps"><span class="header-section-number">4.2</span> Implementation Steps</h3>
+<section id="implementation-steps" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="implementation-steps"><span class="header-section-number">5.3</span> Implementation Steps</h3>
 <ol type="1">
 <li>Technical Setup:
 <ul>
@@ -263,28 +310,97 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ol>
 </section>
-</section>
-<section id="expected-results" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="expected-results"><span class="header-section-number">5</span> Expected Results</h2>
+<section id="phases" class="level3" data-number="5.4">
+<h3 data-number="5.4" class="anchored" data-anchor-id="phases"><span class="header-section-number">5.4</span> Phases</h3>
 <ol type="1">
-<li>Improved timeliness and accuracy of dengue fever surveillance</li>
-<li>Enhanced quality control of diagnostic tests</li>
-<li>Real-time data availability for evidence-based decision making</li>
-<li>Strengthened capacity for early outbreak detection and response</li>
-<li>Reduced <strong>false negatives</strong> in dengue diagnosis</li>
+<li><p>Phase 1 (Months 1-3): System development and testing at HGH laboratory.</p></li>
+<li><p>Phase 2 (Months 4-6): Pilot implementation and user training at HGH.</p></li>
+<li><p>Phase 3 (Months 7-12): Expansion to three additional public hospitals (Boroma, Berbera, and Burco).</p></li>
+</ol>
+</section>
+</section>
+<section id="capacity-building" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="capacity-building"><span class="header-section-number">6</span> Capacity Building</h2>
+<p>The project will include targeted training programs for:</p>
+<ol type="1">
+<li>Laboratory staff on system usage and data entry protocols.</li>
+<li>IPC staff on case management and response coordination.</li>
+<li>IT personnel on system maintenance and troubleshooting.</li>
+<li>Public health officials on data interpretation and outbreak response.</li>
+</ol>
+</section>
+<section id="expected-results" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="expected-results"><span class="header-section-number">7</span> Expected Results</h2>
+<ol type="1">
+<li>Establishment of a functional eIDSR system for dengue surveillance at four major public hospitals in Somaliland.</li>
+<li>Reduction in data reporting time from monthly to daily updates.</li>
+<li>Improvement in data accuracy, with error rates reduced to less than 5%.</li>
+<li>Enhanced capacity for early outbreak detection, with the ability to identify clusters within 24-48 hours of case confirmation.</li>
+<li>Optimized utilization of RDTs, with usage rates increased to over 90% and <strong>false-negative rates</strong> reduced to below 5%.</li>
+<li>Improved coordination between laboratory services, clinical care, and public health response through the integrated information flow.</li>
 <li>Improved <strong>patient outcomes</strong> through more accurate and timely diagnoses</li>
 </ol>
 </section>
-<section id="monitoring-and-evaluation" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="monitoring-and-evaluation"><span class="header-section-number">6</span> Monitoring and Evaluation</h2>
-<ul>
-<li>Set up dashboards for real-time monitoring of dengue fever cases</li>
-<li>Conduct monthly reviews of system performance and data quality</li>
-<li>Perform quarterly evaluations of the impact on dengue fever surveillance and response</li>
-</ul>
+<section id="monitoring-and-evaluation" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="monitoring-and-evaluation"><span class="header-section-number">8</span> Monitoring and Evaluation</h2>
+<p>The project will be evaluated using the following key performance indicators (KPIs):</p>
+<ol type="1">
+<li>Set up dashboards for real-time monitoring of dengue fever cases (target: 99% uptime)</li>
+<li>Data reporting timeliness (target: 90% of cases reported within 24 hours)</li>
+<li>Data accuracy (target: 95% accuracy rate)</li>
+<li>User satisfaction (target: 80% satisfaction rate among system users)</li>
+<li>Outbreak detection time (target: 100% of outbreaks detected within 48 hours of first case confirmation)</li>
+</ol>
 </section>
-<section id="budget" class="level2" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="budget"><span class="header-section-number">7</span> Budget</h2>
+<section id="budget-plan" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="budget-plan"><span class="header-section-number">9</span> Budget Plan</h2>
+<p>The proposed budget for the 6-month LabPush-SLN project is as follows:</p>
+<table class="table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 24%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Amount (USD)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>NS1 RDT Kits</td>
+<td>12,500</td>
+<td>5,000 tests (200 kits @ 25 tests per kit, $2.5 per test)</td>
+</tr>
+<tr class="even">
+<td>DHIS2 Customization</td>
+<td>3,000</td>
+<td>Configuration and integration with existing LIMS</td>
+</tr>
+<tr class="odd">
+<td>Training and Capacity Building</td>
+<td>2,500</td>
+<td>Training programs for laboratory staff, IPC staff, and public health officials</td>
+</tr>
+<tr class="even">
+<td>Monitoring and Evaluation</td>
+<td>1,500</td>
+<td>Data analysis and report generation</td>
+</tr>
+<tr class="odd">
+<td>Contingency (2.5%)</td>
+<td>500</td>
+<td>For unforeseen expenses</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>20,000</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <!--
 | Item                                     | Cost (USD) |
 |------------------------------------------|------------|
@@ -300,12 +416,17 @@ ul.task-list li input[type="checkbox"] {
 
 -->
 </section>
-<section id="meeting-minutes-20240801" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="meeting-minutes-20240801"><span class="header-section-number">8</span> Meeting Minutes [2024/08/01]</h2>
+<section id="conclusion" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">10</span> Conclusion</h2>
+<p>The LabPush-SLN project, leveraging the open-source DHIS2 platform and integrating with existing LIMS, represents a cost-effective approach to modernizing dengue fever surveillance in Somaliland. By implementing this Stage I eIDSR system, we anticipate significant improvements in the timeliness, accuracy, and utility of dengue surveillance data, as well as enhanced coordination between laboratory services, clinical care, and public health response. This improved capacity will enable more effective public health interventions, ultimately contributing to reduced morbidity and mortality from dengue fever in Somaliland.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="meeting-minutes-20240801" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="meeting-minutes-20240801"><span class="header-section-number">11</span> Meeting Minutes [2024/08/01]</h2>
 <ol type="1">
 <li>Finalize technical specifications for system integration:</li>
 </ol>
-<p>stage I: LabPush-SLN 1) [tracking] all suspected and confirmed (NS1) dengue fever cases will be reported to DHIS2 in daily basis, for initial disease surveillance. then, 2) [diagnosis] TMM will try to support NS1 RDTs to HGH lab as Dr.&nbsp;Hergeye<e2>&lt;80&gt;&lt;99&gt;s request under emergency endemic situation. all donated RDTs must be tracked under this surveillance system, LabPush-SLN.</e2></p>
+<p>stage I: LabPush-SLN 1) [tracking] all suspected and confirmed (NS1) dengue fever cases will be reported to DHIS2 in daily basis, for initial disease surveillance. then, 2) [diagnosis] TMM will try to support NS1 RDTs to HGH lab as Dr.&nbsp;Hergeye’s request under emergency endemic situation. all donated RDTs must be tracked under this surveillance system, LabPush-SLN.</p>
 <p>stage II: DHIS2 Android Capture App for communities</p>
 <ol start="2" type="1">
 <li>Develop a detailed implementation timeline</li>
@@ -314,12 +435,13 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>This concept note provides a framework for discussion and further development of the eIDSR system in Somaliland, with a focus on enhancing dengue fever surveillance through improved technology integration and quality control in diagnosis.</p>
 <p>National HMIS Somaliland Somaliland Health Data Warehouse https://somalilandhis.net/dhis-web-commons/security/login.action</p>
-<p>(eIDSR) Abdilahi + Tex: statistics office in HGH, Sunday, Aug 4 <c2><b7> 09:00<e2>&lt;80&gt;&lt;93&gt;10:30</e2></b7></c2></p>
-<p>LabPush-SLN: LIMS (NS1, PCR) + HIS <e2>&lt;86&gt;&lt;92&gt; regional officer (Abdirahman) <e2>&lt;86&gt;&lt;92&gt; DHIS2 MoHD for 47 notifiable conditions (dengue fever, immediately)</e2></e2></p>
+<p>(eIDSR) Abdilahi + Tex: statistics office in HGH, Sunday, Aug 4 · 09:00–10:30</p>
+<p>LabPush-SLN: LIMS (NS1, PCR) + HIS → regional officer (Abdirahman) → DHIS2 MoHD for 47 notifiable conditions (dengue fever, immediately)</p>
 <p>(Tex think: there is no good dengue surveillance in IDSR, weak point, how insecticide spray could do on proper target since October 2023 by UNICEF) IRS: December 2023, IDSR section of MoHD is working with Ministry of Agriculture to do vector control, under limited information (supported by UNICEF)</p>
+<div style="page-break-after: always;"></div>
 </section>
-<section id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">9</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</h2>
+<section id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">12</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</h2>
 <p>[Ministry of Health and Development Letterhead]</p>
 <p>[Date]</p>
 <p>Dr.&nbsp;Jamal Tex LH Chi Taiwan Medical Mission in the Republic of Somaliland</p>
@@ -377,12 +499,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Director of Public Health Department (MoHD)</p>
 <p>Republic of Somaliland, Hargeisa</p>
 <p>Somaliland</p>
+<div style="page-break-after: always;"></div>
 </section>
-<section id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="level2" data-number="10">
-<h2 data-number="10" class="anchored" data-anchor-id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">10</span> DHIS2 Somaliland, data schema in dengue fever surveillance</h2>
+<section id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">13</span> DHIS2 Somaliland, data schema in dengue fever surveillance</h2>
 <p>The outline for the data request is comprehensive and should help you gather the necessary information from DHIS2.</p>
-<section id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="level3" data-number="10.1">
-<h3 data-number="10.1" class="anchored" data-anchor-id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">10.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</h3>
+<section id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="level3" data-number="13.1">
+<h3 data-number="13.1" class="anchored" data-anchor-id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">13.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</h3>
 <ol type="1">
 <li>Introduction
 <ul>

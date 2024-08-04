@@ -1,7 +1,9 @@
 ---
-title: "eIDSR Concept Note: Enhancing Dengue Fever Surveillance in Somaliland"
+title: "LabPush-SLN: A Stage I eIDSR Project for Dengue Fever Surveillance in Somaliland"
+# project proposal
+#title: "eIDSR Concept Note: Enhancing Dengue Fever Surveillance in Somaliland"
 author: "Dr. Jamal Tex LH Chi (Taiwan Medical Mission)"
-date: "1 August, 2024"
+date: "4 August, 2024"
 format: 
   html:
     toc: true
@@ -10,30 +12,54 @@ format:
 
 ## Introduction
 
-The integration of electronic Integrated Disease Surveillance and Response (eIDSR) in Somaliland presents a significant opportunity to enhance the detection, reporting, and management of **acute febrile illnesses**, particularly dengue fever. This concept note outlines the proposed implementation of eIDSR, focusing on the use of DHIS2 and the integration of advanced diagnostic tools.
+Dengue fever poses a significant public health challenge in Somaliland, with recent outbreaks highlighting the urgent need for improved surveillance and response mechanisms. The current paper-based Integrated Disease Surveillance and Response (IDSR) system has proven inadequate in providing timely and accurate data, hindering effective public health interventions. This project proposal introduces LabPush-SLN, a Stage I electronic IDSR (eIDSR) system designed to enhance dengue fever surveillance in Somaliland.
 
-## Current Status
+The eIDSR presents a significant opportunity to enhance the detection, reporting, and management of **acute febrile illnesses**, particularly dengue fever. This proposal outlines the implementation of eIDSR, focusing on the use of DHIS2 and the integration of advanced diagnostic tools.
+
+## Current Endemic Status of Dengue Fever
+
+Recent epidemiological data from Somaliland demonstrates the severity of the dengue situation:
+
+- October to December 2023: 2,635 reported cases, with 734 RDT-positive cases (27.9% positivity rate)
+- September 2023 to January 2024: 6,394 suspected cases reported by WHO
+- October 2022 to June 2024: Hargeisa Group Hospital (HGH) reported 2,871 cases (laboratory data unavailable)
+
+The discrepancies in these figures underscore the critical need for a standardized, efficient surveillance system.
+
+## Current Status of IDSR
 
 - DHIS2 and **paper-based** IDSR are currently implemented in MoHD
+  - dengue NS1 RDT, dengue ELISA (IgM/IgG) could be manually entered in LIMS (HGH laboratory)
+  - aggregated data daily print-out -> DHIS2 client in Statistics Office of HGH
+  - ICDF HIS print-out monthly -> DHIS2 client in Statistics Office of HGH
 - Unvalidated dengue RDT test kits in use, leading to potential false negatives
 - GeneReach Pockit PCR machines available: 4 in HGH, 1 each in Boroma, Burco, and Berbera general hospitals
 
 
-## Objectives
+## Objectives of LabPush-SLN
 
-1. Implement an eIDSR system using DHIS2 for improved dengue fever surveillance
-2. Enhance the accuracy of dengue fever diagnosis through quality control measures
-3. Strengthen the capacity for early outbreak detection and response
-4. Improve data-driven decision-making in public health management
+1. To establish a real-time, laboratory-based surveillance system for dengue fever in Somaliland.
+2. To improve the accuracy and timeliness of dengue case reporting.
+3. To enhance the capacity for early outbreak detection and response.
+4. To optimize the utilization of Rapid Diagnostic Tests (RDTs) through systematic tracking and quality control.
 
 ## Methodology
+
+### System Design
+
+LabPush-SLN will leverage the open-source DHIS2 platform, customized for dengue fever surveillance in Somaliland. The system will focus on:
+
+1. Integration with existing Hospital Laboratory Information Management Systems (LIMS) where possible.
+2. Real-time data entry of laboratory-confirmed dengue cases.
+3. Automated data validation and error-checking mechanisms.
+4. User-friendly interfaces for laboratory technicians and public health officials.
 
 ### eIDSR Framework Implementation
 
 1. DHIS2 Integration:
    - Deploy DHIS2 mobile app for automatic reporting from community level
-   - Integrate a pilot of LIMS (Laboratory Information Management System) in public hospitals
-   - Link clinical and epidemiological data from ICDF HIS using established case definitions in HGH, Boroma, Burco, and Berbera general hospitals
+   - DHIS2 customization and integration with LIMS (Laboratory Information Management System) at HGH laboratory.
+   - ICDF HIS using established case definitions in HGH, Boroma, Burco, and Berbera general hospitals
 
 2. Enhanced Dengue Diagnosis:
    - Implement quality control measures for RDTs:
@@ -41,10 +67,19 @@ The integration of electronic Integrated Disease Surveillance and Response (eIDS
      * Utilize GeneReach Pockit PCR machines for dengue virus RNA detection
 
 3. Reporting Workflow:
-   a. Community-level reporting via DHIS2 mobile app in android cell phone
-   b. Automatic integration of laboratory results through LIMS (with HIS in hospitals)
-   c. Verification by district officers
-   d. Data analysis and response at MoHD level
+   a. Community-level reporting via DHIS2 mobile app in android smart phone
+   b. Laboratory Testing in hospitals: Dengue RDT and ELISA (IgM/IgG) tests performed at the hospital laboratory.
+
+    - Data Entry: Data clerk enters test results into the existing LIMS.
+
+    - Data Push and Alerts:
+      a. Daily push from LIMS to DHIS2 in the Statistics Office of HGH, then to DHIS2 at MoHD.
+      b. SMS alerts sent to referral physicians for immediate patient care.
+      c. Aggregated data pushed monthly from LIMS to DHIS2 in the Statistics Office of HGH, then to DHIS2 at MoHD.
+
+   c. Verification by district/regional officers
+   d. Case Management: The Infection Prevention Center (IPC) at HGH will oversee case management.
+   e. Data analysis and response at MoHD level
 
 ```{r}
 #| label: eIDSR-workflow
@@ -65,12 +100,13 @@ graph <- grViz("
     subgraph cluster_0 {
       rank = same;
       E [label='HIS in hospitals\n(OPD/emergency)'];
+      F [label='Statistics Office'];
       B [label='Laboratory results\nintegration via LIMS'];
     }
 
 
     A [label='Community-level reporting\nvia DHIS2 mobile app\n(Android phone)', shape=box3d];
-    C [label='Verification by\ndistrict officers'];
+    C [label='Verification by\ndistrict/regional officers'];
     D [label='Data analysis and response\nat MoHD (DHIS2)'];
     
     A -> C [label='Report cases\n(with NS1)'];
@@ -120,22 +156,57 @@ file.remove(png_file)
    - Establish protocols for PCR confirmation of RDT negative cases
    - Implement regular system audits and data quality assessments
 
+### Phases
+
+1. Phase 1 (Months 1-3): System development and testing at HGH laboratory.
+
+2. Phase 2 (Months 4-6): Pilot implementation and user training at HGH.
+
+3. Phase 3 (Months 7-12): Expansion to three additional public hospitals (Boroma, Berbera, and Burco).
+
+## Capacity Building
+The project will include targeted training programs for:
+
+  1. Laboratory staff on system usage and data entry protocols.
+  2. IPC staff on case management and response coordination.
+  3. IT personnel on system maintenance and troubleshooting.
+  4. Public health officials on data interpretation and outbreak response.
+
+
 ## Expected Results
 
-1. Improved timeliness and accuracy of dengue fever surveillance
-2. Enhanced quality control of diagnostic tests
-3. Real-time data availability for evidence-based decision making
-4. Strengthened capacity for early outbreak detection and response
-5. Reduced **false negatives** in dengue diagnosis
-6. Improved **patient outcomes** through more accurate and timely diagnoses
+1. Establishment of a functional eIDSR system for dengue surveillance at four major public hospitals in Somaliland.
+2. Reduction in data reporting time from monthly to daily updates.
+3. Improvement in data accuracy, with error rates reduced to less than 5%.
+4. Enhanced capacity for early outbreak detection, with the ability to identify clusters within 24-48 hours of case confirmation.
+5. Optimized utilization of RDTs, with usage rates increased to over 90% and **false-negative rates** reduced to below 5%.
+6. Improved coordination between laboratory services, clinical care, and public health response through the integrated information flow.
+7. Improved **patient outcomes** through more accurate and timely diagnoses
+
 
 ## Monitoring and Evaluation
 
-- Set up dashboards for real-time monitoring of dengue fever cases
-- Conduct monthly reviews of system performance and data quality
-- Perform quarterly evaluations of the impact on dengue fever surveillance and response
+The project will be evaluated using the following key performance indicators (KPIs):
 
-## Budget
+1. Set up dashboards for real-time monitoring of dengue fever cases (target: 99% uptime)
+2. Data reporting timeliness (target: 90% of cases reported within 24 hours)
+3. Data accuracy (target: 95% accuracy rate)
+4. User satisfaction (target: 80% satisfaction rate among system users)
+5. Outbreak detection time (target: 100% of outbreaks detected within 48 hours of first case confirmation)
+
+## Budget Plan
+
+The proposed budget for the 6-month LabPush-SLN project is as follows:
+
+| Category                     | Amount (USD) | Description |
+|------------------------------|--------------|-------------|
+| NS1 RDT Kits                 | 12,500       | 5,000 tests (200 kits @ 25 tests per kit, $2.5 per test) |
+| DHIS2 Customization          | 3,000        | Configuration and integration with existing LIMS |
+| Training and Capacity Building | 2,500      | Training programs for laboratory staff, IPC staff, and public health officials |
+| Monitoring and Evaluation    | 1,500        | Data analysis and report generation |
+| Contingency (2.5%)           | 500          | For unforeseen expenses |
+| **Total**                    | **20,000**   | |
+
 
 <!--
 | Item                                     | Cost (USD) |
@@ -151,6 +222,21 @@ file.remove(png_file)
 | **Total**                                | **220,000**|
 
 -->
+
+## Conclusion
+
+The LabPush-SLN project, leveraging the open-source DHIS2 platform and integrating with existing LIMS, represents a cost-effective approach to modernizing dengue fever surveillance in Somaliland. By implementing this Stage I eIDSR system, we anticipate significant improvements in the timeliness, accuracy, and utility of dengue surveillance data, as well as enhanced coordination between laboratory services, clinical care, and public health response. This improved capacity will enable more effective public health interventions, ultimately contributing to reduced morbidity and mortality from dengue fever in Somaliland.
+
+
+
+
+
+
+
+
+
+
+{{< pagebreak >}}
 
 ## Meeting Minutes [2024/08/01]
 
@@ -181,6 +267,11 @@ for 47 notifiable conditions (dengue fever, immediately)
 (Tex think: there is no good dengue surveillance in IDSR, weak point, how insecticide spray could do on proper target since October 2023 by UNICEF)
 IRS: December 2023, IDSR section of MoHD is working with Ministry of Agriculture to do vector control, under limited information (supported by UNICEF)
 
+
+
+
+
+{{< pagebreak >}}
 
 ## The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.
 
@@ -251,6 +342,12 @@ Director of Public Health Department (MoHD)
 Republic of Somaliland, Hargeisa
 
 Somaliland
+
+
+
+
+
+{{< pagebreak >}}
 
 
 ## DHIS2 Somaliland, data schema in dengue fever surveillance
