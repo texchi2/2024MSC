@@ -108,13 +108,15 @@ graph <- grViz("
     A [label='Community-level reporting\nvia DHIS2 mobile app\n(Android phone)', shape=box3d];
     C [label='Verification by\ndistrict/regional officers'];
     D [label='Data analysis and response\nat MoHD (DHIS2)'];
-    
+    W [label='WHO (DHIS2)'];
+   
     A -> C [label='Report cases\n(with NS1)'];
     B -> C [label='Send results'];
     C -> D [label='Verified data'];
     D -> A [label='Feedback and\nresponse actions', style=dashed];
     D -> B [label='Feedback and\nresponse actions', style=dashed];
     E -> C [label='Report cases'];
+    D -> W [label='Report summary'];
   }
 ")
 
