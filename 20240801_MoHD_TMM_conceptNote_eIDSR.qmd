@@ -247,6 +247,8 @@ Date of Birth / Age
 
 Sex
 
+Cell Phone number
+
 Address (Urban/Rural, Settlement/Village, Ward, LGA, State)
 
 ### Disease/Condition being reported
