@@ -9,9 +9,6 @@ library(httr)
 library(jsonlite)
 library(rsconnect)
 
-# Set up your shinyapps.io account in R
-rsconnect::setAccountInfo(name='texchi2', token='439B5B85EDDDA8132241DB18376E4285', 
-                          secret='bfjaqNWMIqS/GCJm3PZoZJAbpuK7gxal+jlb9aVJ')
 
 # Deploy the app:
 deployApp("~/2024MSC/TOM2")
