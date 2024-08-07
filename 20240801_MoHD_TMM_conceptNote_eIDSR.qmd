@@ -249,7 +249,8 @@ Sex
 
 Cell Phone number
 
-Address (Urban/Rural, Settlement/Village, Ward, LGA, State)
+Address (Urban/Rural, Settlement/Village, District, Region)
+
 
 ### Disease/Condition being reported
 Date of onset
@@ -258,12 +259,7 @@ Date seen at Health Facility
 
 Date Health Facility notified LGA
 
-Vaccination status (if applicable):
-
-  - Number of vaccine doses received
-
-  - Date of last vaccination
-
+(*LGA: local government authority)
 
 ### Epidemiological information:
 
@@ -305,6 +301,10 @@ Person completing the form (Name, Title, Address)
 Date form sent to local government authority (LGA)
 
 Date form received at LGA
+
+
+
+
 
 
 
