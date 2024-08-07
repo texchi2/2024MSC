@@ -235,7 +235,7 @@ The LabPush-SLN project, leveraging the open-source DHIS2 platform and integrati
 {{< pagebreak >}}
 
 ## Essential data elements in case-based reporting form:
-
+(for Dengue Fever only)
 
 Identification Number
 
