@@ -159,11 +159,21 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#monitoring-and-evaluation" id="toc-monitoring-and-evaluation" class="nav-link" data-scroll-target="#monitoring-and-evaluation"><span class="header-section-number">8</span> Monitoring and Evaluation</a></li>
   <li><a href="#budget-plan" id="toc-budget-plan" class="nav-link" data-scroll-target="#budget-plan"><span class="header-section-number">9</span> Budget Plan</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">10</span> Conclusion</a></li>
-  <li><a href="#meeting-minutes-20240801" id="toc-meeting-minutes-20240801" class="nav-link" data-scroll-target="#meeting-minutes-20240801"><span class="header-section-number">11</span> Meeting Minutes [2024/08/01]</a></li>
-  <li><a href="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." id="toc-the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="nav-link" data-scroll-target="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">12</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</a></li>
-  <li><a href="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance" id="toc-dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="nav-link" data-scroll-target="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">13</span> DHIS2 Somaliland, data schema in dengue fever surveillance</a>
+  <li><a href="#essential-data-elements-in-case-based-reporting-form" id="toc-essential-data-elements-in-case-based-reporting-form" class="nav-link" data-scroll-target="#essential-data-elements-in-case-based-reporting-form"><span class="header-section-number">11</span> Essential data elements in case-based reporting form:</a>
   <ul class="collapse">
-  <li><a href="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2" id="toc-outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="nav-link" data-scroll-target="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">13.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</a></li>
+  <li><a href="#patient-information" id="toc-patient-information" class="nav-link" data-scroll-target="#patient-information"><span class="header-section-number">11.1</span> Patient Information:</a></li>
+  <li><a href="#diseasecondition-being-reported" id="toc-diseasecondition-being-reported" class="nav-link" data-scroll-target="#diseasecondition-being-reported"><span class="header-section-number">11.2</span> Disease/Condition being reported</a></li>
+  <li><a href="#epidemiological-information" id="toc-epidemiological-information" class="nav-link" data-scroll-target="#epidemiological-information"><span class="header-section-number">11.3</span> Epidemiological information:</a></li>
+  <li><a href="#clinical-information" id="toc-clinical-information" class="nav-link" data-scroll-target="#clinical-information"><span class="header-section-number">11.4</span> Clinical information:</a></li>
+  <li><a href="#laboratory-result" id="toc-laboratory-result" class="nav-link" data-scroll-target="#laboratory-result"><span class="header-section-number">11.5</span> Laboratory Result</a></li>
+  <li><a href="#case-classification" id="toc-case-classification" class="nav-link" data-scroll-target="#case-classification"><span class="header-section-number">11.6</span> Case Classification:</a></li>
+  <li><a href="#reporting-information" id="toc-reporting-information" class="nav-link" data-scroll-target="#reporting-information"><span class="header-section-number">11.7</span> Reporting information:</a></li>
+  </ul></li>
+  <li><a href="#meeting-minutes-20240801" id="toc-meeting-minutes-20240801" class="nav-link" data-scroll-target="#meeting-minutes-20240801"><span class="header-section-number">12</span> Meeting Minutes [2024/08/01]</a></li>
+  <li><a href="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." id="toc-the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="nav-link" data-scroll-target="#the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">13</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</a></li>
+  <li><a href="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance" id="toc-dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="nav-link" data-scroll-target="#dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">14</span> DHIS2 Somaliland, data schema in dengue fever surveillance</a>
+  <ul class="collapse">
+  <li><a href="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2" id="toc-outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="nav-link" data-scroll-target="#outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">14.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -421,8 +431,61 @@ ul.task-list li input[type="checkbox"] {
 <p>The LabPush-SLN project, leveraging the open-source DHIS2 platform and integrating with existing LIMS, represents a cost-effective approach to modernizing dengue fever surveillance in Somaliland. By implementing this Stage I eIDSR system, we anticipate significant improvements in the timeliness, accuracy, and utility of dengue surveillance data, as well as enhanced coordination between laboratory services, clinical care, and public health response. This improved capacity will enable more effective public health interventions, ultimately contributing to reduced morbidity and mortality from dengue fever in Somaliland.</p>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="meeting-minutes-20240801" class="level2" data-number="11">
-<h2 data-number="11" class="anchored" data-anchor-id="meeting-minutes-20240801"><span class="header-section-number">11</span> Meeting Minutes [2024/08/01]</h2>
+<section id="essential-data-elements-in-case-based-reporting-form" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="essential-data-elements-in-case-based-reporting-form"><span class="header-section-number">11</span> Essential data elements in case-based reporting form:</h2>
+<p>Identification Number</p>
+<section id="patient-information" class="level3" data-number="11.1">
+<h3 data-number="11.1" class="anchored" data-anchor-id="patient-information"><span class="header-section-number">11.1</span> Patient Information:</h3>
+<p>Name</p>
+<p>Date of Birth / Age</p>
+<p>Sex</p>
+<p>Address (Urban/Rural, Settlement/Village, Ward, LGA, State)</p>
+</section>
+<section id="diseasecondition-being-reported" class="level3" data-number="11.2">
+<h3 data-number="11.2" class="anchored" data-anchor-id="diseasecondition-being-reported"><span class="header-section-number">11.2</span> Disease/Condition being reported</h3>
+<p>Date of onset</p>
+<p>Date seen at Health Facility</p>
+<p>Date Health Facility notified LGA</p>
+<p>Vaccination status (if applicable):</p>
+<ul>
+<li><p>Number of vaccine doses received</p></li>
+<li><p>Date of last vaccination</p></li>
+</ul>
+</section>
+<section id="epidemiological-information" class="level3" data-number="11.3">
+<h3 data-number="11.3" class="anchored" data-anchor-id="epidemiological-information"><span class="header-section-number">11.3</span> Epidemiological information:</h3>
+<p>Close contact with infected patients Association with an outbreak</p>
+</section>
+<section id="clinical-information" class="level3" data-number="11.4">
+<h3 data-number="11.4" class="anchored" data-anchor-id="clinical-information"><span class="header-section-number">11.4</span> Clinical information:</h3>
+<p>In/Out Patient status</p>
+<p>Outcome (Alive, Dead, Unknown)</p>
+</section>
+<section id="laboratory-result" class="level3" data-number="11.5">
+<h3 data-number="11.5" class="anchored" data-anchor-id="laboratory-result"><span class="header-section-number">11.5</span> Laboratory Result</h3>
+<p>Viral Detection</p>
+<ul>
+<li><p>Dengue NS1 antigen rapid diagnostic test (RDT) (positive, negative, pending)</p></li>
+<li><p>Dengue (IgM) (positive, negative, pending)</p></li>
+<li><p>Dengue (IgG) (positive, negative, pending)</p></li>
+</ul>
+</section>
+<section id="case-classification" class="level3" data-number="11.6">
+<h3 data-number="11.6" class="anchored" data-anchor-id="case-classification"><span class="header-section-number">11.6</span> Case Classification:</h3>
+<p>Final Classification (Confirmed, Suspect)</p>
+<p>Specific classification for Dengue fever - Group A (no warning signs) - Group B (with warning signs, or co-exiting *conditions) - Group C: dengue haemorrhagic fever (DHF), dengue shock syndrome (DSS)</p>
+<p>(*conditions: diabetes, renal failure, pregnancy, infant, old age)</p>
+</section>
+<section id="reporting-information" class="level3" data-number="11.7">
+<h3 data-number="11.7" class="anchored" data-anchor-id="reporting-information"><span class="header-section-number">11.7</span> Reporting information:</h3>
+<p>Person completing the form (Name, Title, Address)</p>
+<p>Date form sent to local government authority (LGA)</p>
+<p>Date form received at LGA</p>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="meeting-minutes-20240801" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="meeting-minutes-20240801"><span class="header-section-number">12</span> Meeting Minutes [2024/08/01]</h2>
 <ol type="1">
 <li>Finalize technical specifications for system integration:</li>
 </ol>
@@ -440,8 +503,8 @@ ul.task-list li input[type="checkbox"] {
 <p>(Tex think: there is no good dengue surveillance in IDSR, weak point, how insecticide spray could do on proper target since October 2023 by UNICEF) IRS: December 2023, IDSR section of MoHD is working with Ministry of Agriculture to do vector control, under limited information (supported by UNICEF)</p>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="level2" data-number="12">
-<h2 data-number="12" class="anchored" data-anchor-id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">12</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</h2>
+<section id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr." class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="the-draft-formal-letter-to-tmm-highlights-the-current-challenges-with-the-dengue-fever-surveillance-system-and-makes-a-strong-case-for-implementing-eidsr."><span class="header-section-number">13</span> The (draft) formal letter to TMM highlights the current challenges with the dengue fever surveillance system and makes a strong case for implementing eIDSR.</h2>
 <p>[Ministry of Health and Development Letterhead]</p>
 <p>[Date]</p>
 <p>Dr.&nbsp;Jamal Tex LH Chi Taiwan Medical Mission in the Republic of Somaliland</p>
@@ -501,11 +564,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Somaliland</p>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="level2" data-number="13">
-<h2 data-number="13" class="anchored" data-anchor-id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">13</span> DHIS2 Somaliland, data schema in dengue fever surveillance</h2>
+<section id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="dhis2-somaliland-data-schema-in-dengue-fever-surveillance"><span class="header-section-number">14</span> DHIS2 Somaliland, data schema in dengue fever surveillance</h2>
 <p>The outline for the data request is comprehensive and should help you gather the necessary information from DHIS2.</p>
-<section id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="level3" data-number="13.1">
-<h3 data-number="13.1" class="anchored" data-anchor-id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">13.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</h3>
+<section id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2" class="level3" data-number="14.1">
+<h3 data-number="14.1" class="anchored" data-anchor-id="outline-request-for-dengue-fever-data-2023-2024-from-dhis2"><span class="header-section-number">14.1</span> Outline: Request for Dengue Fever Data (2023-2024) from DHIS2</h3>
 <ol type="1">
 <li>Introduction
 <ul>

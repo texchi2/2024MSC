@@ -232,9 +232,77 @@ The LabPush-SLN project, leveraging the open-source DHIS2 platform and integrati
 
 
 
+{{< pagebreak >}}
+
+## Essential data elements in case-based reporting form:
 
 
+Identification Number
 
+### Patient Information:
+
+Name
+
+Date of Birth / Age
+
+Sex
+
+Address (Urban/Rural, Settlement/Village, Ward, LGA, State)
+
+### Disease/Condition being reported
+Date of onset
+
+Date seen at Health Facility
+
+Date Health Facility notified LGA
+
+Vaccination status (if applicable):
+
+  - Number of vaccine doses received
+
+  - Date of last vaccination
+
+
+### Epidemiological information:
+
+Close contact with infected patients Association with an outbreak
+
+
+### Clinical information:
+
+In/Out Patient status
+
+Outcome (Alive, Dead, Unknown)
+
+### Laboratory Result
+
+Viral Detection
+
+  - Dengue NS1 antigen rapid diagnostic test (RDT) (positive, negative, pending)
+
+  - Dengue (IgM) (positive, negative, pending)
+
+  - Dengue (IgG) (positive, negative, pending)
+
+
+### Case Classification:
+
+Final Classification (Confirmed, Suspect)
+
+Specific classification for Dengue fever
+  - Group A (no warning signs)
+  - Group B (with warning signs, or co-exiting *conditions)
+  - Group C: dengue haemorrhagic fever (DHF), dengue shock syndrome (DSS)
+
+(*conditions: diabetes, renal failure, pregnancy, infant, old age)
+
+### Reporting information:
+
+Person completing the form (Name, Title, Address)
+
+Date form sent to local government authority (LGA)
+
+Date form received at LGA
 
 
 
