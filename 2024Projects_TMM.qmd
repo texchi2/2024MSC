@@ -14,7 +14,7 @@ lang: zh-TW
     #custom-language-file: _language-zh-tw.yml
  
 #    jupyter: python3
-#    mainfont: "Noto Sans CJK SC"
+#    mainfont: "BiauKaiTC", or "Noto Sans CJK SC"
 
 ---
 

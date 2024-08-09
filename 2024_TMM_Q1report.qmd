@@ -1,0 +1,228 @@
+---
+title: "駐索馬利蘭醫療團2024年第一季業務報表"
+mainfont: "BiauKaiTC"
+sansfont: "BiauKaiTC" # for sets the sans-serif font, which is often used for headings
+# monofont: "BiauKaiTC" # for coding
+format:
+#  html:
+#    toc: false
+  pdf:
+    papersize: a4
+    number-sections: false
+    geometry:
+      - top=25mm
+      - left=25mm
+      - right=25mm
+      - bottom=25mm
+    include-in-header:
+      - text: |
+          \usepackage{outlines}
+    
+---
+
+<!--    include-in-header:
+      - text: |
+          \usepackage{outlines}
+          \usepackage{xeCJK}
+          \setCJKmainfont{BiauKaiTC}
+    pdf-engine-opts: 
+      - outdir="~/2024MSC"
+          
+          -->
+<!-- (ok) for html with Chinese
+lang: zh-TW
+format: 
+  html:
+    page-layout: article
+    encoding: UTF-8
+    css: styles.css
+
+engine: knitr
+-->
+
+
+\vspace*{2cm}
+
+
+
+駐索馬利蘭醫療團 函
+
+
+\hfill\begin{minipage}{0.5\textwidth}
+\raggedright
+地址: Hargeisa Group Hospital, Somaliland \\
+聯絡方式: +252 \\
+電子信箱: tmm2022sln@gmail.com \\
+承辦人: 熊曉菁
+\end{minipage}
+
+
+\vspace*{1cm}
+
+| 受文者：駐索馬利蘭代表處
+| 發文日期：中華民國 113 年 9 月 9 日
+| 發文字號：索馬醫字第 11300001 號
+| 速別：普通件
+| 密等及解密條件：普通
+| 附件：如文
+
+主旨：敬呈「駐索馬利蘭醫療團2024年第一季業務報表」，請備查。
+
+說明：
+
+  一、依據外交部與臺北醫學大學合作備忘錄及相關規定辦理。
+  
+  二、隨函檢附本季業務報表一份，敬請參閱。
+
+| 正本：臺北市立萬芳醫院-委託臺北醫學大學辦理
+| 副本：駐索馬利蘭代表處
+
+\vspace*{2cm}
+
+
+\clearpage
+
+
+
+\section{一、計畫執行概況}
+
+本季度（2024年1月1日至3月31日）計畫執行概況如下：
+
+| 項目                 | 年度目標 | 當季執行數 | 累計執行數 | 累計達成率 |
+|----------------------|----------|------------|------------|------------|
+| 門診及會診人數       | 700      | 273        | 273        | 39.0%      |
+| 手術治療量           | 100      | 3          | 3          | 3.0%       |
+| 義診次數             | 4        | 0          | 0          | 0%         |
+| 教學時數             | 250      | 96         | 96         | 38.4%      |
+| 教學人數             | 200      | 60         | 60         | 30.0%      |
+| 參與醫學討論會次數   | 12       | 75         | 75         | 625%       |
+| 衛教宣導次數         | 50       | 0          | 0          | 0%         |
+| 研究主題數           | 4        | 0          | 0          | 0%         |
+
+\section{二、重要執行情形}
+
+\subsection{常規業務}
+
+1. 醫療服務：
+   - 門診及會診服務穩定成長，第一季達273人次。
+   - 口腔顎面外科與骨科密切合作，針對多重骨折外傷進行合作手術。
+   - 增加到宅醫療服務，惠及行動不便病患。
+
+2. 教學培訓：
+   - 持續進行骨科專科醫師訓練計畫。
+   - 呂佩芳護理師推動臨床護理感染控制計畫。
+   - 規劃護理師臨床工作坊，支援TOM及Pap smear計畫。
+
+3. 設備引進：
+   - 骨質疏鬆AI篩檢裝置(TOM)即將正式上線。
+   - 規劃引進人工智慧病理檢查系統(TPM)。
+
+4. 國際合作：
+   - 與SAHA合作推動NCDI門診計劃。
+   - 規劃與WHO索馬利蘭辦公室合作推動登革熱防治計畫。
+   
+   
+\subsection{公共衛生子計劃}
+
+\subsubsection{1. 登革熱防治計劃}
+
+\textbf{本季目標：} 完成防治計劃籌備，開始醫護人員培訓。
+
+\textbf{完成說明：} 
+\begin{itemize}
+    \item 計劃產出：完成計劃書初稿，送交外交部審核
+    \item 活動目標：召開籌備會議
+    \item 本季工作目標：確定培訓內容和日程
+    \item 成果累計：完成10\%籌備工作
+    \item 下季預定工作目標：開始第一階段醫護人員培訓
+\end{itemize}
+
+\textbf{進度說明：} 因第一季疫情平緩，準備工作進度略有延遲。
+
+\textbf{改善方式：} 加速完成登革熱快速檢測試劑採購，並儘快開展醫護人員培訓。
+
+#
+
+\subsubsection{2. 赴台培訓計劃}
+
+\textbf{本季目標：} 完成各科別的訓練計劃書，以及參訓人員遴選。
+
+\textbf{完成說明：} 
+\begin{itemize}
+    \item 計劃產出：制定遴選標準和流程
+    \item 活動目標：與哈爾格薩總醫院協調遴選事宜
+    \item 本季工作目標：開始接受申請表
+    \item 成果累計：完成30\%遴選工作
+    \item 下季預定工作目標：確定首批訓練計劃，以及參訓人員初選名單
+\end{itemize}
+
+\textbf{進度說明：} 遴選程序進行中，但進度略慢於預期。
+
+\textbf{改善方式：} 加速與哈爾格薩總醫院協調，優先選派關鍵醫療人員。
+
+
+#
+\subsubsection{3. 骨質健康計劃 (Taiwan Osteoporosis Master, TOM)}
+
+\textbf{本季目標：} 完成TOM系統安裝和測試。
+
+\textbf{完成說明：} 
+\begin{itemize}
+    \item 計劃產出：TOM系統測試操作完成，但中文界面須要轉換為英文
+    \item 活動目標：培訓1名操作人員
+    \item 本季工作目標：完成系統測試
+    \item 成果累計：系統準備率達50\%
+    \item 下季預定工作目標：正式啟用TOM系統，開始提供服務
+\end{itemize}
+
+\textbf{進度說明：} TOM系統測試進度符合預期。
+
+\textbf{改善方式：} 須要臺灣廠商支援，並加快操作人員培訓，確保下季能夠順利啟用系統。
+
+
+#
+\subsubsection{4. 癌症防治計劃}
+
+\textbf{本季目標：} 繼續推動婦女子宮頸篩檢計劃，準備引進HPV DNA檢測。
+
+\textbf{完成說明：} 
+\begin{itemize}
+    \item 計劃產出：完成100例子宮頸篩檢
+    \item 活動目標：舉辦1次婦女健康教育講座
+    \item 本季工作目標：評估HPV DNA檢測引進可行性
+    \item 成果累計：篩檢覆蓋率達到目標人群的0\%
+    \item 下季預定工作目標：開始HPV DNA檢測
+\end{itemize}
+
+
+\clearpage
+
+\section{三、落後原因及解決對策}
+
+1. 義診活動尚未開展：
+   - 原因：正在籌備階段。
+   - 對策：將配合World Hand Hygiene、World Oral Health等活動，同步舉辦NCD義診。
+
+2. 登革熱防治計畫執行延遲：
+   - 原因：第一季疫情平緩，準備工作仍在進行中。
+   - 對策：加速完成登革熱快速檢測試劑採購，並儘快開展醫護人員培訓。
+
+3. 赴臺培訓計畫尚未啟動：
+   - 原因：遴選程序進行中。
+   - 對策：加速與哈爾格薩總醫院協調，優先選派關鍵醫療人員。
+
+\section{四、下一季工作重點}
+
+1. 推動登革熱防治計畫，完成醫護人員培訓。
+2. 正式完成第二版HPV DNA篩檢計劃，繼續推動婦女子宮頸篩檢計畫，派遣婦產科專家加入醫療團。
+3. 展開骨質健康篩檢服務。
+4. 籌備並啟動赴臺培訓計畫。
+5. 配合萬芳醫院骨科專家於第二季訪問索蘭，強化骨科診療能力。
+
+\section{五、改進事項}
+
+1. 加強與索馬利蘭衛生部的溝通，將重要公共衛生計畫納入國家衛生政策框架。
+2. 擴大與當地NGO的合作計劃，提高醫療、公共衛生服務的範圍。
+3. 探討遠距醫療可行性，以彌補專科醫師不足的問題。
+4. 強化醫療資訊系統應用，提高醫療服務效率和品質。
+
